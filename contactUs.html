@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta</title>
+    <link rel="icon" href="./images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/contactUs.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/Eta-logo.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/Eta-logo.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font active">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="style-font">Water</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="style-font">Energy</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font">About</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header id="header" class="sub-header">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="./images/logo-white.svg" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'" data-aos="zoom-out-down">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font">Home</a>
+                        <a href="./water.html" class="style-font">Water</a>
+                        <a href="./energy.html" class="style-font">Energy</a>
+                        <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                        <a href="./about.html" class="style-font">About</a>
+                    </div>
+                </div>
+                <!-- <div class="btn-header">
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-contact">
+            <div class="section-contact-container">
+                <div class="d-flex justify-content-between fx-section-contact">
+                    <div class="section-contact-texts">
+                        <h1 class="subtitle-one font-bold" data-aos="zoom-out-down">Have a project idea!
+                            Drop me a line.</h1>
+                        <p class="subtitle-two style-font">Aenean vestibulum felis nec egestas fringilla. Duis non felis
+                            consequat, varius sapien convallis, tincidunt nisl.</p>
+                        <div class="d-flex align-items-center fx-email-details">
+                            <div class="box-emailIcon"><img src="./images/email-white.svg" alt="email"></div>
+                            <div class="box-emailText">
+                                <span class="font-medium">Email us</span>
+                                <h5 class="font-medium mb-0">info@Eta.com</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center fx-title-contact">
+                            <div class="line"></div>
+                            <span class="font-medium">Connect with us:</span>
+                        </div>
+                        <div class="d-flex fx-images">
+                            <a href=""><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                            <a href=""><img src="./images/x-icon.svg" alt="x icon"></a>
+                            <a href=""><img src="./images/youtube-icon.svg" alt="youtube icon"></a>
+                            <a href=""><img src="./images/instgran-icon.svg" alt="instgran icon"></a>
+                        </div>
+                    </div>
+                    <div class="section-contact-form">
+                        <h2 class="font-bold">Request A Quote — let’s work together.</h2>
+                        <p class="style-font">Got a project? Drop me a line if you want to work together on something
+                            exciting. Or do you
+                            need our help? Feel free to
+                            contact us.</p>
+                        <form action="">
+                            <div class="d-flex fx-forms-group">
+                                <div class="form-group">
+                                    <label for="fullName" class="style-font">Name</label>
+                                    <input type="text" id="fullName" name="fullName" placeholder="Full name"
+                                        class="style-font">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="style-font">Email</label>
+                                    <input type="text" id="email" name="email" placeholder="Email adress"
+                                        class="style-font">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="department" class="style-font">Department</label>
+                                <input type="text" id="department" name="department" placeholder="department"
+                                    class="style-font">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="style-font">Message</label>
+                                <textarea name="message" id="message" class="style-font"></textarea>
+                            </div>
+                            <button class="btn-blue font-bold">Request a quote</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="./images/footer-logo.png" alt="logo" class="footer-logo">
+                    <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" class="style-font">
+                            <button type="submit" class="btn-footer font-medium">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                        cutting-edge solutions for
+                        your energy and water
+                        requirements. Join us on social media for the latest updates and insights.
+                    </p>
+                    <div class="d-flex fx-images">
+                        <a href=""><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href=""><img src="./images/x-icon.svg" alt="x icon"></a>
+                        <a href=""><img src="./images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a href=""><img src="./images/instgran-icon.svg" alt="instgran icon"></a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Explore More</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Home</a>
+                        <a href="" class="style-font">Library Media</a>
+                        <a href="" class="style-font">Case Studies</a>
+                        <a href="" class="style-font">About</a>
+                        <a href="" class="style-font">Files Download</a>
+                        <a href="" class="style-font">Quality & Certifications</a>
+                        <a href="" class="style-font">blog</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Division Water</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Production Water</a>
+                        <a href="" class="style-font">Distribution Water</a>
+                        <a href="" class="style-font">Construction Plants Water</a>
+                        <a href="" class="style-font">Swimming Pool Construction</a>
+                        <a href="" class="style-font">Infrastructure Water</a>
+                        <a href="" class="style-font">Treatment Water</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2  fx-general-card-st">
+                    <h5 class="font-bold">Division Energy</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Energy Solar</a>
+                        <a href="" class="style-font">Solutions Energy Renewable</a>
+                        <a href="" class="style-font">Contracting Electrical</a>
+                        <a href="" class="style-font">Division Manufacturing</a>
+                        <a href="" class="style-font">Structures Metal</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                    <div class="d-flex flex-column gap-divs-footer">
+                        <div>
+                            <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Investments Local</a>
+                                <a href="" class="style-font">Investments Global</a>
+                                <a href="" class="style-font">Management Asset</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Equipment Industrial</a>
+                                <a href="" class="style-font">Services Logistics</a>
+                                <a href="" class="style-font">Division Agriculture</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/landingPage.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+/* Details  */
+.details-item{
+ padding: 0 50px;
+ padding-top: 8rem;
+}
+.details-item-container{
+    background-image: url(../images/back-waterServcies.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+   padding: 96px 90px;
+}
+.details-item-container h1{
+    color: #FFF;
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.details-item-container a{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.details-item-container .fx-links-details{
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.details-item-container .btn-blue{
+    height: 54px;
+    font-size: 20px;
+    padding: 0 32px;
+    border-radius: 20px;
+}
+@media (max-width:1024px) {
+    .details-item-container h1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .details-item-container a{
+        font-size: 15px;
+    }
+    .details-item-container{padding: 50px;}
+    .details-item{padding: 0 20px; padding-top: 6rem;}
+}
+@media (max-width:614.4px) {
+    .details-item-container h1{font-size: 32px;margin-bottom: 0px;}
+    .details-item-container a{font-size: 14px;}
+    .details-item-container{padding: 40px 24px;border-radius: 14px;}
+    .details-item{padding-top: 2rem;}
+    .details-item-container .fx-links-details{margin-bottom: 30px;gap: 12px;}
+    .details-item-container .btn-blue{
+        font-size: 16px;
+        height: 45px;
+        padding: 0 24px;
+        border-radius: 10px;
+    }
+}
+/* Section Water Production */
+.water-production{
+    margin-top: 100px;
+}
+.water-production .fx-tilte-blue span{text-decoration: none;}
+.water-production .subtitle-one{margin-top: 19px;}
+.water-production .sliderWaterProduction{
+ margin-top: 60px;
+ cursor: pointer;
+}
+.water-production .sliderWaterProduction .slide{
+    padding:0 15px;
+}
+.card-WaterProduction .waterProduction-img{
+    width: 100%;
+    border-radius: 20px;
+    height: 323.312px;
+    object-fit: cover;
+}
+.card-WaterProduction .slide-text{
+    position: relative;
+    bottom: 3rem;
+    left: 8%;
+    border-radius: 20px 0px 20px 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+    padding: 33px 44px;
+    width: 92%;
+}
+.card-WaterProduction .slide-text h2{
+    color: #061C3D;
+    font-size: 22px;
+    line-height: 30px; 
+    margin-bottom: 10px;
+}
+.card-WaterProduction .slide-text p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media (min-width:1706.67px) {
+
+}
+@media (min-width:1920px) {
+
+}
+@media (min-width:2048px) {
+
+}
+@media (min-width:2304px) {
+
+}
+@media (min-width:3072px) {
+
+}
+@media (min-width:4608px) {
+
+}
+@media (min-width:6144px) {
+
+}
+@media (max-width:1396.36px) {
+    .card-WaterProduction .waterProduction-img{height: 290px;}
+    .card-WaterProduction .slide-text h2{font-size: 20px;}
+    .card-WaterProduction .slide-text p{font-size: 14px;line-height: 22px;}
+}
+@media (max-width:1228.8px) {
+    .card-WaterProduction .waterProduction-img{height: 380px;}
+    .card-WaterProduction .slide-text h2{font-size: 20px;}
+    .card-WaterProduction .slide-text p{font-size: 14px;line-height: 22px;}
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:877.71px) {
+
+}
+@media (max-width:614.4px) {
+    .water-production{margin-top:60px;}
+    .card-WaterProduction .waterProduction-img{height: 290px;}
+    .card-WaterProduction .slide-text h2{font-size: 18px;line-height: 25px;}
+    .card-WaterProduction .slide-text p{font-size: 13px;line-height:19px;}
+    .water-production .sliderWaterProduction .slide{padding: 0px;}
+    .water-production .sliderWaterProduction{margin-top: 20px;}
+}
