@@ -1,0 +1,104 @@
+/* Eta Accomplishments Section */
+.etaAccomplishments{
+ margin: 100px 0;
+}
+.etaAccomplishments .fx-head{gap: 10px;margin-bottom: 20px;}
+.etaAccomplishments .fx-head h5{
+    color: #00CFFF;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+}
+.etaAccomplishments h1{
+    color: #061C3D;
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 50px;
+}
+.etaAccomplishments .fx-etaAccomplishments{gap: 30px;margin-bottom: 50px;}
+.etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+.etaAccomplishments .videos-etaAccomplishments .plyr{
+    border-radius: 20px;
+    height: 530px;
+    object-fit: cover;
+}
+.etaAccomplishments .fx-etaAccomplishments .etaAccomplishments50{
+    flex: 1 1 calc(50% - 30px);
+    max-width: calc(50% - 0px);
+}
+.etaAccomplishments .fx-etaAccomplishments .etaAccomplishments33{
+    flex: 1 1 calc(33.33% - 30px);
+    max-width: calc(33.33% - 0px);
+}
+.etaAccomplishments .videos-etaAccomplishments{gap: 30px;margin-bottom: 50px;}
+.etaAccomplishments .videos-etaAccomplishments .plyr {
+    flex: 1 1 calc(33.3% - 30px);
+    max-width: calc(33.3% - 0px);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.etaAccomplishments .videos-etaAccomplishments .plyr__video-wrapper{height: 100%;}
+.etaAccomplishments .videos-etaAccomplishments .plyr audio, .plyr video{
+    height: 100% !important;
+    object-fit: cover;
+}
+@media (min-width:1706.67px) {
+
+}
+@media (min-width:1920px) {
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+    .etaAccomplishments .videos-etaAccomplishments .plyr{height: 630px;}
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:2048px) {
+
+}
+@media (max-width:1396.36px) {
+        .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+    .etaAccomplishments .videos-etaAccomplishments .plyr{height: 500px;}
+}
+@media (max-width:1228.8px) {
+    .etaAccomplishments h1{font-size: 55px;line-height: 60px;}
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+    .etaAccomplishments .videos-etaAccomplishments .plyr{height: 450px;}
+  
+}
+@media (max-width:1024px) {
+    .etaAccomplishments h1{font-size: 45px;line-height: 50px;margin-bottom: 30px;}
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+    .etaAccomplishments .videos-etaAccomplishments .plyr{height: 400px;}
+    .etaAccomplishments .videos-etaAccomplishments .plyr {
+        flex: 1 1 calc(50% - 30px);
+        max-width: calc(50% - 0px);
+    }
+    .etaAccomplishments .fx-etaAccomplishments{margin-bottom: 30px;}
+}
+@media (max-width:877.71px) {
+    .etaAccomplishments .fx-etaAccomplishments{gap: 20px;}
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img,
+    .etaAccomplishments .videos-etaAccomplishments .plyr{height: 300px;}
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:614.4px) {
+    .etaAccomplishments{margin: 50px 0;}
+    .etaAccomplishments h1{font-size: 40px;line-height: 50px;}
+    .etaAccomplishments h1 br{display: none;}
+    .etaAccomplishments .fx-etaAccomplishments{gap: 16px;}
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img{
+        flex: 1 1 calc(47% - 16px);
+        max-width: calc(47% - 0px);
+    }
+    .etaAccomplishments .fx-etaAccomplishments .etaAccomplishments-img{height: 250px;border-radius: 10px;}
+    .etaAccomplishments .videos-etaAccomplishments{gap: 20px;}
+    .etaAccomplishments .videos-etaAccomplishments .plyr {
+        flex: 1 1 calc(100% - 20px);
+        max-width: calc(100% - 0px);
+        border-radius: 10px;
+    }
+}
+@media (max-width:512px) {
+}

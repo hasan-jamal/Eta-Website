@@ -28,7 +28,9 @@
   margin-bottom: 6px;
 }
 .nav-mobile {
-  background-color:#ffffff;
+  background-image: url(../images/footer-background.png);
+  background-position: top;
+  background-size: cover;
   display: inline-block;
   position: fixed;
   height: 100vh;
@@ -62,7 +64,7 @@
 .nav-mobile .logo {
   text-align: center;
   width: 50%;
-  margin: 0 auto 1.5rem auto;
+  margin: 0 auto 2rem auto;
   display: block;
 }
 .nav-mobile .logo img {
@@ -77,21 +79,22 @@
 .nav-mobile .links .border{
   height: 0.5px;
   width: 100%;
-  background-color: #141CA4 ;
+  background-color: #343cdc ;
 }
 .nav-mobile .links a {
   text-decoration: none;
-  color: #838E9E;
+  color: #e0e0e0;
   font-size: 1.1rem;
-  font-weight: 500;
+  letter-spacing: 1px;
 }
 .nav-mobile a:hover ,
 .nav-mobile a span:hover {
   	color: #141CA4 ;
 }
 .nav-mobile .links a.active{
-    font-weight: bold;
-    color: #0B63E5;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
     font-size: 1.3rem;
 }
 .nav-mobile .links a svg{

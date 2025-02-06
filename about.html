@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta</title>
+    <link rel="icon" href="./images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pages.css">
+    <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/Eta-logo.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/logo-white.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font ">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="style-font">Water</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="style-font">Energy</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="style-font ">Library Media</a>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font active">About</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header id="header" class="sub-header">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="./images/logo-white.svg" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font ">Home</a>
+                        <a href="./water.html" class="style-font ">Water</a>
+                        <a href="./energy.html" class="style-font">Energy</a>
+                        <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font ">Library Media</a>
+                        <a href="./about.html" class="style-font active">About</a>
+                    </div>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="blueBack-head">
+            <img src="./images/logoWhiteBig.svg" alt="logo" class="logo" data-aos="fade-up" data-aos-duration="500">
+            <h1 class="font-bold text-capitalize text-center mb-0" data-aos="fade-up" data-aos-duration="1000">about us
+            </h1>
+        </section>
+        <section class="about1">
+            <div class="about1-container">
+                <div class="d-flex fx-about1">
+                    <div class="about1-texts">
+                        <h1 class="font-bold" data-aos="fade-up" data-aos-duration="1000">ETA Company for Water
+                            Purification and Energy Solutions</h1>
+                        <img src="./images/about1-icon.svg" alt="about-icon.svg">
+                        <p class="style-font mb-0">ETA is a leading company in providing sustainable and integrated
+                            solutions in the fields of
+                            water purification, solar
+                            energy, investment, and manufacturing. Established in [Year of Establishment], the company
+                            quickly established its
+                            market leadership through its extensive expertise and high efficiency in providing
+                            customized solutions that meet the
+                            diverse needs of its customers.
+                        </p>
+                    </div>
+                    <div class="about1-imgs">
+                        <img src="./images/aboutSection1.png" alt="about Section image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about2">
+            <div class="about2-container">
+                <div class="d-flex fx-about2 about2Vision">
+                    <div class="about2-img">
+                        <img src="./images/OurVision.png" alt="OurVision image" class="imageSection">
+                    </div>
+                    <div class="about2-texts">
+                        <h2 class="font-bold" data-aos="fade-up" data-aos-duration="500">Our Vision</h2>
+                        <p class="style-font mb-0">To be ETA's preferred partner in providing sustainable solutions in
+                            the region, and to
+                            contribute to the sustainable
+                            development of communities.</p>
+                    </div>
+                </div>
+                <div class="d-flex fx-about2 about2Mission">
+                    <div class="about2-texts">
+                        <h2 class="font-bold" data-aos="fade-up" data-aos-duration="1000">Our Mission</h2>
+                        <p class="style-font mb-0">To provide innovative solutions in the fields of water and energy,
+                            invest in sustainable projects, and contribute to
+                            environmental conservation</p>
+                    </div>
+                    <div class="about2-img">
+                        <img src="./images/circleSmall.svg" alt="circleSmall" class="circleSmall">
+                        <img src="./images/OurMission.png" alt="OurMission image" class="imageSection">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about3">
+            <div class="about3-container px-90">
+                <h1 class="subtitle-one font-bold text-center aos-init" data-aos="zoom-in">The Eta Story</h1>
+                <p class="style-font subtitle-two text-center m-auto">Cras imperdiet est eget nulla fringilla, sit amet
+                    volutpat sem tristique. Pellentesque quis <br> augue ac mauris posuere
+                    vehicula.
+                </p>
+                <div class="sliderDatesEta">
+                    <div class="Dates">
+                        <span class="year active" date-target="2009">2009</span>
+                        <span class="year" date-target="2010">2010</span>
+                        <span class="year" date-target="2011">2011</span>
+                        <span class="year" date-target="2012">2012</span>
+                        <span class="year" date-target="2013">2013</span>
+                    </div>
+                    <div class="data-contents">
+                        <div class="content content2009 style-font active" date-content="2009">
+                            <p class="mb-0">In 2010, ETA Company was founded in Gaza City, Palestine, by Abdel Salam
+                                Yassin, who
+                                dreamt
+                                of
+                                changing the world
+                                through technology. The company started by providing IT services to small and
+                                medium-sized
+                                enterprises and quickly
+                                gained a reputation for high-quality services and excellent customer support.
+                                In 2012, ETA decided to expand its operations to include app development. The company
+                                launched
+                                its first app, a social
+                                networking app called "Connect," which was a huge success and received thousands of
+                                downloads.
+                                This success encouraged
+                                the company to continue developing apps, and it launched many other apps in the
+                                following
+                                years,
+                                including gaming,
+                                education, and e-commerce apps.
+                                By 2015, ETA had become one of the leading app development companies in Palestine. The
+                                company
+                                continued to grow and
+                                expand, hiring more employees and opening new offices in other cities. The company also
+                                started
+                                working with
+                                international clients, including major companies in the United States and Europe.</p>
+                        </div>
+                        <div class="content content2010 style-font" date-content="2010">
+                            <p class="mb-0">
+                                Content for 2010...
+                                In 2010, ETA Company was founded in Gaza City, Palestine, by Abdel Salam
+                                Yassin, who
+                                dreamt
+                                of
+                                changing the world
+                                through technology. The company started by providing IT services to small and
+                                medium-sized
+                                enterprises and quickly
+                                gained a reputation for high-quality services and excellent customer support.
+                                In 2012, ETA decided to expand its operations to include app development. The company
+                                launched
+                                its first app, a social
+                                networking app called "Connect," which was a huge success and received thousands of
+                                downloads.
+                                This success encouraged
+                                the company to continue developing apps, and it launched many other apps in the
+                                following
+                                years,
+                                including gaming,
+                                education, and e-commerce apps.
+                                By 2015, ETA had become one of the leading app development companies in Palestine. The
+                                company
+                                continued to grow and
+                                expand, hiring more employees and opening new offices in other cities. The company also
+                                started
+                                working with
+                                international clients, including major companies in the United States and Europe.</p>
+                        </div>
+                        <div class="content content2011 style-font" date-content="2011">
+                            <p class="mb-0">Content for 2011...
+                                In 2010, ETA Company was founded in Gaza City, Palestine, by Abdel Salam
+                                Yassin, who
+                                dreamt
+                                of
+                                changing the world
+                                through technology. The company started by providing IT services to small and
+                                medium-sized
+                                enterprises and quickly
+                                gained a reputation for high-quality services and excellent customer support.
+                                In 2012, ETA decided to expand its operations to include app development. The company
+                                launched
+                                its first app, a social
+                                networking app called "Connect," which was a huge success and received thousands of
+                                downloads.
+                                This success encouraged
+                                the company to continue developing apps, and it launched many other apps in the
+                                following
+                                years,
+                                including gaming,
+                                education, and e-commerce apps.
+                                By 2015, ETA had become one of the leading app development companies in Palestine. The
+                                company
+                                continued to grow and
+                                expand, hiring more employees and opening new offices in other cities. The company also
+                                started
+                                working with
+                                international clients, including major companies in the United States and Europe.</p>
+                        </div>
+                        <div class="content content2012 style-font" date-content="2012">
+                            <p class="mb-0">Content for 2012...
+                                In 2010, ETA Company was founded in Gaza City, Palestine, by Abdel Salam
+                                Yassin, who
+                                dreamt
+                                of
+                                changing the world
+                                through technology. The company started by providing IT services to small and
+                                medium-sized
+                                enterprises and quickly
+                                gained a reputation for high-quality services and excellent customer support.
+                                In 2012, ETA decided to expand its operations to include app development. The company
+                                launched
+                                its first app, a social
+                                networking app called "Connect," which was a huge success and received thousands of
+                                downloads.
+                                This success encouraged
+                                the company to continue developing apps, and it launched many other apps in the
+                                following
+                                years,
+                                including gaming,
+                                education, and e-commerce apps.
+                                By 2015, ETA had become one of the leading app development companies in Palestine. The
+                                company
+                                continued to grow and
+                                expand, hiring more employees and opening new offices in other cities. The company also
+                                started
+                                working with
+                                international clients, including major companies in the United States and Europe.</p>
+                        </div>
+                        <div class="content content2013 style-font" date-content="2013">
+                            <p class="mb-0">Content for 2013...
+                                In 2010, ETA Company was founded in Gaza City, Palestine, by Abdel Salam
+                                Yassin, who
+                                dreamt
+                                of
+                                changing the world
+                                through technology. The company started by providing IT services to small and
+                                medium-sized
+                                enterprises and quickly
+                                gained a reputation for high-quality services and excellent customer support.
+                                In 2012, ETA decided to expand its operations to include app development. The company
+                                launched
+                                its first app, a social
+                                networking app called "Connect," which was a huge success and received thousands of
+                                downloads.
+                                This success encouraged
+                                the company to continue developing apps, and it launched many other apps in the
+                                following
+                                years,
+                                including gaming,
+                                education, and e-commerce apps.
+                                By 2015, ETA had become one of the leading app development companies in Palestine. The
+                                company
+                                continued to grow and
+                                expand, hiring more employees and opening new offices in other cities. The company also
+                                started
+                                working with
+                                international clients, including major companies in the United States and Europe.</p>
+                        </div>
+                    </div>
+                    <div class="dots-sliderDatesEta">
+                        <div class="active" date="2009"></div>
+                        <div date="2010"></div>
+                        <div date="2011"></div>
+                        <div date="2012"></div>
+                        <div date="2013"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-four">
+            <div class="section-four-container px-90">
+                <div class="d-flex fx-section-four">
+                    <div class="section-four-texts">
+                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">Let’s work together</h1>
+                        <p class="style-font subtitle-two">Cras at pellentesque eros. Nullam vitae sapien et felis
+                            eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor
+                            sapien. Praesent nec mattis enim. Mauris a laoreet purus.</p>
+                        <button class="btn-blue font-bold">Request a quote</button>
+                    </div>
+                    <div class="section-four-cards fx-general-cards">
+                        <div class=" flex-column d-flex  fx-general-card-st">
+                            <div class="d-flex card-work card-work1" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <img src="./images/Awards-rewarded.svg" alt="Awards Rewarded icon" class="img-cardWork">
+                                <div class="card-work-texts">
+                                    <h3 class="font-semiBold">17+</h3>
+                                    <p class="font-medium mb-0">Awards Rewarded</p>
+                                </div>
+                            </div>
+                            <div class="d-flex card-work card-work3" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1000">
+                                <img src="./images/Happy-clients.svg" alt="Happy Clients icon" class="img-cardWork">
+                                <div class="card-work-texts">
+                                    <h3 class="font-semiBold">183+</h3>
+                                    <p class="font-medium mb-0">Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-column d-flex  fx-general-card-st">
+                            <div class="d-flex card-work  card-work2" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1500">
+                                <img src="./images/Years-of-experience.svg" alt="Years of Experience icon"
+                                    class="img-cardWork">
+                                <div class="card-work-texts">
+                                    <h3 class="font-semiBold">23+</h3>
+                                    <p class="font-medium mb-0">Years of Experience</p>
+                                </div>
+                            </div>
+                            <div class="d-flex card-work card-work4" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="1500">
+                                <img src="./images/completed-project.svg" alt="COMPLETED PROJECT icon"
+                                    class="img-cardWork">
+                                <div class="card-work-texts">
+                                    <h3 class="font-semiBold">315+</h3>
+                                    <p class="font-medium mb-0">COMPLETED PROJECT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-five">
+            <div class="section-five-container">
+                <h1 class="subtitle-one font-bold text-center" data-aos="zoom-in">Eta's team of highly skilled
+                    experts</h1>
+                <p class="style-font subtitle-two text-center">Eta company is staffed with a diverse team of
+                    engineers
+                    and experts,
+                    bringing a wealth of experience and knowledge to
+                    every project.
+                </p>
+                <div class=" fx-section-five fx-general-cards" data-aos="zoom-in-up">
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg.png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <p class="style-font mb-0">Investment Director</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (1).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Brooklyn Simmons</h3>
+                        <p class="style-font mb-0">Project Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (2).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Darlene Robertson</h3>
+                        <p class="style-font mb-0">Water Department Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (3).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Jane Cooper</h3>
+                        <p class="style-font mb-0">Energy Services Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (2).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Darlene Robertson</h3>
+                        <p class="style-font mb-0">Water Department Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg.png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <p class="style-font mb-0">Investment Director</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (3).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Jane Cooper</h3>
+                        <p class="style-font mb-0">Energy Services Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                    <div class="card-team fx-general-card-st">
+                        <img src="./images/Bg (1).png" alt="person image" class="image-person">
+                        <h3 class="font-bold">Brooklyn Simmons</h3>
+                        <p class="style-font mb-0">Project Manager</p>
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="./images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="./images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="./images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="./images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about4" id="mapSection">
+            <div class="about4-container px-90">
+                <h1 class="subtitle-one font-bold aos-init" data-aos="zoom-in">Whereto find Eta Company</h1>
+                <p class="style-font subtitle-two">Locations and branches</p>
+                <div class="d-flex fx-about4">
+                    <div class="d-flex flex-column list-locations">
+                        <a href="#mapSection" class="d-flex justify-content-between gap-2 box-location">
+                            <div>
+                                <h2 class="font-bold">Gaza City</h2>
+                                <div class="d-flex fx-pathLocation">
+                                    <img src="./images/location-icon.svg" alt="location icon">
+                                    <p class="style-font mb-0">Al-Dahdouh Street, Gaza City, Gaza Strip, Palestine,
+                                        00970
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./images/arrowBlue.svg" alt="arrowBlue">
+                        </a>
+                        <a href="#mapSection" class="d-flex justify-content-between gap-2 box-location">
+                            <div>
+                                <h2 class="font-bold">North Governorate</h2>
+                                <div class="d-flex fx-pathLocation">
+                                    <img src="./images/location-icon.svg" alt="location icon">
+                                    <p class="style-font mb-0">Gaza Strip, Palestine: Sheikh Radwan, First Street</p>
+                                </div>
+                            </div>
+                            <img src="./images/arrowBlue.svg" alt="arrowBlue">
+                        </a>
+                        <a href="#mapSection" class="d-flex justify-content-between gap-2 box-location">
+                            <div>
+                                <h2 class="font-bold">Middle Governorate</h2>
+                                <div class="d-flex fx-pathLocation">
+                                    <img src="./images/location-icon.svg" alt="location icon">
+                                    <p class="style-font mb-0">Gaza Strip, Palestine: Nuseirat, Power Station Street
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./images/arrowBlue.svg" alt="arrowBlue">
+                        </a>
+                        <a href="#mapSection" class="d-flex justify-content-between gap-2 box-location">
+                            <div>
+                                <h2 class="font-bold">Khan Yunis City</h2>
+                                <div class="d-flex fx-pathLocation">
+                                    <img src="./images/location-icon.svg" alt="location icon">
+                                    <p class="style-font mb-0">Gaza Strip, Palestine: Khan Yunis City, Jalal Street</p>
+                                </div>
+                            </div>
+                            <img src="./images/arrowBlue.svg" alt="arrowBlue">
+                        </a>
+                        <a href="#mapSection" class="d-flex justify-content-between gap-2 box-location">
+                            <div>
+                                <h2 class="font-bold">Rafah City</h2>
+                                <div class="d-flex fx-pathLocation">
+                                    <img src="./images/location-icon.svg" alt="location icon">
+                                    <p class="style-font mb-0">Palestine, Gaza Strip, Rafah City, Tel Sultan</p>
+                                </div>
+                            </div>
+                            <img src="./images/arrowBlue.svg" alt="arrowBlue">
+                        </a>
+                    </div>
+                    <div class="responsive-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8902869489943!2d31.26820317501254!3d30.09732831606409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f8af6e891c1%3A0x32ac6c4125a355b7!2z2KfZitiq2Kcg2YTZhNiq2KzYp9ix2Kkg2Ygg2KfZhNmH2YbYr9iz2KkgLSBFdGEgRm9yIFRyYWRpbmcgQW5kIEVuZ2luZWVyaW5n!5e0!3m2!1sen!2s!4v1738844249748!5m2!1sen!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+        </section>
+        <section class="section-faq2">
+            <div class="faq-container">
+                <span class="text-center font-bold">FAQ’S_Water Product</span>
+                <h1 class="font-bold subtitle-one text-center">Frequently asked questions</h1>
+                <div class="list-faq-items">
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="1">
+                            Which pricing plan is right for me? <img src="./images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="1">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="2">
+                            How does our pricing work? <img src="./images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="2">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="3">
+                            What if I change my mind?<img src="./images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="3">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="4">
+                            Do you offer any discounted plans? <img src="./images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="4">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="5">
+                            What payment methods do you accept? <img src="./images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="5">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="6">
+                            Does TechZone offer plans to nonprofits and NGOs? <img src="./images/arrow-faq.svg"
+                                alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="6">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="7">
+                            How can I manage my billing? <img src="./images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="7">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="8">
+                            Can I change my plan? <img src="./images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="8">
+                            <p>We understand that each organization is unique, requiring specific features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="./images/footer-logo.png" alt="logo" class="footer-logo">
+                    <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" class="style-font">
+                            <button type="submit" class="btn-footer font-medium">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                        cutting-edge solutions for
+                        your energy and water
+                        requirements. Join us on social media for the latest updates and insights.
+                    </p>
+                    <div class="d-flex fx-images">
+                        <a href=""><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href=""><img src="./images/x-icon.svg" alt="x icon"></a>
+                        <a href=""><img src="./images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a href=""><img src="./images/instgran-icon.svg" alt="instgran icon"></a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Explore More</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Home</a>
+                        <a href="" class="style-font">Library Media</a>
+                        <a href="" class="style-font">Case Studies</a>
+                        <a href="" class="style-font">About</a>
+                        <a href="" class="style-font">Files Download</a>
+                        <a href="" class="style-font">Quality & Certifications</a>
+                        <a href="" class="style-font">blog</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Division Water</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Production Water</a>
+                        <a href="" class="style-font">Distribution Water</a>
+                        <a href="" class="style-font">Construction Plants Water</a>
+                        <a href="" class="style-font">Swimming Pool Construction</a>
+                        <a href="" class="style-font">Infrastructure Water</a>
+                        <a href="" class="style-font">Treatment Water</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2  fx-general-card-st">
+                    <h5 class="font-bold">Division Energy</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Energy Solar</a>
+                        <a href="" class="style-font">Solutions Energy Renewable</a>
+                        <a href="" class="style-font">Contracting Electrical</a>
+                        <a href="" class="style-font">Division Manufacturing</a>
+                        <a href="" class="style-font">Structures Metal</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                    <div class="d-flex flex-column gap-divs-footer">
+                        <div>
+                            <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Investments Local</a>
+                                <a href="" class="style-font">Investments Global</a>
+                                <a href="" class="style-font">Management Asset</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Equipment Industrial</a>
+                                <a href="" class="style-font">Services Logistics</a>
+                                <a href="" class="style-font">Division Agriculture</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <!--FAQs JS-->
+    <script src="./js/dropdowns/dropdown-faq2.js"></script>
+    <!-- Slider Years -->
+    <script src="./js/sliders/YearsSlider.js"> </script>
+</body>
+
+</html>
