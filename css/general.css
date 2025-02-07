@@ -41,93 +41,6 @@ body {
   background-color: #FFF !important;
   font-size: 1rem;
 }
-/* Splash screen styles */
-#splash-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #fff; /* Background color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-/* Container for the logo and dashes */
-.logo-container {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: row;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Dash styling (horizontal line) */
-.dash {
-  flex-grow: 1;
-  border: none;
-  border-top: 2px solid #000; /* Adjust thickness and color */
-  margin: 0 20px;
-}
-
-/* Logo styling */
-#splash-logo {
-  width: 150px; /* Adjust logo size */
-  height: auto;
-  animation: scaleUp 1.5s ease-in-out;
-  z-index: 2; /* Make sure logo is on top of the dash */
-}
-
-/* Scale-up animation for the logo */
-@keyframes scaleUp {
-  0% {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-/* Main content styles */
-#main-content {
-  display: none;
-  opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.se-pre-con {
-  background: url(../images/drop-of-water-13891_512.gif) center no-repeat #fff;
-  width: 80%;
-  margin: auto;
-}
-.no-js #loader {
-  display: none;
-}
-.js #loader {
-  display: block;
-  position: absolute;
-  left: 100px;
-  top: 0;
-}
-.se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-}
 a,button{cursor: pointer;}
 a,.btn-hover{transition: 0.3s;cursor: pointer;}
 input:focus-visible{outline: none ;}
@@ -300,6 +213,11 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   font-size: 50px;
   line-height: 60px;
 }
+.subtitle-40px{
+  color: #262626;
+  font-size: 40px;
+  line-height: 50px;
+}
 .subtitle-two{
   color: #42526B;
   font-size: 18px;
@@ -311,17 +229,21 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .subtitle-one{font-size: 62px;margin-bottom: 32px;}
   .subtitle-two{font-size: 21px;line-height: 32px;}
    .subtitle-50px{font-size: 55px;line-height: 65px;}
+   .subtitle-40px{font-size: 45px;line-height: 60px;}
 }
 @media (min-width:1920px) {
   .subtitle-one{font-size: 68px;line-height: 72px;}
   .subtitle-two{font-size: 24px;line-height: 42px;}
   .subtitle-50px{font-size: 60px;line-height: 70px;}
+  .subtitle-40px{font-size: 50px;line-height: 60px;}
 }
 @media (max-width:1396.36px) {
   .subtitle-50px{font-size: 45px;line-height: 50px;}
+    .subtitle-40px{font-size: 35px;line-height: 45px;}
 }
 @media (max-width:1228.8px) {
   .subtitle-50px{font-size: 40px;line-height: 45px;}
+  .subtitle-40px{font-size: 30px;line-height: 40px;}
 }
 @media (max-width:1024px) {
   .subtitle-one {
@@ -329,6 +251,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
     line-height: 44.25px;
   }
     .subtitle-50px{font-size: 35px;line-height: 40px;}
+    .subtitle-40px{font-size: 25px;line-height: 40px;}
 }
 @media (max-width:877.71px) {
     .subtitle-one{font-size: 40px;}
@@ -341,6 +264,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
       margin-top: 0rem;
     }
     .subtitle-50px {font-size: 28px;line-height: 31px;}
+    .subtitle-40px {font-size: 25px;line-height: 29px;}
 }
  .arrow-slider .arrow-sliderImg:hover{
     background: #00CFFF;
@@ -404,6 +328,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   text-transform: uppercase;
 }
 .color-yellow{color: #FFB600 !important;}
+.color-blue{color: #00CFFF !important;}
  .btn-seeMore{
     width: 243px;
     height: 60px;
@@ -501,11 +426,14 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 @media (min-width:1920px) {
 
 }
+@media (min-width:2048px) {
+
+}
 @media (min-width:2304px) {
     
 }
-@media (min-width:2048px) {
-
+@media (min-width:3072px) {
+    
 }
 @media (max-width:1396.36px) {
     

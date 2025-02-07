@@ -1,0 +1,551 @@
+/* investment Services Page */
+.investmentServices{
+    background-image: url(../images/back\ Investment\ Services.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+    overflow: hidden;
+}
+.investmentServices-contaner{height: 100%;}
+.investmentServices .fx-investmentServices{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.investmentServices .fx-investmentServices .man-working{
+    position: absolute;
+    top: 50%;
+    right: -4rem;
+    transform: translate(0%,-50%);
+    width: 55%;
+        overflow: hidden;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts{
+    width: 70%;
+    z-index: 2;
+    padding-left: 90px;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts h1{
+    color: #FFF;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts h1 span{
+    color: #00CFFF;
+    font-size: 80px;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts p{
+    opacity: 0.55;
+    color: #FFF;
+    font-size: 25px;
+     margin-bottom: 35px;
+     width: 65%;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts button{
+    width: 170px;height: 54px;
+}
+.investmentServices .discoverMore{
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    transition: 0.2s;
+}
+.investmentServices .discoverMore:hover{
+    bottom: 2.7rem;
+}
+@media (min-width:1706.67px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 70px;line-height: 90px;margin-bottom: 32px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 80px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size:30px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 60px;width: 190px;}
+
+}
+@media (min-width:1920px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 80px;line-height: 100px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 90px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size:35px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 65px;width: 220px;}
+}
+@media (min-width:2048px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 90px;line-height: 110px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 100px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size:40px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 70px;width: 240px;}
+}
+@media (min-width:2304px) {
+    .investmentServices{height: 135vh;}
+}
+@media (min-width:3072px) {
+      .investmentServices{height: 90vh;}
+}
+@media (min-width:4608px) {
+      .investmentServices{height: 70vh;}
+}
+@media (min-width:6144px) {
+      .investmentServices{height: 50vh;}
+}
+@media (max-width:1396.36px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 70px;}
+}
+@media (max-width:1228.8px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 50px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 50px;line-height: 70px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 70px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 20px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 48px;width: 150px;}
+}
+@media (max-width:1024px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 30px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 40px;line-height: 60px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 60px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 18px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 45px;width: 130px;}
+}
+@media (max-width:877.71px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 30px;line-height: 50px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1 span{font-size: 50px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 16px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{height: 40px;width: 120px;}
+}
+@media (max-width:768px) {
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 20px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts h1{font-size: 25px;line-height: 40px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 15px;}
+}
+@media (max-width:614.4px) {
+    .investmentServices{height: 100%;padding: 4rem 0;}
+    .investmentServices .fx-investmentServices .man-working{
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translate(0,0);
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .investmentServices-contaner{padding: 0 20px;}
+    .investmentServices .fx-investmentServices{flex-direction: column;gap: 24px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts{width: 100%;padding-left: 0;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{width: 90%;}
+    .investmentServices .fx-investmentServices .investmentServices-texts button{font-size: 14px;}
+}
+@media (max-width:512px) {
+    .investmentServices .discoverMore{    
+        position: relative;
+        bottom: 0;
+        top: 2rem;
+    }
+     .investmentServices .discoverMore img{display: block;margin: auto;}
+}
+/* investment Services 2 */
+.investmentServices2{
+    margin: 100px 0;
+}
+.investmentServices2 .p-head{
+    color: #606060;
+    font-size: 16px;
+    line-height: 170%;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 46px;
+}
+.investmentServices2 .fx-investmentServices2{
+    gap: 50px;
+    align-items: center;
+}
+.investmentServices2 .investmentServices2-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+}
+.investmentServices2 .investmentServices2-imgs{width: 50%;gap: 30px;align-items: end;}
+.investmentServices2 .investmentServices2-imgs img{width: 100%;object-fit: cover;border-radius: 20px;}
+.investmentServices2 .investmentServices2-imgs .WithEta1{
+        flex: 1 1 calc(65% - 30px);
+        max-width: calc(65% - 15px);
+}
+.investmentServices2 .investmentServices2-imgs .WithEta2{
+        flex: 1 1 calc(35% - 30px);
+        max-width: calc(35% - 15px);
+        top: 1rem;
+        position: relative;
+}
+.investmentServices2 .investmentServices2-texts .fx-text{
+    gap: 12px;
+}
+.investmentServices2 .investmentServices2-texts .fx-text img{height: max-content;position: relative;top: 0.5rem;}
+.investmentServices2 .investmentServices2-texts p{
+    color: #606060;
+    font-size: 25px;
+    line-height: 160%;
+}
+@media (min-width:1706.67px) {
+    .investmentServices2 .investmentServices2-texts p{font-size: 27px;}
+}
+@media (min-width:1920px) {
+    .investmentServices2 .p-head{font-size: 19px;}
+    .investmentServices2 .investmentServices2-texts p{font-size: 30px;}
+}
+@media (min-width:2048px) {
+ .investmentServices2 .investmentServices2-texts p{font-size: 35px;}
+}
+@media (max-width:1396.36px) {
+    .investmentServices2 .investmentServices2-texts p{font-size: 22px;}
+}
+@media (max-width:1228.8px) {
+    .investmentServices2 .investmentServices2-texts p{font-size: 19px;}
+}
+@media (max-width:1024px) {
+    .investmentServices2 .investmentServices2-texts p{font-size: 16px;}
+    .investmentServices2 .investmentServices2-imgs{gap: 25px;}
+}
+@media (max-width:877.71px) {
+    .investmentServices2 .investmentServices2-texts p{font-size: 14px;}
+    .investmentServices2 .investmentServices2-imgs{gap: 20px;}
+    .investmentServices2 .investmentServices2-imgs .WithEta1{
+        flex: 1 1 calc(65% - 20px);
+        max-width: calc(65% - 10px);
+    }
+    .investmentServices2 .investmentServices2-imgs .WithEta2{
+        flex: 1 1 calc(35% - 20px);
+        max-width: calc(35% - 10px);
+    }
+}
+@media (max-width:614.4px) {
+    .investmentServices2 .p-head{margin-bottom: 24px;}
+     .investmentServices2 .fx-investmentServices2{flex-direction: column;gap: 32px;}
+    .investmentServices2 .investmentServices2-texts{width: 100%;order: 1;}
+    .investmentServices2 .investmentServices2-imgs{width: 100%;order: 2;}
+    .investmentServices2 .p-head{font-size: 13px;width: 100%;margin-top: 8px;line-height: 18px;}
+    .investmentServices2 h1{font-size: 25px;}
+    .investmentServices2 h1 br{display: none;}
+}
+/* investment Services 3 */
+.investmentServices3{
+    background-image: url(../images/investmentServices3-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    margin: 100px 0;
+}
+.investmentServices3 .fx-head{
+    gap: 10px;
+}
+.investmentServices3 .subtitle-50px{margin-top: 10px;}
+.investmentServices3 .fx-investmentServices3{
+    gap: 30px;
+    margin-top: 50px;
+}
+.investmentServices3 .fx-investmentServices3 .box-investmentServices3{
+    border-radius: 20px;
+    background:  #FFF;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+   padding: 30px 40px;
+   transition: 0.3s;
+   cursor: pointer;
+   width:25%;
+   position: relative;
+}
+.investmentServices3 .fx-investmentServices3 .box-investmentServices3:hover{
+  border: 2px solid #00CFFF;
+  transform: scale(0.97);
+}
+.investmentServices3 .fx-investmentServices3 .boxbottom{top:3rem;}
+.investmentServices3 .fx-investmentServices3 .box-investmentServices3 span{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #061C3D;
+    cursor: pointer;
+     -webkit-text-stroke-width: 1px; 
+     font-size: 50px;
+     line-height: 60px; /* 120% */  
+}
+.investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{
+    color: #061C3D;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.investmentServices3 .fx-investmentServices3 .box-investmentServices3 p{
+    color: #061C3D;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+@media (min-width:1706.67px) {
+
+}
+@media (min-width:1920px) {
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 span{font-size: 65px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{font-size: 30px;margin-top: 25px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 p{font-size: 19px;line-height: 35px;}
+}
+@media (min-width:2048px) {
+
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3{width: 28%;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 span{font-size: 40px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{font-size: 20px;margin-top: 0px;margin-bottom: 16px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 p{font-size: 14px;line-height: 25px;}
+}
+@media (max-width:1024px) {
+    .investmentServices3 .fx-investmentServices3{gap: 20px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3{padding: 16px 25px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 span{font-size: 30px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{font-size: 18px;line-height: 30px;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3 p{font-size: 13px;line-height: 20px;}
+}
+@media (max-width:877.71px) {
+    .investmentServices3 .fx-investmentServices3{flex-wrap: wrap;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3{width: 40%;top: 0;}
+}
+@media (max-width:614.4px) {
+     .investmentServices3{margin: 0;padding: 20px 0 80px 0;}
+    .investmentServices3 .fx-investmentServices3 .box-investmentServices3{width: 100%;top: 0;}
+    .investmentServices3-container{padding: 0 20px;}
+    .investmentServices3 .subtitle-50px br{display: none;}
+    .investmentServices3 .fx-investmentServices3{margin-top: 32px;}
+}
+/* Energy Two */
+.investmentServices4{
+  margin: 100px 0 100px 0;
+}
+.investmentServices4 .fx-investmentServices4{gap: 88px;align-items: start;}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs{
+    position: relative;
+    gap: 22px;
+    width: 50%;
+}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices4-img2{
+        width: 215px;
+    display: block;
+    margin: auto;
+}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .column2-investmentServices4{width: 50%;}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .column1-investmentServices4{gap: 34px;width: 50%;}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .column2-investmentServices4{gap: 22px;}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience{
+  background: #00CFFF;
+  width: 100%;
+    height: 127px;
+    border-radius: 20px;
+    gap: 24px;
+}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience h1{
+    color: #FFF;
+    font-size: 50px;
+    line-height: 60px;
+}
+.investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience p{
+    color:  #FFF;
+    font-size: 18px;
+    line-height: 28px;
+}
+.investmentServices4 .head-investmentServices4{gap: 10px;margin-bottom: 10px;}
+.investmentServices4 .investmentServices4-texts{width: 50%;}
+.investmentServices4 .investmentServices4-texts .head-investmentServices4 span{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+.investmentServices4 .investmentServices4-texts h1{margin-bottom: 26px;}
+ .investmentServices4 .investmentServices4-texts p{
+    color:#727272;
+    font-size: 16px;
+    line-height: 30px;
+}
+ .investmentServices4 .investmentServices4-texts .contact-investmentServices4{gap: 30px;margin-top: 60px;}
+ .investmentServices4 .investmentServices4-texts .contact-investmentServices4 button{
+    width: 170px;
+    height: 54px;
+ }
+  .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4{gap: 15px;}
+  .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 30px;
+  } 
+  .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 h3{
+    color: #061C3D;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  @media (min-width:1706.67px) {
+    .investmentServices4{margin: 150px 0;}
+    .investmentServices4 .investmentServices4-texts  p{font-size: 18px;}
+    .investmentServices4 .investmentServices4-texts .contact-investmentServices4 button{width: 220px;height: 65px;}
+}
+@media (min-width:1920px) {
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience{height: 200px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices4-img2{width: 250px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience p{font-size: 24px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience h1{font-size: 65px;}
+    .investmentServices4 .investmentServices4-texts  p{font-size: 25px;line-height: 45px;}
+    .investmentServices4{margin: 200px 0 150px 0;}
+    .investmentServices4 .investmentServices4-texts .contact-investmentServices4 button{width: 250px;height: 75px;}
+   .investmentServices4 .subtitle-50px { font-size: 70px; line-height: 80px;}
+}
+@media (max-width:1396.36px) {
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs{width: 50%;}
+    .investmentServices4 .investmentServices4-texts{width: 50%;}
+}
+@media (max-width:1228.8px) {
+ .investmentServices4 .investmentServices4-texts  p{font-size: 14px;line-height: 22px;}
+ .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 img{height: 45px;}
+ .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 p{line-height: 19px;}
+ .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices4-img3{height: 400px;}
+}
+@media (max-width:1024px) {
+ .investmentServices4 .fx-investmentServices4{gap: 50px;}
+ .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs{gap: 12px;}
+}
+@media (max-width:877.71px) {
+    .investmentServices4 .fx-investmentServices4{flex-direction: column;align-items: start;gap: 150px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs{width: 100%;justify-content: center;order:2}
+    .investmentServices4 .investmentServices4-texts{width: 100%;order: 1;}
+}
+@media (max-width:614.4px) {
+    .investmentServices4 .fx-investmentServices4{flex-direction: column;align-items: start;gap: 70px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices41{bottom: 2rem;}
+    .investmentServices4{margin: 40px 0;}
+    .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 img{height: 35px;}
+    .investmentServices4 .investmentServices4-texts .contact-investmentServices4{gap: 16px; margin-top: 25px;}
+    .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 h3{font-size: 16px;}
+    .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 p{font-size: 14px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .fx-yearsOfExperience{
+        width: 100%;
+        padding: 16px;
+        gap: 10px;
+    }
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .column2-investmentServices4{gap: 16px;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices4-img3{height: max-content;}
+    .investmentServices4 .fx-investmentServices4 .investmentServices4-imgs .investmentServices4-img2{width: 100%;}
+    .investmentServices4 .fx-investmentServices4{gap: 35px;}
+}
+/* investment Services 5 */
+.investmentServices5{
+    background: #F8F8F8;
+    padding: 50px 0;
+}
+.investmentServices5 .p-head{
+    color: #606060;
+    font-size: 24px;
+    line-height: 160%;
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.investmentServices5 .fx-investmentServices5{
+    gap: 60px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: #F7F7F5;
+    width: max-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.investmentServices5 .fx-investmentServices5 .border{
+    width: 1px;
+    height: 40px;   
+    border-radius: 1px;
+    background: #B9B9B9;
+}
+.investmentServices5 .fx-investmentServices5 .fx-number{
+    gap: 10px;
+}
+.investmentServices5 .fx-investmentServices5 h2{
+    color: #262626;
+    font-size: 24px;
+}
+.investmentServices5 .fx-investmentServices5 p{
+    color: #606060;
+    font-size: 24px;
+}
+.investmentServices5 .plyr--video{
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+@media (min-width:1706.67px) {
+
+}
+@media (min-width:1920px) {
+  .investmentServices5 .fx-investmentServices5 h2,
+    .investmentServices5 .fx-investmentServices5 p,
+    .investmentServices5 .p-head{font-size: 30px;}
+    .investmentServices5 .fx-investmentServices5{gap: 80px;}
+}
+@media (min-width:2048px) {
+  .investmentServices5 .fx-investmentServices5 h2,
+    .investmentServices5 .fx-investmentServices5 p,
+    .investmentServices5 .p-head{font-size: 35px;}
+    .investmentServices5 .fx-investmentServices5{gap: 90px;}
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    
+}
+@media (max-width:1228.8px) {
+    .investmentServices5 .fx-investmentServices5{gap: 50px;}
+    .investmentServices5 .fx-investmentServices5 h2,
+    .investmentServices5 .fx-investmentServices5 p,
+    .investmentServices5 .p-head{font-size: 20px;}
+}
+@media (max-width:1024px) {
+    .investmentServices5 .plyr--video{width: 70%;}
+}
+@media (max-width:877.71px) {
+    .investmentServices5 .plyr--video{width: 80%;}
+}
+@media (max-width:768px) {
+    .investmentServices5 .p-head{width: 80%;}
+    .investmentServices5 .plyr--video{width: 90%;}
+}
+@media (max-width:614.4px) {
+    .investmentServices5 .fx-investmentServices5{flex-wrap: wrap;gap: 24px;width: 100%;padding: 16px 24px;margin-top: 24px;}
+    .investmentServices5 .fx-investmentServices5 .fx-number{width: 45%;}
+    .investmentServices5 .fx-investmentServices5 .border{display: none;}
+    .investmentServices5 .fx-investmentServices5 h2,
+    .investmentServices5 .fx-investmentServices5 p{font-size: 18px;text-align: center;}
+    .investmentServices5 .p-head{width: 90%;}
+    .investmentServices5 .plyr--video{width: 100%;}
+    .investmentServices5-container{padding: 0 20px;}
+    .investmentServices5 .p-head{font-size: 14px;}
+}
+@media (max-width:512px) {
+}
