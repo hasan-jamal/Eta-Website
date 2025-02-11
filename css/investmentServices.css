@@ -136,7 +136,7 @@
     .investmentServices .fx-investmentServices .investmentServices-texts button{font-size: 14px;}
 }
 @media (max-width:512px) {
-    .investmentServices .discoverMore{    
+    .investmentServices .discoverMore{
         position: relative;
         bottom: 0;
         top: 2rem;
@@ -253,6 +253,7 @@
    cursor: pointer;
    width:25%;
    position: relative;
+   text-decoration: none;
 }
 .investmentServices3 .fx-investmentServices3 .box-investmentServices3:hover{
   border: 2px solid #00CFFF;
@@ -266,9 +267,9 @@
     color: transparent;
     -webkit-text-stroke: 1px #061C3D;
     cursor: pointer;
-     -webkit-text-stroke-width: 1px; 
+     -webkit-text-stroke-width: 1px;
      font-size: 50px;
-     line-height: 60px; /* 120% */  
+     line-height: 60px; /* 120% */
 }
 .investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{
     color: #061C3D;
@@ -291,18 +292,6 @@
     .investmentServices3 .fx-investmentServices3 .box-investmentServices3 span{font-size: 65px;}
     .investmentServices3 .fx-investmentServices3 .box-investmentServices3 h3{font-size: 30px;margin-top: 25px;}
     .investmentServices3 .fx-investmentServices3 .box-investmentServices3 p{font-size: 19px;line-height: 35px;}
-}
-@media (min-width:2048px) {
-
-}
-@media (min-width:2304px) {
-    
-}
-@media (min-width:3072px) {
-    
-}
-@media (max-width:1396.36px) {
-    
 }
 @media (max-width:1228.8px) {
     .investmentServices3 .fx-investmentServices3 .box-investmentServices3{width: 28%;}
@@ -393,7 +382,7 @@
     color: #727272;
     font-size: 16px;
     line-height: 30px;
-  } 
+  }
   .investmentServices4 .investmentServices4-texts .fx-contact-investmentServices4 h3{
     color: #061C3D;
     font-size: 18px;
@@ -475,7 +464,7 @@
 }
 .investmentServices5 .fx-investmentServices5 .border{
     width: 1px;
-    height: 40px;   
+    height: 40px;
     border-radius: 1px;
     background: #B9B9B9;
 }
@@ -496,9 +485,6 @@
     border-radius: 20px;
     margin-top: 30px;
 }
-@media (min-width:1706.67px) {
-
-}
 @media (min-width:1920px) {
   .investmentServices5 .fx-investmentServices5 h2,
     .investmentServices5 .fx-investmentServices5 p,
@@ -510,15 +496,6 @@
     .investmentServices5 .fx-investmentServices5 p,
     .investmentServices5 .p-head{font-size: 35px;}
     .investmentServices5 .fx-investmentServices5{gap: 90px;}
-}
-@media (min-width:2304px) {
-    
-}
-@media (min-width:3072px) {
-    
-}
-@media (max-width:1396.36px) {
-    
 }
 @media (max-width:1228.8px) {
     .investmentServices5 .fx-investmentServices5{gap: 50px;}
@@ -547,5 +524,200 @@
     .investmentServices5-container{padding: 0 20px;}
     .investmentServices5 .p-head{font-size: 14px;}
 }
-@media (max-width:512px) {
+/* investment Services S1 */
+.investmentServicesS1{
+    background: none;
+    height: 100%;
+}
+.investmentServices-contaner{padding: 8rem 50px;}
+.investmentServicesS1 .fx-investmentServices{
+    background-image: url(../images/back-waterServcies.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+   position: relative;
+    width: 100%;
+    height: max-content;
+    padding: 10rem 0 10rem 0;
+}
+.investmentServicesS1 .InvestmentServices-detailsS1Image {
+    position: absolute;
+    bottom: 0;
+    right: 2.5rem;
+    transform: translate(0%,0%);
+    width:50%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.investmentServicesS1 .fx-investmentServices .investmentServices-texts{
+    width: 90%;
+    padding-left: 80px;
+}
+.investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.investmentServices .fx-investmentServices .investmentServices-texts p{
+    font-size: 16px;
+    width: 50%;
+}
+@media (min-width:1706.67px) {
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{font-size: 80px;line-height: 90px;}
+    .investmentServicesS1 .fx-investmentServices{padding: 15rem 0;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 18px;}
+}
+@media (min-width:1920px) {
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{font-size: 90px;line-height: 100px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 21px;}
+}
+@media (min-width:2048px) {
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{font-size: 100px;line-height: 110px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{font-size: 23px;}
+    .investmentServicesS1 .InvestmentServices-detailsS1Image {height: 90%;}
+}
+@media (max-width:1228.8px) {
+    .investmentServicesS1 .fx-investmentServices{padding: 8rem 0 5rem 0;}
+  .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{font-size: 55px;line-height: 65px;}
+  .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 50px;width: 80%;}
+}
+@media (max-width:1024px) {
+    .investmentServicesS1 .fx-investmentServices{padding: 5rem 0 3rem 0;}
+    .investmentServices-contaner{padding: 7rem 30px;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1{font-size: 45px;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 30px;}
+}
+@media (max-width:877.71px) {
+    .investmentServices-contaner{padding: 7rem 20px;}
+    .investmentServicesS1 .InvestmentServices-detailsS1Image {
+        width: 55%;
+    }
+}
+@media (max-width:614.4px) {
+    .investmentServicesS1 .fx-investmentServices { padding: 3rem 0 3rem 0; }
+    .investmentServices-contaner{padding: 2rem 10px;}
+    .investmentServicesS1{padding: 0;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding: 0px 20px;width: 100%;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts h1 {font-size: 32px;line-height: 47px;}
+    .investmentServices .fx-investmentServices .investmentServices-texts p{width: 100%;}
+    .investmentServicesS1 .InvestmentServices-detailsS1Image {position: relative;right: 0;width:90%;border-radius: 10px;}
+}
+/* SME Section */
+.sme{margin: 0 0 4rem 0;}
+.sme h1{margin-bottom: 20px;}
+.sme .fx-sme{
+  gap: 80px;
+  align-items: start;
+}
+.sme .fx-sme .sme-imgs{
+    display: flex;
+    gap: 24px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.sme .fx-sme .sme-imgs img{width: 100%;}
+.sme .fx-sme .sme-imgs .SME1-img{
+    width: 100%;
+    height: max-content;
+}
+.sme .fx-sme .sme-imgs .SME2-img,
+.sme .fx-sme .sme-imgs .SME3-img{width: 48%;}
+.sme .fx-sme .sme-texts{width: 50%;}
+@media (max-width:1396.36px) {
+    .sme .fx-sme .sme-imgs{gap:20px ;}
+    .sme .fx-sme .sme-imgs .SME2-img,
+    .sme .fx-sme .sme-imgs .SME3-img{width: 48%;}
+}
+@media (max-width:1228.8px) {
+    .sme .fx-sme .sme-imgs{gap:16px ;}
+    .sme .fx-sme .sme-imgs .SME2-img,
+    .sme .fx-sme .sme-imgs .SME3-img{width: 48%;}
+    .sme h1{margin-bottom: 16px;}
+}
+@media (max-width:1024px) {
+    .sme .fx-sme{gap: 50px;}
+}
+@media (max-width:877.71px) {
+    .sme .fx-sme .sme-imgs .SME2-img,
+    .sme .fx-sme .sme-imgs .SME3-img{width: 47%;}
+    .sme h1{margin-bottom: 16px;}
+        .sme .fx-sme{gap: 40px;}
+}
+@media (max-width:768px) {
+    .sme .fx-sme{flex-direction: column;}
+    .sme .fx-sme .sme-texts{width: 100%;order: 1;}
+    .sme .fx-sme .sme-imgs{width: 100%;order: 2;}
+}
+@media (max-width:614.4px) {
+    .sme{margin: 40px 0;}
+}
+/* Building Strategic */
+.buildingStrategic{
+    background: #F0F9FB;
+    padding-top: 150px;
+}
+.buildingStrategic .buildingStrategic-container{padding-left: 80px;}
+.buildingStrategic .fx-buildingStrategic{gap: 50px;}
+.buildingStrategic .fx-buildingStrategic .buildingStrategic-texts{width: 50%;padding-bottom: 5rem;}
+.buildingStrategic .fx-buildingStrategic .buildingStrategic-img{
+    object-fit: cover;
+    width: 50%;
+    border-radius: 20px 0px 0px 0px;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+}
+.buildingStrategic .fx-buildingStrategic .buildingStrategic-texts h1{margin-bottom: 20px;}
+@media (max-width:1396.36px) {
+    .buildingStrategic{padding-top: 120px;}
+    .buildingStrategic .buildingStrategic-container{padding-left: 50px;}
+}
+@media (max-width:1228.8px) {
+    .buildingStrategic{padding-top: 100px;}
+    .buildingStrategic .buildingStrategic-container{padding-left:30px;}
+}
+@media (max-width:877.71px) {
+    .buildingStrategic{padding-top: 70px;}
+    .buildingStrategic .fx-buildingStrategic .buildingStrategic-texts h1{margin-bottom: 4px;}
+}
+@media (max-width:768px) {
+    .buildingStrategic{margin: 60px 0;}
+    .buildingStrategic .fx-buildingStrategic{flex-direction: column;}
+    .buildingStrategic .fx-buildingStrategic .buildingStrategic-texts{width: 100%;padding-bottom: 0;}
+    .buildingStrategic .fx-buildingStrategic .buildingStrategic-img{width: 100%;    border-radius: 20px 20px 0px 0px;}
+    .buildingStrategic .buildingStrategic-container{padding: 0 20px;}
+}
+@media (max-width:614.4px) {
+    .buildingStrategic .fx-buildingStrategic .buildingStrategic-texts h1{font-size: 31px;}
+}
+/* our Global Section */
+.ourGlobal{margin: 100px 0;}
+.ourGlobal .fx-ourGlobal{
+    gap: 80px;
+}
+.ourGlobal .fx-ourGlobal h1{margin-bottom: 20px;}
+.ourGlobal .ourGlobal-texts{width: 55%;padding-bottom: 5rem;}
+.ourGlobal .ourGlobal-img{
+   width: 45%;
+   object-fit: cover;
+   border-radius: 20px;
+box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.10), 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
+}
+@media (max-width:1396.36px) {
+}
+@media (max-width:1228.8px) {
+    .ourGlobal .fx-ourGlobal{gap: 48px;}
+}
+@media (max-width:877.71px) {
+    .ourGlobal .fx-ourGlobal{gap: 40px;}
+}
+@media (max-width:768px) {
+    .ourGlobal .fx-ourGlobal{flex-direction: column;}
+    .ourGlobal .fx-ourGlobal{gap:32px;}
+    .ourGlobal .ourGlobal-texts{width: 100%;padding-bottom: 0;order: 1;}
+    .ourGlobal .ourGlobal-img{width: 100%;order: 2;}
+}
+@media (max-width:614.4px) {
+    .ourGlobal{margin: 80px 0;}
+    .ourGlobal h1{font-size: 31px;}
 }

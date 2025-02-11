@@ -74,7 +74,7 @@
   .nav-mobile .links .fx-links{
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 24px;
   }
 .nav-mobile .links .border{
   height: 0.5px;
@@ -84,7 +84,8 @@
 .nav-mobile .links a {
   text-decoration: none;
   color: #e0e0e0;
-  font-size: 1.1rem;
+    font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
   letter-spacing: 1px;
 }
 .nav-mobile a:hover ,
@@ -92,10 +93,10 @@
   	color: #141CA4 ;
 }
 .nav-mobile .links a.active{
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 1px;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .nav-mobile .links a svg{
   width: 24px;
@@ -217,6 +218,10 @@ header .fx-header-links .links-header .active{
 header .btn-header .btn-blue{
   font-size: 18px;
 }
+.header-white .fx-header-links .links-header a{
+   color: #FFFFFF;
+}
+.header-white .fx-header-links .links-header a:hover{font-weight: 500;color: #fff;}
 @media (min-width:1706.67px) {
   header .fx-header-links .links-header a{font-size: 20px;}
   header .fx-header-links .links-header .active{font-size: 23px;}
@@ -270,7 +275,4 @@ header .btn-header .btn-blue{
   header{display: none;}
   .navbar-mobile{display: block;}
    .sidenav-active .navbar-mobile .flex-head{display: flex;}
- 
-}
-@media (max-width:512px) {
 }

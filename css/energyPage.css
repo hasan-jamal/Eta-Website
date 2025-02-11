@@ -526,3 +526,303 @@
 }
 @media (max-width:512px) {
 }
+/* Energy Details */
+.energyDetails{
+    margin-bottom: 30rem;
+    background-position: top;
+    background-image: url(../images/energyDetailsS1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    position: relative;
+    box-shadow: 0px 58px 152px 0px rgba(0, 107, 184, 0.42);
+}
+.energyDetails .energyDetails-container{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.energyDetails .etaEnergyLogo{width: 25%;}
+.energyDetails h3{
+    color: #FFB600;
+    font-size: 48px;
+    line-height: 56px;
+}
+.energyDetails h1{
+    color: #FFF;
+    font-size: 92px;
+    line-height: 114px;
+}
+.energyDetails1{
+    position: absolute;
+   bottom:-21.2rem;
+   height: max-content;
+}
+.energyDetails1 .fx-energyDetails{
+    align-items: center;
+}
+.energyDetails1 .energyDetails-part1{
+    border-radius: 24px;
+    border: 2px solid #D2DBE6;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 80px 232px 0px rgba(0, 48, 121, 0.24);
+    backdrop-filter: blur(40px);
+    padding: 68px 32px 32px 32px;
+    width: max-content;
+    background: #D2DBE6;
+}
+.energyDetails1 .energyDetails-part1 .plyr--video{
+    width: 456px;
+    height: 304.063px;
+    border-radius: 20px;
+}
+.energyDetails1 .energyDetails-part1 .plyr video{
+    height: 100%;
+    object-fit: cover;
+}
+.energyDetails1 .energyDetails-part1 .plyr__video-wrapper{height: 100%;}
+.energyDetails1 .energyDetails-part1 h1{
+    margin-bottom: 12px;
+    color: #FFB600;
+    font-size: 80px;
+    line-height: 80px;
+}
+.energyDetails1 .energyDetails-part1 h4{
+    color: #202636;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 65px;
+}
+.energyDetails1 .energyDetails-part2{
+   background-position: top;
+    background-image: url(../images/ContainerBlue.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 129px;
+    width: 45%;
+    padding: 0 80px 0 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:8.4rem;
+}
+.energyDetails1 .energyDetails-part2 p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 26px;
+    line-height: 40px;
+}
+@media (min-width:1706.67px) {
+    .energyDetails1 .energyDetails-part1 h1{margin-bottom: 16px;}
+    .energyDetails1 .energyDetails-part1 h1{font-size: 100px;}
+    .energyDetails1 .energyDetails-part1 h4{font-size: 40px;}
+    .energyDetails1{bottom: -20.8rem;}
+    .energyDetails{height: 133vh;}
+}
+@media (min-width:1920px) {
+  .energyDetails h1{font-size: 120px;line-height: 130px;}
+  .energyDetails1 .energyDetails-part1{padding: 70px 48px 48px 48px;}
+}
+@media (min-width:2048px) {
+    .energyDetails{height: 127vh;}
+    .energyDetails1 .energyDetails-part2{background-size: cover;height: 154px;width: 52%;}
+    .energyDetails1 .energyDetails-part2 p{font-size: 34px;line-height: 48px;}
+    .energyDetails1 .energyDetails-part1 h1{margin-bottom: 24px;}
+}
+@media (min-width:2304px) {.energyDetails{height: 114vh;}.energyDetails .etaEnergyLogo{width: 18%;}}
+@media (min-width:3072px) {.energyDetails{height: 90vh;}}
+@media (min-width:4608px) {.energyDetails{height: 55vh;}}
+@media (min-width:6144px) {.energyDetails{height: 45vh;}}
+@media (max-width:1396.36px) {
+    .energyDetails h1{font-size: 82px;width: 90%;line-height: 90px;}
+    .energyDetails h3{font-size: 38px;}
+    .energyDetails .etaEnergyLogo{width: 21%;}
+    .energyDetails1 .energyDetails-part2{margin-bottom:8.7rem;}
+    .energyDetails1 .energyDetails-part2 p{font-size: 24px;line-height: 33px;}
+    .energyDetails1 .energyDetails-part1 h4{margin-bottom: 50px;font-size: 28px;line-height: 36px;}
+}
+@media (max-width:1228.8px) {
+    .energyDetails1 .energyDetails-part2{margin-bottom:10.5rem;height: 100px;}
+    .energyDetails h1{font-size: 72px;width: 90%;line-height: 80px;}
+    .energyDetails1 .energyDetails-part1 .plyr--video {width: 400px;height: 250.063px;}
+    .energyDetails1 .energyDetails-part2 p{font-size: 20px;line-height: 33px;}
+    .energyDetails1{bottom: -20.2rem;}
+    .energyDetails h3{font-size: 32px;}
+    .energyDetails .energyDetails-container{gap: 16px;}
+}
+@media (max-width:1024px) {
+    .energyDetails h1{font-size: 62px;width: 90%;line-height: 70px;}
+    .energyDetails .energyDetails-container{padding-top:8rem ;}
+    .energyDetails .energyDetails-container{gap: 8px;}
+    .energyDetails1{bottom: -18.7rem;}
+    .energyDetails1 .energyDetails-part1{padding: 48px 24px 24px 24px;}
+     .energyDetails1 .energyDetails-part1 .plyr--video {width: 350px;height: 200.063px;}
+     .energyDetails1 .energyDetails-part1 h1{font-size: 70px;}
+     .energyDetails1 .energyDetails-part2{padding: 0 30px;}
+}
+@media (max-width:877.71px) {
+    .energyDetails h1{font-size: 52px;width: 90%;line-height: 60px;}
+    .energyDetails1 .energyDetails-part2{padding: 0 30px;}
+    .energyDetails1 .energyDetails-part2 p{font-size: 16px;line-height: 22px;}
+    .energyDetails1 .energyDetails-part2{height: 76px;}
+    .energyDetails1 .energyDetails-part1 h4{margin-bottom: 30px;font-size: 24px;line-height: 34px;}
+    .energyDetails1 .energyDetails-part1 .plyr--video {width: 300px;height: 200.063px;}
+    .energyDetails1 .energyDetails-part1 h1{font-size: 50px;line-height: 60px;}
+    .energyDetails1 {bottom: -17.3rem;}
+}
+@media (max-width:768px) {
+    .energyDetails{height: 163vh;}
+    .energyDetails1{position: relative;}
+    .energyDetails1 {bottom: 0rem;}
+     .energyDetails1 .energyDetails-part2 p{font-size: 14px;line-height: 18px;}
+}
+@media (max-width:614.4px) {
+    .energyDetails{height: 100%;margin-bottom: 4rem;}
+    .energyDetails1 .fx-energyDetails{flex-direction: column;gap: 24px;}
+    .energyDetails1 .energyDetails-part2{height: 100%;width: 100%;background-size: contain;padding: 13px 16px;margin-bottom: 0;}
+    .energyDetails h1{font-size: 37px;line-height: 44px;margin-bottom: 2rem;}
+    .energyDetails h3{font-size: 24px;}
+    .energyDetails .etaEnergyLogo{width: 60%;}
+}
+@media (max-width:512px) {
+}
+.energyDetails2{
+    position: relative;
+    margin-bottom: 100px;
+}
+.energyDetails2 .fx-energyDetails2{align-items: center;gap: 120px;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts{width: 55%;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{
+    color: #101828;
+    font-size: 60px;
+    letter-spacing: -1.2px;
+    margin-bottom: 20px;
+    line-height: 70px;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts p{
+    color: #475467;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts .list-energyDetails2{
+    gap: 16px;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2{gap: 10px;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 span{
+    color: #FFB600;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 h3{
+    color: #101828;
+    font-family: 'Inter';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; 
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs{width: 45%;position: relative;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .energyDetails2Image{width: 100%;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{
+    border-radius: 12px;
+    background: #FFB600;
+    padding: 24px 30px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    bottom: 4rem;
+    left: -5rem;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2 img{
+    width: 132px;
+    height: 132px;
+    object-fit: contain;
+}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2 p{
+    color: #2A3334;
+    font-size: 18px;
+    letter-spacing: 0.937px;
+}
+@media (min-width:1706.67px) {
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{font-size: 70px;line-height: 80px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts p{font-size: 22px;line-height: 26px;}
+}
+@media (min-width:1920px) {
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{font-size: 80px;line-height: 90px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts p{font-size: 25px;line-height: 30px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 h3{font-size: 25px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 span{font-size: 28px;}
+}
+@media (min-width:2048px) {
+
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{font-size: 50px;line-height: 60px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts p{font-size: 18px;line-height: 22px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .list-energyDetails2{gap: 8px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 h3{font-size: 20px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 span{font-size: 22px;}
+}
+@media (max-width:1228.8px) {
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{font-size: 45px;line-height: 50px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts p,
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2 p{font-size: 16px;line-height: 20px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 h3{font-size: 18px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 span{font-size: 20px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2 img{width: 100px;height: 100px;}
+}
+@media (max-width:1024px) {
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts h1{font-size: 40px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts p,
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2 p{font-size: 14px;line-height: 18px;margin-bottom: 16px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 h3{font-size: 16px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .list-energyDetails2{gap: 4px;}
+    .energyDetails2 .fx-energyDetails2 .energyDetails2-texts .item-energyDetails2 span{font-size: 18px;}
+}
+@media (max-width:877.71px) {
+.energyDetails2 .fx-energyDetails2{flex-direction: column;gap: 40px;}
+ .energyDetails2 .fx-energyDetails2 .energyDetails2-texts{width: 100%;}
+ .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs{width: 100%;}
+ .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{left: auto;bottom: -7rem;}
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:614.4px) {
+.energyDetails2 .fx-energyDetails2{gap: 24px;}
+}
+@media (max-width:512px) {
+}
+/* Energy Details 3 Section  */
+.energyDetails3{
+  margin: 100px 0;
+}
+.energyDetails3 .fx-energyDetails3{gap: 50px;}
+.energyDetails3 img{object-fit: cover;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-imgs{width: 30%;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-imgs .energyDetails3-img{width: 100%;border-radius: 24px;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-texts{width:70%;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-texts .fx-texts{gap: 30px;margin-top: 40px;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-texts h1{
+    width: 80%;
+    margin-bottom: 24px;
+    color: #202636;
+    line-height: 68px;
+    letter-spacing: 0;
+}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-texts .fx-texts img{width: 30%;border-radius: 24px;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-texts .fx-texts p{
+    color: #737B8F;
+    font-size: 20px;
+    line-height: 35px;
+    width: 70%;
+}
