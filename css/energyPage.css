@@ -295,6 +295,7 @@
         flex: 1 1 calc(100% - 16px);
         max-width: calc(100% - 0px);
     }
+    .energy-three .fx-energy-three .card-energyThree p{display: block;}
     .energy-three .fx-energy-three .texts-energyThree p{line-height: 35px;font-size: 22px;}
 }
 /* Energy Four */
@@ -697,6 +698,7 @@
     .energyDetails h1{font-size: 37px;line-height: 44px;margin-bottom: 2rem;}
     .energyDetails h3{font-size: 24px;}
     .energyDetails .etaEnergyLogo{width: 60%;}
+    .energyDetails h1{display: block;}
 }
 @media (max-width:512px) {
 }
@@ -1348,4 +1350,7 @@
     .energyDetails6 .energyDetails6-head p{font-size: 16px;width: 100%;}
     .energyDetails6 .energyDetails6-head button{height: 45px;width: 160px;}
     .energyDetails6 .box-energyDetails6{margin-top: 35px;}
+    .energyDetails6 .energyDetails6-part2 h1{
+        display: block;
+    }
 }
