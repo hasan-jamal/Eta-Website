@@ -170,7 +170,7 @@ footer .gap-divs-footer{gap: 50px;}
 }
 @media (max-width:614.4px) {
     .footer-container{padding: 10px;}
-    footer .fx-footer{gap: 24px;padding: 40px 20px;}
+    footer .fx-footer{gap: 24px;padding: 40px 20px;background-position: inherit;}
     footer .fx-footer .footer-part1{
         flex: 1 1 calc(100% - 24px);
         max-width: calc(100% - 0px);
