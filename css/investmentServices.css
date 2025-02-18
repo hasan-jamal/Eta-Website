@@ -550,7 +550,7 @@
     overflow: hidden;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 .investmentServicesS1 .fx-investmentServices .investmentServices-texts{
     width: 90%;
