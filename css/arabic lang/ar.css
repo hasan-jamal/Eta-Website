@@ -1,0 +1,98 @@
+.slide,.slick-slider,
+.slider,.slick-current,.slick-active
+.slide__content,.slide__content--headings
+{direction: ltr !important;}
+[dir=rtl] .slick-slide{float: left !important;}
+.section-seven .href-a{
+    direction: rtl;
+}
+.href-a img,
+.btn-outline-blue img{
+    transform: rotate(180deg);
+}
+.arrow-slider{direction: ltr;}
+.font-ExtraBold{   
+    font-family: 'Tajawal' !important;
+    font-weight:800 !important;
+}
+.font-bold{
+    font-family: 'Tajawal' !important;
+    font-weight: 700 !important;
+}
+.font-semiBold{
+    font-family: 'Tajawal' !important;
+    font-weight: 600 !important;
+}
+.font-medium{
+    font-family: 'Tajawal' !important;
+    font-weight: 500 !important;
+}
+.style-font{
+    font-family: 'Tajawal' !important;
+    font-weight: 400 !important;
+}
+
+.hamburger{left: 20px; right: auto;}
+.nav-mobile {
+  left: auto;
+  right: -265px;
+}
+.sidenav-active nav, .sidenav-active .coverNav {
+    transform: translateX(-265px);
+}
+.section-one .section-one-texts .logo-section1{left: auto;right: -8rem;}
+.section-nine .back-waterServcies,
+.section-one .back-sectionOne{left: 0;right: auto;}
+.investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 90px;}
+.investmentServicesS1 .fx-investmentServices .investmentServices-texts,
+.buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 80px;}
+.investmentServices .fx-investmentServices .man-working{ right: auto;left: -4rem;}
+.investmentServicesS1 .InvestmentServices-detailsS1Image {right:auto;left: 2.5rem;}
+@media (min-width:1706.67px) {
+
+}
+@media (min-width:1920px) {
+
+}
+@media (min-width:2048px) {
+
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    .section-one .section-one-texts .logo-section1 {left: auto;right: -6rem;}
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 70px;}
+        .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 50px;}
+}
+@media (max-width:1228.8px) {
+    .section-one .section-one-texts .logo-section1 {left: auto;right: -4rem;}
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 50px;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 50px;}
+            .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 30px;}
+}
+@media (max-width:1024px) {
+    .section-one .section-one-texts .logo-section1 {left: auto;right: -2rem;}
+    .section-one .back-sectionOne{right: auto;left: -3rem;}
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 30px;}
+    .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 30px;}
+}
+@media (max-width:877.71px) {
+    .section-one .back-sectionOne {right: auto;left: -8rem;}
+}
+@media (max-width:768px) {
+            .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 20px;}
+        .section-one .section-one-texts .logo-section1 {left: auto;right: -1rem; }
+}
+@media (max-width:614.4px) {
+    .section-one .section-one-texts,
+    .section-one .section-one-video{padding-right: 0px;padding-left: 20px;}
+    .section-one .back-sectionOne2{right: auto;left: 0;}
+    .section-one .section-one-container{padding-right: 0;padding-left: 0;}
+        .investmentServicesS1 .InvestmentServices-detailsS1Image {right: auto;left:0;}
+}
+@media (max-width:512px) {
+}
