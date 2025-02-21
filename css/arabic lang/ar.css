@@ -1,16 +1,20 @@
 .slide,.slick-slider,
 .slider,.slick-current,.slick-active
-.slide__content,.slide__content--headings
+.slide__content,
+.blogPage .box-sliderBlog .arrow-sliderBlog
 {direction: ltr !important;}
 [dir=rtl] .slick-slide{float: left !important;}
-.section-seven .href-a{
+.section-seven .href-a,.energy-six .fx-energy-six{
     direction: rtl;
 }
-.href-a img,
-.btn-outline-blue img{
+.href-a img,.pagination button img,.etaAccomplishments .fx-head img,
+.fxLearnMore img,
+.btn-outline-blue img,.details-item-container .fx-links-details img{
     transform: rotate(180deg);
 }
-.arrow-slider{direction: ltr;}
+.arrow-slider,.energy-six .arrows-sliderEnergy{direction: ltr;}
+.energy-six .arrows-sliderEnergy{justify-content: end;}
+.energy-six .fx-energy-six .energy-six-texts .style-texts{border-right: 3px solid #FFB600;box-shadow: none;}
 .font-ExtraBold{   
     font-family: 'Tajawal' !important;
     font-weight:800 !important;
@@ -35,11 +39,12 @@
 .hamburger{left: 20px; right: auto;}
 .nav-mobile {
   left: auto;
-  right: -265px;
+  right: -310px;
 }
 .sidenav-active nav, .sidenav-active .coverNav {
-    transform: translateX(-265px);
+    transform: translateX(-310px);
 }
+.hamburger{direction: ltr;}
 .section-one .section-one-texts .logo-section1{left: auto;right: -8rem;}
 .section-nine .back-waterServcies,
 .section-one .back-sectionOne{left: 0;right: auto;}
@@ -48,6 +53,26 @@
 .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 80px;}
 .investmentServices .fx-investmentServices .man-working{ right: auto;left: -4rem;}
 .investmentServicesS1 .InvestmentServices-detailsS1Image {right:auto;left: 2.5rem;}
+.about2 .about2Vision{margin-left: 0rem;margin-right: 15rem;}
+.about2 .about2Mission{margin-left: 0;margin-right: auto;}
+.about2 .about2Mission .circleSmall{left: auto;right: 20%;}
+.about2 .about2Mission{padding-left: 7rem;padding-right: 0;}
+.about4 .responsive-map iframe{right: 0;left: auto;}
+.section-faq2 .faq-item .icon{left: 1rem;right: auto;}
+.servicesSupplyS3 .servicesSupplyS3-img img{left: 0rem;right: 4rem;}
+.servicesSupplyS3 .servicesSupplyS3-texts{margin-left: 0;margin-right: auto;}
+.servicesSupplyS4 .box2-servicesSupplyS4{right: 20%;left:0 ;}
+.servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{margin-right: 90px;margin-left: 0;}
+.servicesSupplyS3 .servicesSupplyS3-img img{right: 4rem;left: auto;}
+.servicesSupplyS3 .servicesSupplyS3-texts{margin-right: auto;margin-left: 0;}
+.card-WaterProduction .slide-text{right:8%;left: auto;}
+.energy-six .fx-energy-six .energy-six-texts .style-texts{padding-right: 24px;padding-left: 0;}
+.energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{left: 0rem;right: -5rem;}
+.energyDetails3 .fx-energyDetails3 .energyDetails3-imgs .solar-Energy{right: 70%;left: auto;}
+.energyDetails5 .energyDetails5-imgs .energyDetails5-img3{left: auto;right: -1rem;}
+.energyDetails5 .texts-section p{padding-right: 40px;padding-left: 0px;border-left: none;border-right: 1px solid #fff;}
+.energyDetails5 .energyDetails5-imgs .energyDetails-img1,
+.energyDetails5 .energyDetails5-imgs .energyDetails5-img2{left: 0;right: auto;}
 @media (min-width:1706.67px) {
 
 }
@@ -64,35 +89,51 @@
     
 }
 @media (max-width:1396.36px) {
+        .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 70px;}
     .section-one .section-one-texts .logo-section1 {left: auto;right: -6rem;}
     .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 70px;}
         .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 50px;}
 }
 @media (max-width:1228.8px) {
+    .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 50px;}
     .section-one .section-one-texts .logo-section1 {left: auto;right: -4rem;}
     .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 50px;}
     .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 50px;}
-            .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 30px;}
+    .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 30px;}
+    .about2 .about2Vision{margin-left: 0rem;margin-right: 10rem; }
 }
 @media (max-width:1024px) {
     .section-one .section-one-texts .logo-section1 {left: auto;right: -2rem;}
     .section-one .back-sectionOne{right: auto;left: -3rem;}
     .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 30px;}
     .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 30px;}
+    .about2 .about2Vision{margin-left: 0rem;margin-right: 8rem;}
+    .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 30px;}
 }
 @media (max-width:877.71px) {
+     .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{right: auto;}
     .section-one .back-sectionOne {right: auto;left: -8rem;}
+    .servicesSupplyS4 .box2-servicesSupplyS4{left: auto;right: 0}
+    .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 20px;}
 }
 @media (max-width:768px) {
-            .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 20px;}
-        .section-one .section-one-texts .logo-section1 {left: auto;right: -1rem; }
+    .energyDetails5 .energyDetails5-imgs{margin-left: 0;margin-right: auto;}
+    .energyDetails3 .fx-energyDetails3 .energyDetails3-imgs .solar-Energy{left: auto;right: 40%;}
+    .investmentServices .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 20px;}
+    .section-one .section-one-texts .logo-section1 {left: auto;right: -1rem; }
 }
 @media (max-width:614.4px) {
-    .section-one .section-one-texts,
     .section-one .section-one-video{padding-right: 0px;padding-left: 20px;}
     .section-one .back-sectionOne2{right: auto;left: 0;}
     .section-one .section-one-container{padding-right: 0;padding-left: 0;}
-        .investmentServicesS1 .InvestmentServices-detailsS1Image {right: auto;left:0;}
+    .investmentServicesS1 .InvestmentServices-detailsS1Image {right: auto;left:0;}
+    .about2 .about2Vision,
+    .about2 .about2Mission{ margin-right: 0rem}
+    .energy-four .fx-energy-four .energy-four-img{padding-left: 0rem;padding-right: 1rem;}
+    .about2 .about2Mission{padding-left: 0rem;}
+    .energyDetails5 .texts-section p{padding-left: 0px;padding-right: 16px};
+    .caseStudies-details ul{padding-left: 0px;padding-right: 20px;}
 }
 @media (max-width:512px) {
+       .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
 }

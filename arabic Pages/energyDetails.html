@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta</title>
+    <link rel="icon" href="../images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/energyDetailsPage.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/faq.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!---Arabic Style CSS-->
+    <link rel="stylesheet" href="../css/arabic lang/ar.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="../css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="../css/plyr/plyr.css">
+</head>
+
+<body class="bodyEnergyDetails">
+    <div class="navbar-mobile energy-navbar">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="../images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="../images/logo-white.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="../images/logo-white.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font ">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="style-font">Water</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="style-font active">Energy</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font">About</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header id="header" class="header-white">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="../images/logo-white.svg" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'" data-aos="zoom-in">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font ">Home</a>
+                        <a href="./water.html" class="style-font">Water</a>
+                        <a href="./energy.html" class="style-font active">Energy</a>
+                        <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                        <a href="./about.html" class="style-font">About</a>
+                    </div>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="energyDetails">
+            <div class="energyDetails-container px-90">
+                <img src="../images/etaEnergyLogo.svg" alt="eta Energy Logo" class="etaEnergyLogo">
+                <h3 class="color-yellow font-bold" data-aos="fade-up" data-aos-duration="500">Solar Energy</h3>
+                <h1 class="font-bold" data-aos="fade-up" data-aos-duration="500">Experience our revolutionary solar
+                    energy solutions.</h1>
+                <div class="energyDetails1">
+                    <div class="d-flex fx-energyDetails">
+                        <div class="energyDetails-part1 d-flex flex-column align-items-center">
+                            <h1 class="color-yellow font-bold text-center">10M+</h1>
+                            <h4 class="font-bold text-center">Worldwide product <br>
+                                sales per year</h4>
+                            <video controls crossorigin playsinline
+                                poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
+                                id="player">
+                                <!-- Video files -->
+                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+                                    type="video/mp4" size="576">
+                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+                                    type="video/mp4" size="720">
+                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+                                    type="video/mp4" size="1080">
+                                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4"
+                                    type="video/mp4" size="1440">
+
+                                <!-- Caption files -->
+                                <track kind="captions" label="English" srclang="en"
+                                    src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+                                    default>
+                                <track kind="captions" label="Français" srclang="fr"
+                                    src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+
+                                <!-- Fallback for browsers that don't support the <video> element -->
+                                <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+                                    download>Download</a>
+                            </video>
+                        </div>
+                        <div class="energyDetails-part2">
+                            <p class="mb-0 font-medium">Reducing carbon and costs while providing sustainable, reliable,
+                                and
+                                affordable power</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="energyDetails2">
+            <div class="energyDetails2-container px-90">
+                <div class="d-flex fx-energyDetails2">
+                    <div class="energyDetails2-texts">
+                        <h1 class="font-bold" data-aos="fade-up" data-aos-duration="500">The Friendliest Installers in
+                            the Gaza</h1>
+                        <p class="style-font" data-aos="fade-up" data-aos-duration="500">Quia aperiam hic possimus
+                            eveniet qui omnis ipsam. Aspernatur et quos
+                            delectus placeat id
+                            maiores maxime. Eligendi
+                            necessitatibus error. Eius dolores suscipit.
+                            <br><br>
+                            Iure ut itaque odio harum dolorem esse id unde. Velit rerum id praesentium nesciunt eum est
+                            iste. Reiciendis beatae quam
+                            et dolor aliquam temporibus quae libero. Nesciunt facilis iusto adipisci omnis doloremque
+                            similique. Fuga cumque qui
+                            quis eos numquam reprehenderit.
+                            <br><br>
+                            Minus optio dolor et asperiores consequatur. Animi dicta fugiat iusto pariatur quos nam
+                            eaque quisquam et. Omnis id
+                            aliquam. Ea dolorum corporis dolore sapiente quas iusto qui earum libero. Voluptatibus rerum
+                            eos et sunt illum.
+                        </p>
+                        <div class="d-flex flex-column list-energyDetails2">
+                            <div class="d-flex align-items-center item-energyDetails2">
+                                <span class="font-bold">01/</span>
+                                <h3 class="mb-0">Solar panel maintenance.</h3>
+                            </div>
+                            <div class="d-flex align-items-center item-energyDetails2">
+                                <span class="font-bold">02/</span>
+                                <h3 class="mb-0">Solar panel design and installation.</h3>
+                            </div>
+                            <div class="d-flex align-items-center item-energyDetails2">
+                                <span class="font-bold">03/</span>
+                                <h3 class="mb-0">Solar energy solutions for homes and businesses</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="energyDetails2-imgs">
+                        <img src="../images/energyDetails2Image.svg" alt="energy Details Image"
+                            class="energyDetails2Image">
+                        <div class="box-energyDetails2">
+                            <img src="../images/SolarCharging.svg" alt="Solar Charging">
+                            <p class="mb-0 style-font">The Piece That Sold Me On This <br> Polarizing Trend</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="energyDetails3">
+            <div class="energyDetails3-container px-90">
+                <div class="d-flex fx-energyDetails3">
+                    <div class="energyDetails3-imgs">
+                        <img src="../images/energyDetails3-img.svg" alt="energy Details img" class="energyDetails3-img">
+                        <img src="../images/energyDetails3-img2.svg" alt="energy Details img"
+                            class="energyDetails3-hidden">
+                        <div class="solar-Energy d-flex flex-column align-items-center">
+                            <img src="../images/energyWhiteCircle.svg" alt="energy White Circle"
+                                class="energyWhiteCircle">
+                            <h2 class="font-bold">Solar Energy</h2>
+                        </div>
+                    </div>
+                    <div class="energyDetails3-texts">
+                        <h1 class="subtitle-one font-medium" data-aos="fade-up" data-aos-duration="500">Decarbonization
+                            is mission,
+                            critical for the planet</h1>
+                        <button class="btn-yellow font-bold">Contact Us</button>
+                        <div class="d-flex fx-texts">
+                            <img src="../images/energyDetails3-img2.svg" alt="energy Details img"
+                                class="energyDetails3-img2">
+                            <p class="style-font mb-0">
+                                The global energy landscape will change more in the next 10 years than in the previous
+                                hundred. As the world’s energy
+                                sector moves away from fossil fuels toward renewable energy sources, industrial
+                                companies are challenged with addressing
+                                this transition in transformative ways. <br> <br>
+                                Renewable Energy harnesses the earth’s most abundant resources – the strength of the
+                                wind, the heat of the sun, ,and the
+                                force of water; delivering green electrons to power the world’s biggest economies and
+                                the most remote communities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="energyDetails4">
+            <div class="energyDetails4-container px-90">
+                <h1 class="subtitle-50px font-bold text-center" data-aos="fade-up" data-aos-duration="500">Our values
+                </h1>
+                <p class="p-head style-font text-center" data-aos="fade-up" data-aos-duration="500">More than 3000
+                    users have been helped by World Online Course.
+                </p>
+                <div class="d-flex fx-energyDetails4 fx-general-cards">
+                    <div class="cardValue fx-general-card-st">
+                        <img src="../images/OurValues1.svg" alt="Customer Care icon">
+                        <h2 class="mb-0">Customer Care</h2>
+                        <p class="style-font mb-0">We're here to help you with solar panel installation in Gaza. If we
+                            were
+                            to sum ourselves up
+                            in a few words, those would
+                            be "reliable, honest and friendly." We find our customers agree! We're with you from the
+                            start of the project to the
+                            finish.</p>
+                    </div>
+                    <div class="cardValue fx-general-card-st">
+                        <img src="../images/OurValues2.svg" alt="Price icon">
+                        <h2 class="mb-0">Price</h2>
+                        <p class="style-font mb-0">As I'm sure you'll have seen, solar systems don't tend to come cheap.
+                            Our aim is to make solar power accessible to
+                            everyone, so we price ourselves in a way that makes solar energy more affordable. We're
+                            focused on helping you and on
+                            helping the environment, rather than on turning a profit.</p>
+                    </div>
+                    <div class="cardValue fx-general-card-st">
+                        <img src="../images/OurValues3.svg" alt="Sustainability icon">
+                        <h2 class="mb-0">Sustainability</h2>
+                        <p class="style-font mb-0">As we've said, we do this because we truly care about the planet and
+                            about seeing people embrace a greener, more
+                            eco-friendly approach to power. The world of green energy can be jargon-filled and opaque,
+                            so we want to help educate
+                            people on the big and little things they can do to protect our planet!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="energyDetails5">
+            <div class="energyDetails5-container px-90">
+                <div class="d-flex fx-energyDetails5">
+                    <div class="energyDetails5-texts">
+                        <h4 class="font-medium text-uppercase color-yellow">our solution</h4>
+                        <div class="border"></div>
+                        <h1 class="subtitle-one font-medium" data-aos="fade-up" data-aos-duration="500">Powering A
+                            Sustainable and Profitable Energy Transition on
+                            Digital Solutions</h1>
+                        <a href="" class="d-flex align-items-center">
+                            <span class="font-bold">Contact Us</span>
+                            <img src="../images/arrow-energyDetails5.svg" alt="arrow" class="arrow-energyDetails5">
+                        </a>
+                    </div>
+                    <div class="energyDetails5-imgs">
+                        <img src="../images/energyDetails5-img1.svg" alt="" class="energyDetails-img1">
+                        <img src="../images/GridSolution.png" alt="" class="energyDetails5-img2">
+                        <img src="../images/energyDetails5-img3.svg" alt="" class="energyDetails5-img3">
+                        <img src="../images/energyDetails5-image.svg" alt="" class="energyDetails5-image">
+                    </div>
+                </div>
+                <div class="texts-section d-flex align-items-start justify-content-center flex-column">
+                    <p class="style-font mb-0">Decarbonization requires balance between legacy systems and emerging
+                        technologies. Between the
+                        environment and business
+                        economies.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="energyDetails6">
+            <div class="energyDetails6-container px-90">
+                <div class="d-flex justify-content-between energyDetails6-head">
+                    <div>
+                        <span class="font-bold text-uppercase color-yellow">Our Projects</span>
+                        <h1 class="font-bold" data-aos="fade-up" data-aos-duration="500">Our Recent Works</h1>
+                        <p class="style-font mb-0">Aliquet dignissim erat habitasse aliquet tincidunt phasellus
+                            ultrices. Aenean
+                            sed elit mattis
+                            sagittis id velit sed
+                            scelerisque.</p>
+                    </div>
+                    <button class="btn-yellow font-bold text-uppercase"
+                        onclick="window.location.href='energy.html'">More
+                        Projects</button>
+                </div>
+                <div class="d-flex box-energyDetails6">
+                    <div class="energyDetails6-part1 d-flex flex-column">
+                        <img src="../images/energyDetails6-image.svg" alt="image" class="energyDetails6-img">
+                        <div class="d-flex align-items-center fx-energyDetails6">
+                            <div class="energyDetails6-logo"><img src="../images/logo-white.svg" alt="logo white"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">100 KWP</h2>
+                                <p class="style-font mb-0 text-center">Power Output</p>
+                            </div>
+                            <div class="border"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">300 KWH</h2>
+                                <p class="style-font mb-0 text-center">Battery Capacity</p>
+                            </div>
+                            <div class="border"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">120 KW</h2>
+                                <p class="style-font mb-0 text-center">Capacity</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="energyDetails6-part2">
+                        <span class="text-uppercase font-medium color-yellow">Off-Grid Systems</span>
+                        <h1 class="font-bold">Emei Solar Panel Station 2020</h1>
+                        <p class="style-font p1">Aliquet dignissim erat habitasse aliquet tincidunt phasellus ultrices.
+                        </p>
+                        <div class="d-flex flex-column list-part2">
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-location.svg" alt="location icon">
+                                <span class="style-font">Location : Gaza</span>
+                            </div>
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-area.svg" alt="area icon">
+                                <span class="style-font">Total Area : 500 square meters</span>
+                            </div>
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-client.svg" alt="clients icon">
+                                <span class="style-font">Client : CHN Company</span>
+                            </div>
+                        </div>
+                        <p class="style-font p2">Aliquet dignissim erat habitasse aliquet tincidunt phasellus ultrices.
+                        </p>
+                        <a href="" class="font-bold color-yellow text-uppercase">Case Studies</a>
+                    </div>
+                </div>
+                <div class="d-flex box-energyDetails6 mb-0">
+                    <div class="energyDetails6-part2">
+                        <span class="text-uppercase font-medium color-yellow">Grid-tied Systems</span>
+                        <h1 class="font-bold">Graciela Roof Solar Panel 2021</h1>
+                        <p class="style-font p1">Aliquet dignissim erat habitasse aliquet tincidunt phasellus ultrices.
+                        </p>
+                        <div class="d-flex flex-column list-part2">
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-location.svg" alt="location icon">
+                                <span class="style-font">Location : Gaza</span>
+                            </div>
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-area.svg" alt="area icon">
+                                <span class="style-font">Total Area : 50 square meters</span>
+                            </div>
+                            <div class="d-flex align-items-center fx-textPart2">
+                                <img src="../images/energyDetails6-client.svg" alt="clients icon">
+                                <span class="style-font">Client : Graciela Messer</span>
+                            </div>
+                        </div>
+                        <p class="style-font p2">Aliquet dignissim erat habitasse aliquet tincidunt phasellus ultrices.
+                        </p>
+                        <a href="" class="font-bold color-yellow text-uppercase">Case Studies</a>
+                    </div>
+                    <div class="energyDetails6-part1 d-flex flex-column">
+                        <img src="../images/energyDetails6-image.svg" alt="image" class="energyDetails6-img">
+                        <div class="d-flex align-items-center fx-energyDetails6">
+                            <div class="energyDetails6-logo"><img src="../images/logo-white.svg" alt="logo white"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">100 KWP</h2>
+                                <p class="style-font mb-0 text-center">Power Output</p>
+                            </div>
+                            <div class="border"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">300 KWH</h2>
+                                <p class="style-font mb-0 text-center">Battery Capacity</p>
+                            </div>
+                            <div class="border"></div>
+                            <div class="d-flex flex-column fx-numbers">
+                                <h2 class="font-bold text-center">120 KW</h2>
+                                <p class="style-font mb-0 text-center">Capacity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" section-faq2">
+            <div class="faq-container">
+                <span class="text-center font-bold color-yellow">FAQ’S_Water Product</span>
+                <h1 class="font-bold subtitle-one text-center">Frequently asked questions</h1>
+                <div class="list-faq-items">
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="1">
+                            Which pricing plan is right for me? <img src="../images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="1">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="2">
+                            How does our pricing work? <img src="../images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="2">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="3">
+                            What if I change my mind?<img src="../images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="3">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="4">
+                            Do you offer any discounted plans? <img src="../images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="4">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="5">
+                            What payment methods do you accept? <img src="../images/arrow-faq.svg" alt="arrow"
+                                class="icon">
+                        </div>
+                        <div class="faq-content" data-index="5">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="6">
+                            Does TechZone offer plans to nonprofits and NGOs? <img src="../images/arrow-faq.svg"
+                                alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="6">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="7">
+                            How can I manage my billing? <img src="../images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="7">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-title" data-index="8">
+                            Can I change my plan? <img src="../images/arrow-faq.svg" alt="arrow" class="icon">
+                        </div>
+                        <div class="faq-content" data-index="8">
+                            <p>We understand that each organization is unique, requiring specific
+                                features to support
+                                its workflows and projects. Above
+                                you can see the features included in the different plans to support your
+                                needs. If you
+                                need help in choosing the right
+                                plan for you, reach out to our sales team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="../images/footer-logo.png" alt="logo" class="footer-logo">
+                    <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" class="style-font">
+                            <button type="submit" class="btn-footer font-medium">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                        cutting-edge solutions for
+                        your energy and water
+                        requirements. Join us on social media for the latest updates and insights.
+                    </p>
+                    <div class="d-flex fx-images">
+                        <a href=""><img src="../images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href=""><img src="../images/x-icon.svg" alt="x icon"></a>
+                        <a href=""><img src="../images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a href=""><img src="../images/instgran-icon.svg" alt="instgran icon"></a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Explore More</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Home</a>
+                        <a href="" class="style-font">Library Media</a>
+                        <a href="" class="style-font">Case Studies</a>
+                        <a href="" class="style-font">About</a>
+                        <a href="" class="style-font">Files Download</a>
+                        <a href="" class="style-font">Quality & Certifications</a>
+                        <a href="" class="style-font">blog</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Division Water</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Production Water</a>
+                        <a href="" class="style-font">Distribution Water</a>
+                        <a href="" class="style-font">Construction Plants Water</a>
+                        <a href="" class="style-font">Swimming Pool Construction</a>
+                        <a href="" class="style-font">Infrastructure Water</a>
+                        <a href="" class="style-font">Treatment Water</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2  fx-general-card-st">
+                    <h5 class="font-bold">Division Energy</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Energy Solar</a>
+                        <a href="" class="style-font">Solutions Energy Renewable</a>
+                        <a href="" class="style-font">Contracting Electrical</a>
+                        <a href="" class="style-font">Division Manufacturing</a>
+                        <a href="" class="style-font">Structures Metal</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                    <div class="d-flex flex-column gap-divs-footer">
+                        <div>
+                            <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Investments Local</a>
+                                <a href="" class="style-font">Investments Global</a>
+                                <a href="" class="style-font">Management Asset</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Equipment Industrial</a>
+                                <a href="" class="style-font">Services Logistics</a>
+                                <a href="" class="style-font">Division Agriculture</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Jquery Library -->
+    <script src="../js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="../js/slick slider/slick.min.js"></script>
+    <script src="../js/slick slider/slick-animation.min.js"></script>
+    <script src="../js/slick slider/slick.js"></script>
+    <!--Navbar JS-->
+    <script src="../js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--FAQs JS-->
+    <script src="../js/dropdowns/dropdown-faq2.js"></script>
+    <!--Plyr JS-->
+    <script src="../js/plyr/plyr.js"></script>
+    <script src="../js/plyr/codePlyr.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta</title>
+    <link rel="icon" href="../images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/caseStudies.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!---Arabic Style CSS-->
+    <link rel="stylesheet" href="../css/arabic lang/ar.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="../css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="../css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="../css/plyr/plyr.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="../images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="../images/Eta-logo.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="../images/logo-white.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="style-font ">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="style-font">Water</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="style-font">Energy</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="style-font active">Case Studies</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                    <div class="border"></div>
+                    <a href="./about.html" class="style-font">About</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="../images/Eta-logo.svg" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font ">Home</a>
+                        <a href="./water.html" class="style-font ">Water</a>
+                        <a href="./energy.html" class="style-font">Energy</a>
+                        <a href="./caseStudies.html" class="style-font active">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                        <a href="./about.html" class="style-font">About</a>
+                    </div>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="caseStudies-one">
+            <img src="../images/line-curve.svg" alt="line dash curve" class="line-curve">
+            <div class="caseStudies-one-container">
+                <div class="d-flex fx-caseStudies">
+                    <div class="texts-caseStudies d-flex flex-column align-items-start justify-content-center">
+                        <div class="d-flex head-caseStudies">
+                            <span class="font-bold">Case Studies</span>
+                            <img src="../images/line-blue.svg" alt="line blue">
+                        </div>
+                        <h1 class="font-bold text-capitalize" id="animated-text"></h1>
+                        <button class="btn-outline-blue font-bold">Contact Us</button>
+                    </div>
+                    <div class=" img-caseStudies">
+                        <img src="../images/case-studies1.png" alt="case studies image" class="img-caseStudies-one">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="section-three-container px-90">
+                <div class="d-flex justify-content-between  fx-head-title">
+                    <div class="head-title">
+                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">Our projects</h1>
+                        <p class="style-font subtitle-two mb-0">Cras imperdiet est eget nulla fringilla, sit amet
+                            volutpat sem tristique. Pellentesque quis augue ac mauris posuere
+                            vehicula.</p>
+                    </div>
+                    <button class="btn-outline-blue">
+                        <span class="font-bold">View all projects</span>
+                        <img src="../images/ArrowRightBlue2.svg" alt="Arrow Right Blue">
+                    </button>
+                </div>
+                <div class="d-flex fx-general-cards fx-section-three" data-aos="zoom-in">
+                    <div class="card-portfolio fx-general-card-st">
+                        <img src="../images/portfolio1.png" alt="image portfolio" class="img-portfolio">
+                        <div class=" card-portfolio-texts">
+                            <h2 class="font-medium">Implementation of a new project for Al_Aqsa Hospital</h2>
+                            <p class="style-font public-p">Division Energy</p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">View Case Study</span>
+                                <img src="../images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-portfolio fx-general-card-st">
+                        <img src="../images/portfolio2.png" alt="image portfolio" class="img-portfolio">
+                        <div class=" card-portfolio-texts">
+                            <h2 class="font-medium">Equipping mobile rooms</h2>
+                            <p class="style-font public-p">Services Supply & Wholesale</p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">View Case Study</span>
+                                <img src="../images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-portfolio fx-general-card-st">
+                        <img src="../images/portfolio3.png" alt="image portfolio" class="img-portfolio">
+                        <div class=" card-portfolio-texts">
+                            <h2 class="font-medium">Implementation of a new project</h2>
+                            <p class="style-font public-p">Division Water</p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">View Case Study</span>
+                                <img src="../images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-portfolio fx-general-card-st">
+                        <img src="../images/portfolio4.png" alt="image portfolio" class="img-portfolio">
+                        <div class=" card-portfolio-texts">
+                            <h2 class="font-medium">Implementing a water desalination project for Doctors Without
+                                Borders.</h2>
+                            <p class="style-font public-p">Division Water</p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">View Case Study</span>
+                                <img src="../images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-six">
+            <div class="section-six-container px-90">
+                <div class="d-flex justify-content-between align-items-end  fx-head-title">
+                    <div class="head-title">
+                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">What client says</h1>
+                        <p class="style-font subtitle-two mb-0">Excepturi facere recusandae asperiores. Est
+                            reprehenderit eum aut quae ad quibusdam velit qui consequatur.</p>
+                    </div>
+                    <div class="arrow-slider">
+                        <div class="arrow-sliderImg arrow-sliderImgLeft"><img src="../images/ArrowLeft.svg"
+                                alt="ArrowLeft" class="ArrowLeftClient"></div>
+                        <div class="arrow-sliderImg arrow-sliderImgRight"><img src="../images/ArrowLeft.svg"
+                                alt="ArrowRight" class="ArrowRightClient"></div>
+                    </div>
+                </div>
+                <div class="sliderClients">
+                    <div class="slide">
+                        <div class="card-client d-flex flex-column backColor1">
+                            <div class="d-flex fx-card-client">
+                                <img src="../images/Bg.png" alt="client" class="img-client">
+                                <div class="card-client-texts">
+                                    <h4 class="font-medium">Annette Black</h4>
+                                    <p class="style-font mb-0">Chief Chairman of <span
+                                            class="font-medium">Netflix</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="style-font card-text mb-0">"I've been working with ETA on multiple renewable
+                                energy
+                                projects, and
+                                I've been consistently
+                                impressed with their
+                                expertise and professionalism. Their engineers are highly skilled and always find
+                                innovative
+                                solutions to our
+                                challenges. The desalination plant they installed for us has significantly improved our
+                                water
+                                supply and reduced our
+                                environmental impact."</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-client d-flex flex-column backColor2">
+                            <div class="d-flex fx-card-client">
+                                <img src="../images/Bg.png" alt="client" class="img-client">
+                                <div class="card-client-texts">
+                                    <h4 class="font-medium">Annette Black</h4>
+                                    <p class="style-font mb-0">Chief Chairman of <span
+                                            class="font-medium">Netflix</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="style-font card-text mb-0">"I've been working with ETA on multiple renewable
+                                energy
+                                projects, and
+                                I've been consistently
+                                impressed with their
+                                expertise and professionalism. Their engineers are highly skilled and always find
+                                innovative
+                                solutions to our
+                                challenges. The desalination plant they installed for us has significantly improved our
+                                water
+                                supply and reduced our
+                                environmental impact."</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-client d-flex flex-column backColor3">
+                            <div class="d-flex fx-card-client">
+                                <img src="../images/Bg.png" alt="client" class="img-client">
+                                <div class="card-client-texts">
+                                    <h4 class="font-medium">Annette Black</h4>
+                                    <p class="style-font mb-0">Chief Chairman of <span
+                                            class="font-medium">Netflix</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="style-font card-text mb-0">"I've been working with ETA on multiple renewable
+                                energy
+                                projects, and
+                                I've been consistently
+                                impressed with their
+                                expertise and professionalism. Their engineers are highly skilled and always find
+                                innovative
+                                solutions to our
+                                challenges. The desalination plant they installed for us has significantly improved our
+                                water
+                                supply and reduced our
+                                environmental impact."</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-client d-flex flex-column backColor4">
+                            <div class="d-flex fx-card-client">
+                                <img src="../images/Bg.png" alt="client" class="img-client">
+                                <div class="card-client-texts">
+                                    <h4 class="font-medium">Annette Black</h4>
+                                    <p class="style-font mb-0">Chief Chairman of <span
+                                            class="font-medium">Netflix</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="style-font card-text mb-0">"I've been working with ETA on multiple renewable
+                                energy
+                                projects, and
+                                I've been consistently
+                                impressed with their
+                                expertise and professionalism. Their engineers are highly skilled and always find
+                                innovative
+                                solutions to our
+                                challenges. The desalination plant they installed for us has significantly improved our
+                                water
+                                supply and reduced our
+                                environmental impact."</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-client d-flex flex-column backColor5">
+                            <div class="d-flex fx-card-client">
+                                <img src="../images/Bg.png" alt="client" class="img-client">
+                                <div class="card-client-texts">
+                                    <h4 class="font-medium">Annette Black</h4>
+                                    <p class="style-font mb-0">Chief Chairman of <span
+                                            class="font-medium">Netflix</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="style-font card-text mb-0">"I've been working with ETA on multiple renewable
+                                energy
+                                projects, and
+                                I've been consistently
+                                impressed with their
+                                expertise and professionalism. Their engineers are highly skilled and always find
+                                innovative
+                                solutions to our
+                                challenges. The desalination plant they installed for us has significantly improved our
+                                water
+                                supply and reduced our
+                                environmental impact."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="../images/footer-logo.png" alt="logo" class="footer-logo">
+                    <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" class="style-font">
+                            <button type="submit" class="btn-footer font-medium">Subscribe</button>
+                        </div>
+                    </form>
+                    <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                        cutting-edge solutions for
+                        your energy and water
+                        requirements. Join us on social media for the latest updates and insights.
+                    </p>
+                    <div class="d-flex fx-images">
+                        <a href=""><img src="../images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href=""><img src="../images/x-icon.svg" alt="x icon"></a>
+                        <a href=""><img src="../images/youtube-icon.svg" alt="youtube icon"></a>
+                        <a href=""><img src="../images/instgran-icon.svg" alt="instgran icon"></a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Explore More</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Home</a>
+                        <a href="" class="style-font">Library Media</a>
+                        <a href="" class="style-font">Case Studies</a>
+                        <a href="" class="style-font">About</a>
+                        <a href="" class="style-font">Files Download</a>
+                        <a href="" class="style-font">Quality & Certifications</a>
+                        <a href="" class="style-font">blog</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 fx-general-card-st">
+                    <h5 class="font-bold">Division Water</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Production Water</a>
+                        <a href="" class="style-font">Distribution Water</a>
+                        <a href="" class="style-font">Construction Plants Water</a>
+                        <a href="" class="style-font">Swimming Pool Construction</a>
+                        <a href="" class="style-font">Infrastructure Water</a>
+                        <a href="" class="style-font">Treatment Water</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2  fx-general-card-st">
+                    <h5 class="font-bold">Division Energy</h5>
+                    <div class="fx-footer-links">
+                        <a href="" class="style-font">Energy Solar</a>
+                        <a href="" class="style-font">Solutions Energy Renewable</a>
+                        <a href="" class="style-font">Contracting Electrical</a>
+                        <a href="" class="style-font">Division Manufacturing</a>
+                        <a href="" class="style-font">Structures Metal</a>
+                    </div>
+                </div>
+                <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                    <div class="d-flex flex-column gap-divs-footer">
+                        <div>
+                            <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Investments Local</a>
+                                <a href="" class="style-font">Investments Global</a>
+                                <a href="" class="style-font">Management Asset</a>
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Equipment Industrial</a>
+                                <a href="" class="style-font">Services Logistics</a>
+                                <a href="" class="style-font">Division Agriculture</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src="../js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="../js/slick slider/slick.min.js"></script>
+    <script src="../js/slick slider/slick-animation.min.js"></script>
+    <script src="../js/slick slider/slick.js"></script>
+    <!-- Landing Page -->
+    <script src="../js/landingPage.js"></script>
+    <!--Navbar JS-->
+    <script src="../js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Plyr JS-->
+    <script src="../js/plyr/plyr.js"></script>
+    <script src="../js/plyr/codePlyr.js"></script>
+    <script>
+        const textContent = `See how we revolutionized the industry`;
+
+        const element = document.getElementById("animated-text");
+        let index = 0;
+
+        function typeWriter() {
+            if (index < textContent.length) {
+                element.innerHTML += textContent[index] === "\n" ? "<br>" : textContent[index];
+                index++;
+                setTimeout(typeWriter, 50);
+            }
+        }
+
+        typeWriter();
+    </script>
+</body>
+
+</html>
