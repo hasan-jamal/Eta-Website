@@ -23,8 +23,20 @@
   src: url(../fonts/PlusJakartaSans[wght].ttf);
 }
 @font-face {
+  font-family: 'Tajawal Bold';
+  src: url(../fonts/Tajawal/Tajawal-Bold.ttf);
+}
+@font-face {
   font-family: 'Tajawal';
-  src: url(../fonts/Tajawal.ttf);
+  src: url(../fonts/Tajawal/Tajawal-Regular.ttf);
+} 
+@font-face {
+  font-family: 'Tajawal ExtraBold';
+  src: url(../fonts/Tajawal/Tajawal-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'Tajawal Medium';
+  src: url(../fonts/Tajawal/Tajawal-Medium.ttf);
 }
 :root {
   --font-size-143: 143px;

@@ -12,23 +12,25 @@
 .btn-outline-blue img,.details-item-container .fx-links-details img{
     transform: rotate(180deg);
 }
+.section-one .section-one-texts h1{line-height: 120%;}
 .arrow-slider,.energy-six .arrows-sliderEnergy{direction: ltr;}
 .energy-six .arrows-sliderEnergy{justify-content: end;}
 .energy-six .fx-energy-six .energy-six-texts .style-texts{border-right: 3px solid #FFB600;box-shadow: none;}
 .font-ExtraBold{   
-    font-family: 'Tajawal' !important;
+    font-family: 'Tajawal ' !important;
     font-weight:800 !important;
 }
 .font-bold{
-    font-family: 'Tajawal' !important;
+    font-family: 'Tajawal Bold' !important;
     font-weight: 700 !important;
 }
+.font-ExtraBold{font-family: 'Tajawal ExtraBold';}
 .font-semiBold{
     font-family: 'Tajawal' !important;
     font-weight: 600 !important;
 }
 .font-medium{
-    font-family: 'Tajawal' !important;
+    font-family: 'Tajawal Medium' !important;
     font-weight: 500 !important;
 }
 .style-font{
