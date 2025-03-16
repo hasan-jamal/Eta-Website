@@ -200,6 +200,7 @@
     .caseStudiesDetails p{width: 100%;}
     .caseStudiesDetails{padding-top: 1rem;}
     .caseStudiesDetails .companyLogo{width: 50%;}
+    .caseStudiesDetails .plyr--video{border-radius: 10px;}
 }
 /* Case Studies Details 2 */
 .caseStudiesDetails2{
