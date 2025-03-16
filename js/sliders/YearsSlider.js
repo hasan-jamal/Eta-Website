@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setActive(nextYear);
   }
 
-  function startAutoPlay(interval = 2000) {
+  function startAutoPlay(interval = 3000) {
     autoPlayInterval = setInterval(nextYear, interval);
   }
 

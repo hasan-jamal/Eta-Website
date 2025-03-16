@@ -603,16 +603,24 @@
     max-width: calc(22% - 0px);
 }
 .section-five .card-team-abs .image-person{
-  border-radius: 10px;
+  border-radius: 50%;
   margin-bottom: 4px;
-  width: 90%;
+  width: 60%;
   height: 130px;
+  object-fit: cover;
 }
 .section-five .card-team-abs h3{font-size: 22px;}
 .section-five .card-team-abs p{font-size: 1.1rem;}
 .section-five .card-team-abs .fx-card-links{margin-top: 16px;padding-top: 16px;}
 @media (min-width:1706.67px) {
     .section-five .section-five-container{width: 80%;}
+    .section-five .card-team-abs .image-person{height: 150px;}
+}
+@media (min-width:1920px) {
+    .section-five .card-team-abs .image-person{height: 160px;}
+}
+@media (min-width:2048px) {
+    .section-five .card-team-abs .image-person{height: 180px;}
 }
 @media (max-width:1396.36px) {
     .section-five .section-five-container{width: 85%;}
@@ -654,7 +662,6 @@
 }
 @media (max-width:614.4px) {
     .section-five-container{padding: 0 20px;}
-
     .section-five .fx-head{flex-direction: column;}
     .section-five .fx-head .card-team-abs{max-width: calc(90% - 0px);}
      .section-five .section-five-container,
@@ -683,6 +690,7 @@
             width: 35px;
             padding: 0px;
      }
+     .section-five .card-team-abs .image-person{height: 100px;}
 }
 /* Section Six */
 .section-six{margin-bottom: 50px;}

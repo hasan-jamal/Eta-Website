@@ -248,7 +248,6 @@ section{position: relative;}
     box-sizing: border-box;
     width: max-content;
     transition: 0.3s; 
-    cursor: pointer;
 }
 .subtitle-one{
   color: #061C3D;
