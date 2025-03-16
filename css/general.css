@@ -38,6 +38,27 @@
   font-family: 'Tajawal Medium';
   src: url(../fonts/Tajawal/Tajawal-Medium.ttf);
 }
+@font-face {
+  font-family: 'SegoeUI Bold';
+  src: url(../fonts/segoeui/SegoeUIBold.ttf);
+}
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/segoeui/SegoeUI.ttf);
+}
+@font-face {
+  font-family: 'GE SS Two';
+  src: url(../fonts/geSsTwo/ArbFONTS-GE-SS-Two-Light_28.otf);
+}
+@font-face {
+  font-family: 'GE SS Two Bold';
+  src: url(../fonts/geSsTwo/ArbFONTS-GE_SS_Two_Bold_4.otf);
+}
+@font-face {
+  font-family: 'GE SS Two Medium';
+  src: url(../fonts/geSsTwo/ArbFONTS-GE_SS_TWO_MEDIUM_5.otf);
+}
+
 :root {
   --font-size-143: 143px;
   --line-height-110:110px;
@@ -109,6 +130,14 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
     .px-120{padding: 0 20px;}
     .px-100{padding: 0 20px;}
     .px-90{padding: 0 20px;}
+}
+section{position: relative;}
+.grid-Header{
+  position: absolute;
+  left: 50%;
+  top: -8rem;
+  transform: translate(-50%,0);
+  opacity: 0.5;
 }
 .pre-whiteSpace{white-space: pre;}
 .btn-blue{
@@ -205,7 +234,9 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
       gap: 4px;
       font-size: 16px;
   }
+
 }
+@media (max-width:512px) {  .grid-Header{width: 100%;top: 0;}}
 .fx-general-cards {
     display: flex;
     align-items: start;
@@ -453,7 +484,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 
 
 @media (min-width:1706.67px) {
-
+  
 }
 @media (min-width:1920px) {
 

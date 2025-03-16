@@ -17,24 +17,24 @@
 .energy-six .arrows-sliderEnergy{justify-content: end;}
 .energy-six .fx-energy-six .energy-six-texts .style-texts{border-right: 3px solid #FFB600;box-shadow: none;}
 .font-ExtraBold{   
-    font-family: 'Tajawal ' !important;
+    font-family: 'SegoeUI Bold ' !important;
     font-weight:800 !important;
 }
 .font-bold{
-    font-family: 'Tajawal Bold' !important;
+    font-family: 'GE SS Two Bold' !important;
     font-weight: 700 !important;
 }
 .font-ExtraBold{font-family: 'Tajawal ExtraBold';}
 .font-semiBold{
-    font-family: 'Tajawal' !important;
+    font-family: 'SegoeUI' !important;
     font-weight: 600 !important;
 }
 .font-medium{
-    font-family: 'Tajawal Medium' !important;
+    font-family: 'SegoeUI Medium' !important;
     font-weight: 500 !important;
 }
 .style-font{
-    font-family: 'Tajawal' !important;
+    font-family: 'SegoeUI' !important;
     font-weight: 400 !important;
 }
 
