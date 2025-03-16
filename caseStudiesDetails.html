@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
     <!-- AOS Animation CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
 </head>
 
 <body>
@@ -101,7 +103,29 @@
                     European Hospital. This project was funded by the International Committee of the Red Cross,
                     reaffirming our role in
                     supporting the local healthcare sector.</p>
-                <img src="./images/image-min.png" alt="case Studies image" class="w-100 caseStudies-image">
+                <!-- <img src="./images/image-min.png" alt="case Studies image" class="w-100 caseStudies-image"> -->
+                <video controls crossorigin playsinline
+                    poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
+                    <!-- Video files -->
+                    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+                        type="video/mp4" size="576">
+                    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
+                        type="video/mp4" size="720">
+                    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
+                        type="video/mp4" size="1080">
+                    <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4"
+                        type="video/mp4" size="1440">
+
+                    <!-- Caption files -->
+                    <track kind="captions" label="English" srclang="en"
+                        src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
+                    <track kind="captions" label="Français" srclang="fr"
+                        src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+
+                    <!-- Fallback for browsers that don't support the <video> element -->
+                    <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
+                        download>Download</a>
+                </video>
             </div>
         </section>
         <section class="caseStudiesDetails2">
@@ -321,7 +345,9 @@
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
-
+    <!--Plyr JS-->
+    <script src="./js/plyr/plyr.js"></script>
+    <script src="./js/plyr/codePlyr.js"></script>
 </body>
 
 </html>
