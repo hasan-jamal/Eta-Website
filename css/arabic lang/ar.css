@@ -75,11 +75,13 @@
 .energyDetails5 .texts-section p{padding-right: 40px;padding-left: 0px;border-left: none;border-right: 1px solid #fff;}
 .energyDetails5 .energyDetails5-imgs .energyDetails-img1,
 .energyDetails5 .energyDetails5-imgs .energyDetails5-img2{left: 0;right: auto;}
+.gridHeader{ left: auto;right: -10rem;}
+.section-six .gridHeader,.section-four .gridHeader{left: auto;right: -12rem;}
 @media (min-width:1706.67px) {
-
+  .gridHeader{left: auto;right: -12rem;}
 }
 @media (min-width:1920px) {
-
+  .gridHeader{left: auto;right: -15rem;}
 }
 @media (min-width:2048px) {
 
@@ -135,6 +137,7 @@
     .about2 .about2Mission{padding-left: 0rem;}
     .energyDetails5 .texts-section p{padding-left: 0px;padding-right: 16px};
     .caseStudies-details ul{padding-left: 0px;padding-right: 20px;}
+    .gridHeader{left: auto;right: -5rem;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
