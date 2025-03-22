@@ -276,7 +276,7 @@ section{position: relative;}
   font-size: 21px;
   line-height: 200%; 
 }
-.head-title h1 {margin-bottom: 24px;width: 60%;}
+.head-title h1 {margin-bottom: 24px;width: max-content;}
 @media (min-width:1706.67px) {
   .subtitle-one{font-size: 62px;margin-bottom: 32px;line-height: 72px;}
   .subtitle-two{font-size: 21px;line-height: 32px;}
@@ -414,12 +414,22 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 .pagination button.active{
   border: 1px solid #00CFFF;
 }
+.gridHeader{
+  position: absolute;
+  top: -10rem;
+  left: -10rem;
+  opacity: 0.5;
+  width:55%;
+}
+.section-six .gridHeader,.section-four .gridHeader{top: -15rem;left: -12rem;}
 @media (min-width:1706.67px) {
   .pagination button{width: 60px;height: 60px;font-size: 22px;}
   .btn-blue{height: 65px;font-size: 23px; padding: 0 32px;}
   .href-a img{width: 30px;}
   .public-p{font-size: 16px;margin-bottom: 32px;}
   .href-a span{font-size: 1.1rem;}
+  .gridHeader{top: -12rem;left: -12rem;}
+  .section-six .gridHeader{top: -17rem;}
 }
 @media (min-width:1920px) {
   .btn-blue{height: 75px;font-size: 26px;padding: 0 40px;}
@@ -428,15 +438,19 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   .arrow-slider .arrow-sliderImg{padding: 25px;}
   .arrow-slider .arrow-sliderImg img{width: 25px;}
   .pagination button{width: 70px;height: 70px;font-size: 25px;}
+  .gridHeader{top: -15rem;left: -15rem;}
+  .section-six .gridHeader,
+  .section-four .gridHeader{top: -19rem;}
 }
 @media (min-width:2304px) {
-    
+  .section-six .gridHeader,
+  .section-four .gridHeader{top: -22rem;}
 }
 @media (min-width:2048px) { 
   html{  width: 2100px;margin: auto;}
 }
 @media (max-width:1396.36px) {
-    
+  
 }
 @media (max-width:1228.8px) {
   .btn-blue{padding: 0 15px; height: 42px;font-size: 16px;}
@@ -446,22 +460,27 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   .btn-seeMore{width: 220px;height: 50px;font-size: 17px;}
   .pagination button{width: 40px;height: 40px;font-size: 18px;}
   .pagination button img{width: 8px;}
+    .gridHeader{top: -5rem;}
 }
 @media (max-width:1024px) {
   .href-a span{font-size: 0.8rem}
   .public-p{font-size: 12px;margin-bottom: 14px;line-height: 20px;}
   .btn-seeMore{width: 180px;height: 45px;font-size: 15px;}
+    .gridHeader{top: -3rem;}
 }
 @media (max-width:877.71px) {
   .btn-blue{height: 35px;font-size: 14px;}
 }
 @media (max-width:768px) {
-    
+  .gridHeader{top: -1rem;left: -5rem;}
 }
 @media (max-width:614.4px) {
   .btn-blue{height: 45px;font-size: 17px;padding: 0 20px;}
   .href-a span{font-size: 1rem}
   .btn-seeMore{width: 150px;}
+  .gridHeader{top: -1rem;width: 100%;left: -5rem;}
+  .section-four .gridHeader,
+   .section-six .gridHeader{top: -5rem;}
 }
 @media (max-width:512px) {
   .fx-head-title{flex-direction: column; gap: 24px;align-items: start;}

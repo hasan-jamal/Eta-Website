@@ -943,7 +943,7 @@
 .section-eight .section-eight-images{display: flex;align-items: center;justify-content: center;flex-direction: column;}
 }
 @media (min-width:1920px) {
-    .section-eight .section-eight-texts h1{font-size: 60px;margin-bottom: 32px;}
+    .section-eight .section-eight-texts h1{font-size: 60px;margin-bottom: 32px;line-height: 75px;}
     .section-eight .section-eight-texts p{font-size: 19px;}
     .section-eight .section-eight-texts .fx-subTitles span{font-size: 21px;}
     .section-eight .section-eight-texts .fx-head-about span{font-size: 17px;}
