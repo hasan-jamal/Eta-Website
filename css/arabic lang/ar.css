@@ -17,7 +17,7 @@
 .energy-six .arrows-sliderEnergy{justify-content: end;}
 .energy-six .fx-energy-six .energy-six-texts .style-texts{border-right: 3px solid #FFB600;box-shadow: none;}
 .font-ExtraBold{   
-    font-family: 'SegoeUI Bold ' !important;
+    font-family: 'GE SS Two Bold ' !important;
     font-weight:800 !important;
 }
 .font-bold{
@@ -26,15 +26,15 @@
 }
 .font-ExtraBold{font-family: 'Tajawal ExtraBold';}
 .font-semiBold{
-    font-family: 'SegoeUI' !important;
+    font-family: 'GE SS Two' !important;
     font-weight: 600 !important;
 }
-.font-medium{
-    font-family: 'SegoeUI Medium' !important;
+.font-medium,.section-faq2 .faq-title{
+    font-family: 'GE SS Two' !important;
     font-weight: 500 !important;
 }
-.style-font{
-    font-family: 'SegoeUI' !important;
+.style-font,.section-faq2 .faq-content p,.section-one .section-one-texts p{
+    font-family: 'GE SS Two' !important;
     font-weight: 400 !important;
 }
 
@@ -77,6 +77,8 @@
 .energyDetails5 .energyDetails5-imgs .energyDetails5-img2{left: 0;right: auto;}
 .gridHeader{ left: auto;right: -10rem;}
 .section-six .gridHeader,.section-four .gridHeader{left: auto;right: -12rem;}
+.about4 .list-locations .box-location img{transform: rotate(180deg);}
+.about4 .list-locations .box-location .fx-pathLocation img{transform: rotate(0);}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
