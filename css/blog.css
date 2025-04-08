@@ -368,10 +368,6 @@
     .blogPage .box-blog button{width: 140px;height: 50px;}
     .blogPage .box-blog p{
         margin-bottom: 20px;    
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
     .blogDetailsPage .fx-blogPage .blogPage-part2{width: 100%;}
     .blogPage .fx-benefits{gap: 20px;flex-direction: column;}
