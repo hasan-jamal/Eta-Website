@@ -17,24 +17,24 @@
 .energy-six .arrows-sliderEnergy{justify-content: end;}
 .energy-six .fx-energy-six .energy-six-texts .style-texts{border-right: 3px solid #FFB600;box-shadow: none;}
 .font-ExtraBold{   
-    font-family: 'GE SS Two Bold ' !important;
+    font-family: "Rubik", sans-serif !important;
     font-weight:800 !important;
 }
 .font-bold{
-    font-family: 'GE SS Two Bold' !important;
+     font-family: "Rubik", sans-serif !important;
     font-weight: 700 !important;
 }
-.font-ExtraBold{font-family: 'Tajawal ExtraBold';}
+.font-ExtraBold{     font-family: "Rubik", sans-serif !important; font-weight: 800;}
 .font-semiBold{
-    font-family: 'GE SS Two' !important;
+      font-family: "Rubik", sans-serif !important;
     font-weight: 600 !important;
 }
 .font-medium,.section-faq2 .faq-title{
-    font-family: 'GE SS Two' !important;
+      font-family: "Rubik", sans-serif !important;
     font-weight: 500 !important;
 }
 .style-font,.section-faq2 .faq-content p,.section-one .section-one-texts p,.blogPage .box-blog p,.blogPage .box-blog p span,.blogPage .AddComment p{
-    font-family: 'GE SS Two' !important;
+     font-family: "Rubik", sans-serif !important;
     font-weight: 400 !important;
 }
 
