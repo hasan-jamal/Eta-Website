@@ -81,6 +81,7 @@
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts .fxImage button{transform: rotate(180deg);}
 .about4 .list-locations .box-location .fx-pathLocation img{transform: rotate(0);}
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin: 8px 0;}
+.section-two .section-two-cards .card-feature{right: 0% !important;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }

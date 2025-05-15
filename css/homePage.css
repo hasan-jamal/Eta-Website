@@ -333,6 +333,7 @@
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts p{font-size: 14px;line-height: 133%;}
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{font-size: 17px;}
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts span{padding-bottom: 0px;}
+    .section-three{margin: 17rem 0 6rem 0;}
 }
 @media (max-width:512px) {
 }
@@ -475,7 +476,7 @@
     border: 1px solid #EFF6FF;
     background:#FFF;
     flex: 1 1 calc(25% - 16px);
-    max-width: calc(25% - 0px);
+    max-width: calc(25% - 16px);
 }
 .card-team .image-person{
     height: 229px;
@@ -522,7 +523,7 @@
     .section-five .card-team{
         padding: 12px;
         flex: 1 1 calc(33.3% - 16px);
-        max-width: calc(33.3% - 0px);
+        max-width: calc(33.3% - 16px);
     }
 }
 @media (max-width:877.71px) {
@@ -532,7 +533,7 @@
     .card-team .image-person{height: 220px;}
     .section-five .card-team{
         flex: 1 1 calc(50% - 16px);
-        max-width: calc(50% - 0px);
+        max-width: calc(50% - 16px);
     }
 }
 @media (max-width:614.4px) {
