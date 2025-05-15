@@ -22,33 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
   window.player = player9;
   const player10 = new Plyr("#player10");
   window.player = player10;
-  // // Bind event listener
-  // function on(selector, type, callback) {
-  //   document.querySelector(selector).addEventListener(type, callback, false);
-  // }
-
-  //   // Play
-  //   on(".js-play", "click", () => {
-  //     player.play();
-  //   });
-
-  //   // Pause
-  //   on(".js-pause", "click", () => {
-  //     player.pause();
-  //   });
-
-  //   // Stop
-  //   on(".js-stop", "click", () => {
-  //     player.stop();
-  //   });
-
-  //   // Rewind
-  //   on(".js-rewind", "click", () => {
-  //     player.rewind();
-  //   });
-
-  //   // Forward
-  //   on(".js-forward", "click", () => {
-  //     player.forward();
-  //   });
+  const playerAr = new Plyr("#playerAr");
+  window.player = playerAr;
+  const playerEn = new Plyr("#playerEn");
+  window.player = playerEn;
 });

@@ -185,7 +185,16 @@ header .fx-header{width: 100%;}
 header .fx-header-links{
   gap: 7rem;
 }
-header .fx-header-links .logo-header{cursor: pointer;}
+header .fx-header-links .logo-header{
+  cursor: pointer;
+  width: 90px;
+  height: 35px;
+}
+header .fx-header-links .logo-header img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 header .fx-header .line-ver{
   width: 1px;
   height: 32px;
@@ -200,12 +209,12 @@ header .fx-header-links .links-header a{
   font-size: 17px;
   line-height: 20px; 
   text-decoration: none;
-  transition: 0.3s;
+  transition:all 0.3s ease;
 } 
 .sub-header .fx-header-links .links-header a{color: #fff;}
 header .fx-header-links .links-header a:hover{
-  transform: scale(1.05);
   color: #0B63E5;
+  text-decoration: underline;
   font-weight: 500;
 }
 header .fx-header-links .links-header .active{
@@ -232,6 +241,7 @@ header .btn-header .btn-blue{
   header .btn-header .btn-blue {font-size: 23px;height: 65px;}
   header .fx-header-links{gap: 9rem;}
   header .fx-header-links .logo-header img{width: 150px;}
+  header .fx-header-links .logo-header{width: 110px;height: 45px;}
 }
 @media (min-width:2048px) {
   header .fx-header-links .links-header a{font-size: 25px;}
@@ -247,6 +257,7 @@ header .btn-header .btn-blue{
   header .fx-header-links .links-header a{font-size: 15px;}
   header .fx-header-links .links-header .active{font-size: 17px;}
    .energy-header{padding: 16px 0;}
+   header .fx-header-links .logo-header{width: 80px;height: 28px; }
 }
 @media (max-width:1024px) {
   header .btn-header .btn-blue {
@@ -256,6 +267,7 @@ header .btn-header .btn-blue{
   header .logo-header img{width: 80px;}
   header .fx-header-links .links-header a{font-size: 14px;}
   .hamburger{display: flex;}
+  header .fx-header-links .logo-header{width: 70px;height: 24px; }
 }
 @media (max-width:877.71px) {
   header .fx-header-links{gap: 3rem;}

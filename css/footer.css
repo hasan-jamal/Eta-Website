@@ -49,6 +49,7 @@ footer .fx-footer .footer-part1 .form-group{
     gap: 12px;
     margin-bottom: 24px;
 }
+footer .fx-footer .footer-part1 .footer-logo{width: 100%;}
 footer .fx-footer .footer-part1 .form-group input{
     padding: 12px;
     width: 80%;
@@ -56,6 +57,7 @@ footer .fx-footer .footer-part1 .form-group input{
     background: rgba(255, 255, 255, 0.20);
     color:  #FFF;
     font-size: 14px;
+    height: 45px;
     opacity: 1;
 }
 footer .fx-footer .footer-part1 .form-group input::placeholder{
