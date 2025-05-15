@@ -117,59 +117,8 @@
     flex: 1 1 calc(60% - 14px);
     max-width: calc(60% - 0px);
     padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-color: #fff;
-    transition: background 0.5s ease;
-}
-.section-two .section-two-cards .card-feature::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(84deg, #326274 15.3%, #00CFFF 91.82%);
-  z-index: 0;
-  transform: translateY(100%);
-  opacity:1;
-  animation: none;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-
-  /* تأثير متموج باستخدام clip-path */
-  clip-path: path("M 0 100 Q 25 95 50 100 T 100 100 L 100 100 L 0 100 Z");
 }
 
-/* تشغيل التأثير عند hover */
-.section-two .section-two-cards .card-feature:hover::before {
-  animation: waveUp 1.5s forwards ease-in-out;
-}
-
-/* محتوى الكارد يبقى فوق الخلفية */
-.section-two .section-two-cards .card-feature > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* الحركة */
-@keyframes waveUp {
-  0% {
-    transform: translateY(100%);
-    clip-path: path("M 0 100 Q 25 95 50 100 T 100 100 L 100 100 L 0 100 Z");
-  }
-  25% {
-    clip-path: path("M 0 75 Q 25 70 50 75 T 100 75 L 100 100 L 0 100 Z");
-  }
-  50% {
-    clip-path: path("M 0 50 Q 25 45 50 50 T 100 50 L 100 100 L 0 100 Z");
-  }
-  75% {
-    clip-path: path("M 0 25 Q 25 20 50 25 T 100 25 L 100 100 L 0 100 Z");
-  }
-  100% {
-    transform: translateY(0%);
-    clip-path: path("M 0 0 Q 25 -5 50 0 T 100 0 L 100 100 L 0 100 Z");
-  }
-}
 .section-two .section-two-cards .card-feature .card-feature-img{margin-bottom: 8px;}
 .section-two .section-two-cards .card-feature p{margin-bottom: 0;}
 .section-two .section-two-texts {width: 40%;}
