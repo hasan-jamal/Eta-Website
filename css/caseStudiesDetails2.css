@@ -1,0 +1,146 @@
+.caseStudiesS1{
+
+}
+.caseStudiesS1 .fx-caseStudiesS1{
+  align-items: center;
+    gap: 62px;
+}
+/* Part One Style  */
+.caseStudiesS1 .fx-caseStudiesS1 .partOne{
+    width: 50%;
+    padding-top:5rem;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{
+    width: 180px;
+    height:180px;
+    object-fit: cover;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partOne h1{margin-bottom: 16px;}
+.caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 34px;}
+.caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+.caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+.caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 30px;}
+/* Part Two Style  */
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo{
+    width: 50%;
+    position: relative;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .backSide{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    height: 100%;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{
+    margin-top: 8rem;
+    right: -1rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video {
+    height: 49rem;
+    width: 90%;
+    margin: auto;
+    padding: 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video {
+    height:47rem;
+}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{object-fit: cover;}
+.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__controls{
+    width: 95%;
+    margin: auto;
+    bottom: 1rem;
+}
+@media (min-width:1706.67px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 36px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 200px;height: 200px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 8rem;}
+}
+@media (min-width:1920px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 40px;}
+   .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 220px;height: 220px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 12rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 54rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height:52rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 20px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 40px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne h1{margin-bottom: 24px;}
+}
+@media (min-width:2048px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 42px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 250px;height: 250px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 9rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 61rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height:59rem;}
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 47rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 45rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 160px;height: 160px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 25px;}
+}
+@media (max-width:1228.8px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 43rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 41rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 140px;height: 140px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 20px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top:6.5rem;}
+    .caseStudiesS1 .fx-caseStudiesS1{gap: 45px;}
+}
+@media (max-width:1024px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 35rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 33rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 120px;height: 120px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 16px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 26px;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top: 5.5rem;}
+    .caseStudiesS1 .fx-caseStudiesS1{gap: 35px;}
+}
+@media (max-width:877.71px) {
+   .caseStudiesS1 .fx-caseStudiesS1{flex-direction: column;align-items: start;}
+   .caseStudiesS1 .fx-caseStudiesS1 .partOne{width:90%;padding-top: 6rem;}
+   .caseStudiesS1 .fx-caseStudiesS1 .partTwo{width: 90%;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 100%;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 100%;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top: 2rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .backSide,
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{right: 0;}
+}
+@media (max-width:768px) {
+     
+}
+@media (max-width:614.4px) {
+    .caseStudiesS1 .fx-caseStudiesS1 .partOne{width:100%;padding-top: 1rem;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo{width: 100%;}
+    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{padding: 8px;}
+   .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__controls{bottom: 0.5rem;}
+}
+@media (max-width:512px) {
+}

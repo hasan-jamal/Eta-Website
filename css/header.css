@@ -3,30 +3,25 @@
   position: relative;
   z-index: 999;
   direction: rtl;
-  height: 14px;
   cursor: pointer;
+  background: #007AFF;
+  padding:10px 8px;
+  border-radius: 50%;
+  height: 100%;
+  width: max-content;
+  flex-direction: column;
+  gap: 5px;
 }
 .hamburger:hover {
   cursor: pointer;
 }
 .hamburger div {
-  background-color:#141CA4 ;
+  background-color:#fff ;
   border-radius: 1px;
-  height: 3px;
+  height: 2px;
   width: 22.42px;
 }
-.hamburger .div1{
-  width: 25.11px;
-}
-.hamburger .div2 {
-  width: 18.63px;
-}
-.hamburger .div3{
-  width: 12.55px;
-}
-.hamburger div:not(:last-child) {
-  margin-bottom: 6px;
-}
+
 .nav-mobile {
   background-image: url(../images/footer-background.png);
   background-position: top;
@@ -168,7 +163,10 @@ nav, .hamburger, .coverNav {
   width: 100%;
   display: flex;
 }
-.navbar-mobile .flex-head img{width: 85px;object-fit: contain;}
+.navbar-mobile .flex-head img{
+  width: 60px;
+  object-fit: contain;
+}
 .sidenav-active .navbar-mobile .flex-head{display: none;}
 /* Header */
 header{
@@ -257,7 +255,7 @@ header .btn-header .btn-blue{
   }
   header .logo-header img{width: 80px;}
   header .fx-header-links .links-header a{font-size: 14px;}
-  .hamburger{display: block;}
+  .hamburger{display: flex;}
 }
 @media (max-width:877.71px) {
   header .fx-header-links{gap: 3rem;}
