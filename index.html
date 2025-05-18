@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homePage.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <!-- Section Style css -->
+    <link rel="stylesheet" href="./css/sections/section-three.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="./css/slick slider/animate.min.css">
     <link rel="stylesheet" href="./css/slick slider/slick.min.css">
@@ -1018,6 +1020,17 @@ to life`;
             }, 2000);
         });
 
+    </script>
+    <script>
+        const style = document.createElement('style');
+        style.innerHTML = `
+                @media (max-width: 614.4px) {
+                   main .section-three {
+                    margin: 17rem 0 6rem 0;
+                    }
+                }
+                `;
+        document.head.appendChild(style);
     </script>
 </body>
 

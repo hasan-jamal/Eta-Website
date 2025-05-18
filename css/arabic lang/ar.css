@@ -80,8 +80,8 @@
 .about4 .list-locations .box-location img,
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts .fxImage button{transform: rotate(180deg);}
 .about4 .list-locations .box-location .fx-pathLocation img{transform: rotate(0);}
-.section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin: 8px 0;}
-.section-two .section-two-cards .card-feature{right: 0% !important;}
+.section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin: 16px 0;}
+
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -143,6 +143,7 @@
     .energyDetails5 .texts-section p{padding-left: 0px;padding-right: 16px};
     .caseStudies-details ul{padding-left: 0px;padding-right: 20px;}
     .gridHeader{left: auto;right: -5rem;}
+    .section-two .section-two-cards .card-feature{right: 0% !important;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
