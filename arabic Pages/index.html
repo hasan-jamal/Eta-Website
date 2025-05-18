@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <!---Arabic Style CSS-->
     <link rel="stylesheet" href="../css/arabic lang/ar.css">
+    <!-- Section Style css -->
+    <link rel="stylesheet" href="../css/sections/section-three.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="../css/slick slider/animate.min.css">
     <link rel="stylesheet" href="../css/slick slider/slick.min.css">
@@ -30,6 +32,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <!--Fancyapps CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
 </head>
 
@@ -98,7 +102,7 @@
                 <div class="etaSection1Titles">
                     <h1 class="text-center font-medium subtitle67px colorBlueDark3">The innovative approach to bringing
                         diverse projects to
-                        life in <img src="../images/yellowLogo.svg" alt="yellow Logo" data-aos="fade-down"
+                        life in <img src="../images/logoS1.svg" alt="logo S1" data-aos="fade-down"
                             data-aos-duration="2000"></h1>
                     <p class="text-center font-medium subtitle20px colorBlueDark3">Eta Your trusted partner in
                         sustainability. We provide
@@ -224,7 +228,12 @@
                 </div>
                 <div class="d-flex fx-general-cards fx-section-three" data-aos="zoom-in">
                     <div class="card-portfolio fx-general-card-st">
-                        <img src="../images/portfolio1.png" alt="image portfolio" class="img-portfolio">
+                        <img src="../images/portfolio1.png" alt="image portfolio" class="img-portfolio divImage"
+                            data-gallery="gallery1">
+
+                        <a href="../images/portfolio1.png" data-fancybox="gallery1" style="display: none;"></a>
+                        <a href="../images/portfolio1.png" data-fancybox="gallery1" style="display: none;"></a>
+
                         <div class=" card-portfolio-texts">
                             <div class="fxText">
                                 <span class="colorBlue2 subtitle18px font-medium numberLines">water</span>
@@ -628,27 +637,61 @@
         </section>
         <section class="sectionLogos">
             <div class="sectionLogos-container">
-                <div class="d-flex fxSectionLogos">
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                <div class=" fxSectionLogos">
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                        <div class="placeholder"></div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -898,7 +941,7 @@
     <!--Plyr JS-->
     <script src="../js/plyr/plyr.js"></script>
     <script src="../js/plyr/codePlyr.js"></script>
-    <script>
+    <!-- <script>
         const textContent = `هو النهج المبتكر
 لتحقيق مشاريع متنوعة 
 وتحويلها إلى واقع.`;
@@ -915,7 +958,7 @@
         }
 
         typeWriter();
-    </script>
+    </script> -->
     <!-- <script>
         window.addEventListener("load", function () {
             setTimeout(function () {
@@ -975,16 +1018,29 @@
 
     </script>
     <script>
-        const style = document.createElement('style');
-        style.innerHTML = `
-                    @media (max-width: 614.4px) {
-                       main .section-three {
-                        margin: 24rem 0 6rem 0;
-                        }
-                    }
-                    `;
-        document.head.appendChild(style);
+        window.addEventListener('DOMContentLoaded', function () {
+            if (window.innerWidth <= 614.4) {
+                const count = document.querySelectorAll('.card-feature').length;
+                const section = document.querySelector('main .section-three');
+
+                if (!section) return; // احتياطاً إذا لم يوجد العنصر
+
+                if (count === 1) {
+                    section.style.margin = '2rem 0 6rem 0';
+                } else if (count === 2) {
+                    section.style.margin = '12rem 0 6rem 0';
+                } else if (count === 3) {
+                    section.style.margin = '24rem 0 6rem 0';
+                }
+            }
+        });
     </script>
+    <!-- Slider Logos -->
+    <script src="../js/slick slider/sliderLogos.js"></script>
+
+    <!--Fancyapps  JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="../js/gallerySlider.js"></script>
 </body>
 
 </html>

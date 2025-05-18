@@ -151,7 +151,7 @@
                 <div class="etaSection1Titles">
                     <h1 class="text-center font-medium subtitle67px colorBlueDark3">The innovative approach to bringing
                         diverse projects to
-                        life in <img src="./images/yellowLogo.svg" alt="yellow Logo" data-aos="fade-down"
+                        life in <img src="./images/logoS1.svg" alt="yellow Logo" data-aos="fade-down"
                             data-aos-duration="2000"></h1>
                     <p class="text-center font-medium subtitle20px colorBlueDark3">Eta Your trusted partner in
                         sustainability. We provide
@@ -277,7 +277,10 @@
                 </div>
                 <div class="d-flex fx-general-cards fx-section-three" data-aos="zoom-in">
                     <div class="card-portfolio fx-general-card-st">
-                        <img src="./images/portfolio1.png" alt="image portfolio" class="img-portfolio">
+                        <img src="../images/portfolio1.png" alt="image portfolio" class="img-portfolio divImage"
+                            data-gallery="gallery1">
+                        <a href="../images/portfolio1.png" data-fancybox="gallery1" style="display: none;"></a>
+                        <a href="../images/portfolio1.png" data-fancybox="gallery1" style="display: none;"></a>
                         <div class=" card-portfolio-texts">
                             <div class="fxText">
                                 <span class="colorBlue2 subtitle18px font-medium numberLines">water</span>
@@ -1022,15 +1025,22 @@ to life`;
 
     </script>
     <script>
-        const style = document.createElement('style');
-        style.innerHTML = `
-                @media (max-width: 614.4px) {
-                   main .section-three {
-                    margin: 17rem 0 6rem 0;
-                    }
+        window.addEventListener('DOMContentLoaded', function () {
+            if (window.innerWidth <= 614.4) {
+                const count = document.querySelectorAll('.card-feature').length;
+                const section = document.querySelector('main .section-three');
+
+                if (!section) return; // احتياطاً إذا لم يوجد العنصر
+
+                if (count === 1) {
+                    section.style.margin = '2rem 0 6rem 0';
+                } else if (count === 2) {
+                    section.style.margin = '12rem 0 6rem 0';
+                } else if (count === 3) {
+                    section.style.margin = '17rem 0 6rem 0';
                 }
-                `;
-        document.head.appendChild(style);
+            }
+        });
     </script>
 </body>
 

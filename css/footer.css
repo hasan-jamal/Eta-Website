@@ -283,7 +283,7 @@ footer .fxAllRights a{
         flex: 1 1 calc(100% - 24px);
         max-width: calc(100% - 0px);
     }
-    footer .fx-footer .footer-part a{font-size: 15px;width: max-content;}
+    footer .fx-footer .footer-part a{font-size: 15px;}
     footer .fx-footer .footer-part h5{font-size:17px;white-space: normal;text-align: start;}
     footer .fx-footer .footer-part p{font-size: 14px;}
     footer .fxAllRights{flex-direction: column;gap: 16px;}

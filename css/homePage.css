@@ -399,14 +399,11 @@
 }
 /* Section Logos */
 .sectionLogos{
-    margin: 7rem 0 17rem 0;
+    margin: 7rem 0;
 }
 .sectionLogos-container{
   width: 80%;
   margin: auto;
-}
-.sectionLogos .fxSectionLogos{
-    justify-content: space-between;
 }
 .sectionLogos .fxSectionLogos .divLogo{
     border-radius: 110px;
@@ -418,17 +415,18 @@
     align-items: center;
     opacity: 0;
     transition: opacity 0.6s ease-in-out;
+    margin: 0 8px;
 }
 .sectionLogos .fxSectionLogos .divLogo.visible{
     opacity: 1;
 }
-.sectionLogos .fxSectionLogos .divLogo img{
-    width: 120px;
-    height: 120px;
+.sectionLogos .fxSectionLogos .slick-slide:nth-child(odd){
+    margin-top: 10rem;
 }
-.sectionLogos .fxSectionLogos .divLogo:nth-child(even){
-     position: relative;
-     top: 10rem;
+.sectionLogos .fxSectionLogos .divLogo img{
+    width: 100px;
+    margin: auto;
+    height: 120px;
 }
  /* العنصر البديل داخل divLogo */
   .sectionLogos .fxSectionLogos .divLogo.show-placeholder {
@@ -437,6 +435,8 @@
     border-radius: 110px;
     border: 1px solid #CCC  !important;
     opacity: 1;
+    margin: auto;
+    top: 0;
   }
   .divLogo.show-placeholder img{display: none;}
   @media (min-width:1706.67px) {
@@ -464,10 +464,9 @@
   @media (max-width:1024px) {
     .sectionLogos .fxSectionLogos .divLogo img{width: 70px; height: 70px;}
     .sectionLogos .fxSectionLogos .divLogo:nth-child(even){top: 9rem;}
-    .sectionLogos {margin: 7rem 0 13rem 0;}
+    .sectionLogos {margin:5rem 0;}
   }
   @media (max-width:877.71px) {
-    .sectionLogos {margin: 7rem 0 12rem 0;}
     .sectionLogos .fxSectionLogos .divLogo:nth-child(even){top: 8rem;}
     .sectionLogos .fxSectionLogos .divLogo.show-placeholder{height: 60px;width: 60px;}
   }
@@ -475,12 +474,13 @@
       
   }
   @media (max-width:614.4px) {
-    .sectionLogos {margin: 3rem 0 8rem 0;}
-    .sectionLogos .fxSectionLogos .divLogo:nth-child(even){top: 5rem;}
-    .sectionLogos .fxSectionLogos .divLogo.show-placeholder{height: 20px;width: 35px;padding: 0 !important;}
-    .sectionLogos .fxSectionLogos .divLogo img{width: 100%; height: 100%;}
-    .sectionLogos .fxSectionLogos .divLogo{padding:20px 8px;}
+
+    .sectionLogos .fxSectionLogos .divLogo.show-placeholder{
+        height: 35px;width: 35px;padding: 0 !important;}
+    .sectionLogos .fxSectionLogos .divLogo img{width: 50px; height: 50px;}
+    .sectionLogos .fxSectionLogos .divLogo{padding:4px 4px;}
     .sectionLogos-container{width: 100%;padding: 0 20px;}
+    .sectionLogos .fxSectionLogos .slick-slide:nth-child(odd){margin-top: 5rem;}
   }
   @media (max-width:512px) {
   }

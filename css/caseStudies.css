@@ -231,7 +231,7 @@
     .caseStudiesDetails{padding-top: 1rem;}
     .caseStudiesDetails .companyLogo{width: 50%;}
     .caseStudiesDetails .plyr--video{border-radius: 10px;}
-    .caseStudiesDetails .caseStudiesDetails-texts {padding: 32px 16px 5rem 16px;}
+    .caseStudiesDetails .caseStudiesDetails-texts {padding: 32px 16px 5rem 16px;border-radius: 50px;}
     .caseStudiesDetails .plyr--video{bottom: 6rem;}
 
 }
