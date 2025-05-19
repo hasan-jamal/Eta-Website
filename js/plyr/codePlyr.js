@@ -22,8 +22,38 @@ document.addEventListener("DOMContentLoaded", () => {
   window.player = player9;
   const player10 = new Plyr("#player10");
   window.player = player10;
-  const playerAr = new Plyr("#playerAr");
-  window.player = playerAr;
-  const playerEn = new Plyr("#playerEn");
+
+  // playerAr in Ar Page Index
+  const playerAr = new Plyr("#playerAr", {
+    autoplay: true,
+    muted: false,
+    youtube: {
+      noCookie: true,
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      mute: 1,
+    },
+  });
+  playerAr.once("ready", () => {
+    playerAr.play();
+  });
+
+  // playerEn in En Page Index
+  const playerEn = new Plyr("#playerEn", {
+    autoplay: true,
+    muted: false,
+    youtube: {
+      noCookie: true,
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      mute: 1,
+    },
+  });
+  playerEn.once("ready", () => {
+    playerEn.play();
+  });
   window.player = playerEn;
+  window.player = playerAr;
 });
