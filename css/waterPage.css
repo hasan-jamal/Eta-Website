@@ -1,15 +1,13 @@
 .section-pageWater{
+
+}
+.section-pageWater-container{
     background-image: url(../images/background-w.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 9rem;
-    margin-bottom:17rem;
-    height: 130vh;
-}
-.section-pageWater-container{
-    width: 90%;
-    margin: auto;
+    padding: 9rem 0 14rem 0;
+
 }
 .section-pageWater .subtitle-one{
    color: #fff;
@@ -32,13 +30,17 @@
     margin: 0 auto 48px auto;
     border-radius: 20px;
 }
-.section-pageWater  .plyr--video {
+.section-pageWater .plyr--video {
     width: 90%;
     padding: 16px;
     border-radius: 10px;
     margin: auto;
     background: rgba(255, 255, 255, 0.10);
+    margin-top: -15rem;
+    height: 100vh;
+    margin-bottom: 5rem;
 }
+.plyr__video-wrapper{height: 100%;}
 @media (min-width: 480px) {
     .section-pageWater .plyr--video .plyr__controls {
         padding: 35px 30px 20px;
@@ -46,28 +48,27 @@
     }
 }
 @media (min-width:1706.67px) {
-    .section-pageWater{height: 110vh;margin-bottom: 24rem;}
+
 }
 @media (min-width:1920px) {
-    .section-pageWater{height: 100vh;}
     .section-pageWater .plyr--video{
         width: 80%
     }
 }
 @media (min-width:2048px) {
-    .section-pageWater{height: 95vh;}
+
 }
 @media (min-width:2304px) {
-    .section-pageWater{height: 95vh;margin-bottom: 20rem;}
+    .section-pageWater .plyr--video{height: 80vh;}
 }
 @media (min-width:3072px) {
-    .section-pageWater{height: 65vh;margin-bottom: 250rem;}
+    .section-pageWater .plyr--video{height: 60vh;}
 }
 @media (min-width:4608px) {
-    .section-pageWater{height: 45vh;}
+    .section-pageWater .plyr--video{height: 50vh;}
 }
 @media (min-width:6144px) {
-    .section-pageWater{height: 35vh;}
+    .section-pageWater .plyr--video{height: 40vh;}
 }
 @media (max-width:1396.36px) {
     .section-pageWater .subtitle-one{font-size: 45px;line-height: 60px;}

@@ -23,9 +23,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const player10 = new Plyr("#player10");
   window.player = player10;
 
+  // case Studies Video in case Studies Page Index
+  const caseStudiesVideo = new Plyr("#caseStudiesVideo", {
+    autoplay: true,
+    muted: false,
+    youtube: {
+      noCookie: true,
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      mute: 1,
+    },
+  });
+  caseStudiesVideo.once("ready", () => {
+    caseStudiesVideo.play();
+  });
+
   // playerAr in Ar Page Index
   const playerAr = new Plyr("#playerAr", {
-    autoplay: true,
+    autoplay: false,
     muted: false,
     youtube: {
       noCookie: true,
@@ -41,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // playerEn in En Page Index
   const playerEn = new Plyr("#playerEn", {
-    autoplay: true,
+    autoplay: false,
     muted: false,
     youtube: {
       noCookie: true,
@@ -54,6 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   playerEn.once("ready", () => {
     playerEn.play();
   });
-  window.player = playerEn;
-  window.player = playerAr;
+  // window.player = playerEn;
+  // window.player = playerAr;
+  window.player = caseStudiesVideo;
 });

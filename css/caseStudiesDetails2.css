@@ -1,146 +1,154 @@
-.caseStudiesS1{
 
+
+.sectionDVideo{
+    padding-top: 7rem;
+    position: relative;
+    margin-bottom: 5rem;
 }
-.caseStudiesS1 .fx-caseStudiesS1{
-  align-items: center;
-    gap: 62px;
+.sectionDVideo .gridHeader{
+    position: absolute;
+    top: 0rem;
+    z-index: 0;
+    left: -10rem;
 }
-/* Part One Style  */
-.caseStudiesS1 .fx-caseStudiesS1 .partOne{
-    width: 50%;
-    padding-top:5rem;
+.sectionDVideo .gridHeader2{
+    position: absolute;
+    top: auto;
+    bottom: -14rem;
+    z-index: 0;
+    left: 52%;
+    transform: translateX(-48%);
+    opacity: 0.7;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{
-    width: 180px;
-    height:180px;
-    object-fit: cover;
+.sectionDVideo .fx-caseStudiescDetails2{
+    background-image: url('../images/backWhiteBlue.png');
+    background-position: top;
+    background-size: contain;
+    padding: 70px 0 125px 0;
+    gap: 140px;
+    background-repeat: no-repeat;
+    align-items: center;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partOne h1{margin-bottom: 16px;}
-.caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 34px;}
-.caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-.caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-.caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 30px;}
-/* Part Two Style  */
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo{
+.sectionDVideo .divVideo{
     width: 50%;
     position: relative;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .backSide{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: -1rem;
+.sectionDVideo .divVideo  .backgroundReels{
+    z-index: 0;
+    position: relative;
+    width: 73%;
+    margin: auto;
+    display: block;
     height: 100%;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{
-    margin-top: 8rem;
-    right: -1rem;
+.sectionDVideo .divVideo .plyr--video{
+ border-radius: 50px;
+    width:53.5%;
+    margin: auto;
+    height: 630.805px;
+    margin-top: 3rem;
+    top: 0;
+    left: 49%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.sectionDVideo .plyr__video-wrapper{height: 100%;}
+.sectionDVideo .plyr__video-wrapper iframe{object-fit: cover;}
+.sectionDVideo .divText{
+    width: 50%;
+    padding: 0 0 0 90px;
+    z-index: 2;
     position: relative;
-    margin-bottom: 1.5rem;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video {
-    height: 49rem;
-    width: 90%;
-    margin: auto;
-    padding: 16px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.10);
+.sectionDVideo .divText .boxImage{
+    padding:2px 10px;
+    border-radius: 25px;
+    border: 1px solid #0B63E5;
+    background: #FFF;
+    width: max-content;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video {
-    height:47rem;
+.sectionDVideo .divText .boxImage img{
+    width: 158px;
+    height: 75px;
+}   
+.sectionDVideo .boxDate{
+    display: flex;
+    padding: 6px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: #FFF;
+    margin-top: 24px;
+    width: max-content;
 }
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{object-fit: cover;}
-.caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__controls{
-    width: 95%;
-    margin: auto;
-    bottom: 1rem;
+.sectionDVideo .boxDate img{
+    width:17%;
+}
+.sectionDVideo .boxDate h5{white-space: pre;}
+.sectionDVideo h1{
+    margin:24px auto;
+    line-height: 115%;
+}
+.sectionDVideo p{
+    line-height: 156% ;  
+    margin-bottom: 0px;
 }
 @media (min-width:1706.67px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 36px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 200px;height: 200px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 8rem;}
+    .sectionDVideo .divText .boxImage img {width: 188px;height: 95px;}
+    .sectionDVideo .boxDate{padding: 16px 24px;}
+    .sectionDVideo .divVideo .plyr--video {width: 54%;height: 727.805px;}
 }
 @media (min-width:1920px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 40px;}
-   .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 220px;height: 220px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 12rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 54rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height:52rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 20px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 40px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne h1{margin-bottom: 24px;}
+    .sectionDVideo p{line-height: 50px;}
+    .sectionDVideo .divText .boxImage img {width: 198px;height: 105px;}
+    .sectionDVideo .divVideo .plyr--video {width: 53%;height: 840.805px;}
+    .sectionDVideo .fx-caseStudiescDetails2{    background-position: left top;}
+    .sectionDVideo .boxDate{margin-top: 32px;}
+    .sectionDVideo h1{margin: 32px 0;}
 }
 @media (min-width:2048px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 42px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 250px;height: 250px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne{padding-top: 9rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 61rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height:59rem;}
-}
-@media (min-width:2304px) {
-    
-}
-@media (min-width:3072px) {
-    
+    .sectionDVideo .divVideo .plyr--video {width: 53%;height: 950.805px;}
+
+    .sectionDVideo .divText .boxImage img {width: 210px;height: 125px;}
 }
 @media (max-width:1396.36px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 47rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 45rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 160px;height: 160px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 25px;}
+    .sectionDVideo .fx-caseStudiescDetails2{gap: 100px;}
+    .sectionDVideo .divVideo{height: 100vh;}
+    .sectionDVideo .divVideo .plyr--video {width: 54%;height: 537.805px;}
+    .sectionDVideo .divText{padding-left: 70px;}
 }
 @media (max-width:1228.8px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 43rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 41rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 140px;height: 140px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 20px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top:6.5rem;}
-    .caseStudiesS1 .fx-caseStudiesS1{gap: 45px;}
+    .sectionDVideo .divVideo .plyr--video {height: 470.805px;}
+    .sectionDVideo .divText .boxImage img { width: 148px;height: 65px;}
+    .sectionDVideo .divText{padding-left: 50px;}
 }
 @media (max-width:1024px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 35rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 33rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{width: 120px;height: 120px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne span,
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne .associationImage{margin-bottom: 16px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne p{line-height: 26px;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top: 5.5rem;}
-    .caseStudiesS1 .fx-caseStudiesS1{gap: 35px;}
+    .sectionDVideo .fx-caseStudiescDetails2{gap: 70px;}
+    .sectionDVideo .divVideo .plyr--video {height: 383.805px;border-radius: 30px;}
+    .sectionDVideo .divText .boxImage img {width: 120px;height: 60px;}
+    .sectionDVideo .divText .boxImage{border-radius: 15px;}
+    .sectionDVideo .divText{padding-left: 30px;}
 }
 @media (max-width:877.71px) {
-   .caseStudiesS1 .fx-caseStudiesS1{flex-direction: column;align-items: start;}
-   .caseStudiesS1 .fx-caseStudiesS1 .partOne{width:90%;padding-top: 6rem;}
-   .caseStudiesS1 .fx-caseStudiesS1 .partTwo{width: 90%;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{height: 100%;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__video-wrapper,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr video{height: 100%;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{margin-top: 2rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .backSide,
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .VideoDiv{right: 0;}
-}
-@media (max-width:768px) {
-     
+    .sectionDVideo .fx-caseStudiescDetails2{gap: 40px;flex-direction: column;padding: 32px 0 85px 0;}
+    .sectionDVideo h1{margin: 16px 0;}
+    .sectionDVideo .boxDate{border-radius: 10px;margin-top: 16px;}
+    .sectionDVideo{margin-bottom: 0;}
+    .sectionDVideo .divVideo{width: 70%;height: 140vh;}
+    .sectionDVideo .divVideo .backgroundReels{width: 80%;}
+    .sectionDVideo .divText{padding-left: 20px;width: 90%;}
+    .sectionDVideo .divVideo .plyr--video {width: 57%;height: 467.805px;}
 }
 @media (max-width:614.4px) {
-    .caseStudiesS1 .fx-caseStudiesS1 .partOne{width:100%;padding-top: 1rem;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo{width: 100%;}
-    .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr--video{padding: 8px;}
-   .caseStudiesS1 .fx-caseStudiesS1 .partTwo .plyr__controls{bottom: 0.5rem;}
-}
-@media (max-width:512px) {
+    .sectionDVideo{padding-top: 1rem;}
+    .sectionDVideo .fx-caseStudiescDetails2{    background-position: left top; background-size: inherit;padding-bottom: 2rem;}
+    .sectionDVideo .gridHeader2,
+    .sectionDVideo .gridHeader{width: 90%;}
+    .sectionDVideo .divVideo{width: 100%;height: 70vh;}
+    .sectionDVideo .divVideo .backgroundReels{width: 95%;}
+    .sectionDVideo .divVideo .plyr--video {width: 69%; height: 382.805px;}
+    .sectionDVideo .divText{padding:0 16px;width: 100%;}
+    .sectionDVideo .companyLogo{width: 50%;}
+    .sectionDVideo .boxDate{margin-top: 16px;}
 }
