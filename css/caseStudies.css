@@ -297,6 +297,11 @@
 .caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-texts li{
     line-height:164%;
 }
+.caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-texts p,
+.caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-texts span{
+    font-family: "Dubai";
+    font-weight: 400;
+}
 .caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-texts h5{
     letter-spacing: -1.2px;
     margin-bottom: 16px;
