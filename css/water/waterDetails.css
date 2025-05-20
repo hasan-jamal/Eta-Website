@@ -1,0 +1,42 @@
+.waterDetailsS1{
+    background-image: url('../../images/back-waterDetailsS1.svg');
+    background-position:left top;
+    background-repeat: no-repeat;
+    margin-bottom: 7rem;
+}
+.waterDetailsS1 .waterDetailsS1-container{
+    padding-top: 12rem;
+}
+.waterDetailsS1 .fx-waterDetailsS1{align-items: center;}
+.waterDetailsS1 .partOne{width: 55%;}
+.waterDetailsS1 .partOne h1{
+    font-size: 100px;
+}
+.waterDetailsS1 .partTwo{
+    width: 45%;
+}
+.waterDetailsS1 .partTwo .fxPart2Numbers{
+    gap: 110px;
+}
+.waterDetailsS1 .fxImageS{
+    gap: 32px;
+    align-items: center;
+}
+.waterDetailsS1 .fxImageS .divImageOne{
+    position: relative;
+    top: 6rem;
+    width: 46%;
+}
+.waterDetailsS1 .fxImageS .divImageTwo{
+    position: relative;
+    width: 52%;
+}
+.waterDetailsS1 .fxImageS .divImageTwo img,
+.waterDetailsS1 .fxImageS .divImageOne img{width: 100%;border-radius: 20px;}
+.waterDetailsS1 .fxImageS .arrowWaterDetails{
+  height: 100%;
+  position: relative;
+  top: 5rem;
+  gap: 10px;
+}
+.waterDetailsS1 .fxImageS .arrowWaterDetails img{width: 40%;}
