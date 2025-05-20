@@ -32,7 +32,9 @@
     width: 52%;
 }
 .waterDetailsS1 .fxImageS .divImageTwo img,
-.waterDetailsS1 .fxImageS .divImageOne img{width: 100%;border-radius: 20px;}
+.waterDetailsS1 .fxImageS .divImageOne img{width: 100%;border-radius: 20px;object-fit: cover;}
+.waterDetailsS1 .fxImageS .divImageOne img{height:480px ;}
+.waterDetailsS1 .fxImageS .divImageTwo img{height: 370px;}
 .waterDetailsS1 .fxImageS .arrowWaterDetails{
   height: 100%;
   position: relative;
@@ -40,3 +42,39 @@
   gap: 10px;
 }
 .waterDetailsS1 .fxImageS .arrowWaterDetails img{width: 40%;}
+
+@media (min-width:1706.67px) {
+  
+}
+@media (min-width:1920px) {
+
+}
+@media (min-width:2048px) {
+
+}
+@media (min-width:2304px) {
+    
+}
+@media (min-width:3072px) {
+    
+}
+@media (max-width:1396.36px) {
+    .waterDetailsS1 .partOne h1{font-size: 95px;}
+}
+@media (max-width:1228.8px) {
+    .waterDetailsS1 .fxImageS{gap: 24px;}
+}
+@media (max-width:1024px) {
+
+}
+@media (max-width:877.71px) {
+
+}
+@media (max-width:768px) {
+    
+}
+@media (max-width:614.4px) {
+
+}
+@media (max-width:512px) {
+}

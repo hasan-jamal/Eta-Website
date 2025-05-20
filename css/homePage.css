@@ -427,6 +427,7 @@
     width: 100px;
     margin: auto;
     height: 120px;
+    object-fit: contain;
 }
  /* العنصر البديل داخل divLogo */
   .sectionLogos .fxSectionLogos .divLogo.show-placeholder {
