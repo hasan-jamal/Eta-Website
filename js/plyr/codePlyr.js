@@ -68,9 +68,9 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
   playerEn.once("ready", () => {
-    playerEn.play();
+    // playerEn.play();
   });
-  // window.player = playerEn;
+  window.player = playerEn;
   // window.player = playerAr;
   window.player = caseStudiesVideo;
 });

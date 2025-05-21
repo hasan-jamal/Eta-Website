@@ -137,6 +137,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
     .px-90{padding: 0 20px;}
     .px-50{padding: 0 20px;}
 }
+.plyr__video-wrapper{height: 100% !important;}
 section{position: relative;}
 .grid-Header{
   position: absolute;
@@ -292,6 +293,7 @@ section{position: relative;}
 .lineHeight120{line-height: 120%;}
 .subtitle67px{font-size: 67px;}
 .subtitle56px{font-size: 56px;}
+.subtitle48px{font-size: 48px;}
 .subtitle38px{font-size: 38px;}
 .subtitle25px{font-size: 25px;}
 .subtitle28px{font-size: 28px;}
@@ -518,12 +520,17 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 .colorBlue2{color: #9ABEF3;}
 .colorBlue3{color: #0B63E5;}
 .colorBlue4{color: #1D2392;}
+.colorBlue5{color: #5686F5;}
 .colorBlueDark{color: #1D1E1C;}
 .colorBlueDark2{color: #061C3D;}
 .colorBlueDark3{color: #090F74;}
 .colorBlueDark4{color: #101828;}
+.colorBlueDark5{color: #112E6F;}
 .colorGrey{color: #42526B;}
 .colorGrey2{color: #838E9E;}
+.colorGrey3{color: #435169;}
+.colorGrey4{color: #838383;}
+.colorGrey5{color: #727272;}
  .btn-seeMore{
     width: 243px;
     height: 60px;

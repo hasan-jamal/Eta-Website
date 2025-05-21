@@ -7,7 +7,7 @@
 .waterDetailsS1 .waterDetailsS1-container{
     padding-top: 12rem;
 }
-.waterDetailsS1 .fx-waterDetailsS1{align-items: center;}
+.waterDetailsS1 .fx-waterDetailsS1{align-items: center;gap: 24px;}
 .waterDetailsS1 .partOne{width: 55%;padding-right: 1rem;}
 .waterDetailsS1 .partOne h1{
     font-size: 100px;
@@ -61,12 +61,6 @@
     .waterDetailsS1 .fxImageS .divImageOne img{height:630px ;}
     .waterDetailsS1 .fxImageS .divImageTwo img{height: 500px;}
 }
-@media (min-width:2304px) {
-    
-}
-@media (min-width:3072px) {
-    
-}
 @media (max-width:1396.36px) {
     .waterDetailsS1 .partOne h1{font-size: 95px;}
     .waterDetailsS1 .partTwo .fxPart2Numbers{gap: 90px;}
@@ -87,13 +81,11 @@
     .waterDetailsS1 .fxImageS .divImageTwo img{height: 250px;}
     .waterDetailsS1 .fxImageS .arrowWaterDetails img{width: 30%;}
     .waterDetailsS1 .partTwo .fxPart2Numbers{gap: 40px;}
-    .waterDetailsS1 .partOne h1{font-size: 70px;}
+    .waterDetailsS1 .partOne h1{font-size: 60px;}
     .waterDetailsS1 .waterDetailsS1-container{padding-top: 9rem;}
 }
-@media (max-width:877.71px) {
-}
 @media (max-width:768px) {
-    .waterDetailsS1 .partOne h1{font-size: 60px;}
+    .waterDetailsS1 .partOne h1{font-size: 50px;}
 }
 @media (max-width:614.4px) {
     .waterDetailsS1{background-position: top;background-size: contain;}
@@ -108,6 +100,364 @@
     .waterDetailsS1 .fxImageS .divImageOne img{height:100% ;border-radius: 15px;}
     .waterDetailsS1 .fxImageS .divImageTwo img{height: 100%;border-radius: 15px;}
     .waterDetailsS1 .fxImageS .arrowWaterDetails{top: 0;}
+}
+/* Water Details Section 2 */
+.waterDetailsS2{
+    margin-top: 12rem;
+    position: relative;
+}
+.waterDetailsS2 .back-waterDetailsS2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+}
+.waterDetailsS2-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.waterDetailsS2 .gridHeader1 {
+    position: absolute;
+    right: 13%;
+    top: -5rem;
+    width: 46%;
+    opacity: 0.7;
+    z-index: 0;
+}
+.waterDetailsS2 .gridHeader2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12rem;
+    width: 45%;
+    opacity: 0.7;
+}
+.waterDetailsS2 .fx-waterDetailsS2{
+    gap: 64px;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+.waterDetailsS2 .divVideo{
+    width: 65%;
+}
+.waterDetailsS2 .divVideo .plyr--video{
+    height: 570px;
+    border-radius: 24px;
+}
+.waterDetailsS2 .divVideo .plyr--video video,
+.waterDetailsS2 .divVideo .plyr--video iframe{object-fit: cover;}
+.waterDetailsS2 .divText{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.waterDetailsS2 .divText h1{
+    line-height: 127.5%;
+}
+.waterDetailsS2 .divText p{
+    line-height: 154.167%;
+}
+.waterDetailsS2 .divText button{
+    width: max-content;
+    height: 54px;
+    width: 167px;
+    font-size: 20px;
+}
+@media (min-width:1706.67px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 610px;}
+}
+@media (min-width:1920px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 690px;}
+}
+@media (min-width:2048px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 770px;}
+}
+@media (max-width:1396.36px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 520px;}
+    .waterDetailsS2 .back-waterDetailsS2{width: 47%;}
+}
+@media (max-width:1228.8px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 450px;}
+    .waterDetailsS2 .back-waterDetailsS2{width: 45%;}
+    .waterDetailsS2-container{padding-top: 4rem;}
+    .waterDetailsS2 .fx-waterDetailsS2{gap: 48px;}
+    .waterDetailsS2 .divText button{height: 48px;width: 157px;font-size: 18px;}
+}
+@media (max-width:1024px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 400px;}
+    .waterDetailsS2 .back-waterDetailsS2{width: 45%;}
+    .waterDetailsS2-container{padding-top: 2rem;}
+    .waterDetailsS2 .fx-waterDetailsS2{gap: 40px;}
+    .waterDetailsS2 .divText button{height: 42px;width: 137px;font-size: 15px;}
+}
+@media (max-width:877.71px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 350px;}
+    .waterDetailsS2 .back-waterDetailsS2{width: 45%;}
+    .waterDetailsS2-container{padding-top: 2rem;}
+    .waterDetailsS2 .fx-waterDetailsS2{gap: 32px;}
+    .waterDetailsS2 .divText button{height: 38px;width: 127px;font-size: 15px;}
+}
+@media (max-width:768px) {
+    .waterDetailsS2 .divVideo .plyr--video{height: 300px;}
+    .waterDetailsS2 .back-waterDetailsS2{width: 45%;}
+    .waterDetailsS2-container{padding-top: 1rem;}
+}
+@media (max-width:614.4px) {
+    .waterDetailsS2 .fx-waterDetailsS2{flex-direction: column;}
+    .waterDetailsS2 .divVideo{width: 100%;}
+    .waterDetailsS2 .divText{width: 100%;}
+    .waterDetailsS2 .gridHeader1{width: 70%;}
+    .waterDetailsS2 .gridHeader2{width: 70%;}
+    .waterDetailsS2 .gridHeader2 {
+        left: -2rem;
+        transform: translateX(0);
+        bottom: 14rem;
+    }
+    .waterDetailsS2{margin-top: 5rem;}
+}
+/* Water Details Section 3 */
+.waterDetailsS3{
+    margin-top: 7rem;
+    position: relative;
+}
+.waterDetailsS3 .gridHeader {
+    position: absolute;
+    left: -10rem;
+    top: -15rem;
+    z-index: 0;
+}
+.waterDetailsS3 .waterDetailsS3-container{
+    position: relative;
+    z-index: 1;
+}
+.waterDetailsS3 .waterDetailsS3-titles{
+    gap: 100px;
+    align-items: center;
+}
+.waterDetailsS3 .waterDetailsS3-titles h1{
+    line-height: 107.143%;
+    letter-spacing: -1.12px;
+    width: 45%;
+}
+.waterDetailsS3 .waterDetailsS3-titles p{
+    width: 55%;
+    line-height: 125.667%;
+}
+.waterDetailsS3 .boxSteps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px 100px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #EBFAFF 0%, #ADEBFF 100%);
+    margin-top: 40px;
+
+}
+.waterDetailsS3 .boxSteps .numberSteps{
+    gap: 12px;
+}
+.waterDetailsS3 .boxSteps h4{
+    margin-bottom: 24px;
+    line-height: 140%;
+}
+.waterDetailsS3 .boxSteps .numberSteps .step{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.waterDetailsS3 .boxSteps .numberSteps .step p{
+    display: none;
+}
+.waterDetailsS3 .boxSteps .numberSteps .step .num{
+    border-radius: 25.268px;
+    background: #C4DCFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    position: relative;
+}
+main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{
+    border-radius:30px;
+    background: #0B63E5;
+    width: 76px;
+    height: 76px;
+}
+.waterDetailsS3 .boxSteps .numberSteps .stepActive .num::after{
+    content: "";
+    padding: 8px;
+    border-radius: 40px;
+    border: 1px solid #0B63E5;    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 48px;}
+.waterDetailsS3 .boxSteps .numberSteps .stepActive p{
+    display: block;
+}
+.waterDetailsS3 .boxSteps .contentSteps .content{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    display: none;
+    position: relative;
+}
+.waterDetailsS3 .boxSteps .contentSteps .content.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: block;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{
+    align-items: normal;
+    gap: 70px;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{
+    width: 47%;
+    height: 536px;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText{
+    width: 53%;
+    height: auto;
+    position: relative;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .textPart1{
+    justify-content: center;
+    height: 100%;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{
+   position: absolute;
+   bottom: 1rem;
+   left: 0;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img:hover{
+    transform: scale(0.9);
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText h3{
+    margin-bottom: 32px;
+    line-height: 150%;
+    -webkit-line-clamp: 2;
+}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText p{
+    -webkit-line-clamp: 5;
+}
+/* Section Three Style  */
+main .section-three{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+@media (min-width:1706.67px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height: 580px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 52px;}
+}
+@media (min-width:1920px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height: 630px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 55px;}
+}
+@media (min-width:2048px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:720px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 57px;}
+}
+@media (max-width:1396.36px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:480px;}
+    .waterDetailsS3 .boxSteps{padding: 48px 80px;}
+    .waterDetailsS3 .boxSteps .numberSteps .step .num{width: 54px;height: 54px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 42px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 70px;height: 70px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{gap: 60px;}
+    .waterDetailsS3 .waterDetailsS3-titles{gap: 60px;}
+}
+@media (max-width:1228.8px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:430px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 38px;}
+    .waterDetailsS3 .boxSteps{padding: 40px 60px;}
+    .waterDetailsS3 .boxSteps .numberSteps .step .num{width: 50px;height: 50px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 65px;height: 65px;}
+    .waterDetailsS3 .boxSteps .numberSteps .lineSteps{width: 70px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img{width:50px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText h3{margin-bottom: 24px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{gap: 40px;}
+    .waterDetailsS3 .gridHeader {top: -12rem;}
+    .waterDetailsS3 .waterDetailsS3-titles{gap: 60px;}
+}
+@media (max-width:1024px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:380px;}
+    .waterDetailsS3 .boxSteps{padding:32px 40px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 32px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 52px;height: 52px;border-radius: 20px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num::after{padding: 6px;}
+    .waterDetailsS3 .boxSteps .numberSteps .lineSteps{width: 50px;}
+    .waterDetailsS3 .boxSteps .numberSteps .step{gap: 14px;}
+    .waterDetailsS3 .boxSteps .numberSteps .step .num{width: 40px;height: 40px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 55px;height: 55px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img{width: 40px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText h3{margin-bottom: 16px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{gap: 32px;}
+    .waterDetailsS3 .gridHeader {top: -9rem;left: -7rem;}
+}
+@media (max-width:877.71px) {
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:300px;}
+    .waterDetailsS3 .boxSteps{padding:32px;}
+    .waterDetailsS3 .boxSteps .numberSteps .lineSteps{width: 40px;}
+    .waterDetailsS3 .boxSteps .numberSteps .step .num{width: 35px;height: 35px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 45px;height:45px;border-radius: 15px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 25px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive p {font-size: 12px;}
+    .waterDetailsS3 .boxSteps .numberSteps {gap: 6px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{position: relative;bottom: 0;margin-top: 1rem;}
+    .waterDetailsS3 .gridHeader {top: -7rem;left: -5rem;}
+    .waterDetailsS3 .waterDetailsS3-titles h1{width: 50%;}
+    .waterDetailsS3 .waterDetailsS3-titles p{width: 50%;}
+}
+@media (max-width:768px) {
+    .waterDetailsS3 .boxSteps{padding:20px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{width: 40px;height:40px;border-radius: 15px;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive .num::after{padding: 4px;}
+}
+@media (max-width:614.4px) {
+    .waterDetailsS3{margin-top: 4rem;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{flex-direction: column;}
+    .waterDetailsS3 .waterDetailsS3-titles{flex-direction: column;gap: 16px;}
+    .waterDetailsS3 .waterDetailsS3-titles h1{width: 100%;}
+    .waterDetailsS3 .waterDetailsS3-titles p{width: 100%;}
+    .waterDetailsS3 .boxSteps .numberSteps{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap:4px;
+        column-gap: 12px;
+    }
+    .waterDetailsS3 .boxSteps .numberSteps .step{width: 20%;}
+    .waterDetailsS3 .boxSteps .numberSteps .stepActive{width: 50%;gap: 12px;}
+    main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{margin: 0;}
+    .waterDetailsS3 .boxSteps .numberSteps .step .num{margin: auto;}
+    .waterDetailsS3 .boxSteps{padding:24px 12px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{width: 100%;margin-top: 1.5rem;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{width:100%;height: 300px;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage img{object-fit: contain;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText{width: 100%;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText h3{margin-bottom: 1rem;}
+    .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep{gap: 24px;}
+    main .section-three{margin: 4rem 0;}
 }
 @media (max-width:512px) {
 }

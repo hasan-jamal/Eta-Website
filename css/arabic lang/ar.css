@@ -60,7 +60,6 @@
 .about2 .about2Mission .circleSmall{left: auto;right: 20%;}
 .about2 .about2Mission{padding-left: 7rem;padding-right: 0;}
 .about4 .responsive-map iframe{right: 0;left: auto;}
-.section-faq2 .faq-item .icon{left: 1rem;right: auto;}
 .servicesSupplyS3 .servicesSupplyS3-img img{left: 0rem;right: 4rem;}
 .servicesSupplyS3 .servicesSupplyS3-texts{margin-left: 0;margin-right: auto;}
 .servicesSupplyS4 .box2-servicesSupplyS4{right: 20%;left:0 ;}
@@ -78,7 +77,9 @@
 .gridHeader{ left: auto;right: -10rem;}
 .section-six .gridHeader,.section-four .gridHeader{left: auto;right: -12rem;}
 .about4 .list-locations .box-location img,
-.section-three .fx-section-three .card-portfolio .card-portfolio-texts .fxImage button{transform: rotate(180deg);}
+.section-three .fx-section-three .card-portfolio .card-portfolio-texts .fxImage button,
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img,
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img:hover{transform: rotate(180deg);}
 .about4 .list-locations .box-location .fx-pathLocation img{transform: rotate(0);}
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin: 16px 0;}
 .caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-imgs img:last-child {
@@ -93,6 +94,9 @@
 .caseStudiesDetails2 .fx-caseStudiesDetails2:nth-child(odd) .linesBackImgs{
     right: 0.5rem;left: auto;
 }
+.waterDetailsS2 .back-waterDetailsS2{left: auto;right: 0;transform: rotate(-180deg);}
+.waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{left: auto;right: 0;}
+
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -161,6 +165,7 @@
     .caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-imgs img{
         border-radius: 0px 25px  25px 0px;
     }
+    .waterDetailsS2 .gridHeader2{left: auto;right: 0;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
