@@ -1,3 +1,67 @@
+
+/* Section Three */
+.section-three{
+    padding-top: 74px;
+}
+.section-three .fx-section-three{gap: 40px;padding: 87px 80px;align-items: normal;}
+.section-three .fx-section-three .card-portfolio{
+    flex: 1 1 calc(33.3% - 40px);
+    max-width: calc(33.3% - 40px);
+    border-radius: 20px;
+    background: #FFF;
+    border: 1px solid #E6E8EC;
+   transition: 0.3s;
+}
+.section-three .fx-section-three .card-portfolio:hover{box-shadow: 0px 12px 56px 0px rgba(6, 28, 61, 0.12);}
+.section-three .fx-section-three .card-portfolio .img-portfolio{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.section-three .fx-section-three .card-portfolio .card-portfolio-texts{padding: 24px;}
+.section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{
+    margin-bottom: 8px;
+    color: #061C3D; 
+}
+.section-three .fx-section-three .card-portfolio .card-portfolio-texts p{ margin-bottom: 28px;}
+@media (min-width:1706.67px) {
+    .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin-bottom: 10px;}
+}
+@media (min-width:1920px) {
+}
+@media (min-width:2048px) {
+    .section-three .fx-section-three .card-portfolio .card-portfolio-texts p{margin-bottom: 34px;}
+}
+@media (max-width:1396.36px) {
+    .section-three .fx-section-three{gap: 20px;}
+    .section-three .fx-section-three .card-portfolio{flex: 1 1 calc(33.3% - 20px);max-width: calc(33.3% - 0px);}
+}
+@media (max-width:1228.8px) {
+    .section-three .fx-section-three .card-portfolio .card-portfolio-texts .public-p{font-size: 14px;}
+    .section-three .fx-section-three{gap: 30px;}
+     .section-three .fx-section-three .card-portfolio{flex: 1 1 calc(50% - 30px);max-width: calc(50% - 0px);}
+}
+@media (max-width:1024px) {
+     .section-three .fx-section-three{padding: 50px 40px;}
+     .section-three .fx-section-three .card-portfolio .card-portfolio-texts{padding: 16px;}
+}
+@media (max-width:877.71px) {
+  .section-three .fx-section-three{gap: 20px;}
+    .section-three .fx-section-three{padding: 50px 30px;}
+     .section-three .fx-section-three .card-portfolio{flex: 1 1 calc(50% - 20px);max-width: calc(50% - 0px);}
+}
+@media (max-width:768px) {
+    .section-three .fx-section-three{padding: 50px 0px;}
+}
+@media (max-width:512px) {
+    .section-three .fx-section-three{gap: 24px;}
+    .section-three .fx-section-three .card-portfolio {
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+    }
+    .section-three .fx-section-three .card-portfolio .card-portfolio-texts{padding: 20px;} 
+}
+
 /* Section Three Style  */
 .section-three{
     margin: 7rem 0;
@@ -139,7 +203,7 @@
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts p{font-size: 14px;line-height: 133%;}
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{font-size: 17px;}
     .section-three .fx-section-three .card-portfolio .card-portfolio-texts span{padding-bottom: 0px;}
-    .section-three{margin: 5rem 0 6rem 0;}
+    .section-three{margin: 2rem 0 6rem 0;}
     .divLeftArrow,.divRightArrow {
         width: 44px;
         height: 44px;

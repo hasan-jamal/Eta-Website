@@ -96,7 +96,8 @@
 }
 .waterDetailsS2 .back-waterDetailsS2{left: auto;right: 0;transform: rotate(-180deg);}
 .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{left: auto;right: 0;}
-
+.sectionWThree .divImages .box{left: auto;right: -5rem;}
+.sectionWTwo .box-sectionWTwo{direction: ltr;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -133,6 +134,7 @@
     .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 30px;}
     .about2 .about2Vision{margin-left: 0rem;margin-right: 8rem;}
     .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 30px;}
+    .sectionWThree .divImages .box{right: 0;left: auto;}
 }
 @media (max-width:877.71px) {
      .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{right: auto;}
