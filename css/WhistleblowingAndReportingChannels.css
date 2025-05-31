@@ -1,0 +1,556 @@
+.WARSectionOne{
+    padding-top: 7rem;
+}
+.WARSectionOne .fx-WARSectionOne{
+    gap: 120px;
+    align-items: center;
+    border-radius: 60px;
+    padding: 80px;
+    background: linear-gradient(180deg, rgba(220, 227, 255, 0.50) 0%, rgba(135, 172, 254, 0.50) 100%);    
+}
+.WARSectionOne .fx-WARSectionOne .divText{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 55%;
+}
+.WARSectionOne .fx-WARSectionOne .divText h1{-webkit-line-clamp: 3;}
+.WARSectionOne .fx-WARSectionOne .divText p{line-height: 172%;-webkit-line-clamp: 5;}
+.WARSectionOne .fx-WARSectionOne .divImage{
+    width: 50%;
+}
+.WARSectionOne .fx-WARSectionOne .divImage img{width: 90%;display: block;margin: auto;}
+@media (min-width:1920px) {
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 85px;}
+}
+@media (max-width:1396.36px) {
+    .WARSectionOne .fx-WARSectionOne{padding: 70px;}
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 60px;}
+}
+@media (max-width:1228.8px) {
+    .WARSectionOne .fx-WARSectionOne{gap: 90px;}
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 56px;}
+    .WARSectionOne{padding-top: 6rem;}
+}
+@media (max-width:1024px) {
+    .WARSectionOne .fx-WARSectionOne{padding: 40px;}
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 46px;}
+    .WARSectionOne{padding-top:5rem;}
+}
+@media (max-width:877.71px) {
+    .WARSectionOne .fx-WARSectionOne{padding: 30px;gap: 30px;}
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 40px;}
+    .WARSectionOne .fx-WARSectionOne .divText p{line-height: 140%;}
+    .WARSectionOne .fx-WARSectionOne .divText{gap: 12px;}
+}
+@media (max-width:768px) {
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 36px;}
+}
+@media (max-width:614.4px) {
+    .WARSectionOne{padding-top:1.5rem;}
+    .WARSectionOne .fx-WARSectionOne .divText h1{font-size: 32px;-webkit-line-clamp: 10;}
+    .WARSectionOne .fx-WARSectionOne .divText p{-webkit-line-clamp: 10;}
+    .WARSectionOne .fx-WARSectionOne{flex-direction: column;gap: 32px;padding:32px 24px;border-radius: 20px;}
+    .WARSectionOne .fx-WARSectionOne .divText{width: 100%;}
+    .WARSectionOne .fx-WARSectionOne .divImage,
+    .WARSectionOne .fx-WARSectionOne .divImage img{width: 100%;}
+}
+/* W A R Section Two Style */
+.WARSectionTwo{
+    margin: 100px 0;
+}
+.WARSectionTwo .fx-WARSectionTwo{gap: 40px;align-items: normal;}
+.WARSectionTwo .divText{
+    width: 50%;
+}
+.WARSectionTwo .divText h1{
+    line-height: 125%;
+    margin-bottom: 1rem;
+    letter-spacing: -0.88px;
+}
+.WARSectionTwo .divText p{
+    line-height:130% ;
+    margin-bottom:2rem;
+}
+.WARSectionTwo .divText h4{
+    line-height: 108.333%;
+    margin-bottom: 1rem;
+}
+.WARSectionTwo .divText .fxBoxs{gap: 20px;}
+.WARSectionTwo .divText .box{
+    border-radius: 34px;
+    border: 1px solid rgba(167, 171, 255, 0.60);
+    background: #FFF;
+    padding: 30px;
+}
+.WARSectionTwo .divText .box .boxImage{
+    border-radius: 16px;
+    background: #F0F5FF;
+    padding:12px 15px;
+    width: max-content;
+    margin-bottom: 1rem;
+}
+.WARSectionTwo .divText .box h3{
+    margin-bottom: 12px;
+    line-height: 116.667%;
+}
+.WARSectionTwo .divText .box p{line-height: 150%;}
+.WARSectionTwo .divImgs{
+    position: relative;
+    width: 50%;
+}
+.WARSectionTwo .divImgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 62.204px;
+    display: block;
+}
+.WARSectionTwo .divImgs::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(16, 33, 102, 0.32) 0%, rgba(16, 33, 102, 0.80) 100%);
+    z-index: 1;
+    border-radius: 62.204px;
+}
+.WARSectionTwo .divImgs .logoWhite-eta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 64%;
+    z-index: 10;
+   }
+    @media (max-width:1228.8px) {
+        .WARSectionTwo .divText .box{padding: 20px;}
+        .WARSectionTwo .divText .box .boxImage{padding: 10px 13px;}
+        .WARSectionTwo .divText .box .boxImage img{width: 30px;}
+    }
+    @media (max-width:1024px) {
+        .WARSectionTwo .divText .box{padding: 1rem;}
+    }
+    @media (max-width:877.71px) {
+        .WARSectionTwo .divImgs img{border-radius: 32.204px;}
+        .WARSectionTwo .divImgs::before {border-radius: 32.204px;}
+    }
+    @media (max-width:768px) {
+        .WARSectionTwo .fx-WARSectionTwo{flex-direction: column;gap: 24px;}
+        .WARSectionTwo .divImgs{width: 100%;}
+        .WARSectionTwo .divText{width: 80%;}
+    }
+   @media (max-width:614.4px) {
+    .WARSectionTwo .divText{width: 100%;}
+    .WARSectionTwo .divImgs img{border-radius: 30px;}
+    .WARSectionTwo .divImgs::before{border-radius: 30px;}
+    .WARSectionTwo .divText p{margin-bottom: 1rem;}
+    .WARSectionTwo .divText h1{font-size: 29px;}
+    .WARSectionTwo{margin: 80px 0;}
+}
+/*  W A R Section Three Style */
+.WARSectionThree h1{
+    margin-bottom: 48px;
+    line-height: 136.364% ;
+}
+.WARSectionThree .boxs-WARSectionThree{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    left: 8%;
+}
+.WARSectionThree .boxs-WARSectionThree .box{
+    border-radius: 25px;
+    border: 0.5px solid rgba(0, 0, 0, 0.10);
+    background: #EDF8FF;
+    padding: 24px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.WARSectionThree .boxs-WARSectionThree .box img{width: 8%;}
+.WARSectionThree .boxs-WARSectionThree .box ul{padding-left: 1.2rem;}
+@media (max-width:1228.8px) {
+    .WARSectionThree .boxs-WARSectionThree{left: 0;}
+    .WARSectionThree .boxs-WARSectionThree .box{padding: 16px;}
+}
+@media (max-width:1024px) {
+    .WARSectionThree .boxs-WARSectionThree{gap: 24px;}
+    .WARSectionThree h1{margin-bottom: 32px;}
+}
+@media (max-width:877.71px) {
+    .WARSectionThree .boxs-WARSectionThree .box{width: 50%;}
+    .WARSectionThree .boxs-WARSectionThree{gap: 10px;}
+    .WARSectionThree h1{margin-bottom: 24px;}
+}
+@media (max-width:768px) {}
+@media (max-width:614.4px) {
+    .WARSectionThree .boxs-WARSectionThree .box{width: 100%;}
+    .WARSectionThree .boxs-WARSectionThree .box{left: 0 !important;}
+    .WARSectionThree h1{font-size: 28px;}
+}
+/*  W A R Section Four Style */
+.WARSectionFour{
+    margin: 4rem 0;
+    background-position:top;
+    background-image: url('../images/back-WARSectionFour.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.WARSectionFour h1{
+    line-height: 125%; 
+    letter-spacing: -0.96px;
+    margin-bottom: 12px;
+}
+.WARSectionFour p{
+    line-height: 130%;
+}
+.WARSectionFour .fx-WARSectionFour{
+    gap: 24px;
+    margin-top: 40px;
+    align-items: normal;
+}
+.WARSectionFour .box{
+    border-radius: 34px;
+    border: 1px solid rgba(167, 171, 255, 0.60);
+    background: #FFF;
+    padding: 30px;
+    flex: 1 1 calc(33.3% - 24px);
+    max-width: calc(33.3% - 0px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.WARSectionFour .divImage{
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(20, 28, 175, 0.20);
+    background: #FFF;
+    width: max-content;
+    margin-bottom: 1rem;
+}
+.WARSectionFour .divImage img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+.WARSectionFour .box h4{
+    width: 100%;
+}
+.WARSectionFour .box p{
+    width: 100%;
+}
+@media (min-width:1920px) {
+    .WARSectionFour .box h4{margin-bottom: 8px;}
+}
+@media (max-width:1228.8px) {
+    .WARSectionFour .box{padding: 25px;}
+    .WARSectionFour .divImage img{width: 40px;}
+    .WARSectionFour .divImage{padding: 10px;}
+}
+@media (max-width:1024px) {
+    .WARSectionFour .box{padding: 20px;}
+    .WARSectionFour .divImage img{width: 32px;}
+    .WARSectionFour .divImage{padding: 8px;margin-bottom: 12px;border-radius: 10px;}
+}
+@media (max-width:877.71px) {
+    .WARSectionFour .box{padding: 1rem;}
+}
+@media (max-width:768px) {
+    .WARSectionFour .fx-WARSectionFour{align-items: center;}
+    .WARSectionFour .box{
+        flex: 1 1 calc(50% - 24px);
+        max-width: calc(50% - 0px);
+        padding: 24px;
+    }
+}
+@media (max-width:614.4px) {
+    .WARSectionFour{background-position: left bottom;padding: 48px 0;}
+    .WARSectionFour .box{
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+        padding: 24px;
+        border-radius: 20px;
+    }
+    .WARSectionFour .fx-WARSectionFour{gap: 16px;margin-top: 24px;}
+}
+/* Contact Form Section  Style*/
+.contactFormSection{margin-top: 100px;}
+.contactFormSection .divTitle{
+    width: 45%;
+    margin: auto;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.contactFormSection .divTitle h1{
+    line-height: 136.364% ; 
+    letter-spacing: -0.88px;
+}
+.contactFormSection .divTitle p{
+    line-height:130%;
+}
+.contactFormSection .fx-contactFormSection{
+    border-radius: 28px;
+    border: 1px solid #8DC4E9;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 6px 2px rgba(211, 211, 211, 0.25);
+    padding: 24px;
+    gap: 24px;
+}
+.contactFormSection .divInformation{
+    border-radius: 12px;
+    background: linear-gradient(181deg, #193AB2 -3.88%, #B7F8FF 99.09%);
+    padding: 20px;
+    width: 33%;
+}
+.contactFormSection .divInformation .fxHeadContact{margin-bottom: 20px;justify-content: space-between;gap: 93px;}
+.contactFormSection .divInformation .fxHeadContact img{
+    width: 20%;
+}
+.contactFormSection .divInformation .textHead h3{line-height:140%;margin-bottom: 5px;}
+.contactFormSection .divInformation .textHead p{line-height: 140%;}
+.contactFormSection .divInformation .boxInfo{
+    border-radius: 12px;
+    border: 2px solid #FFF;
+    background: #F0F8FF;
+    box-shadow: 0px 4px 24px 0px rgba(184, 207, 224, 0.08);
+    padding: 16px;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.contactFormSection .divInformation .boxInfoOne .fx-textDiv{
+    gap:12px;
+}
+.contactFormSection .divInformation .boxInfo:last-child{margin-bottom: 0;}
+.contactFormSection .divInformation .boxInfo .boxInfo-text h4{line-height: 140%;margin-bottom: 8px;}
+.contactFormSection .divInformation .boxInfo .textDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contactFormSection .divInformation .boxInfo .boxInfo-text h5{
+    line-height: 100%;
+    letter-spacing: -0.34px;
+}
+.contactFormSection .divInformation .boxInfo .boxInfo-text p{
+    line-height: 145%;
+}
+.contactFormSection .divForm{
+    width: 67%;
+}
+.contactFormSection .divForm h3{
+    background: linear-gradient(90deg, #2244B6 0%, #9ED9F3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 118.75%;
+    margin-bottom: 8px;
+}
+.contactFormSection .divForm span{line-height:140% ;margin-bottom: 8px;}
+.contactFormSection .divForm p{line-height: 140%;margin-bottom:1rem;}
+.contactFormSection .divForm .fx-general-cards{
+    gap: 16px;
+    row-gap: 24px;
+    align-items: end;
+}
+.contactFormSection .divForm .form-group.w50{
+    flex: 1 1 calc(50% - 24px);
+    max-width: calc(50% - 0px);
+}
+.contactFormSection .divForm .form-group.w100{
+    flex: 1 1 calc(100% - 24px);
+    max-width: calc(100% - 0px);
+}
+.contactFormSection .divForm .form-group label{
+    line-height: 125%;
+    margin-bottom: 10px;
+    display: block;
+}
+.contactFormSection .divForm .form-group label span{
+    color: #A0A0A0;
+    font-size: 12px;
+    line-height: normal;
+}
+.contactFormSection .divForm .styleInput,
+.contactFormSection .divForm .styleInputDate{
+    border-radius: 8px;
+    border: 1px solid #8DC4E9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    height: 44px;
+    cursor: pointer;
+}
+.contactFormSection .divForm .styleInput input,
+.contactFormSection .divForm .styleInputDate input{
+    background: transparent;
+    border: none;
+    width: 80%;
+    cursor: pointer;
+}
+.contactFormSection .divForm .divSelect,
+.contactFormSection .divForm .divSelectDate{position: relative;}
+.contactFormSection .divForm .divSelect .menuSelect,
+.contactFormSection .divForm .divSelectDate .menuSelectDate{
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+    background: #FFF;
+   width: 100%;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.04);
+    padding: 20px;position: absolute;top: 100%;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    opacity: 0;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+.contactFormSection .divForm .divSelect .menuSelect.show ,
+.contactFormSection .divForm .divSelectDate .menuSelectDate.active{
+    display: flex;
+    opacity: 1;
+}
+.contactFormSection .divForm .divSelect .menuSelect span{
+    display: block;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 0;
+    line-height: 100%;
+    letter-spacing: -0.34px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contactFormSection .divForm .divSelect .menuSelect span:hover{
+   color: #193AB2;
+}
+.contactFormSection .divForm .divSelect .menuSelect span:last-child{
+    border: none;
+    padding-bottom: 0;
+}
+/* Calendar styles */
+.flatpickr-calendar span,
+.flatpickr-calendar select option,
+.flatpickr-calendar select,
+.flatpickr-calendar input{font-family: 'Dubai';}
+.contactFormSection .divForm .form-group .boxUpload{
+    border-radius: 8px;
+    border: 1px solid #8DC4E9;
+    padding: 12px;
+    align-items: center;
+    cursor: pointer;
+    gap: 16px;
+    transition: all 0.3s ease;
+}
+.contactFormSection .divForm .form-group .boxUpload:hover{
+    transform: scale(0.99);
+}
+.contactFormSection .divForm .form-group .boxUpload h5{
+    color: #444;
+    margin-bottom: 4px;
+}
+.contactFormSection .divForm .form-group .boxUpload p{
+    color: #7C7C7C;
+
+}
+.contactFormSection .divForm .form-group textarea{
+    border-radius: 8px;
+    border: 1px solid #8DC4E9;
+    padding: 12px;
+    height: 185px;
+    width: 100%;
+}
+.contactFormSection .divForm .form-group .linearBlue{
+    border-radius: 8px;
+    height: 55px;
+    width: 100%;
+    transition: background 0.3s ease;
+    background: linear-gradient(90deg, #2042B5 0%, #A8E5F7 100%);
+}
+.contactFormSection .divForm .form-group .linearBlue:hover{
+    background: linear-gradient(90deg, #2042B5 0%, #2042B5 100%);
+}
+#fileInfo{
+    margin-top: 8px;
+}
+#fileInfo p{
+    font-family: 'Dubai';
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #2042B5;
+}
+#fileInfo img {
+    max-width: 200px;
+    object-fit: contain;
+    display: block;
+}
+@media (min-width:1706.67px) {
+    .contactFormSection .divForm .form-group .linearBlue{height: 65px;}
+    .contactFormSection .divForm .styleInput, .contactFormSection .divForm .styleInputDate{height: 54px;}
+    .contactFormSection .divForm .form-group .boxUpload{padding: 16px;}
+    #fileInfo p{font-size: 18px;}
+}
+@media (min-width:1920px) {
+    .contactFormSection .divForm .form-group .linearBlue{height: 75px;}
+    .contactFormSection .divForm .styleInput, .contactFormSection .divForm .styleInputDate{height: 64px;}
+    .contactFormSection .divForm .form-group .boxUpload{padding: 20px;}
+    .contactFormSection .divInformation .boxInfo .imgPart img{width: 70px;}
+    #fileInfo p{font-size: 20px;}
+}
+@media (max-width:1228.8px) {
+    .contactFormSection .divInformation{padding: 20px;}
+    .contactFormSection .divInformation .boxInfo .imgPart img{width: 40px;}
+    .contactFormSection .divForm .form-group textarea{-ms-high-contrast-adjust: 160px;}
+    .contactFormSection .divForm .form-group .linearBlue{height: 50px;}
+    .contactFormSection .divInformation .fxHeadContact{gap: 70px;}
+}
+@media (max-width:1024px) {
+    .contactFormSection .divInformation{padding: 16px;}
+    .contactFormSection .divInformation .boxInfo{padding: 12px;}
+    .contactFormSection .divInformation .boxInfo .boxInfo-text p{line-height: 135%;}
+    .contactFormSection .divForm .styleInput, .contactFormSection .divForm .styleInputDate{height: 38px;}
+    .contactFormSection .divForm .form-group textarea{height: 150px;}
+    .contactFormSection .divForm .form-group .boxUpload .divImageUpload img{width: 45px;}
+    .contactFormSection .divForm .form-group .linearBlue{height: 45px;}
+    #fileInfo p{font-size: 13px;}
+    .contactFormSection .divInformation .fxHeadContact{gap: 50px;}
+    .contactFormSection .divForm .fx-general-cards{row-gap: 16px;}
+}
+@media (max-width:877.71px) {
+    #fileInfo p{font-size: 12px;}
+    .contactFormSection .divInformation .fxHeadContact{gap:32px;margin-bottom: 16px;}
+    .contactFormSection .divInformation .fxHeadContact img{width: 15%;}
+    .contactFormSection .divInformation .textHead h3{font-size: 14px;}
+    .contactFormSection .divInformation .boxInfo .imgPart img{width: 30px;}
+    .contactFormSection .divForm .fx-general-cards{row-gap: 8px;}
+}
+@media (max-width:768px) {
+    #fileInfo p{font-size: 11px;}
+    .contactFormSection .divInformation .boxInfo{flex-direction: column;gap: 8px;}
+    .contactFormSection .divInformation .fxHeadContact{gap: 24px;}
+}
+@media (max-width:614.4px) {
+    .contactFormSection .fx-contactFormSection{flex-direction: column;padding: 16px;}
+    .contactFormSection .divForm .form-group.w50{
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+    }
+    .contactFormSection .divForm .form-group.w100{
+        flex: 1 1 calc(100% - 24px);
+        max-width: calc(100% - 0px);
+    }
+    .contactFormSection .divInformation{width: 100%;}
+    .contactFormSection .divForm{width: 100%}
+    .contactFormSection .subtitle16px,
+    #fileInfo p{font-size: 13px;}
+    .contactFormSection .divTitle{width: 100%;}
+}
+@media (max-width:512px) {}

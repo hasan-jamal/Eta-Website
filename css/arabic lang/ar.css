@@ -98,6 +98,9 @@
 .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{left: auto;right: 0;}
 .sectionWThree .divImages .box{left: auto;right: -5rem;}
 .sectionWTwo .box-sectionWTwo{direction: ltr;}
+.WARSectionThree .boxs-WARSectionThree{left: auto;right: 8%;}
+.WARSectionFour .box h4{margin-bottom: 16px;}
+.WARSectionTwo .divText p{line-height: 140%;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -126,6 +129,7 @@
     .investmentServicesS1 .fx-investmentServices .investmentServices-texts{padding-left: 0px;padding-right: 50px;}
     .buildingStrategic .buildingStrategic-container{padding-left: 0px;padding-right: 30px;}
     .about2 .about2Vision{margin-left: 0rem;margin-right: 10rem; }
+    .WARSectionThree .boxs-WARSectionThree{left: auto;right: 0;}
 }
 @media (max-width:1024px) {
     .section-one .section-one-texts .logo-section1 {left: auto;right: -2rem;}
@@ -168,6 +172,7 @@
         border-radius: 0px 25px  25px 0px;
     }
     .waterDetailsS2 .gridHeader2{left: auto;right: 0;}
+    .WARSectionThree .boxs-WARSectionThree{right: 0% !important;left: auto;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
