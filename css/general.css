@@ -1598,7 +1598,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 
 @media (min-width:2048px) {
   html {
-    width: 2100px;
+    width: 2050px;
     margin: auto;
   }
 }

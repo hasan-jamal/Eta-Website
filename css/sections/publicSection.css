@@ -1,0 +1,56 @@
+.publicSection{padding: 6rem 0 0rem 0;}
+.publicSectionFAQ{padding-bottom: 4rem;}
+.publicSection .bg {
+      background: url(../../images/backPublicSection.png) ;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: cover;
+      border-radius: 50px;
+      padding: 145px 0;
+}
+.publicSection .divText {
+      width: 60%;
+      margin: auto;
+}
+.publicSection .divText h1{line-height: 100%;margin-bottom: 24px;}
+.publicSection .divText p{line-height: 172%;}
+@media (min-width:1706.67px) {
+    .publicSection .bg {padding: 155px 0;}
+    .publicSection{padding: 7rem 0 0 0;}
+}
+@media (min-width:1920px) {
+    .publicSection .bg {padding: 175px 0;}
+    .publicSection{padding: 8rem 0 0 0;}
+}
+@media (min-width:2048px) {
+    .publicSection .bg {padding: 190px 0;}
+}
+@media (min-width:2304px) {
+    .publicSection .bg {padding: 215px 0;}
+}
+@media (max-width:1396.36px) {
+    .publicSection .bg {padding: 135px 0;}
+}
+@media (max-width:1228.8px) {       
+    .publicSection .bg {padding: 125px 0;}
+}
+@media (max-width:1024px) {
+    .publicSection .bg {padding: 115px 0;}
+    .publicSection .divText h1{margin-bottom: 16px;}
+}
+@media (max-width:877.71px) {
+    .publicSection .bg {padding: 105px 0;}
+    .publicSection .divText {width: 52%;}
+}
+@media (max-width:768px) {
+    .publicSection .bg {padding: 95px 0;}
+}
+@media (max-width:614.4px) {
+    .publicSection{padding-top: 1.5rem;}
+    .publicSection .bg {padding: 85px 0;}
+    .publicSection .divText {width: 80%;}
+    .publicSection .divText h1{font-size: 29px;}
+    .publicSection .divText p{line-height: 150%;}
+}
+@media (max-width:512px) {
+}
