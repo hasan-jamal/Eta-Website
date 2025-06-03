@@ -1468,30 +1468,42 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  margin-top: 48px;
+  gap: 1rem;
+  margin-top: 40px;
 }
-
 .pagination button {
-  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50px;
   height: 50px;
-  border-radius: 5px;
-  border: 1px solid var(--200, #E3DBD8);
-  color: #061C3D;
-  font-size: 20px;
+  border-radius: 12px;
+  border: 2px solid #EAEAEA;
+  background: #FFF;
+  color: #9C9C9C;
   line-height: 30px;
   transition: 0.3s;
 }
-
 .pagination button:hover,
-.pagination button.active {
-  border: 1px solid #00CFFF;
+.pagination button.active{
+  border: 2px solid #00CFFF;
+  color: #00CFFF;
 }
-
+.pagination button:hover img,
+.pagination button.active img {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(23%) saturate(7476%) hue-rotate(150deg) brightness(100%) contrast(107%);
+}
+.pagination .arrowLeft img{
+  transform: rotate(180deg);
+  filter: brightness(0) saturate(100%) invert(72%) sepia(23%) saturate(7476%) hue-rotate(150deg) brightness(100%) contrast(107%);
+}
+.pagination .arrowLeft{
+  border: 2px solid #00CFFF;
+  opacity: 0.3;
+}
+.pagination .arrowRight{
+  border: 2px solid #0B63E5;
+}
 .gridHeader {
   position: absolute;
   top: -10rem;
@@ -1509,7 +1521,6 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   .pagination button {
     width: 60px;
     height: 60px;
-    font-size: 22px;
   }
 
   .btn-blue {
@@ -1544,180 +1555,94 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 @media (min-width:1920px) {
   .btn-blue {
     height: 75px;
-    font-size: 26px;
-    padding: 0 40px;
+    font-size: 26px;padding: 0 40px;
   }
-
-  .public-p {
-    font-size: 19px;
-  }
-
-  .href-a span {
-    font-size: 1.3rem;
-  }
-
-  .arrow-slider .arrow-sliderImg {
-    padding: 25px;
-  }
-
-  .arrow-slider .arrow-sliderImg img {
-    width: 25px;
-  }
-
-  .pagination button {
-    width: 70px;
-    height: 70px;
-    font-size: 25px;
-  }
-
+  .public-p {font-size: 19px;}
+  .href-a span {font-size: 1.3rem;}
+  .arrow-slider .arrow-sliderImg {padding: 25px;}
+  .arrow-slider .arrow-sliderImg img {width: 25px;}
+  .pagination button {width: 70px;height: 70px;}
   .gridHeader {
     top: -15rem;
     left: -15rem;
   }
-
   .section-six .gridHeader,
-  .section-four .gridHeader {
-    top: -19rem;
-  }
+  .section-four .gridHeader {top: -19rem;}
 }
-
 @media (min-width:2304px) {
-
   .section-six .gridHeader,
-  .section-four .gridHeader {
-    top: -22rem;
-  }
+  .section-four .gridHeader {top: -22rem;}
 }
-
 @media (min-width:2048px) {
-  html {
-    width: 2050px;
-    margin: auto;
-  }
+  html {width: 2050px;margin: auto;}
 }
-
 @media (max-width:1396.36px) {}
-
 @media (max-width:1228.8px) {
   .btn-blue {
     padding: 0 15px;
     height: 42px;
     font-size: 16px;
   }
-
-  .href-a span {
-    font-size: 0.9rem;
-    white-space: pre;
-  }
-
-  .href-a img {
-    width: 20px;
-  }
-
-  .public-p {
-    font-size: 14px;
-    margin-bottom: 16px;
-  }
-
+  .href-a span {font-size: 0.9rem;white-space: pre;}
+  .href-a img {width: 20px;}
+  .public-p {font-size: 14px;margin-bottom: 16px;}
   .btn-seeMore {
     width: 220px;
     height: 50px;
     font-size: 17px;
   }
-
   .pagination button {
     width: 40px;
     height: 40px;
-    font-size: 18px;
   }
-
-  .pagination button img {
-    width: 8px;
-  }
-
-  .gridHeader {
-    top: -5rem;
-  }
+  .pagination button img {width: 8px;}
+  .gridHeader {top: -5rem;}
 }
-
 @media (max-width:1024px) {
-  .href-a span {
-    font-size: 0.8rem
-  }
-
+  .href-a span {font-size: 0.8rem}
   .public-p {
     font-size: 12px;
     margin-bottom: 14px;
     line-height: 20px;
   }
-
   .btn-seeMore {
     width: 180px;
     height: 45px;
     font-size: 15px;
   }
-
-  .gridHeader {
-    top: -3rem;
-  }
+  .gridHeader {top: -3rem;}
+  .pagination{gap: 12px;margin-top: 32px;}
 }
-
 @media (max-width:877.71px) {
   .btn-blue {
     height: 35px;
     font-size: 14px;
   }
 }
-
 @media (max-width:768px) {
   .gridHeader {
     top: -1rem;
     left: -5rem;
   }
 }
-
 @media (max-width:614.4px) {
   .btn-blue {
     height: 45px;
     font-size: 17px;
     padding: 0 20px;
   }
-
-  .href-a span {
-    font-size: 1rem
-  }
-
-  .btn-seeMore {
-    width: 150px;
-  }
-
-  .gridHeader {
-    top: -1rem;
-    width: 100%;
-    left: -5rem;
-  }
-
+  .href-a span {font-size: 1rem}
+  .btn-seeMore {width: 150px;}
+  .gridHeader {top: -1rem;width: 100%; left: -5rem;}
   .section-four .gridHeader,
-  .section-six .gridHeader {
-    top: -5rem;
-  }
+  .section-six .gridHeader {top: -5rem;}
+  .pagination{gap: 6px;margin-top: 24px;}
 }
 
 @media (max-width:512px) {
-  .fx-head-title {
-    flex-direction: column;
-    gap: 24px;
-    align-items: start;
-  }
-
-  .head-title h1 {
-    margin-bottom: 8px;
-    width: 100%;
-  }
-
-  .head-title p {
-    width: 100%;
-  }
+  .fx-head-title {flex-direction: column;gap: 24px;align-items: start;}
+  .head-title h1 {margin-bottom: 8px;width: 100%;}
+  .head-title p {width: 100%;}
 }
 
 
