@@ -640,43 +640,36 @@ section {
   line-height: 60px;
   letter-spacing: -1.12px;
 }
-
 .subtitle-50px {
   color: #061C3D;
   font-size: 50px;
   line-height: 60px;
 }
-
 .subtitle-40px {
   color: #262626;
   font-size: 40px;
   line-height: 50px;
 }
-
 .subtitle-30px {
   color: #262626;
   font-size: 30px;
   line-height: 40px;
 }
-
 .subtitle-two {
   color: #42526B;
   font-size: 18px;
   line-height: 26px;
   width: 75%;
 }
-
 .subtitle21px {
   color: #6E6F71;
   font-size: 21px;
   line-height: 200%;
 }
-
 .head-title h1 {
   margin-bottom: 24px;
   width: max-content;
 }
-
 .lineHeight100 {
   line-height: 100%;
 }
