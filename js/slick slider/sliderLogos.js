@@ -76,7 +76,7 @@ $(document).ready(function () {
       {
         breakpoint: 700,
         settings: {
-          slidesToShow: 3.2,
+          slidesToShow: 3,
           centerMode: false,
           centerPadding: "0px",
         },

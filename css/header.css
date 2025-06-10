@@ -23,21 +23,22 @@
 }
 
 .nav-mobile {
-  background-image: url(../images/footer-background.png);
-  background-position: top;
-  background-size: cover;
+  background: #fff;
   display: inline-block;
   position: fixed;
   height: 100vh;
-  width:310px;
-  left: -310px;
-  transition: transform 0.3s;
+  width:0;
+  left: -100%;
+  transition: all 0.6s ease-in-out;
   z-index: 9999;
   top: 0;
   font-family: 'Inter';
   overflow-y: scroll;
-  padding: 32px 24px 32px 24px;
-  border: 3px solid #141CA4;
+}
+.sidenav-active nav, .sidenav-active .coverNav {
+  /* transform: translateX(310px); */
+  width: 100%;
+  left: 0;
 }
 .nav-mobile::-webkit-scrollbar-track
 {
@@ -56,42 +57,50 @@
 	-webkit-box-shadow: inset 0 0 6px rgba(235, 235, 235, 0.3);
 	background-color: #141CA4 ;
 }
+.nav-mobile .links{height: 90%;}
 .nav-mobile .logo {
   text-align: center;
   width: 50%;
-  margin: 0 auto 2rem auto;
   display: block;
 }
 .nav-mobile .logo img {
   border-radius: 50%;
   width: 100%;
 }
+.nav-mobile .fxHeadList{
+  padding: 14px 20px;
+}
+.nav-mobile .fxHeadList .divLogo{
+  width: 75px;height: 30px;
+}
+.nav-mobile .fxHeadList .divLogo img{width: 100%;height: 100%;}
   .nav-mobile .links .fx-links{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 22px;
   }
 .nav-mobile .links .border{
   height: 0.5px;
   width: 100%;
-  background-color: #8288f8 ;
+  background-color: rgba(60, 199, 245, 0.2) ;
 }
 .nav-mobile .links a {
   text-decoration: none;
-  color: #e0e0e0;
-    font-family: "Plus Jakarta Sans";
-  font-size: 1rem;
-  letter-spacing: 1px;
+  color: rgba(131, 142, 158, 1);
+  font-family: 'Dubai';
+  font-weight: 400;
+  font-size: 17px;
+ padding: 0 20px;
 }
 .nav-mobile a:hover ,
 .nav-mobile a span:hover {
   	color: #141CA4 ;
 }
+.nav-mobile .links .fx-links a:first-child{margin-top: 24px;}
 .nav-mobile .links a.active{
     font-weight: 700;
-    letter-spacing: 1px;
-    color: #fff;
-    font-size: 1.1rem;
+    color:rgba(11, 99, 229, 1);
+    font-size: 20px;
 }
 .nav-mobile .links a svg{
   width: 24px;
@@ -123,9 +132,10 @@ transform: rotate(90deg);
 .sidenav-active .navbar-mobile{display: block;}
 .sidenav-active .close-nav{ 
   display: block;
-  background: none;
-  margin-top: 26px;
-  margin-left: 10px;
+  background:none;
+  position: relative;
+  z-index: 999;
+
 }
 .sidenav-active .coverNav {
   background-color: rgba(0, 0, 0, 0.3);
@@ -143,20 +153,29 @@ nav, .hamburger, .coverNav {
   transition: transform 0.3s;
   display: none;
 }
-.sidenav-active nav, .sidenav-active .coverNav {
-  transform: translateX(310px);
-}
+
 .navbar-mobile{
   display: none;
   position: relative;
   z-index: 1000;
   width: 100%;
 }
+.navbar-mobile .btns-header{
+  padding: 0 20px 20px 20px;
+}
 .navbar-mobile .btn-blue{
   height: 50px;
   font-size: 17px;
   font-weight: bold;
 }
+.navbar-mobile .btns-header .btn-outline-blue{
+  margin-bottom: 12px;
+  width: 100%;
+}
+.navbar-mobile .btns-header .btn-outline-blue img{width: 18px;height: 18px;}
+.navbar-mobile .btns-header button{height: 50px;}
+.navbar-mobile .btns-header button,
+.navbar-mobile .btns-header button span{font-size: 18px;}
 .navbar-mobile .flex-head{
   padding: 16px 20px;
   box-shadow: 0px 12px 74px 0px rgba(0, 0, 0, 0.05);
@@ -222,67 +241,223 @@ header .fx-header-links .links-header .active{
   font-size: 20px;
   font-weight: 700;
 } 
-header .btn-header .btn-blue{
-  font-size: 18px;
+header .btn-header{
+  display: flex;
+  gap: 16px;
 }
-.header-white .fx-header-links .links-header a{
-   color: #FFFFFF;
+header .btn-header .btn-outline-blue{
+  border-radius: 20px;
+  height: 50px;
+  transition: all 0.3s ease;
+  width: 127px;
+  padding: 0;
 }
+header .btn-header .btn-outline-blue:hover{transform: scale(1);}
+header .btn-header .btn-outline-blue:hover img{
+  filter: brightness(0) invert(1);
+}
+header .btn-header .btn-outline-blue:hover span{
+ color: #fff;
+}
+header .btn-header .btn-blue{ font-size: 18px;}
+.header-white .fx-header-links .links-header a{color: #FFFFFF;}
 .header-white .fx-header-links .links-header a:hover{font-weight: 500;color: #fff;}
+
+.dropdownStyle{
+  background: #fff;
+  padding: 40px 60px;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translateX(-50%);
+  width: 90%;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.06);
+    /* Add these for transition effect */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+.dropdownStyle.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.divDropdown .btnDropDown{gap: 7px;}
+.divDropdown .btnDropDown:hover img{
+  filter: brightness(0) saturate(100%) invert(23%) sepia(57%) saturate(4157%) hue-rotate(211deg) brightness(95%) contrast(92%);
+}
+.dropdownStyle .fxDropdownStyle{
+  gap: 24px;
+}
+.dropdownStyle .fxDropdownStyle .etaTransparent{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 30%;
+}
+.dropdownStyle .fxDropdownStyle .partOne{gap: 32px;width:  55%;}
+.dropdownStyle .fxDropdownStyle .partOne .divText1{
+  display: flex;
+  width: 55%;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid #B6CBEB;
+  background: #FFF;
+  height: max-content;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1{
+  gap: 12px;
+  margin-bottom: 6px;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1 span{
+  color: #3D4060;
+  line-height: 145%;
+  letter-spacing: -0.15px;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1 img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText1 p{
+  color: #767676;
+  line-height: 137%;
+  letter-spacing: -0.12px;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText2{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 45%;
+}
+.dropdownStyle .fxDropdownStyle .partOne .divText2 h3,
+.dropdownStyle .fxDropdownStyle .partOne .divText2 a{line-height: 120%;}
+.dropdownStyle .fxDropdownStyle .partTwo{width: 45%;gap: 16px;align-items: normal;}
+.dropdownStyle .fxDropdownStyle .partTwo .boxImage1{gap: 16px;width: 50%;}
+.dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.dropdownStyle .fxDropdownStyle .partTwo .boxImage2{width: 50%;}
+.dropdownStyle .fxDropdownStyle .partTwo .boxImage2 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
 @media (min-width:1706.67px) {
-  header .fx-header-links .links-header a{font-size: 20px;}
+  header .fx-header-links .links-header a,
+  .divDropdown .btnDropDown span{font-size: 20px;}
   header .fx-header-links .links-header .active{font-size: 23px;}
-  header .btn-header .btn-blue {font-size: 20px;height: 60px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue{height: 60px;border-radius: 30px;}
+  header .btn-header .btn-outline-blue{width: 140px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue span {font-size: 20px;}
   header .fx-header-links .logo-header img{width: 130px;}
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 260px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText2 h3,
+.dropdownStyle .fxDropdownStyle .partOne .divText2 a{line-height: 140%;}
+.dropdownStyle{padding: 50px 80px;}
 }
 @media (min-width:1920px) {
-  header .fx-header-links .links-header a{font-size: 22px;}
+  header .fx-header-links .links-header a,
+  .divDropdown .btnDropDown span{font-size: 22px;}
   header .fx-header-links .links-header .active{font-size: 25px;}
-  header .btn-header .btn-blue {font-size: 23px;height: 65px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue{height: 65px;}
+  header .btn-header .btn-outline-blue{width: 150px;}
+  header .btn-header .btn-outline-blue img{width: 25px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue span {font-size: 22px;}
   header .fx-header-links{gap: 9rem;}
   header .fx-header-links .logo-header img{width: 150px;}
   header .fx-header-links .logo-header{width: 110px;height: 45px;}
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 300px;}
+  .dropdownStyle{padding: 60px 90px;}
 }
 @media (min-width:2048px) {
-  header .fx-header-links .links-header a{font-size: 25px;}
+  header .fx-header-links .links-header a,
+  .divDropdown .btnDropDown span{font-size: 25px;}
   header .fx-header-links .links-header .active{font-size: 28px;}
-  header .btn-header .btn-blue {font-size: 25px;height: 70px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue{height: 70px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue span {font-size: 25px;}
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 320px;}
+  .dropdownStyle{padding: 70px 100px;}
 }
 @media (max-width:1396.36px) {
   header .fx-header-links{gap: 6rem;}
+  .dropdownStyle{padding: 32px 48px;}
+
+  .dropdownStyle .fxDropdownStyle .partOne{gap: 24px;}
 }
 @media (max-width:1228.8px) {
   header .fx-header-links {gap: 4.5rem;}
   header .fx-header-links .links-header{gap: 24px;}
-  header .fx-header-links .links-header a{font-size: 15px;}
+  header .fx-header-links .links-header a,
+  .divDropdown .btnDropDown span{font-size: 15px;}
   header .fx-header-links .links-header .active{font-size: 17px;}
    .energy-header{padding: 16px 0;}
    header .fx-header-links .logo-header{width: 80px;height: 28px; }
+   header .btn-header .btn-outline-blue{height: 42px;width: 110px;}
+   header .btn-header .btn-blue,
+   header .btn-header .btn-outline-blue span {font-size: 15px;}
+   .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 180px;}
+   .dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1 img{width: 40px;height: 40px;}
 }
 @media (max-width:1024px) {
-  header .btn-header .btn-blue {
-      font-size: 14px;
-      height: 38px;
-  }
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue{height: 38px;}
+  header .btn-header .btn-outline-blue{width: 85px;gap: 6px;}
+  header .btn-header .btn-outline-blue img{width: 15px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue span {font-size: 13px;}
   header .logo-header img{width: 80px;}
-  header .fx-header-links .links-header a{font-size: 14px;}
+  header .fx-header-links .links-header a,
+  .divDropdown .btnDropDown span{font-size: 14px;}
   .hamburger{display: flex;}
   header .fx-header-links .logo-header{width: 70px;height: 24px; }
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 150px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1 img{width: 35px;height: 35px;}
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1,
+  .dropdownStyle .fxDropdownStyle .partTwo{gap: 8px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1{gap: 6px;}
+  .divDropdown .btnDropDown img{width: 10px;}
+  .divDropdown .btnDropDown{gap: 4px;}
 }
 @media (max-width:877.71px) {
-  header .fx-header-links{gap: 3rem;}
- 
+  header .btn-header{gap: 8px;}
+  header .fx-header-links{gap: 2rem;}
+  header .btn-header .btn-outline-blue img{width: 10px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue{height: 35px;}
+  header .btn-header .btn-blue,
+  header .btn-header .btn-outline-blue span {font-size: 11px;}
+  header .btn-header .btn-outline-blue{width: 75px;}
+  .dropdownStyle{padding: 24px 32px;}
+  .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 130px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText2{gap: 8px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText1 p{font-size: 12px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText1 .headText1 img{width: 25px;height:25px;}
 }
 @media (max-width:768px) {
     header .logo-header img { width: 65px;} 
     header .fx-header-links .links-header {gap: 16px;}
-    header .btn-header .btn-blue {
-       height: 32px;
-       font-size: 12px;
-    }
+    header .btn-header .btn-blue {height: 32px; font-size: 12px;}
+    .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 110px;}
 }
 @media (max-width:614.40px) {
   header{display: none;}
   .navbar-mobile{display: block;}
    .sidenav-active .navbar-mobile .flex-head{display: flex;}
+   .dropdownStyle{display: none;}
 }

@@ -257,9 +257,10 @@
     align-items: normal;
     margin-top: 80px;
 }
+
 .card-team{
-    flex: 1 1 calc(20% - 16px);
-    max-width: calc(19% - 0px);
+    flex: 1 1 calc(33.3% - 16px);
+    max-width: calc(33.3% - 16px);
     border-radius: 16px;
     border: 1px solid var(--Gray-50, #F5F6F7);
     background: var(--Gray-00, #FFF);
@@ -273,7 +274,6 @@
     object-fit: cover;
     margin-bottom: 20px;
 }
-
 .card-team h3{
     color: #061C3D;
     font-size: 20px;
@@ -298,9 +298,6 @@
     background: #f5f5f5;
     transform: scale(0.9);
     border-radius: 8px;
-}
-.section-five .card-team-abs{
-    max-width: calc(22% - 0px);
 }
 .section-five .card-team-abs .image-person{
   border-radius: 50%;

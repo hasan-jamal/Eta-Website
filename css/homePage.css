@@ -97,11 +97,14 @@
 }
 
 /* /./////////////////////////// */
-
 .section-five{background-image: url('../images/backSectionFive.png');}
-
+.section-five .textSubtitle{
+    line-height: 134.375%;
+    letter-spacing: -0.64px;
+    margin-top: 40px;
+}
 .section-five .section-five-container{
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 .section-five .card-team{
     padding: 20px;
@@ -110,6 +113,7 @@
     background:#FFF;
     flex: 1 1 calc(25% - 16px);
     max-width: calc(25% - 16px);
+    cursor: pointer;
 }
 .card-team .image-person{
     height: 229px;
@@ -135,22 +139,75 @@
     height: 100%;
     padding: 8px 12px;
 }
-.section-five .fx-section-five{margin-top: 40px;}
+.section-five .fx-section-five{margin-top: 16px;}
+/* new Card in Section Five */
+.leaderCard {
+    margin-top: 2rem;
+    border: 1px solid #EFF6FF;
+    background: var(--Gray-00, #FFF);
+    border-radius: 40px;
+    width: 80%;
+    padding: 20px;
+    gap: 42px;
+    align-items: center;
+    cursor: pointer;
+}
+.leaderCard .divImgs{
+    width: 37%;
+    position: relative;
+    max-height: 100%;
+}
+.leaderCard .divImgs .leaderImage{
+    width: 100%;
+    min-height:270px ;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 36px;
+}
+.leaderCard .divImgs .linkedinIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 94%;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+.leaderCard .divText{width: 63%;}
+.leaderCard .divText h4{
+    line-height: 87.5% ; 
+    letter-spacing: -0.384px;
+    margin-bottom: 6px;
+}
+.leaderCard .divText span{margin-bottom: 20px;}
+.leaderCard .divText p{
+    line-height: 133.333%;
+    -webkit-line-clamp: 3;
+}
 @media (min-width:1706.67px) {
     .card-team .image-person{height: 250px;}
+    .leaderCard .divImgs .leaderImage{min-height: 300px;}
 }
 @media (min-width:1920px) {
     .card-team .image-person{height: 280px;}
+    .leaderCard .divImgs .leaderImage{min-height: 330px;}
+    .leaderCard .divImgs .linkedinIcon img{width: 60px;}
+    .section-five .card-team{
+        flex: 1 1 calc(33.3% - 16px);
+        max-width: calc(33.3% - 16px);
+    }
 }
 @media (min-width:2048px) {
     .card-team .image-person{height:320px;}
 }
 @media (max-width:1396.36px) {
     .card-team .image-person{height: 200px;}
+    .leaderCard .divImgs .leaderImage{min-height: 230px;}
 }
 @media (max-width:1228.8px) {
     .card-team .image-person{height: 180px;}
     .section-five .card-team{padding: 16px;}
+    .leaderCard .divImgs .leaderImage{min-height: 220px;}
+    .leaderCard{padding: 16px;gap: 32px;}
 }
 @media (max-width:1024px) {
     .section-five .card-team{
@@ -158,9 +215,15 @@
         flex: 1 1 calc(33.3% - 16px);
         max-width: calc(33.3% - 16px);
     }
+    .leaderCard{padding: 16px;gap: 24px;}
+    .leaderCard .divImgs .leaderImage{min-height: 190px;}
+    .leaderCard .divText span{margin-bottom: 16px;}
+    .leaderCard .divImgs .linkedinIcon img{width: 35px;}
 }
 @media (max-width:877.71px) {
     .section-five .card-team{padding: 8px;}
+    .leaderCard .divText span{margin-bottom: 12px;}
+    .leaderCard .divImgs .linkedinIcon img{width: 30px;}
 }
 @media (max-width:768px) {
     .card-team .image-person{height: 220px;}
@@ -189,29 +252,41 @@
         padding:0 2px;
     }
     .section-five{background-position: 37%;}
+    .leaderCard {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .leaderCard .divImgs,
+    .leaderCard .divText{width: 100%;}
+    .leaderCard .divImgs .linkedinIcon {
+        top: 90%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .leaderCard .divImgs .linkedinIcon img{width: 35px;}
     .section-five .section-five-container{padding-top: 9rem;}
 }
 @media (max-width:512px) {
 }
+
 /* Section Logos */
 .sectionLogos{
     margin: 7rem 0;
 }
-.sectionLogos-container{
-  width: 80%;
-  margin: auto;
-}
+.sectionLogos .fxSectionLogos .slide{padding: 0 12px;}
 .sectionLogos .fxSectionLogos .divLogo{
-    border-radius: 110px;
-    border: 1px solid #D0EEFE;
-    background: #F1F6FF;
+    border-radius: 4px;
+    border: 1px solid rgba(201, 231, 255, 1);
+    box-shadow: 0px 4px 20px 0 rgba(0, 0, 0, 0.04);
+    background: rgba(255, 255, 255, 1);
     padding:15px 20px;
     position: relative;
     display: flex;
     align-items: center;
     transition: opacity 0.6s ease-in-out;
     margin: auto;
-    width: 65%;
+    width: 100%;
 }
 .sectionLogos .fxSectionLogos .divLogo.visible{
     opacity: 1;
@@ -271,8 +346,135 @@
     .sectionLogos .fxSectionLogos .divLogo.show-placeholder{
         height: 35px;width: 35px;padding: 0 !important;}
     .sectionLogos .fxSectionLogos .divLogo img{width: 60px; height: 60px;}
-    .sectionLogos .fxSectionLogos .divLogo{padding:4px 4px;width: 82%;}
+    .sectionLogos .fxSectionLogos .divLogo{padding:4px 4px;width: 100%;}
     .sectionLogos-container{width: 100%;padding: 0 20px;}
+    .sectionLogos .fxSectionLogos .slide{padding: 0 6px;}
   }
   @media (max-width:512px) {
   }
+  /* Modal */
+  .modalUsers {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    width: 80%;
+    max-height: 90vh;
+    margin: auto;
+    background: #fff;
+    z-index: 6000;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    display: none;
+    opacity: 1;
+    transition: transform 0.3s ease;
+}
+.modalUsers.show {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+.modalUsers .closeCircleBtn{
+    position: absolute;
+    right: 1%;
+    background: none;
+    top: 3%;
+}
+.modalUsers .closeCircleBtn img{width: 85%;}
+.modalUsers .modal-content{
+    padding: 40px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 36px;
+    gap: 32px;
+    align-items: normal;
+}
+.modalUsers .modal-content .divImage{
+    width: 50%;
+    max-height: auto;
+    min-height: 600px;
+}
+.modalUsers .modal-content .divImage img{
+    border-radius: 36px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.modalUsers .divText{width: 50%;}
+.modalUsers .divText .styleText{margin-bottom: 1rem;}
+.modalUsers .divText .styleText:last-child{margin-bottom: 0;}
+.modalUsers .divText h2{
+    color: rgba(6, 28, 61, 1);
+    letter-spacing: -1.2%;
+}
+.modalUsers .divText h6{
+    color: rgba(106, 119, 139, 1);
+}
+.modalUsers .divText .fxBtnsModal{
+    gap: 14px;
+    margin: 14px 0 24px 0;
+}
+.modalUsers .divText span{
+    color: rgba(11, 99, 229, 1);
+}
+.modalUsers .divText p{
+    color: rgba(6, 28, 61, 1);
+    line-height:  140%;
+}
+@media (min-width:1706.67px) {
+    .modalUsers .modal-content .divImage{min-height: 700px;}
+}
+@media (min-width:1920px) {
+    .modalUsers .modal-content .divImage{min-height: 750px;}
+}
+@media (min-width:2048px) {
+    .modalUsers .modal-content .divImage{min-height: 800px;}
+}
+@media (min-width:2304px) {
+    .modalUsers{width: 65%;}
+}
+@media (min-width:3072px) {
+    .modalUsers{width: 50%;}
+}
+@media (min-width:4608px) {
+    .modalUsers{width: 30%;}
+    .modalUsers .divText p,
+    .modalUsers .divText span{font-size: 32px;}
+}
+@media (max-width:1396.36px) {
+    .modalUsers .modal-content{padding: 35px;}
+    .modalUsers .modal-content .divImage{min-height: 500px;}
+}
+@media (max-width:1228.8px) {
+    .modalUsers .modal-content{padding: 30px;}
+    .modalUsers .modal-content .divImage{min-height: 450px;}
+    .modalUsers .closeCircleBtn img{width: 75%;}
+    .modalUsers .divText .fxBtnsModal{margin: 12px 0 20px 0;}
+}
+@media (max-width:1024px) {
+    .modalUsers .modal-content{padding: 25px;}
+    .modalUsers .modal-content .divImage{min-height: 400px;}
+    .modalUsers .closeCircleBtn img{width: 65%;}
+    .modalUsers .divText .fxBtnsModal img{width: 35px;}
+    .modalUsers .divText .fxBtnsModal{margin: 10px 0 1rem 0;}
+}
+@media (max-width:877.71px) {
+    .modalUsers .modal-content{padding: 20px;}
+    .modalUsers .modal-content .divImage{min-height: 400px;}
+    .modalUsers .closeCircleBtn img{width: 50%;}
+    .modalUsers .closeCircleBtn{top:2%;}
+    .modalUsers .divText .fxBtnsModal img{width: 28px;}
+    .modalUsers .divText .fxBtnsModal{margin: 10px 0 0.7rem 0;}
+}
+@media (max-width:768px) {
+    .modalUsers .modal-content{padding: 1rem;gap: 24px;}
+}
+@media (max-width:614.4px) {
+    .modalUsers .divText{width: 100%;}
+    .modalUsers .modal-content .divImage{width: 100%;min-height: 100%;}
+    .modalUsers .modal-content .divImage img{height: 200px;}
+    .modalUsers .modal-content{flex-direction: column;}
+    .modalUsers .closeCircleBtn{top: 2%;right: 0;}
+    .modalUsers .closeCircleBtn img{background: #fff;border-radius: 50%;}
+    .modalUsers .modal-content .divImage img{border-radius: 15px;}
+}
+@media (max-width:512px) {}
