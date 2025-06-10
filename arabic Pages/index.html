@@ -31,9 +31,7 @@
 
 <body>
     <div class="navbar-mobile">
-        <div class="coverNav" onclick="toggleSidenav();">
-            <button class="close-nav" onclick="closeSidenav();"><img src="../images/close-nav.svg" alt="close"></button>
-        </div>
+
         <div class=" align-items-center  justify-content-between  flex-head">
             <a href="index.html"><img src="../images/logo blue.png" class="logo-image" /></a>
             <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
@@ -44,22 +42,34 @@
         </div>
         <nav class="nav-mobile">
             <div class="links">
-                <img src="../images/logo-white.svg" class="logo" />
-                <div class="fx-links">
-                    <a href="./index.html" class="font-medium active">Home</a>
-                    <div class="border"></div>
-                    <a href="./water.html" class="font-medium">Water</a>
-                    <div class="border"></div>
-                    <a href="./energy.html" class="font-medium">Energy</a>
-                    <div class="border"></div>
-                    <a href="./caseStudies.html" class="font-medium">Case Studies</a>
-                    <div class="border"></div>
-                    <a href="./libraryMedia.html" class="font-medium">Library Media</a>
-                    <div class="border"></div>
-                    <a href="./about.html" class="font-medium">About</a>
-                    <div class="border"></div>
-                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
-                        Us</button>
+                <div class="d-flex align-items-center justify-content-between fxHeadList">
+                    <div class="divLogo"><img src="../images/logo blue.png" class="logo" /></div>
+                    <button class="close-nav" onclick="toggleSidenav();"><img src="../images/close-nav.svg"
+                            alt="close"></button>
+                </div>
+                <div class="d-flex flex-column justify-content-between " style="min-height: 100%;">
+                    <div class="fx-links" style="flex-grow: 1;">
+                        <a href="./index.html" class="font-medium active">Home</a>
+                        <div class="border"></div>
+                        <a href="./water.html" class="font-medium">Water</a>
+                        <div class="border"></div>
+                        <a href="./energy.html" class="font-medium">Energy</a>
+                        <div class="border"></div>
+                        <a href="./caseStudies.html" class="font-medium">Case Studies</a>
+                        <div class="border"></div>
+                        <a href="./libraryMedia.html" class="font-medium">Library Media</a>
+                        <div class="border"></div>
+                        <a href="./about.html" class="font-medium">About</a>
+                        <div class="border"></div>
+                    </div>
+                    <div class="btns-header d-flex flex-column">
+                        <button class="btn-outline-blue">
+                            <img src="../images/languageIcon.svg" alt="language Icon">
+                            <span class="font-bold subtitle18px colorBlue3">Arabic</span>
+                        </button>
+                        <button class=" btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                            Us</button>
+                    </div>
                 </div>
         </nav>
     </div>
@@ -74,15 +84,97 @@
                     <div class="line-ver"></div>
                     <div class="links-header">
                         <a href="./index.html" class="style-font active">Home</a>
-                        <a href="./water.html" class="style-font">Water</a>
-                        <a href="./energy.html" class="style-font">Energy</a>
+                        <div class="divDropdown">
+                            <a href="./water.html" class="d-flex align-items-center btnDropDown">
+                                <span class="style-font">Water</span>
+                                <img src="../images/arrowDownHeader.svg" alt="arrow Down Header">
+                            </a>
+                            <div class="waterDropdown dropdownStyle">
+                                <div class="d-flex fxDropdownStyle">
+                                    <img src="../images/etaTransparent.svg" alt="eta Transparent"
+                                        class="etaTransparent">
+                                    <div class="d-flex partOne">
+                                        <div class="divText1">
+                                            <div class="d-flex align-items-center headText1">
+                                                <img src="../images/WaterPorjectsBtn.svg" alt="Water Porjects icon">
+                                                <span class="subtitle28px font-medium numberLines">Water Sector</span>
+                                            </div>
+                                            <p class="mb-0 font-medium subtitle20px">Delivering smart, sustainable water
+                                                solutions
+                                                for communities and
+                                                industries.</p>
+                                        </div>
+                                        <div class="divText2">
+                                            <h3 class="colorBlue3 subtitle28px font-medium">Water sector divisions</h3>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Pure Water
+                                                Supply</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Desalination
+                                                Plants</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Operation and
+                                                Maintenance of Existing Desalination Plants</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex partTwo">
+                                        <div class="boxImage1 d-flex flex-column">
+                                            <img src="../images/waterDropdown-img1.png" alt="water Dropdown image">
+                                            <img src="../images/waterDropdown-img2.png" alt="water Dropdown image">
+                                        </div>
+                                        <div class="boxImage2"><img src="../images/waterDropdown-img3.png"
+                                                alt="water Dropdown image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divDropdown">
+                            <a href="./energy.html" class="d-flex align-items-center btnDropDown">
+                                <span class="style-font">Energy</span>
+                                <img src="../images/arrowDownHeader.svg" alt="arrow Down Header">
+                            </a>
+                            <div class="energyDropdown dropdownStyle">
+                                <div class="d-flex fxDropdownStyle">
+                                    <img src="../images/etaTransparent.svg" alt="eta Transparent"
+                                        class="etaTransparent">
+                                    <div class="d-flex partOne">
+                                        <div class="divText1">
+                                            <div class="d-flex align-items-center headText1">
+                                                <img src="../images/EnergyProjectsBtn.svg" alt="Water Porjects icon">
+                                                <span class="subtitle28px font-medium numberLines">Energy Sector</span>
+                                            </div>
+                                            <p class="mb-0 font-medium subtitle20px">Powering progress with clean,
+                                                efficient, and future-ready energy projects.</p>
+                                        </div>
+                                        <div class="divText2">
+                                            <h3 class="colorBlue3 subtitle28px font-medium">Energy Sector divisions</h3>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Pure Water
+                                                Supply</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Desalination
+                                                Plants</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Operation and
+                                                Maintenance of Existing Desalination Plants</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex partTwo">
+                                        <div class="boxImage1 d-flex flex-column">
+                                            <img src="../images/energyDropdown-img1.png" alt="energy Dropdown image">
+                                            <img src="../images/energyDropdown-img2.png" alt="energy Dropdown image">
+                                        </div>
+                                        <div class="boxImage2"><img src="../images/energyDropdown-img3.png"
+                                                alt="energy Dropdown image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a href="./caseStudies.html" class="style-font">Case Studies</a>
                         <a href="./libraryMedia.html" class="style-font">Library Media</a>
                         <a href="./about.html" class="style-font">About</a>
                     </div>
                 </div>
                 <div class="btn-header">
-                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                    <button class="btn-outline-blue">
+                        <img src="../images/languageIcon.svg" alt="language Icon">
+                        <span class="font-bold subtitle18px colorBlue3">Arabic</span>
+                    </button>
+                    <button class=" btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
                         Us</button>
                 </div>
             </div>
@@ -426,22 +518,13 @@
         </section>
         <section class="section-five">
             <div class="section-five-container">
-                <div class="d-flex fx-head">
-                    <div class="card-team fx-general-card-st">
-                        <img src="../images/person.jpeg" alt="person image" class="image-person">
-                        <div class="d-flex justify-content-center fx-card-links">
-                            <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
-                            <a href=""><img src="../images/instgram-blue.svg" alt="instgram"></a>
-                            <a href=""><img src="../images/X-blue.svg" alt="X"></a>
-                            <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
-                        </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
-                        <p class="style-font mb-0">Investment Director</p>
-                    </div>
+                <div class="d-flex align-items-center justify-content-center fx-head">
                     <div class="fx-head-texts">
-                        <h1 class="subtitle-one font-bold colorBlue3" data-aos="zoom-in">Eta's team of highly skilled
+                        <h1 class="subtitle-one font-bold colorBlue3 text-center" data-aos="zoom-in">Eta's team of
+                            highly skilled
                             experts</h1>
-                        <p class="style-font subtitle-two ">Eta company is staffed with a diverse team of
+                        <p class="style-font subtitle-two text-center m-auto">Eta company is staffed with a diverse team
+                            of
                             engineers
                             and experts,
                             bringing a wealth of experience and knowledge to
@@ -449,8 +532,28 @@
                         </p>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center openModalBtn">
+                    <div class="leaderCard d-flex justify-content-between">
+                        <div class="divImgs d-flex align-items-center">
+                            <img src="../images/abdSalam.png" alt="leader image" class="leaderImage">
+                            <a href="" class="linkedinIcon"><img src="../images/linkedinLeader.svg"
+                                    alt="linkedin Icon"></a>
+                        </div>
+                        <div class="divText">
+                            <h4 class="font-bold colorBlueDark2 subtitle-30px">Abdul Salam Yaseen</h4>
+                            <span class="style-font subtitle18px colorGrey7 d-block">Founder & Chairman</span>
+                            <img src="../images/Quotes.svg" alt="Quotes icon" class="quotesIcon">
+                            <p class="style-font colorBlueDark2 mb-0 subtitle21px numberLines">“This guy
+                                is true
+                                professional and very experienced in migration and server configuration. He was able
+                                to complete
+                                my order in time and as per agreed scope. Highly recommend!”</p>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="colorBlueDark9 subtitle-30px font-bold textSubtitle">Board of Directors</h3>
                 <div class=" fx-section-five fx-general-cards" data-aos="zoom-in-up">
-                    <div class="card-team fx-general-card-st">
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -462,18 +565,7 @@
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
-                    <div class="card-team fx-general-card-st">
-                        <img src="../images/person.jpeg" alt="person image" class="image-person">
-                        <div class="d-flex justify-content-center fx-card-links">
-                            <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
-                            <a href=""><img src="../images/instgram-blue.svg" alt="instgram"></a>
-                            <a href=""><img src="../images/X-blue.svg" alt="X"></a>
-                            <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
-                        </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
-                        <p class="style-font mb-0">Investment Director</p>
-                    </div>
-                    <div class="card-team fx-general-card-st">
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -485,7 +577,7 @@
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
-                    <div class="card-team fx-general-card-st">
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -497,7 +589,7 @@
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
-                    <div class="card-team fx-general-card-st">
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -509,7 +601,10 @@
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
-                    <div class="card-team fx-general-card-st">
+                </div>
+                <h3 class="colorBlueDark9 subtitle-30px font-bold textSubtitle">Executive Management</h3>
+                <div class=" fx-section-five fx-general-cards" data-aos="zoom-in-up">
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -521,7 +616,19 @@
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
-                    <div class="card-team fx-general-card-st">
+                    <div class="card-team fx-general-card-st openModalBtn">
+                        <img src="../images/person.jpeg" alt="person image" class="image-person">
+                        <div class="d-flex justify-content-center fx-card-links">
+                            <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
+                            <a href=""><img src="../images/instgram-blue.svg" alt="instgram"></a>
+                            <a href=""><img src="../images/X-blue.svg" alt="X"></a>
+                            <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
+                        </div>
+                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <p class="style-font mb-0">Investment Director</p>
+
+                    </div>
+                    <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
                             <a href=""><img src="../images/facebook-blue.svg" alt="facebook"></a>
@@ -695,52 +802,52 @@
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo6.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo7.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
                             <div class="placeholder"></div>
                         </div>
                     </div>
@@ -974,9 +1081,55 @@
         </div>
 
     </footer>
-
+    <div class="coverBackground"></div>
+    <div class="modal modalUsers">
+        <button class="closeCircleBtn btn-hover"><img src="../images/close-circle.svg" alt="close-circle"></button>
+        <div class="modal-content d-flex">
+            <div class="divImage"><img src="../images/person.jpeg" alt="user image"></div>
+            <div class="divText">
+                <h2 class="font-bold subtitle-30px  ">Yousef Abdul Salam Yaseen</h2>
+                <h6 class="style-font subtitle16px">Director of Investments</h6>
+                <div class="d-flex fxBtnsModal">
+                    <a href=""><img src="../images/linkedinModal.svg" alt="linkedin Icon"></a>
+                    <a href=""><img src="../images/instgramModal.svg" alt=""></a>
+                </div>
+                <div class="d-flex flex-column styleText">
+                    <span class="style-font subtitle16px">About Yousef</span>
+                    <p class="font-medium subtitle18px mb-0">Yousef Abdul Salam Yaseen is the Head of Investment and
+                        Development
+                        at ETA. Played a key role as a
+                        strategic advisor in
+                        the development of ETA’s official website.</p>
+                </div>
+                <div class="d-flex flex-column styleText">
+                    <span class="style-font subtitle16px">Qualifications</span>
+                    <p class="font-medium subtitle18px mb-0">Bachelor of Engineering - BE, Electrical and Electronics
+                        Engineering In University of
+                        Hertfordshire
+                    </p>
+                </div>
+                <div class="d-flex flex-column styleText">
+                    <span class="style-font subtitle16px">Experiences</span>
+                    <p class="font-medium subtitle18px mb-0">Guided the structure, content, and vision of the platform
+                        to reflect ETA’s diverse sectors:
+                        water,
+                        energy, investment,
+                        construction, trade, industry, and agriculture.</p>
+                    <p class="font-medium subtitle18px mb-0">Supervised the project’s direction.</p>
+                </div>
+                <div class="d-flex flex-column styleText">
+                    <span class="style-font subtitle16px">About Yousef</span>
+                    <p class="font-medium subtitle18px mb-0">Yousef Abdul Salam Yaseen is the Head of Investment and
+                        Development at ETA. Played a key role as
+                        a
+                        strategic advisor in
+                        the development of ETA’s officialwebsite.</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Jquery Library -->
-    <script src=" ./js/jquery/jquery.min.js">
+    <script src="../js/jquery/jquery.min.js">
     </script>
     <!-- Slick Slider -->
     <script src="../js/slick slider/slick.min.js"></script>
@@ -1019,7 +1172,7 @@ to life`;
         cards.forEach((card, index) => {
             const offset = index * 17;
             card.style.position = 'relative';
-            card.style.left = `${offset}%`;
+            card.style.right = `${offset}%`;
         });
     </script>
     <!-- <script>
@@ -1082,6 +1235,42 @@ to life`;
     </script>
     <!-- Slider Logos -->
     <script src="../js/slick slider/sliderLogos.js"></script>
+    <!-- Header Dropdown Code -->
+    <script>
+        $(document).ready(function () {
+            $('.divDropdown').each(function () {
+                const $container = $(this);
+                const $dropdown = $container.find('.dropdownStyle');
+
+                $container.on('mouseenter', function () {
+                    $dropdown.addClass('show');
+                });
+
+                $container.on('mouseleave', function () {
+                    $dropdown.removeClass('show');
+                });
+            });
+        });
+    </script>
+    <!-- Modal Script Jquery  -->
+    <script>
+        function openModal() {
+            $('.coverBackground').addClass('show');
+            $('body').css('overflow', 'hidden');
+            $('.modal.modalUsers').addClass('show').fadeIn(300);
+        }
+        function closeModal() {
+            $('.modal.modalUsers').removeClass('show').fadeOut(200);
+            $('.coverBackground').removeClass('show');
+            $('body').css('overflow-y', 'auto');
+        }
+        $(document).on('click', '.openModalBtn', function () {
+            openModal();
+        });
+        $(document).on('click', '.closeCircleBtn, .coverBackground', function () {
+            closeModal();
+        });
+    </script>
 </body>
 
 </html>

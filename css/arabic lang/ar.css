@@ -101,6 +101,8 @@
 .WARSectionThree .boxs-WARSectionThree{left: auto;right: 8%;}
 .WARSectionFour .box h4{margin-bottom: 16px;}
 .WARSectionTwo .divText p{line-height: 140%;}
+.modalUsers .closeCircleBtn{left: 1%;right: auto;}
+.leaderCard .divImgs .linkedinIcon{right: 94%;left: auto;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -173,6 +175,8 @@
     }
     .waterDetailsS2 .gridHeader2{left: auto;right: 0;}
     .WARSectionThree .boxs-WARSectionThree{right: 0% !important;left: auto;}
+    .modalUsers .closeCircleBtn{left: 0;right: auto;}
+    .leaderCard .divImgs .linkedinIcon{left: 50%;right: auto;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}
