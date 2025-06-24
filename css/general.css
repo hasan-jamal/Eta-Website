@@ -58,6 +58,14 @@
   font-family: 'GE SS Two Medium';
   src: url(../fonts/geSsTwo/ArbFONTS-GE_SS_TWO_MEDIUM_5.otf);
 }
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url(../fonts/plus-jakarta-sans/PlusJakartaSans[wght].ttf);
+}
+@font-face {
+  font-family:"29LT Zeyn";
+  src: url(../fonts/29LT\ Zeyn.ttf);
+}
 :root {
   --font-size-143: 143px;
   --line-height-110: 110px;
@@ -153,6 +161,10 @@ p, button, a { font-size: 1rem; }
 .font-ExtraBold {
   font-family: 'Dubai ExtraBold';
 }
+.font-Jakarta  {
+  font-family: "Plus Jakarta Sans";
+}
+.weight700{font-weight: 700;}
 .px-90 { padding: 0 90px; }
 .px-50 { padding: 0 50px; }
 .px-100 { padding: 0 100px; }
@@ -711,6 +723,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 .colorBlueDark7{color: #013B59;}
 .colorBlueDark8{color: #3D4060;}
 .colorBlueDark9{color: #053A88;}
+.colorBlueDark10{color: #0F2137;;}
 .colorGrey {color: #42526B;}
 .colorGrey2 {color: #838E9E;}
 .colorGrey3 {color: #435169;}
@@ -720,6 +733,8 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 .colorGrey7 {color: #444;}
 .colorGrey8 {color: #848992;}
 .colorGrey9 {color: #667085;}
+.colorGrey10 {color: #555;}
+.colorGrey10 {color: #696A80;}
 .btn-seeMore {
   width: 243px;
   height: 60px;
