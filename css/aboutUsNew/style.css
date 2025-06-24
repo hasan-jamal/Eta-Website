@@ -312,6 +312,9 @@
 
 /* About 4 Section  */
 .about4{margin: 100px 0;}
+.about4 .divTitles{
+    align-items: center;
+}
 .about4 .divTitles h1{margin-bottom: 1rem;}
 .about4 .divTitles p{width: 80%;}
 .about4 .fx-about4{margin-top: 45px;gap: 24px;}
@@ -388,6 +391,7 @@
     .about4 .responsive-map{width: 100%;height: 250px;}
     .about4 h1{margin-bottom: 16px;}
     .about4 .divTitles p{width: 100%;}
+    .about4 .divTitles{flex-direction: column;align-items: start;gap: 1rem;}
 }
 .counter {
     transition: all 0.3s ease;
