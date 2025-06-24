@@ -103,6 +103,7 @@
 .WARSectionTwo .divText p{line-height: 140%;}
 .modalUsers .closeCircleBtn{left: 1%;right: auto;}
 .leaderCard .divImgs .linkedinIcon{right: 94%;left: auto;}
+.aboutUsS3 .fxAboutUsS3 .box img{margin-right: auto;left: auto;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
