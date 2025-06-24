@@ -158,7 +158,12 @@
     border-radius: 40px;
     background: #DEF9FF;
     position: relative;
+    width: 50%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
 }
 .aboutUsS3 .fxAboutUsS3 .box .divText{
     padding: 60px 60px 0 60px; 
@@ -172,7 +177,7 @@
 }
 .aboutUsS3 .fxAboutUsS3 .box img{
     position: relative;
-    bottom: -3rem;
+    bottom: 0rem;
     left: -1rem;
     width: 80%;
 }
@@ -195,6 +200,7 @@
 @media (max-width:614.4px) {
     .aboutUsS3{margin: 70px 0;}
     .aboutUsS3 .fxAboutUsS3{flex-direction: column;}
+    .aboutUsS3 .fxAboutUsS3 .box{width: 100%;}
 }
 @media (max-width:512px) {}
 /* About Us Section 4 */
