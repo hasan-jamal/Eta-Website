@@ -1239,16 +1239,47 @@ to life`;
                 const $container = $(this);
                 const $dropdown = $container.find('.dropdownStyle');
 
-                $container.on('mouseenter', function () {
+                let isHovering = false;
+                let timeout;
+
+                function openDropdown() {
                     $dropdown.addClass('show');
+                }
+
+                function closeDropdown() {
+                    // تأخير الإغلاق قليلًا للتأكد من عدم انتقال المؤشر بسرعة للداخل
+                    timeout = setTimeout(() => {
+                        if (!isHovering) {
+                            $dropdown.removeClass('show');
+                        }
+                    }, 200); // يمكن تعديل هذا التأخير حسب الحاجة
+                }
+
+                $container.on('mouseenter', function () {
+                    isHovering = true;
+                    clearTimeout(timeout);
+                    openDropdown();
                 });
 
                 $container.on('mouseleave', function () {
-                    $dropdown.removeClass('show');
+                    isHovering = false;
+                    closeDropdown();
+                });
+
+                $dropdown.on('mouseenter', function () {
+                    isHovering = true;
+                    clearTimeout(timeout);
+                    openDropdown();
+                });
+
+                $dropdown.on('mouseleave', function () {
+                    isHovering = false;
+                    closeDropdown();
                 });
             });
         });
     </script>
+
     <!-- Modal Script Jquery  -->
     <script>
         function openModal() {

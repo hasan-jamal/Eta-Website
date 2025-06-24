@@ -172,9 +172,12 @@
 }
 .aboutUsS3 .fxAboutUsS3 .box img{
     position: relative;
-    bottom: -2rem;
+    bottom: -3rem;
     left: -1rem;
     width: 80%;
+}
+@media (min-width:1920px) {
+    .aboutUsS3 .fxAboutUsS3 .box img{bottom: -4rem;}
 }
 @media (max-width:1228.8px) {
     .aboutUsS3 .fxAboutUsS3{gap: 40px;}
@@ -189,7 +192,6 @@
     .aboutUsS3 .fxAboutUsS3{gap: 24px;}
     .aboutUsS3{margin: 60px 0;}
 }
-@media (max-width:768px) {}
 @media (max-width:614.4px) {
     .aboutUsS3{margin: 70px 0;}
     .aboutUsS3 .fxAboutUsS3{flex-direction: column;}
