@@ -73,4 +73,33 @@ document.addEventListener("DOMContentLoaded", () => {
   window.player = playerEn;
   // window.player = playerAr;
   window.player = caseStudiesVideo;
+
+  const playerNew = new Plyr("#playerNew", {
+    autoplay: false,
+    muted: false,
+    youtube: {
+      noCookie: true,
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      mute: 1,
+    },
+  });
+  playerNew.once("ready", () => {
+    playerNew.play();
+  });
+  const playerNew2 = new Plyr("#playerNew2", {
+    autoplay: false,
+    muted: false,
+    youtube: {
+      noCookie: true,
+      rel: 0,
+      modestbranding: 1,
+      autoplay: 1,
+      mute: 1,
+    },
+  });
+  playerNew2.once("ready", () => {
+    playerNew2.play();
+  });
 });

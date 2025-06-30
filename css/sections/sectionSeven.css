@@ -1,0 +1,86 @@
+/* Section Seven */
+.section-seven{
+    margin-top: 100px;
+    margin-bottom: 2rem;
+}
+.section-seven-container{
+    width: 100%;
+    margin: auto;
+}
+.section-seven .fx-tilte-blue{margin-bottom: 10px;}
+.section-seven .head-title{width: 50%;}
+#sectionSeven .head-title h1{
+    width: 100%;
+    line-height: 110%;
+    margin-bottom: 12px;
+ }
+ .arrow-slider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+ .arrow-slider .ArrowRightClient {
+    transform: rotate(180deg);
+}
+.section-seven .sliderArticles{margin-top:40px;}
+.section-seven .sliderArticles .slide{
+    padding: 0 10px;
+}
+.section-seven .card-article{
+    border-radius:  65px 65px 20px 20px;
+    border: 1px solid var(--200, #E3DBD8);
+}
+.section-seven .card-article-texts{
+    padding: 1rem;
+}
+.section-seven .card-article-texts .btnBlue{
+    border-radius: 40px;
+    background: #EAF0FF;
+    padding: 6px 16px;
+    margin-bottom: 20px;
+}
+.section-seven .article-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+.section-seven .fx-titles-articles{
+    gap: 20px;
+    margin-bottom: 8px;
+}
+.section-seven .fx-titles-articles .title-articles{gap: 5px;}
+.section-seven .card-article h3{
+    color: #061C3D;
+    font-size: 20px;
+    line-height: 30px; 
+    margin-bottom: 10px;
+}
+.section-seven .card-article p{
+    color:#727272;
+    font-size: 15px;
+    line-height: 28px;
+}
+.section-seven .fx-head-title{padding: 0;}
+@media (max-width:1396.36px) {
+     .section-seven .card-article-texts{padding: 20px;}
+}
+@media (max-width:1228.8px) {
+  .section-seven .card-article h3{font-size: 20px;line-height: 25px;}
+    .section-seven .card-article p{font-size: 13px;line-height: 22px;}
+    .section-seven .href-a{margin-top: 24px;}
+    .section-seven .article-img{height: 250px;}
+    .section-seven .card-article-texts .btnBlue{margin-bottom: 14px;padding: 4px 16px;}
+}
+@media (max-width:1024px) {
+    .section-seven .card-article h3{font-size: 18px;}
+}
+@media (max-width:768px) {
+} 
+@media (max-width:614.4px) {
+ .section-seven .head-title{width: 100%;}
+ .section-seven .sliderArticles .slide{padding: 0;}
+ .section-seven .fx-head-title{gap: 16px;}
+ .fx-head-title{gap: 4px;}
+ .section-seven .sliderArticles{margin-top:8px;}    
+ .section-seven .card-article-texts .btnBlue{font-size: 15px;}
+}

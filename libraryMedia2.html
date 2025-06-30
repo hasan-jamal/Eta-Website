@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta Company</title>
+    <link rel="icon" href="./images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/libraryMedia2/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Section Style css -->
+    <link rel="stylesheet" href="./css/sections/sectionSeven.css">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/logo blue.png" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <div class="d-flex align-items-center justify-content-between fxHeadList">
+                    <div class="divLogo"><img src="./images/logo blue.png" class="logo" /></div>
+                    <button class="close-nav" onclick="toggleSidenav();"><img src="./images/close-nav.svg"
+                            alt="close"></button>
+                </div>
+                <div class="d-flex flex-column justify-content-between " style="min-height: 100%;">
+                    <div class="fx-links" style="flex-grow: 1;">
+                        <a href="./index.html" class="font-medium active">Home</a>
+                        <div class="border"></div>
+                        <a href="./water.html" class="font-medium">Water</a>
+                        <div class="border"></div>
+                        <a href="./energy.html" class="font-medium">Energy</a>
+                        <div class="border"></div>
+                        <a href="./caseStudies.html" class="font-medium">Case Studies</a>
+                        <div class="border"></div>
+                        <a href="./libraryMedia.html" class="font-medium">Library Media</a>
+                        <div class="border"></div>
+                        <a href="./about.html" class="font-medium">About</a>
+                        <div class="border"></div>
+                    </div>
+                    <div class="btns-header d-flex flex-column">
+                        <button class="btn-outline-blue">
+                            <img src="./images/languageIcon.svg" alt="language Icon">
+                            <span class="font-bold subtitle18px colorBlue3">Arabic</span>
+                        </button>
+                        <button class=" btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                            Us</button>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="./images/logo blue.png" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'" data-aos="zoom-in">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font active">Home</a>
+                        <div class="divDropdown">
+                            <a href="./water.html" class="d-flex align-items-center btnDropDown">
+                                <span class="style-font">Water</span>
+                                <img src="./images/arrowDownHeader.svg" alt="arrow Down Header">
+                            </a>
+                            <div class="waterDropdown dropdownStyle">
+                                <div class="d-flex fxDropdownStyle">
+                                    <img src="./images/etaTransparent.svg" alt="eta Transparent" class="etaTransparent">
+                                    <div class="d-flex partOne">
+                                        <div class="divText1">
+                                            <div class="d-flex align-items-center headText1">
+                                                <img src="./images/WaterPorjectsBtn.svg" alt="Water Porjects icon">
+                                                <span class="subtitle28px font-medium numberLines">Water Sector</span>
+                                            </div>
+                                            <p class="mb-0 font-medium subtitle20px">Delivering smart, sustainable water
+                                                solutions
+                                                for communities and
+                                                industries.</p>
+                                        </div>
+                                        <div class="divText2">
+                                            <h3 class="colorBlue3 subtitle28px font-medium">Water sector divisions</h3>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Pure Water
+                                                Supply</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Desalination
+                                                Plants</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Operation and
+                                                Maintenance of Existing Desalination Plants</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex partTwo">
+                                        <div class="boxImage1 d-flex flex-column">
+                                            <img src="./images/waterDropdown-img1.png" alt="water Dropdown image">
+                                            <img src="./images/waterDropdown-img2.png" alt="water Dropdown image">
+                                        </div>
+                                        <div class="boxImage2"><img src="./images/waterDropdown-img3.png"
+                                                alt="water Dropdown image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="divDropdown">
+                            <a href="./energy.html" class="d-flex align-items-center btnDropDown">
+                                <span class="style-font">Energy</span>
+                                <img src="./images/arrowDownHeader.svg" alt="arrow Down Header">
+                            </a>
+                            <div class="energyDropdown dropdownStyle">
+                                <div class="d-flex fxDropdownStyle">
+                                    <img src="./images/etaTransparent.svg" alt="eta Transparent" class="etaTransparent">
+                                    <div class="d-flex partOne">
+                                        <div class="divText1">
+                                            <div class="d-flex align-items-center headText1">
+                                                <img src="./images/EnergyProjectsBtn.svg" alt="Water Porjects icon">
+                                                <span class="subtitle28px font-medium numberLines">Energy Sector</span>
+                                            </div>
+                                            <p class="mb-0 font-medium subtitle20px">Powering progress with clean,
+                                                efficient, and future-ready energy projects.</p>
+                                        </div>
+                                        <div class="divText2">
+                                            <h3 class="colorBlue3 subtitle28px font-medium">Energy Sector divisions</h3>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Pure Water
+                                                Supply</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Desalination
+                                                Plants</a>
+                                            <a href="" class="subtitle24px font-medium colorBlueDark8">Operation and
+                                                Maintenance of Existing Desalination Plants</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex partTwo">
+                                        <div class="boxImage1 d-flex flex-column">
+                                            <img src="./images/energyDropdown-img1.png" alt="energy Dropdown image">
+                                            <img src="./images/energyDropdown-img2.png" alt="energy Dropdown image">
+                                        </div>
+                                        <div class="boxImage2"><img src="./images/energyDropdown-img3.png"
+                                                alt="energy Dropdown image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                        <a href="./about.html" class="style-font">About</a>
+                    </div>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-outline-blue">
+                        <img src="./images/languageIcon.svg" alt="language Icon">
+                        <span class="font-bold subtitle18px colorBlue3">Arabic</span>
+                    </button>
+                    <button class=" btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="libraryMediaS1">
+            <div class="libraryMediaS1-container px-80">
+                <div class="d-flex flex-column fx-libraryMediaS1">
+                    <h1 class="subtitle56px font-medium colorWhite text-center" data-aos="fade-up"
+                        data-aos-duration="1000">Library Media</h1>
+                    <p class="mb-0 font-medium subtitle20px colorWhite text-center">A visual archive of our visits,
+                        events, and monthly
+                        highlights
+                        — all in one
+                        organized
+                        place.</p>
+                </div>
+            </div>
+        </section>
+        <section class="libraryMediaS2">
+            <div class="libraryMediaS2-container px-80">
+                <div class="d-flex fxHeadS2">
+                    <h3 class="subtitle32px colorBlueDark8 style-font" data-aos="fade-down">Select the media from</h3>
+                    <div class=" divDropdown">
+                        <button class="d-flex align-items-center">
+                            <img src=" ./images/libraryMedia/calendar.svg" alt="calendar icon">
+                            <span class="colorBlue3 font-medium subtitle24px">June 2025</span>
+                            <img src="./images/libraryMedia/arrow-down.svg" alt="arrow down icon">
+                        </button>
+                        <div class="listDates flex-column">
+                            <span class="subtitle16px style-font">July 2025</span>
+                            <span class="subtitle16px style-font">Feb 2025</span>
+                            <span class="subtitle16px style-font">Des 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="divText">
+                    <h1 class="subtitle-50px font-medium text-center colorBlueDark3">June 2025</h1>
+                    <p class="mb-0 font-medium subtitle20px text-center colorBlueDark3">A month full of activities and
+                        field visits —
+                        discover the
+                        highlights of our journey during this
+                        month.</p>
+                </div>
+            </div>
+        </section>
+        <section class="libraryMediaS3">
+            <div class="libraryMediaS3-container px-80">
+                <div class="fx-libraryMediaS3">
+                    <div class="divText">
+                        <h1 class="font-bold subtitle44px" data-aos="fade-up" data-aos-duration="500">Highlight of the
+                            Month</h1>
+                        <p class=" subtitle22px style-font colorBlueDark2 headP">In June, ETA continued to lead the
+                            way in
+                            sustainable
+                            water
+                            solutions —
+                            expanding
+                            partnerships and executing impactful
+                            projects across the region.</p>
+                        <h4 class="colorBlueDark9 font-bold subtitle28px">Key Highlights:</h4>
+                        <div class="d-flex fxListBoxs flex-column">
+                            <div class="box">
+                                <div class="d-flex align-items-center headBox">
+                                    <img src="./images/libraryMedia/starYellow.svg" alt="star Yellow icon">
+                                    <span class="subtitle22px font-medium colorBlue3">3 New Desalination Stations</span>
+                                </div>
+                                <p class="mb-0 style-font colorGrey8 subtitle20px">Deployed in [locations or regions],
+                                    improving
+                                    water
+                                    accessibility for
+                                    over 25,000
+                                    people.</p>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex align-items-center headBox">
+                                    <img src="./images/libraryMedia/starYellow.svg" alt="star Yellow icon">
+                                    <span class="subtitle22px font-medium colorBlue3">2 Strategic Partnerships</span>
+                                </div>
+                                <p class="mb-0 style-font colorGrey8 subtitle20px">Signed with [Partner 1] and [Partner
+                                    2] to enhance innovation and operational capacity.</p>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex align-items-center headBox">
+                                    <img src="./images/libraryMedia/starYellow.svg" alt="star Yellow icon">
+                                    <span class="subtitle22px font-medium colorBlue3">1 Regional Field Visit</span>
+                                </div>
+                                <p class="mb-0 style-font colorGrey8 subtitle20px">Engaged with community leaders and
+                                    engineers to evaluate on-ground results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divImage">
+                        <img src="./images/libraryMedia/points.svg" alt="points img" class="pointsImg">
+                        <img src="./images/libraryMedia/points.svg" alt="points img" class="pointsImg2">
+                        <div class="d-flex fxImgs">
+                            <div class="d-flex flex-column partOne">
+                                <img src="./images/libraryMedia/waterDropdown-img2.png" alt="image" class="imgOne"
+                                    data-aos="zoom-in">
+                                <img src="./images/libraryMedia/purification1.png" alt="image" class="imgTwo">
+                            </div>
+                            <div class="d-flex flex-column partTwo">
+                                <img src="./images/libraryMedia/libraryMediaS3-img3.png" alt="image"
+                                    class="libraryMediaS3-img3" data-aos="zoom-in">
+                                <div class="d-flex fxWatch align-items-center">
+                                    <img src="./images/libraryMedia/btnWatch.svg" alt="btnWatch icon">
+                                    <h4 class="subtitle20px font-bold color-blue">Watch Highlights</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="libraryMediaS4">
+            <div class="libraryMediaS4-container px-80">
+                <div class="divTitle">
+                    <h1 class="linearColorBlue subtitle44px font-bold" data-aos="fade-up" data-aos-duration="500">Events
+                        & Field Visits</h1>
+                    <p class="mb-0 colorBlueDark2 subtitle22px style-font">Discover our on-the-ground engagement — from
+                        strategic
+                        visits to key
+                        events that
+                        shaped our
+                        month.
+                    </p>
+                </div>
+                <div class="d-flex flex-column fxListS4">
+                    <div class="d-flex fxLibraryMediaS4">
+                        <div class="divImage" data-aos="zoom-in"><img src="./images/libraryMedia/S4Img1.png"
+                                alt="eta image"></div>
+                        <div class="divText">
+                            <h3 class="subtitle28px font-bold colorWhite">Field Visit to South Gaza Desalination Site
+                            </h3>
+                            <div class="d-flex fxDate align-items-center">
+                                <img src="./images/libraryMedia/calendarWhite.svg" alt="calendar White">
+                                <span class="subtitle20px font-bold  colorWhite">June 12, 2025</span>
+                            </div>
+                            <p class="subtitle18px colorWhite style-font">Our engineering team conducted a site
+                                assessment and follow-up on the
+                                operational
+                                progress of the new desalination
+                                station in South Gaza, ensuring quality benchmarks are met.</p>
+                            <button class="d-flex fxBtn align-items-center justify-content-center">
+                                <img src="./images/libraryMedia/gallery.svg" alt="gallery icon">
+                                <span class="font-bold subtitle20px">View Gallery</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex fxLibraryMediaS4">
+                        <div class="divImage" data-aos="zoom-in"><img src="./images/libraryMedia/S4Img2.png"
+                                alt="eta image"></div>
+                        <div class="divText">
+                            <h3 class="subtitle28px font-bold colorWhite">Field Visit to South Gaza Desalination Site
+                            </h3>
+                            <div class="d-flex fxDate align-items-center">
+                                <img src="./images/libraryMedia/calendarWhite.svg" alt="calendar White">
+                                <span class="subtitle20px font-bold  colorWhite">June 12, 2025</span>
+                            </div>
+                            <p class="subtitle18px colorWhite style-font">Our engineering team conducted a site
+                                assessment and follow-up on the
+                                operational
+                                progress of the new desalination
+                                station in South Gaza, ensuring quality benchmarks are met.</p>
+                            <button class="d-flex fxBtn align-items-center justify-content-center">
+                                <img src="./images/libraryMedia/gallery.svg" alt="gallery icon">
+                                <span class="font-bold subtitle20px">View Gallery</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="libraryMediaS5">
+            <div class="libraryMediaS5-container ">
+                <div class="divTitle d-flex px-80">
+                    <div class="partOne">
+                        <h1 class="linearColorBlue subtitle44px font-bold" data-aos="fade-up" data-aos-duration="500">
+                            Media Gallery: Capturing the Month in Moments
+                        </h1>
+                        <p class="mb-0 colorBlueDark2 subtitle22px style-font">Browse through our monthly gallery — a
+                            visual archive of moments, big and small, that shaped our journey.</p>
+                    </div>
+                    <div class="d-flex partTwo">
+                        <button class="btn-outline-blue subtitle20px font-bold active" id="galleryTab">Lightbox
+                            Gallery</button>
+                        <button class="btn-outline-blue subtitle20px font-bold" id="videoTab">Video Clips</button>
+                    </div>
+                </div>
+                <div class="contantGallery">
+                    <div class="sliderMedia">
+                        <div class="slide"><img src="./images/libraryMedia/image (4).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (5).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (6).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (7).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (5).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (6).png" alt="image"></div>
+                    </div>
+                    <div class="sliderMedia2">
+                        <div class="slide"><img src="./images/libraryMedia/image (4).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (5).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (6).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (7).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (5).png" alt="image"></div>
+                        <div class="slide"><img src="./images/libraryMedia/image (6).png" alt="image"></div>
+                    </div>
+                </div>
+                <div class="contantVideos" style="display: none;">
+                    <div class="sliderVideos">
+                        <div class="slide">
+                            <div id="playerEn" data-plyr-provider="youtube" data-plyr-embed-id="Kch8n4tcOZQ"></div>
+                        </div>
+                        <div class="slide">
+                            <div id="playerAr" data-plyr-provider="youtube" data-plyr-embed-id="Kch8n4tcOZQ"></div>
+                        </div>
+
+                        <div class="slide">
+                            <div id="playerNew" data-plyr-provider="youtube" data-plyr-embed-id="Kch8n4tcOZQ"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-seven" id="sectionSeven">
+            <div class="section-seven-container px-80">
+                <div class="d-flex justify-content-between align-items-end  fx-head-title">
+                    <div class="head-title">
+                        <h1 class="linearColorBlue subtitle44px font-bold">In-Depth Looks at Our Monthly Highlights</h1>
+                        <p class="mb-0 colorBlueDark2 subtitle22px style-font">Take a deeper dive into the stories and
+                            explore articles that shaped this month.</p>
+                    </div>
+                    <div class="arrow-slider">
+                        <div class="arrow-sliderImg arrow-sliderLeft"><img src="./images/arrow-Articles.svg"
+                                alt="ArrowLeft" class="ArrowLeftClient"></div>
+                        <div class="arrow-sliderImg arrow-sliderRight"><img src="./images/arrow-Articles.svg"
+                                alt="ArrowRight" class="ArrowRightClient"></div>
+                    </div>
+                </div>
+                <div class="sliderArticles">
+                    <div class="slide">
+                        <div class="card-article">
+                            <img src="./images/article.png" alt="article image" class="article-img">
+                            <div class="card-article-texts">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/calender.svg" alt="calender icon">
+                                        <p class="style-font mb-0">October 19, 2024</p>
+                                    </div>
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/user.svg" alt="user icon">
+                                        <p class="style-font mb-0">By Eta</p>
+                                    </div>
+                                </div>
+                                <h3 class="font-bold">Good health starts with proper hydration</h3>
+                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                    Ipsum
+                                </p>
+                                <a href="" class="d-flex href-a">
+                                    <span class="font-medium">Read More</span>
+                                    <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-article">
+                            <img src="./images/article1.png" alt="article image" class="article-img">
+                            <div class="card-article-texts">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/calender.svg" alt="calender icon">
+                                        <p class="style-font mb-0">October 18, 2024</p>
+                                    </div>
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/user.svg" alt="user icon">
+                                        <p class="style-font mb-0">By Eta</p>
+                                    </div>
+                                </div>
+                                <h3 class="font-bold">Tracing the path of energy from production to consumption.
+                                </h3>
+                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                    Ipsum
+                                </p>
+                                <a href="" class="d-flex href-a">
+                                    <span class="font-medium">Read More</span>
+                                    <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-article">
+                            <img src="./images/article2.png" alt="article image" class="article-img">
+                            <div class="card-article-texts">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/calender.svg" alt="calender icon">
+                                        <p class="style-font mb-0">October 15, 2024</p>
+                                    </div>
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/user.svg" alt="user icon">
+                                        <p class="style-font mb-0">By Eta</p>
+                                    </div>
+                                </div>
+                                <h3 class="font-bold">Real estate is a long-term investment</h3>
+                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                    Ipsum
+                                </p>
+                                <a href="" class="d-flex href-a">
+                                    <span class="font-medium">Read More</span>
+                                    <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-article">
+                            <img src="./images/article.png" alt="article image" class="article-img">
+                            <div class="card-article-texts">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/calender.svg" alt="calender icon">
+                                        <p class="style-font mb-0">October 19, 2024</p>
+                                    </div>
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/user.svg" alt="user icon">
+                                        <p class="style-font mb-0">By Eta</p>
+                                    </div>
+                                </div>
+                                <h3 class="font-bold">Good health starts with proper hydration</h3>
+                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                    Ipsum
+                                </p>
+                                <a href="" class="d-flex href-a">
+                                    <span class="font-medium">Read More</span>
+                                    <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="card-article">
+                            <img src="./images/article2.png" alt="article image" class="article-img">
+                            <div class="card-article-texts">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/calender.svg" alt="calender icon">
+                                        <p class="style-font mb-0">October 15, 2024</p>
+                                    </div>
+                                    <div class="d-flex align-items-center title-articles">
+                                        <img src="./images/user.svg" alt="user icon">
+                                        <p class="style-font mb-0">By Eta</p>
+                                    </div>
+                                </div>
+                                <h3 class="font-bold">Real estate is a long-term investment</h3>
+                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                    Ipsum
+                                </p>
+                                <a href="" class="d-flex href-a">
+                                    <span class="font-medium">Read More</span>
+                                    <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container px-80">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="./images/FooterLogo.svg" alt="logo" class="footer-logo">
+                    <div class="backWhite">
+                        <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email" class="style-font">
+                                <button type="submit" class="btn-footer font-medium btn-hover">Subscribe</button>
+                            </div>
+                        </form>
+                        <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                            cutting-edge solutions for
+                            your energy and water
+                            requirements. Join us on social media for the latest updates and insights.
+                        </p>
+                        <div class="d-flex fx-images">
+                            <a href=""><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                            <a href=""><img src="./images/x-icon.svg" alt="x icon"></a>
+                            <a href=""><img src="./images/youtube-icon.svg" alt="youtube icon"></a>
+                            <a href=""><img src="./images/instgran-icon.svg" alt="instgran icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fx-general-cards fxFooter-part2">
+                    <div class="footer-part footer-part2 fx-general-card-st">
+                        <h5 class="font-bold">Explore More</h5>
+                        <div class="fx-footer-links">
+                            <a href="" class="style-font">Home</a>
+                            <a href="" class="style-font">Library Media</a>
+                            <a href="" class="style-font">Case Studies</a>
+                            <a href="" class="style-font">About</a>
+                            <a href="" class="style-font">Files Download</a>
+                            <a href="" class="style-font">Quality & Certifications</a>
+                            <a href="" class="style-font">blog</a>
+                        </div>
+                    </div>
+                    <div class="footer-part footer-part2 fx-general-card-st">
+                        <h5 class="font-bold">Division Water</h5>
+                        <div class="fx-footer-links">
+                            <a href="" class="style-font">Production Water</a>
+                            <a href="" class="style-font">Distribution Water</a>
+                            <a href="" class="style-font">Construction Plants Water</a>
+                            <a href="" class="style-font">Swimming Pool Construction</a>
+                            <a href="" class="style-font">Infrastructure Water</a>
+                            <a href="" class="style-font">Treatment Water</a>
+                        </div>
+                    </div>
+                    <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                        <div class="d-flex gap-divs-footer">
+                            <div>
+                                <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                                <div class="fx-footer-links">
+                                    <a href="" class="style-font">Investments Local</a>
+                                    <a href="" class="style-font">Investments Global</a>
+                                    <a href="" class="style-font">Management Asset</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                                <div class="fx-footer-links">
+                                    <a href="" class="style-font">Equipment Industrial</a>
+                                    <a href="" class="style-font">Services Logistics</a>
+                                    <a href="" class="style-font">Division Agriculture</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between fxAllRights">
+                <p class="mb-0 style-font colorWhite text-center">© 2024 Eta . All rights reserved.</p>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- Jquery Library -->
+    <script src=" ./js/jquery/jquery.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/mediaSlider.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Header Dropdown Code -->
+    <script>
+        $(document).ready(function () {
+            $('.divDropdown').each(function () {
+                const $container = $(this);
+                const $dropdown = $container.find('.dropdownStyle');
+                $container.on('mouseenter', function () {
+                    $dropdown.addClass('show');
+                });
+                $container.on('mouseleave', function () {
+                    $dropdown.removeClass('show');
+                });
+            });
+        });
+    </script>
+    <!-- DropDown Section 2 -->
+    <script>
+        $(document).ready(function () {
+            const dropdown = $('.divDropdown');
+            const button = dropdown.find('button');
+            const list = dropdown.find('.listDates');
+            const title = button.find('span');
+
+            button.on('click', function (e) {
+                e.stopPropagation();
+                list.toggle();
+            });
+
+            list.find('span').on('click', function (e) {
+                const selectedText = $(this).text();
+                title.text(selectedText);
+                list.hide();
+            });
+            $(document).on('click', function () {
+                list.hide();
+            });
+            list.on('click', function (e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
+    <!--Plyr JS-->
+    <script src="./js/plyr/plyr.js"></script>
+    <script src="./js/plyr/codePlyr.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $('#galleryTab').click(function () {
+                $('.contantGallery').show();
+                $('.contantVideos').hide();
+                $('#galleryTab').addClass('active');
+                $('#videoTab').removeClass('active');
+            });
+
+            $('#videoTab').click(function () {
+                $('.contantGallery').hide();
+                $('.contantVideos').show();
+                $('#videoTab').addClass('active');
+                $('#galleryTab').removeClass('active');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
