@@ -109,7 +109,7 @@
         flex: 1 1 calc(100% - 30px);
         max-width: calc(100% - 0px);
     }
-    .section-two{margin-bottom: 0;}
+
 }
 
 /* Section Two Style  */
@@ -179,8 +179,9 @@
 }
 @media (max-width:614.4px) {
     .section-two{
-        background-position: 70%;
+        background-position: 60%;
         height: 120vh;
+        margin-bottom: 0;padding-top: 0;
     }
     .section-two .fx-section-two{
         flex-direction: column;
@@ -193,6 +194,5 @@
         flex: 1 1 calc(100% - 8px);
         max-width: calc(100% - 0px);
     }
-    .section-two{margin-bottom: 0;}
     .section-two .fx-section-two .dashedLine{width: 100%;}
 }

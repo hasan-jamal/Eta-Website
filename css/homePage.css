@@ -93,7 +93,13 @@
     .etaSection1 .etaSection1Titles p{font-size: 16px;line-height: 150%;}
     .etaSection1 .etaSection1Titles h1{font-size: 34px;}
     .etaSection1 .etaSection1Titles h1 img{width: 25%;}
-    .etaSection1 {background-image: url(../images/backMobileS1.png);}
+    .etaSection1 {
+        background-image: url(../images/backMobileS1.png);
+        background-size: contain;
+        min-height: 73vh;
+        max-height: 100%;
+        height: 100%;
+    }
 }
 
 /* /./////////////////////////// */
@@ -170,7 +176,7 @@
       
   }
   @media (max-width:614.4px) {
-
+    .sectionLogos{margin: 3rem 0 2rem 0;}
     .sectionLogos .fxSectionLogos .divLogo.show-placeholder{
         height: 35px;width: 35px;padding: 0 !important;}
     .sectionLogos .fxSectionLogos .divLogo img{width: 60px; height: 60px;}

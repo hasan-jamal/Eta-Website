@@ -300,6 +300,9 @@ main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{
 .waterDetailsS3 .boxSteps .numberSteps .stepActive p{
     display: block;
 }
+.waterDetailsS3 .boxSteps .numberSteps .lineSteps{
+    width: 76px;
+}
 .waterDetailsS3 .boxSteps .contentSteps .content{
     opacity: 0;
     visibility: hidden;
@@ -368,10 +371,12 @@ main .section-three{
 @media (min-width:1706.67px) {
     .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height: 580px;}
     .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 52px;}
+    .waterDetailsS3 .boxSteps .numberSteps .lineSteps{width: 86px;}
 }
 @media (min-width:1920px) {
     .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height: 630px;}
     .waterDetailsS3 .boxSteps .numberSteps .stepActive .num span{font-size: 55px;}
+    .waterDetailsS3 .boxSteps .numberSteps .lineSteps{width: 100px;}
 }
 @media (min-width:2048px) {
     .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height:720px;}
