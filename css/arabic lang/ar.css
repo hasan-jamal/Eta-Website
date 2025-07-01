@@ -104,6 +104,8 @@
 .modalUsers .closeCircleBtn{left: 1%;right: auto;}
 .leaderCard .divImgs .linkedinIcon{right: 94%;left: auto;}
 .aboutUsS3 .fxAboutUsS3 .box img{margin-right: auto;left: auto;}
+.libraryMediaS5 .divTitle .partTwo button{width: 35%;}
+.libraryMediaS5 .divTitle .partTwo{padding-left: 3rem;padding-right: 0;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -147,6 +149,7 @@
      .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{right: auto;}
     .section-one .back-sectionOne {right: auto;left: -8rem;}
     .servicesSupplyS4 .box2-servicesSupplyS4{left: auto;right: 0}
+    .libraryMediaS5 .divTitle .partTwo{padding-left: 0;}
     .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 20px;}
 }
 @media (max-width:768px) {
