@@ -992,23 +992,21 @@
             const target = +counter.getAttribute('data-target');
             let count = 0;
 
+            const baseDuration = 1000;
             const fastThreshold = 70;
 
-            const duration = 500;
+            const duration = target > fastThreshold ? baseDuration / 5 : baseDuration;
 
-            let increment = target > fastThreshold ? Math.ceil(target / 20) : 1;
-
-            const stepTime = 30;
+            const stepTime = Math.max(Math.floor(duration / target), 10);
 
             const timer = setInterval(() => {
-                count += increment;
+                count++;
+                counter.textContent = count + '+';
 
                 if (count >= target) {
-                    count = target;
                     clearInterval(timer);
+                    counter.textContent = target + '+';
                 }
-
-                counter.textContent = count + '+';
             }, stepTime);
         }
 
@@ -1025,7 +1023,6 @@
 
         window.addEventListener('scroll', handleScroll);
     </script>
-
 
 </body>
 
