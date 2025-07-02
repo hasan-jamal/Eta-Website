@@ -207,7 +207,7 @@
 .aboutUsS4{}
 .aboutUsS4 .fxAboutUsS4{
     gap: 64px;
-    align-items: center;
+    align-items: start;
 }
 .aboutUsS4 .aboutUsS4-texts{
     width: 50%;
