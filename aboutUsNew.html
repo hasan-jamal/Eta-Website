@@ -984,23 +984,31 @@
     <!--FAQs JS-->
     <script src="./js/dropdowns/dropdown-faq2.js"></script>
 
-    <!-- Counter Numbers -->
     <script>
         const counters = document.querySelectorAll('.counter');
         let started = false;
+
         function animateCounter(counter) {
             const target = +counter.getAttribute('data-target');
             let count = 0;
-            const duration = 2000;
-            const stepTime = Math.max(Math.floor(duration / target), 30);
+
+            const fastThreshold = 70;
+
+            const duration = 500;
+
+            let increment = target > fastThreshold ? Math.ceil(target / 20) : 1;
+
+            const stepTime = 30;
 
             const timer = setInterval(() => {
-                count++;
-                counter.textContent = count + '+';
+                count += increment;
+
                 if (count >= target) {
+                    count = target;
                     clearInterval(timer);
-                    counter.textContent = target + '+';
                 }
+
+                counter.textContent = count + '+';
             }, stepTime);
         }
 
@@ -1017,6 +1025,8 @@
 
         window.addEventListener('scroll', handleScroll);
     </script>
+
+
 </body>
 
 </html>
