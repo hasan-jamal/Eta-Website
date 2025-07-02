@@ -990,24 +990,26 @@
 
         function animateCounter(counter) {
             const target = +counter.getAttribute('data-target');
-            let count = 0;
+            let startTimestamp = null;
+            const duration = 2500;
 
-            const baseDuration = 1000;
-            const fastThreshold = 70;
+            function step(timestamp) {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
 
-            const duration = target > fastThreshold ? baseDuration / 5 : baseDuration;
+                const easedProgress = 1 - Math.pow(1 - progress, 3);
 
-            const stepTime = Math.max(Math.floor(duration / target), 10);
+                const current = Math.floor(easedProgress * target);
+                counter.textContent = current + '+';
 
-            const timer = setInterval(() => {
-                count++;
-                counter.textContent = count + '+';
-
-                if (count >= target) {
-                    clearInterval(timer);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                } else {
                     counter.textContent = target + '+';
                 }
-            }, stepTime);
+            }
+
+            window.requestAnimationFrame(step);
         }
 
         function handleScroll() {
@@ -1023,6 +1025,7 @@
 
         window.addEventListener('scroll', handleScroll);
     </script>
+
 
 </body>
 
