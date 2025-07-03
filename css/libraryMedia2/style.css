@@ -442,6 +442,8 @@
     transform: scale(1);
     opacity: 1;
 }
+.divDropdown{position: relative;}
+
 @media (min-width:1706.67px) {
     .libraryMediaS5 .sliderMedia .slide,
     .libraryMediaS5 .sliderMedia2 .slide{height: 400px;}

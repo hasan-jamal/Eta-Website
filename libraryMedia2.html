@@ -27,6 +27,13 @@
     <link rel="stylesheet" href="./css/slick slider/animate.min.css">
     <link rel="stylesheet" href="./css/slick slider/slick.min.css">
     <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- monthSelect plugin CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/monthSelect/style.css">
+
+
 </head>
 
 <body>
@@ -196,18 +203,18 @@
             <div class="libraryMediaS2-container px-80">
                 <div class="d-flex fxHeadS2">
                     <h3 class="subtitle32px colorBlueDark8 style-font" data-aos="fade-down">Select the media from</h3>
-                    <div class=" divDropdown">
-                        <button class="d-flex align-items-center">
-                            <img src=" ./images/libraryMedia/calendar.svg" alt="calendar icon">
-                            <span class="colorBlue3 font-medium subtitle24px">June 2025</span>
+                    <!-- زر التقويم -->
+
+                    <div class="divDropdown">
+                        <button id="monthYearButton" class="d-flex align-items-center" type="button">
+                            <img src="./images/libraryMedia/calendar.svg" alt="calendar icon">
+                            <span class="colorBlue3 font-medium subtitle24px">اختر التاريخ</span>
                             <img src="./images/libraryMedia/arrow-down.svg" alt="arrow down icon">
                         </button>
-                        <div class="listDates flex-column">
-                            <span class="subtitle16px style-font">July 2025</span>
-                            <span class="subtitle16px style-font">Feb 2025</span>
-                            <span class="subtitle16px style-font">Des 2025</span>
-                        </div>
+                        <!-- لا نستخدم display: none هنا! -->
+                        <input type="text" id="monthYearInput">
                     </div>
+
                 </div>
                 <div class="divText">
                     <h1 class="subtitle-50px font-medium text-center colorBlueDark3">June 2025</h1>
@@ -656,29 +663,33 @@
             });
         });
     </script>
-    <!-- DropDown Section 2 -->
+    <!-- flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- monthSelect plugin JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/plugins/monthSelect/index.js"></script>
     <script>
         $(document).ready(function () {
-            const dropdown = $('.divDropdown');
-            const button = dropdown.find('button');
-            const list = dropdown.find('.listDates');
-            const title = button.find('span');
-
-            button.on('click', function (e) {
-                e.stopPropagation();
-                list.toggle();
+            const $titleSpan = $('#monthYearButton').find('span');
+            const $input = document.getElementById('monthYearInput');
+            const fpInstance = flatpickr($input, {
+                plugins: [
+                    new monthSelectPlugin({
+                        shorthand: false,
+                        dateFormat: "F Y",
+                        altFormat: "F Y"
+                    })
+                ],
+                onChange: function (selectedDates, dateStr) {
+                    $titleSpan.text(dateStr);
+                },
+                allowInput: false
             });
-
-            list.find('span').on('click', function (e) {
-                const selectedText = $(this).text();
-                title.text(selectedText);
-                list.hide();
+            $('#monthYearButton').on('click', function (e) {
+                e.stopPropagation();
+                fpInstance.open();
             });
             $(document).on('click', function () {
-                list.hide();
-            });
-            list.on('click', function (e) {
-                e.stopPropagation();
+                fpInstance.close();
             });
         });
     </script>

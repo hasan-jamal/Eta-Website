@@ -693,6 +693,16 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   text-underline-position: from-font;
   text-transform: uppercase;
 }
+.flatpickr-monthSelect-month,
+.flatpickr-current-month input.cur-year{
+  font-family: 'Dubai';
+  font-weight: 400;
+}
+.flatpickr-input{
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
 .coverBackground {
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
