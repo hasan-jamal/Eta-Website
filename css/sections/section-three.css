@@ -124,7 +124,6 @@
     border-radius: 36px;
     height: 340px;
     object-fit: cover;
-    cursor: pointer;
 }
 .fancybox__container{
     position: relative;
