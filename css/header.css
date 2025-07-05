@@ -227,6 +227,14 @@ header .fx-header-links .links-header a{
   transition:all 0.3s ease;
 } 
 .sub-header .fx-header-links .links-header a{color: #fff;}
+.sub-header .fx-header-links .links-header a:hover,
+.sub-header .fx-header-links .links-header a.active{
+   font-weight: 500;
+   color: #fff;
+}
+.sub-header .fx-header-links .links-header a.active{
+  font-weight: 600;
+}
 header .fx-header-links .links-header a:hover{
   color: #0B63E5;
   text-decoration: underline;
