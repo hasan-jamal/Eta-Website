@@ -755,6 +755,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
 .colorGrey9 {color: #667085;}
 .colorGrey10 {color: #555;}
 .colorGrey10 {color: #696A80;}
+.colorGrey12{color: #595959;}
 .linearColorBlue{
   background: linear-gradient(90deg, #0B63E5 0%, #00CFFF 63.12%);
   background-clip: text;

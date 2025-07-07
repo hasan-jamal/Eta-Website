@@ -1249,12 +1249,11 @@ to life`;
                 }
 
                 function closeDropdown() {
-                    // تأخير الإغلاق قليلًا للتأكد من عدم انتقال المؤشر بسرعة للداخل
                     timeout = setTimeout(() => {
                         if (!isHovering) {
                             $dropdown.removeClass('show');
                         }
-                    }, 200); // يمكن تعديل هذا التأخير حسب الحاجة
+                    }, 200);
                 }
 
                 $container.on('mouseenter', function () {

@@ -1,0 +1,140 @@
+ .flexCardsGap{
+    gap: 20px;
+    align-items: normal;
+    height: 100%; 
+    margin-top: 24px;
+}
+.cardReport{
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid #CEDCFD;
+    background: #FFF;
+    width: max-content;
+}
+.cardReport .fxCardReport{
+    gap: 20px;
+    height: 100%; 
+}
+ .flexCardsGap .w50{
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 0px);
+}
+ .flexCardsGap .w33{
+    flex: 1 1 calc(33.3% - 20px);
+    max-width: calc(33.3% - 0px);
+}
+.cardReport .fxCardReport .divText{display: flex;flex-direction: column;}
+.cardReport .fxCardReport .divImage{
+    height: 380px;
+}
+.cardReport .fxCardReport .divImage img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;   
+    border-radius: 20px;
+}
+.cardReport .fxCardReport .divText .fxPartOne{
+    gap: 6px;
+    margin-bottom: 12px;
+}
+.cardReport .fxCardReport .divText .fxPartOne .imgCircle{
+    display: flex;
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 110px;
+    background: #CADDFA;
+}
+.cardReport .fxCardReport .divText .fxPartOne .imgCircle img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.cardReport .fxCardReport .divText h3{
+    margin-bottom: 16px;
+}
+.cardReport .fxCardReport .divText .btnsFlex{
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+.fxCardReport .divText .btnBlue{
+    border-radius: 40px;
+    background: #EAF0FF;
+    padding: 6px 16px;
+}
+.cardReport .fxCardReport .divText p{
+    line-height:138.889%;
+    margin-bottom: 2rem;
+}
+.cardReport .fxCardReport .divText a{
+    margin-top: auto;
+}
+.cardReport .fxCardReport .divText a:hover{
+    transform: scale(1);
+}
+@media (min-width:1706.67px) {
+    .cardReport .fxCardReport .divImage{height: 430px;}
+}
+@media (min-width:1920px) {
+    .cardReport .fxCardReport .divImage{height: 470px;}
+}
+@media (min-width:2048px) {
+    .cardReport .fxCardReport .divImage{height: 520px;}
+}
+@media (max-width:1228.8px) {
+    .cardReport .fxCardReport .divImage{height: 330px;}
+    .fxCardReport .divText .btnBlue{padding: 4px 16px;}
+    .cardReport .fxCardReport .divText a{padding-bottom: 20px;}
+    .cardReport .fxCardReport .divText .fxPartOne .imgCircle{width: 28px;height: 28px;padding: 4px;;}
+    .cardReport .fxCardReport .divText .fxPartOne{margin-bottom: 8px;}
+    .cardReport .fxCardReport{gap: 32px;}
+    .cardReport .fxCardReport .divText h3{margin-bottom: 12px;}
+    .cardReport .fxCardReport .divText .btnsFlex{margin-bottom: 1rem;}
+}
+@media (max-width:1024px) {
+    .cardReport .fxCardReport .divImage{height: 300px;}
+    .cardReport .fxCardReport .divText .fxPartOne .imgCircle{width: 24px;height: 24px;}
+    .cardReport .fxCardReport .divText .fxPartOne{margin-bottom: 4px;}
+    .cardReport .fxCardReport{gap: 24px;}
+    .cardReport .fxCardReport .divText h3{margin-bottom: 8px;}
+    .cardReport .fxCardReport .divText .btnsFlex{margin-bottom: 12px;}
+}
+@media (max-width:877.71px) {
+    .cardReport .fxCardReport .divText a{padding-bottom: 10px;}
+    .cardReport .fxCardReport .divImage{height:270px;}
+    .cardReport .fxCardReport{gap: 1rem;}
+     .flexCardsGap{gap: 1rem;}
+    .flexCardsGap .w33{
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 0px);
+    }
+    .flexCardsGap .w50{
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 0px);
+    }
+}
+@media (max-width:768px) {
+    .cardReport .fxCardReport .divImage{height:250px;}
+}
+@media (max-width:614.4px) {
+    .cardReport h1{margin-bottom: 1rem;}
+    .fxCardReport .divText .btnBlue{font-size: 15px;}
+    .cardReport .fxCardReport{flex-direction: column;}
+    .cardReport .fxCardReport .divText{width: 100%;}
+    .cardReport .fxCardReport .divImage{width: 100%;}
+    .cardReport .fxCardReport .divText a{padding-bottom: 0;margin-top: 1rem;}
+    .flexCardsGap .w50{
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 0px);
+    }
+    .flexCardsGap .w33{
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 0px);
+    }
+
+}

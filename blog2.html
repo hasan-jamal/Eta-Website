@@ -14,6 +14,9 @@
     <!-- Section Style css -->
     <link rel="stylesheet" href="./css/sections/publicSection.css">
     <link rel="stylesheet" href="./css/sections/sectionSeven.css">
+    <link rel="stylesheet" href="./css/sections/boxBlue.css">
+    <!-- Cards Style css -->
+    <link rel="stylesheet" href="./css/Cards/cardReport.css">
     <!---blog Page CSS-->
     <link rel="stylesheet" href="./css/blogPage/blog.css">
     <!-- AOS Animation CSS -->
@@ -593,7 +596,6 @@
 
             tabButtons.forEach(button => {
                 button.addEventListener("click", function () {
-                    // إزالة active من الأزرار
                     tabButtons.forEach(btn => btn.classList.remove("active"));
                     this.classList.add("active");
 

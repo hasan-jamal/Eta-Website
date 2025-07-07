@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eta</title>
+    <link rel="icon" href="./images/Eta-logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!---blog Page CSS-->
+    <link rel="stylesheet" href="./css/blogAndReport/blogAndReport.css">
+    <link rel="stylesheet" href="./css/sections/boxBlue.css">
+    <link rel="stylesheet" href="./css/sections/sectionSeven.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- Cards Style css -->
+    <link rel="stylesheet" href="./css/Cards/cardReport.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/logo blue.png" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/logo-white.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="font-medium">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="font-medium">Water</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="font-medium">Energy</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="font-medium">Case Studies</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="font-medium">Library Media</a>
+                    <div class="border"></div>
+                    <a href="./about.html" class="font-medium">About</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="header-container px-90 w-100">
+            <div class="d-flex align-items-center justify-content-between fx-header">
+                <div class="d-flex align-items-center  fx-header-links">
+                    <div class="logo-header">
+                        <img src="./images/logo blue.png" alt="Eta logo" class="img-header"
+                            onclick="window.location.href='./index.html'">
+                    </div>
+                    <div class="line-ver"></div>
+                    <div class="links-header">
+                        <a href="./index.html" class="style-font">Home</a>
+                        <a href="./water.html" class="style-font">Water</a>
+                        <a href="./energy.html" class="style-font">Energy</a>
+                        <a href="./caseStudies.html" class="style-font">Case Studies</a>
+                        <a href="./libraryMedia.html" class="style-font">Library Media</a>
+                        <a href="./about.html" class="style-font">About</a>
+                    </div>
+                </div>
+                <div class="btn-header">
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="detailsS1">
+            <div class="detailsS1-container px-80">
+                <div class="d-flex fxDetailsS1">
+                    <div class="partOne">
+                        <div class="boxBackBlue"></div>
+                        <div class="boxContent">
+                            <div class="d-flex align-items-center fxWrap btnsFlex">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water Projects</button>
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Partnerships</button>
+                            </div>
+                            <h3 class="colorBlueDark2 font-bold subtitle32px">Why Clean Water is the Foundation of
+                                Community Resilience</h3>
+                            <div class="d-flex align-items-center fx-titles-articles">
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/calender.svg" alt="calender icon">
+                                    <p class="style-font mb-0 colorGrey5 subtitle16px">October 15, 2024</p>
+                                </div>
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/user.svg" alt="user icon">
+                                    <p class="style-font mb-0 colorGrey5 subtitle16px">By Eta</p>
+                                </div>
+                            </div>
+                            <div class="divImage"><img src="./images/BlogPageImages/blogS1Image.png" alt=""></div>
+                        </div>
+                        <div class="divContent style-font">
+                            <p class="colorGrey12 font-medium subtitle18px">Highlights of Our Impact and Progress This
+                                Month</p>
+                            <p class="colorBlueDark2 font-bold subtitle18px">New Milestone in Water Projects</p>
+                            <p class="colorGrey12 font-medium subtitle18px">We successfully launched two new
+                                desalination stations serving over 50,000 residents in southern Gaza. These projects
+                                are a step forward in improving access to clean water for underserved communities.</p>
+                            <div class="divVideo">
+                                <div id="playerEn" data-plyr-provider="youtube" data-plyr-embed-id="Kch8n4tcOZQ"></div>
+                            </div>
+                            <p class="colorBlueDark2 font-bold subtitle18px">Strategic Partnerships</p>
+                            <p class="colorGrey12 font-medium subtitle18px">We successfully launched two new
+                                desalination stations serving over 50,000 residents in southern Gaza. These projects
+                                are a step forward in improving access to clean water for underserved communities.</p>
+                            <p class="colorBlueDark2 font-bold subtitle18px">On the Ground</p>
+                            <p class="colorGrey12 font-medium subtitle18px">Our team conducted site visits to ongoing
+                                projects in Rafah and Khan Younis, ensuring quality implementation and
+                                engaging with local stakeholders.</p>
+                            <p class="colorBlueDark2 font-bold subtitle18px">By the Numbers</p>
+                            <ul>
+                                <li class="colorGrey12 font-medium subtitle18px">2 Desalination Stations Completed</li>
+                                <li class="colorGrey12 font-medium subtitle18px">3 New Partnerships Signed</li>
+                                <li class="colorGrey12 font-medium subtitle18px">4 Field Visits Conducted</li>
+                                <li class="colorGrey12 font-medium subtitle18px">1 Training Session Delivered</li>
+                            </ul>
+                            <div class="d-flex align-items-center fxSlider">
+                                <div class="arrow-sliderImg arrow-sliderImgLeft slick-arrow">
+                                    <img src="./images/ArrowLeft.svg" alt="ArrowLeft" class="ArrowLeftClient">
+                                </div>
+                                <div class="sliderImagesBlog">
+                                    <div class="slide"><img src="./images/projectsSOne-img4.png" alt="image"></div>
+                                    <div class="slide"><img src="./images/projectsSOne-img5.png" alt="image"></div>
+                                    <div class="slide"><img src="./images/projectsSOne-img4.png" alt="image"></div>
+                                </div>
+                                <div class="arrow-sliderImg arrow-sliderImgRight slick-arrow"><img
+                                        src="./images/ArrowLeft.svg" alt="ArrowRight" class="ArrowRightClient">
+                                </div>
+                            </div>
+
+                            <p class="colorBlueDark2 font-bold subtitle18px">Read the full newsletter</p>
+                            <button class="font-bold  btn-blue w-100">Explore Report</button>
+                        </div>
+                        <div class="divComments">
+                            <div class="title d-flex align-items-center">
+                                <div class="lineBlue"></div>
+                                <h1 class="font-bold subtitle24px">Comments</h1>
+                            </div>
+                            <div class="d-flex flex-column fxComments">
+                                <div class="boxComment">
+                                    <div class="userInfo d-flex align-items-center">
+                                        <img src="./images/BlogPageImages/userImage.png" alt="user image"
+                                            class="userImage">
+                                        <div class="info">
+                                            <h5 class="colorBlueDark2 subtitle16px font-medium text-capitalize">Jon
+                                                Kantner</h5>
+                                            <div class="fxInfo d-flex align-items-center">
+                                                <img src="./images/BlogPageImages/calendar.svg" alt="calendar icon"
+                                                    class="calendarIcon">
+                                                <span class="font-medium colorGrey">2022 04 July</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="subtitle20px style-font text-capitalize colorGrey">When you are ready to
+                                        indulge
+                                        your sense of
+                                        excitement,
+                                        check out the range of
+                                        water- sports opportunities at the
+                                        resort’s on-site water-sports center. Want to leave your stress on the water?
+                                        The resort has kayaks, paddleboards, or
+                                        the low-key pedal boats.</p>
+                                </div>
+                                <div class="boxComment">
+                                    <div class="userInfo d-flex align-items-center">
+                                        <img src="./images/BlogPageImages/userImage.png" alt="user image"
+                                            class="userImage">
+                                        <div class="info">
+                                            <h5 class="colorBlueDark2 subtitle16px font-medium text-capitalize">Jon
+                                                Kantner</h5>
+                                            <div class="fxInfo d-flex align-items-center">
+                                                <img src="./images/BlogPageImages/calendar.svg" alt="calendar icon"
+                                                    class="calendarIcon">
+                                                <span class="font-medium colorGrey">2022 04 July</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="subtitle20px style-font text-capitalize colorGrey">When you are ready to
+                                        indulge
+                                        your sense of
+                                        excitement,
+                                        check out the range of
+                                        water- sports opportunities at the
+                                        resort’s on-site water-sports center. Want to leave your stress on the water?
+                                        The resort has kayaks, paddleboards, or
+                                        the low-key pedal boats.</p>
+                                </div>
+                                <div class="boxComment">
+                                    <div class="userInfo d-flex align-items-center">
+                                        <img src="./images/BlogPageImages/userImage.png" alt="user image"
+                                            class="userImage">
+                                        <div class="info">
+                                            <h5 class="colorBlueDark2 subtitle16px font-medium text-capitalize">Jon
+                                                Kantner</h5>
+                                            <div class="fxInfo d-flex align-items-center">
+                                                <img src="./images/BlogPageImages/calendar.svg" alt="calendar icon"
+                                                    class="calendarIcon">
+                                                <span class="font-medium colorGrey">2022 04 July</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="subtitle20px style-font text-capitalize colorGrey">When you are ready to
+                                        indulge
+                                        your sense of
+                                        excitement,
+                                        check out the range of
+                                        water- sports opportunities at the
+                                        resort’s on-site water-sports center. Want to leave your stress on the water?
+                                        The resort has kayaks, paddleboards, or
+                                        the low-key pedal boats.</p>
+                                </div>
+                            </div>
+                            <div class="AddComment">
+                                <h2 class=" font-bold subtitle28px text-capitalize colorBlueDark2">Add a comment</h2>
+                                <p class="style-font colorBlueDark2 subtitle16px">By using form u agree with the message
+                                    sorage, you
+                                    can contact us
+                                    directly now</p>
+                                <form action="">
+                                    <div class="d-flex align-items-center justify-content-between fx-inputs">
+                                        <div class="form-group">
+                                            <label for="" class="font-medium subtitle16px colorGrey6">Name</label>
+                                            <input type="text" class=" font-medium subtitle16px"
+                                                placeholder="Your Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="" class="font-medium subtitle16px colorGrey6">Email</label>
+                                            <input type="text" class=" font-medium subtitle16px"
+                                                placeholder="Email adress">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="font-medium subtitle16px colorGrey6">Message</label>
+                                        <textarea name="" id="" class="font-medium subtitle16px"
+                                            placeholder="Tell us about your project..."></textarea>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between fx-lastForm">
+                                        <button type="submit" class="btn-blue font-bold">Post comment</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column partTwo">
+                        <div class="d-flex publicBtns justify-content-between">
+                            <button class="d-flex align-items-center justify-content-center">
+                                <img src="./images/BlogPageImages/shareIcon.svg" alt="share Icon">
+                                <span class="font-medium subtitle16px text-capitalize colorGrey">Share</span>
+                            </button>
+                            <button class="d-flex align-items-center justify-content-center">
+                                <img src="./images/BlogPageImages/export.svg" alt="export Icon">
+                                <span class="font-medium subtitle16px text-capitalize colorGrey">Export</span>
+                            </button>
+                            <button class="d-flex align-items-center justify-content-center">
+                                <img src="./images/BlogPageImages/commentIcon.svg" alt="share Icon">
+                                <span class="font-medium subtitle16px text-capitalize colorGrey">Comment</span>
+                            </button>
+                        </div>
+                        <div class=" box-search">
+                            <h3 class="font-bold subtitle22px">Search Here</h3>
+                            <div class="d-flex align-items-center justify-content-between fx-search">
+                                <input type="text" placeholder="Search.." class="subtitle16px style-font">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
+                                    fill="none">
+                                    <path
+                                        d="M10.947 19.2487C12.884 19.2487 14.6647 18.5872 16.0854 17.4904L20.6981 22.0695L22.1818 20.5966L17.5691 16.0174C18.6751 14.606 19.3414 12.8383 19.3414 10.9154C19.3414 6.32057 15.5755 2.58203 10.947 2.58203C6.31863 2.58203 2.55273 6.32057 2.55273 10.9154C2.55273 15.5102 6.31863 19.2487 10.947 19.2487ZM10.947 4.66536C14.4191 4.66536 17.2428 7.46849 17.2428 10.9154C17.2428 14.3622 14.4191 17.1654 10.947 17.1654C7.47495 17.1654 4.65131 14.3622 4.65131 10.9154C4.65131 7.46849 7.47495 4.66536 10.947 4.66536Z"
+                                        fill="#0B63E5" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="boxCategory">
+                            <h3 class="font-bold subtitle22px">Category</h3>
+                            <div class="d-flex flex-column list-category">
+                                <a class="d-flex align-items-center ">
+                                    <img src="./images/WaterPorjectsBtn.svg" alt="Water Porjects icon">
+                                    <span class="subtitle16px style-font">Water Porjects</span>
+                                </a>
+                                <a class="d-flex align-items-center">
+                                    <img src="/images/InvestmentProjectsBtn.svg" alt="Investment projects icon">
+                                    <span class="subtitle16px style-font">Investment projects</span>
+                                </a>
+                                <a class="d-flex align-items-center">
+                                    <img src="/images/AgriculturalProjectsBtn.svg" alt="Agricultural projects icon">
+                                    <span class="subtitle16px style-font">Agricultural projects</span>
+                                </a>
+                                <a class="d-flex align-items-center">
+                                    <img src="/images/EnergyProjectsBtn.svg" alt="Energy projects icon">
+                                    <span class="subtitle16px style-font">Energy projects</span>
+                                </a>
+                                <a class="d-flex align-items-center">
+                                    <img src="/images/SupplyProjectsBtn.svg" alt="Supply projects icon">
+                                    <span class="subtitle16px style-font">Supply projects</span>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="popularTags">
+                            <h3 class="font-bold subtitle22px">Popular Tags</h3>
+                            <div class="d-flex list-popularTags">
+                                <a href="" class="style-font subtitle16px">Energy Solar</a>
+                                <a href="" class="style-font subtitle16px">Distribution Water</a>
+                                <a href="" class="style-font subtitle16px">Swimming Pool Construction</a>
+                                <a href="" class="style-font subtitle16px">Water</a>
+                                <a href="" class="style-font subtitle16px">Treatment Water</a>
+                                <a href="" class="style-font subtitle16px">Services Logistics</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" boxBlue">
+            <div class="boxBlue-container px-80">
+                <div class="d-flex fxBoxBlue">
+                    <div class="divText">
+                        <h2 class="font-bold subtitle28px">Do you care about a sustainable
+                            future?</h2>
+                        <p class="style-font subtitle18px">Eta is dedicated to providing
+                            cutting-edge solutions for your
+                            energy and water requirements.
+                            Join us on social media for
+                            the latest updates and insights.
+                        </p>
+                    </div>
+                    <form action="">
+                        <input type="email" class="subtitle16px style-font" placeholder="Enter your email">
+                        <button class="subtitle18px font-medium" type="submit">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section class="viewCards">
+            <div class="viewCards-container px-80">
+                <h2 class="subtitle32px font-medium colorBlueDark2">View More</h2>
+                <div class="fx-general-cards flexCardsGap">
+                    <div class="card-article w33 fx-general-card-st">
+                        <img src="./images/article2.png" alt="article image" class="article-img">
+                        <div class="card-article-texts">
+                            <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                            <div class="d-flex align-items-center fx-titles-articles">
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/calender.svg" alt="calender icon">
+                                    <p class="style-font mb-0">October 15, 2024</p>
+                                </div>
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/user.svg" alt="user icon">
+                                    <p class="style-font mb-0">By Eta</p>
+                                </div>
+                            </div>
+                            <h3 class="font-bold">Real estate is a long-term investment</h3>
+                            <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                Ipsum
+                            </p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">Read More</span>
+                                <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-article w33 fx-general-card-st">
+                        <img src="./images/article2.png" alt="article image" class="article-img">
+                        <div class="card-article-texts">
+                            <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                            <div class="d-flex align-items-center fx-titles-articles">
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/calender.svg" alt="calender icon">
+                                    <p class="style-font mb-0">October 15, 2024</p>
+                                </div>
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/user.svg" alt="user icon">
+                                    <p class="style-font mb-0">By Eta</p>
+                                </div>
+                            </div>
+                            <h3 class="font-bold">Real estate is a long-term investment</h3>
+                            <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                Ipsum
+                            </p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">Read More</span>
+                                <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-article w33 fx-general-card-st">
+                        <img src="./images/article2.png" alt="article image" class="article-img">
+                        <div class="card-article-texts">
+                            <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                            <div class="d-flex align-items-center fx-titles-articles">
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/calender.svg" alt="calender icon">
+                                    <p class="style-font mb-0">October 15, 2024</p>
+                                </div>
+                                <div class="d-flex align-items-center title-articles">
+                                    <img src="./images/user.svg" alt="user icon">
+                                    <p class="style-font mb-0">By Eta</p>
+                                </div>
+                            </div>
+                            <h3 class="font-bold">Real estate is a long-term investment</h3>
+                            <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                Ipsum
+                            </p>
+                            <a href="" class="d-flex href-a">
+                                <span class="font-medium">Read More</span>
+                                <img src="./images/ArrowRightBlue.svg" alt="ArrowRightBlue">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container px-80">
+            <div class="d-flex fx-footer fx-general-cards">
+                <div class="footer-part footer-part1 fx-general-card-st">
+                    <img src="./images/FooterLogo.svg" alt="logo" class="footer-logo">
+                    <div class="backWhite">
+                        <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email" class="style-font">
+                                <button type="submit" class="btn-footer font-medium btn-hover">Subscribe</button>
+                            </div>
+                        </form>
+                        <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
+                            cutting-edge solutions for
+                            your energy and water
+                            requirements. Join us on social media for the latest updates and insights.
+                        </p>
+                        <div class="d-flex fx-images">
+                            <a href=""><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                            <a href=""><img src="./images/x-icon.svg" alt="x icon"></a>
+                            <a href=""><img src="./images/youtube-icon.svg" alt="youtube icon"></a>
+                            <a href=""><img src="./images/instgran-icon.svg" alt="instgran icon"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fx-general-cards fxFooter-part2">
+                    <div class="footer-part footer-part2 fx-general-card-st">
+                        <h5 class="font-bold">Explore More</h5>
+                        <div class="fx-footer-links">
+                            <a href="" class="style-font">Home</a>
+                            <a href="" class="style-font">Library Media</a>
+                            <a href="" class="style-font">Case Studies</a>
+                            <a href="" class="style-font">About</a>
+                            <a href="" class="style-font">Files Download</a>
+                            <a href="" class="style-font">Quality & Certifications</a>
+                            <a href="" class="style-font">blog</a>
+                        </div>
+                    </div>
+                    <div class="footer-part footer-part2 fx-general-card-st">
+                        <h5 class="font-bold">Division Water</h5>
+                        <div class="fx-footer-links">
+                            <a href="" class="style-font">Production Water</a>
+                            <a href="" class="style-font">Distribution Water</a>
+                            <a href="" class="style-font">Construction Plants Water</a>
+                            <a href="" class="style-font">Swimming Pool Construction</a>
+                            <a href="" class="style-font">Infrastructure Water</a>
+                            <a href="" class="style-font">Treatment Water</a>
+                        </div>
+                    </div>
+                    <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
+                        <div class="d-flex gap-divs-footer">
+                            <div>
+                                <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
+                                <div class="fx-footer-links">
+                                    <a href="" class="style-font">Investments Local</a>
+                                    <a href="" class="style-font">Investments Global</a>
+                                    <a href="" class="style-font">Management Asset</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
+                                <div class="fx-footer-links">
+                                    <a href="" class="style-font">Equipment Industrial</a>
+                                    <a href="" class="style-font">Services Logistics</a>
+                                    <a href="" class="style-font">Division Agriculture</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between fxAllRights">
+                <p class="mb-0 style-font colorWhite text-center">© 2024 Eta . All rights reserved.</p>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- Jquery Library -->
+    <script src=" ./js/jquery/jquery.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!--Plyr JS-->
+    <script src="./js/plyr/plyr.js"></script>
+    <script src="./js/plyr/codePlyr.js"></script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/sliderBlogImages.js"></script>
+</body>
+
+</html>

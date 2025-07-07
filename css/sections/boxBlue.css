@@ -1,0 +1,92 @@
+/* Section Box Blue */
+.boxBlue{
+    margin: 80px 0;
+}
+.boxBlue .fxBoxBlue{
+    border-radius: 24px;
+    background: radial-gradient(287.46% 74.63% at 47.82% 50.25%, #35A8F1 0%, #0B63E5 56.43%, #05367E 91.4%);
+    padding: 40px;
+    gap: 40px;
+}
+.boxBlue .fxBoxBlue .divText{width: 50%;}
+.boxBlue .fxBoxBlue form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.boxBlue .fxBoxBlue form input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.42);
+    padding: 0px 16px;
+    height: 52px;
+    color: #141CAF;
+}
+.boxBlue .fxBoxBlue form input::placeholder{
+    color: #141CAF;
+    opacity: 0.7;
+}
+.boxBlue .fxBoxBlue form button{
+    width: max-content;
+    border-radius: 8px;
+    border: 1px solid rgba(29, 30, 28, 0.00);
+    background: #FFF;
+    height: 52px;
+    padding: 0px 24px;
+    transition: all 0.3s ease;
+    color: #141CAF;
+}
+.boxBlue .fxBoxBlue form button:hover{
+    background: #141CAF;
+    color: #fff;
+}
+.boxBlue .fxBoxBlue .divText h2{
+    color: #F1F4FF;
+    line-height: 180%;
+}
+.boxBlue .fxBoxBlue .divText p{
+    color: #F1F4FF;
+    line-height: 130%;
+}
+@media (min-width:1706.67px) {
+    .boxBlue .fxBoxBlue form button{height:55px ;}
+    .boxBlue .fxBoxBlue form input{height: 55px;}
+}
+@media (min-width:1920px) {
+    .boxBlue .fxBoxBlue form button{height:62px ;}
+    .boxBlue .fxBoxBlue form input{height: 62px;}
+}
+@media (min-width:2048px) {
+    .boxBlue .fxBoxBlue form button{height:70px ;}
+    .boxBlue .fxBoxBlue form input{height: 70px;}
+}
+@media (min-width:2304px) {}
+@media (min-width:3072px) {}
+@media (max-width:1396.36px) {
+    .boxBlue .fxBoxBlue form button{height:48px ;}
+    .boxBlue .fxBoxBlue form input{height: 48px;}
+
+}
+@media (max-width:1228.8px) {
+    .boxBlue .fxBoxBlue form button{height:45px ;}
+    .boxBlue .fxBoxBlue form input{height: 45px;}
+
+    .boxBlue .fxBoxBlue{padding: 32px;}
+}
+@media (max-width:1024px) {
+    .boxBlue .fxBoxBlue form button{height:42px ;}
+    .boxBlue .fxBoxBlue form input{height: 42px;}
+    .boxBlue .fxBoxBlue{padding:24px;}
+}
+@media (max-width:877.71px) {
+    .boxBlue .fxBoxBlue form button{height:38px ;}
+    .boxBlue .fxBoxBlue form input{height: 38px;}
+}
+@media (max-width:768px) {}
+@media (max-width:614.4px) {
+    .boxBlue{margin: 50px 0;}
+    .boxBlue .fxBoxBlue{flex-direction: column;gap: 1rem;}
+    .boxBlue .fxBoxBlue form{width: 100%;}
+    .boxBlue .fxBoxBlue .divText{width: 100%;}
+}
+@media (max-width:512px) {}
