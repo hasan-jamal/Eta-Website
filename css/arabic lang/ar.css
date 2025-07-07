@@ -105,6 +105,8 @@
 .leaderCard .divImgs .linkedinIcon{right: 94%;left: auto;}
 .aboutUsS3 .fxAboutUsS3 .box img{margin-right: auto;left: auto;}
 .libraryMediaS5 .divTitle .partTwo{padding-left: 3rem;padding-right: 0;}
+.href-a img,
+.paginationCards .btnImg img{transform: rotate(180deg);}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
