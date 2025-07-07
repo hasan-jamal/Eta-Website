@@ -121,6 +121,7 @@ p, button, a { font-size: 1rem; }
 .align-items-start { align-items: flex-start !important; }
 .align-items-end { align-items: flex-end !important; }
 .w-100 { width: 100%; }
+.fxWrap{flex-wrap: wrap;}
 .text-start { text-align: start !important; }
 .justify-content-center { justify-content: center !important; }
 .justify-content-between { justify-content: space-between !important; }

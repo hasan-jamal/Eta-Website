@@ -16,11 +16,11 @@
 .publicSection .divText p{line-height: 172%;}
 @media (min-width:1706.67px) {
     .publicSection .bg {padding: 155px 0;}
-    .publicSection{padding: 7rem 0 0 0;}
+    .publicSection{padding: 7rem 0 4rem 0;}
 }
 @media (min-width:1920px) {
     .publicSection .bg {padding: 175px 0;}
-    .publicSection{padding: 8rem 0 0 0;}
+    .publicSection{padding: 8rem 0 4rem 0;}
 }
 @media (min-width:2048px) {
     .publicSection .bg {padding: 190px 0;}
