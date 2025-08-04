@@ -121,6 +121,7 @@ p, button, a { font-size: 1rem; }
 .align-items-start { align-items: flex-start !important; }
 .align-items-end { align-items: flex-end !important; }
 .w-100 { width: 100%; }
+.h-100 { height: 100%; }
 .fxWrap{flex-wrap: wrap;}
 .text-start { text-align: start !important; }
 .justify-content-center { justify-content: center !important; }
@@ -173,13 +174,25 @@ p, button, a { font-size: 1rem; }
 .px-120 { padding: 0 120px; }
 .w190 { width: 190px; }
 .h54px { height: 54px; }
-
+.w205 { width: 205px; }
+.w171 { width: 171px; }
+.h52px { height: 52px; }
+.h48px { height: 48px; }
+@media (min-width:1706.67px) {
+  .w205 { width: 220px; }
+  .h48px { height: 55px; }
+  .w171 { width: 191px; }
+}
 @media (min-width:1920px) {
   .px-120 { padding: 0 140px; }
   .px-100 { padding: 0 120px; }
   .px-50 { padding: 0 70px; }
   .w190 { width: 210px; }
   .h54px { height: 64px; }
+  .w205 { width: 255px; }
+  .h52px { height: 60px; }
+  .h48px { height: 60px; }
+  .w171 { width: 210px; }
 }
 @media (max-width:1396.36px) {
   .px-120 { padding: 0 100px; }
@@ -189,6 +202,10 @@ p, button, a { font-size: 1rem; }
   .px-50 { padding: 0 40px; }
   .w190 { width: 170px; }
   .h54px { height: 48px; }
+  .w205 { width: 195px; }
+  .h52px { height:48px; }
+  .h48px { height: 45px; }
+  .w171 { width: 160px; }
 }
 @media (max-width:1228.8px) {
   .px-120 { padding: 0 40px; }
@@ -197,17 +214,26 @@ p, button, a { font-size: 1rem; }
   .px-50 { padding: 0 30px; }
   .w190 { width: 160px; }
   .h54px { height: 44px; }
+  .w205 { width: 185px; }
+  .h52px { height:45px; }
+  .h48px { height: 42px; }
+  .w171 { width: 150px; }
 }
 @media (max-width:1024px) {
   .px-90 { padding: 0 30px; }
   .w190 { width: 150px; }
   .h54px { height: 40px; }
+  .w205 { width: 175px; }
+  .h52px { height:40px; }
+  .h48px { height: 40px; }
+  .w171 { width: 140px; }
 }
 @media (max-width:877.71px) {
   .px-80 { padding: 0 30px; }
   .px-120 { padding: 0 30px; }
   .px-100 { padding: 0 40px; }
   .px-50 { padding: 0 25px; }
+  .h48px { height: 38px; }
 }
 
 @media (max-width:768px) {
@@ -242,13 +268,30 @@ p, button, a { font-size: 1rem; }
   gap: 8px;
   white-space: pre;
   color: #fff;
-  text-transform: capitalize;
   transition: 0.3s;
   font-size: 20px;
   white-space: normal;
 }
 .btn-blue:hover {
   background: #0591b0;
+}
+.btnDarkBlue{
+  border-radius: 20px;
+  background: #0B63E5;
+  border: none;
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  transition: 0.3s;
+  white-space: normal;
+}
+.btnDarkBlue:hover{background: #fff;border: 1px solid #0B63E5;color: #0B63E5;}
+.btnDarkBlue:hover span{color: #0B63E5;}
+.btnDarkBlue:hover img{
+  filter: brightness(0) saturate(100%) invert(27%) sepia(95%) saturate(1556%) hue-rotate(200deg) brightness(95%) contrast(103%);
 }
 .btn-outline-blue {
   border-radius: 20px;
@@ -265,6 +308,9 @@ p, button, a { font-size: 1rem; }
   background-color: transparent;
   transition: all 0.3s ease;
 }
+.btn-outline-blue img{
+  filter: brightness(0) saturate(100%) invert(55%) sepia(42%) saturate(2452%) hue-rotate(156deg) brightness(107%) contrast(108%);
+}
 .btn-outline-blue span {
   white-space: pre;
 }
@@ -273,6 +319,11 @@ p, button, a { font-size: 1rem; }
   background: #08cefb;
   color: #fff;
 }
+.btn-outline-blue:hover img,
+.btnDarkBlue img{
+  filter: brightness(0) saturate(100%) invert(88%) sepia(89%) saturate(1%) hue-rotate(186deg) brightness(111%) contrast(97%);
+}
+
 .btn-yellow {
   border-radius: 20px;
   background: #FFB600;
@@ -292,13 +343,58 @@ p, button, a { font-size: 1rem; }
 .btn-yellow:hover {
   transform: scale(0.9);
 }
+
+.btnWhite {
+  border-radius: 16px;
+  background: #EFF6FF;
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 150%;
+  transition: all 0.3s ease;
+  white-space: normal;
+}
+.btnWhite:hover{
+  border: 1px solid #EFF6FF;
+  background: transparent;
+  color: #fff;
+}
+.btnOutlineWhite {
+  border-radius: 16px;
+  border: 1px solid #EFF6FF;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 150%;
+  transition: all 0.3s ease;
+  white-space: normal;
+}
+.btnOutlineWhite img{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(103%) contrast(103%);
+}
+.btnOutlineWhite:hover img{
+filter: brightness(0) saturate(100%) invert(13%) sepia(54%) saturate(3327%) hue-rotate(214deg) brightness(91%) contrast(101%);}
+.btnOutlineWhite:hover{
+  border: 1px solid #EFF6FF;
+  background: #fff;
+  color: #090F74;
+}
 @media (min-width:1920px) {
   .btn-yellow {
     font-size: 24px;
     height: 75px;
     width: 200px;
   }
-
   .btn-outline-blue {
     font-size: 23px;
     height: 65px;
@@ -306,32 +402,27 @@ p, button, a { font-size: 1rem; }
   }
   .energy-five .fx-head .btn-outline-blue img {width: 35px;}
 }
-
 @media (max-width:1288.8px) {
   .btn-yellow {
     font-size: 16px;
     height: 45px;
     width: 140px;
   }
-
   .btn-outline-blue {
     font-size: 16px;
     height: 48px;
   }
 }
-
 @media (max-width:1024px) {
   .btn-outline-blue {
     font-size: 14px;
     height: 44px;
     padding: 0 16px;
   }
-
   .energy-five .fx-head .btn-outline-blue img {
     width: 17px;
   }
 }
-
 @media (max-width:877.71px) {
   .btn-yellow {
     font-size: 13px;
@@ -339,7 +430,6 @@ p, button, a { font-size: 1rem; }
     width: 110px;
   }
 }
-
 @media (max-width:768px) {
   .btn-outline-blue {
     height: 46px;
@@ -349,14 +439,12 @@ p, button, a { font-size: 1rem; }
   }
 
 }
-
 @media (max-width:512px) {
   .grid-Header {
     width: 100%;
     top: 0;
   }
 }
-
 .fx-general-cards {
   display: flex;
   align-items: start;
@@ -401,160 +489,163 @@ p, button, a { font-size: 1rem; }
   font-size: 21px;
   line-height: 200%;
 }
+.head-title .titleImage{
+    width: 130px;
+}
 .head-title h1 {
-  margin-bottom: 24px;
   width: max-content;
 }
 .lineHeight100 {line-height: 100%;}
 .lineHeight140 {line-height: 140%;}
 .lineHeight120 {line-height: 120%;}
-.subtitle67px {font-size: 67px;}
-.subtitle56px {font-size: 56px;}
-.subtitle48px {font-size: 48px;}
-.subtitle38px {font-size: 38px;}
-.subtitle25px {font-size: 25px;}
-.subtitle28px {font-size: 28px;}
-.subtitle24px {font-size: 24px;}
-.subtitle20px {font-size: 20px;}
-.subtitle22px {font-size: 22px;}
-.subtitle18px {font-size: 18px;}
-.subtitle16px {font-size: 16px;}
-.subtitle44px{font-size: 44px;}
-.subtitle32px{font-size: 32px;}
+.subtitle67px { font-size: 4.1875rem; }
+.subtitle56px { font-size: 3.5rem; }
+.subtitle48px { font-size: 3rem; }
+.subtitle38px { font-size: 2.375rem; }
+.subtitle25px { font-size: 1.5625rem; }
+.subtitle28px { font-size: 1.75rem; }
+.subtitle24px { font-size: 1.5rem; }
+.subtitle20px { font-size: 1.25rem; }
+.subtitle22px { font-size: 1.375rem; }
+.subtitle18px { font-size: 1.125rem; }
+.subtitle16px { font-size: 1rem; }
+.subtitle44px { font-size: 2.75rem; }
+.subtitle32px { font-size: 2rem; }
 @media (min-width:1706.67px) {
-  .subtitle-one { font-size: 62px; margin-bottom: 32px; line-height: 72px; }
-  .subtitle-two { font-size: 21px; line-height: 32px; }
-  .subtitle-50px { font-size: 55px; line-height: 65px; }
-  .subtitle44px { font-size: 48px; }
-  .subtitle-40px { font-size: 45px; line-height: 60px; }
-  .subtitle-30px { font-size: 35px; line-height: 45px; }
-  .subtitle67px { font-size: 72px; }
-  .subtitle21px { font-size: 24px; }
-  .subtitle20px { font-size: 23px; }
-  .subtitle24px { font-size: 26px; }
-  .subtitle18px { font-size: 20px; }
-  .subtitle38px { font-size: 42px; }
-  .subtitle25px { font-size: 27px; }
-  .subtitle56px { font-size: 60px; }
-  .subtitle28px { font-size: 30px; }
-  .subtitle16px { font-size: 18px; }
-  .subtitle48px { font-size: 52px; }
-  .subtitle22px {font-size: 24px;}
-  .subtitle32px{font-size: 34px;}
+  .subtitle-one { font-size: 3.875rem; }
+  .subtitle-two { font-size: 1.3125rem; }
+  .subtitle-50px { font-size: 3.4375rem; }
+  .subtitle44px { font-size: 3rem; }
+  .subtitle-40px { font-size: 2.8125rem; }
+  .subtitle-30px { font-size: 2.1875rem; }
+  .subtitle67px { font-size: 4.5rem; }
+  .subtitle21px { font-size: 1.5rem; }
+  .subtitle20px { font-size: 1.4375rem; }
+  .subtitle24px { font-size: 1.625rem; }
+  .subtitle18px { font-size: 1.25rem; }
+  .subtitle38px { font-size: 2.625rem; }
+  .subtitle25px { font-size: 1.6875rem; }
+  .subtitle56px { font-size: 3.75rem; }
+  .subtitle28px { font-size: 1.875rem; }
+  .subtitle16px { font-size: 1.125rem; }
+  .subtitle48px { font-size: 3.25rem; }
+  .subtitle22px { font-size: 1.5rem; }
+  .subtitle32px { font-size: 2.125rem; }
 }
 @media (min-width:1920px) {
-  .subtitle-one { font-size: 68px; line-height: 72px; }
-  .subtitle44px { font-size: 52px; }
-  .subtitle-two { font-size: 24px; line-height: 42px; }
-  .subtitle-50px { font-size: 60px; line-height: 70px; }
-  .subtitle-40px { font-size: 50px; line-height: 60px; }
-  .subtitle21px { font-size: 28px; }
-  .subtitle-30px { font-size: 40px; line-height: 50px; }
-  .subtitle67px { font-size: 80px; }
-  .subtitle20px { font-size: 26px; }
-  .subtitle24px { font-size: 29px; }
-  .subtitle18px { font-size: 23px; }
-  .subtitle38px { font-size: 46px; }
-  .subtitle56px { font-size: 64px; }
-  .subtitle25px { font-size: 30px; }
-  .subtitle28px { font-size: 33px; }
-  .subtitle48px { font-size: 56px; }
-  .subtitle16px { font-size: 20px; }
-  .subtitle22px {font-size: 27px;}
-  .subtitle32px{font-size: 37px;}
+  .subtitle-one { font-size: 4.25rem; }
+  .subtitle44px { font-size: 3.25rem; }
+  .subtitle-two { font-size: 1.5rem; }
+  .subtitle-50px { font-size: 3.75rem; }
+  .subtitle-40px { font-size: 3.125rem; }
+  .subtitle21px { font-size: 1.75rem; }
+  .subtitle-30px { font-size: 2.5rem; }
+  .subtitle67px { font-size: 5rem; }
+  .subtitle20px { font-size: 1.625rem; }
+  .subtitle24px { font-size: 1.8125rem; }
+  .subtitle18px { font-size: 1.4375rem; }
+  .subtitle38px { font-size: 2.875rem; }
+  .subtitle56px { font-size: 4rem; }
+  .subtitle25px { font-size: 1.875rem; }
+  .subtitle28px { font-size: 2.0625rem; }
+  .subtitle48px { font-size: 3.5rem; }
+  .subtitle16px { font-size: 1.25rem; }
+  .subtitle22px { font-size: 1.6875rem; }
+  .subtitle32px { font-size: 2.3125rem; }
 }
 @media (min-width:2048px) {
-  .subtitle25px { font-size: 34px; }
-  .subtitle44px { font-size: 56px; }
-  .subtitle56px { font-size: 67px; }
-  .subtitle28px { font-size: 36px; }
-  .subtitle48px { font-size: 60px; }
-  .subtitle16px { font-size: 24px; }
-  .subtitle22px {font-size: 30px;}
-  .subtitle32px{font-size: 39px;}
+  .subtitle25px { font-size: 2.125rem; }
+  .subtitle44px { font-size: 3.5rem; }
+  .subtitle56px { font-size: 4.1875rem; }
+  .subtitle28px { font-size: 2.25rem; }
+  .subtitle48px { font-size: 3.75rem; }
+  .subtitle16px { font-size: 1.5rem; }
+  .subtitle22px { font-size: 1.875rem; }
+  .subtitle32px { font-size: 2.4375rem; }
 }
 @media (max-width:1396.36px) {
-  .subtitle-one { font-size: 50px; line-height: 60px; }
-  .subtitle44px { font-size: 42px; }
-  .subtitle-50px { font-size: 45px; line-height: 50px; }
-  .subtitle-40px { font-size: 35px; line-height: 45px; }
-  .subtitle21px { font-size: 19px; line-height: 170%; }
-  .subtitle-30px { font-size: 25px; line-height: 35px; }
-  .subtitle67px { font-size: 64px; }
-  .subtitle20px { font-size: 18px; }
-  .subtitle24px { font-size: 22px; }
-  .subtitle18px { font-size: 16px; }
-  .subtitle38px { font-size: 34px; }
-  .subtitle25px { font-size: 23px; }
-  .subtitle56px { font-size: 52px; }
-  .subtitle28px { font-size: 26px; }
-  .subtitle48px { font-size: 44px; }
-  .subtitle22px {font-size: 20px;}
-  .subtitle32px{font-size: 30px;}
+  .subtitle-one { font-size: 3.125rem; }
+  .subtitle44px { font-size: 2.625rem; }
+  .subtitle-50px { font-size: 2.8125rem; }
+  .subtitle-40px { font-size: 2.1875rem; }
+  .subtitle21px { font-size: 1.1875rem; }
+  .subtitle-30px { font-size: 1.5625rem; }
+  .subtitle67px { font-size: 4rem; }
+  .subtitle20px { font-size: 1.125rem; }
+  .subtitle24px { font-size: 1.375rem; }
+  .subtitle18px { font-size: 1rem; }
+  .subtitle38px { font-size: 2.125rem; }
+  .subtitle25px { font-size: 1.4375rem; }
+  .subtitle56px { font-size: 3.25rem; }
+  .subtitle28px { font-size: 1.625rem; }
+  .subtitle48px { font-size: 2.75rem; }
+  .subtitle22px { font-size: 1.25rem; }
+  .subtitle32px { font-size: 1.875rem; }
 }
 @media (max-width:1228.8px) {
-  .subtitle-50px { font-size: 40px; line-height: 45px; }
-  .subtitle44px { font-size: 38px; }
-  .subtitle-40px { font-size: 30px; line-height: 40px; }
-  .subtitle21px { font-size: 17px; line-height: 160%; }
-  .subtitle-30px { font-size: 20px; line-height: 30px; }
-  .subtitle67px { font-size: 56px; }
-  .subtitle20px { font-size: 16px; }
-  .subtitle24px { font-size: 20px; }
-  .subtitle18px { font-size: 14px; }
-  .subtitle38px { font-size: 32px; }
-  .subtitle25px { font-size: 21px; }
-  .subtitle56px { font-size: 48px; }
-  .subtitle28px { font-size: 24px; }
-  .subtitle48px { font-size: 40px; }
-  .subtitle16px { font-size: 14px; }
-  .subtitle22px {font-size: 18px;}
-  .subtitle32px{font-size: 28px;}
+  .subtitle-50px { font-size: 2.5rem; }
+  .subtitle44px { font-size: 2.375rem; }
+  .subtitle-40px { font-size: 1.875rem; }
+  .subtitle21px { font-size: 1.0625rem; }
+  .subtitle-30px { font-size: 1.25rem; }
+  .subtitle67px { font-size: 3.5rem; }
+  .subtitle20px { font-size: 1rem; }
+  .subtitle24px { font-size: 1.25rem; }
+  .subtitle18px { font-size: 0.875rem; }
+  .subtitle38px { font-size: 2rem; }
+  .subtitle25px { font-size: 1.3125rem; }
+  .subtitle56px { font-size: 3rem; }
+  .subtitle28px { font-size: 1.5rem; }
+  .subtitle48px { font-size: 2.5rem; }
+  .subtitle16px { font-size: 0.875rem; }
+  .subtitle22px { font-size: 1.125rem; }
+  .subtitle32px { font-size: 1.75rem; }
 }
 @media (max-width:1024px) {
-  .subtitle-one { font-size: 40px; line-height: 44.25px; }
-  .subtitle44px { font-size: 32px; }
-  .subtitle-50px { font-size: 35px; line-height: 40px; }
-  .subtitle-40px { font-size: 25px; line-height: 40px; }
-  .subtitle21px { font-size: 15px; }
-  .subtitle67px { font-size: 48px; }
-  .subtitle20px { font-size: 14px; }
-  .subtitle24px { font-size: 18px; }
-  .subtitle18px { font-size: 13px; }
-  .subtitle38px { font-size: 26px; }
-  .subtitle25px { font-size: 18px; }
-  .subtitle56px { font-size: 40px; }
-  .subtitle28px { font-size: 20px; }
-  .subtitle48px { font-size: 38px; }
-  .subtitle16px { font-size: 13px; }
-  .subtitle22px {font-size: 16px;}
-  .subtitle32px{font-size: 24px;}
+  .subtitle-one { font-size: 2.5rem; }
+  .subtitle44px { font-size: 2rem; }
+  .subtitle-50px { font-size: 2.1875rem; }
+  .subtitle-40px { font-size: 1.5625rem; }
+  .subtitle21px { font-size: 0.9375rem; }
+  .subtitle67px { font-size: 3rem; }
+  .subtitle20px { font-size: 0.875rem; }
+  .subtitle24px { font-size: 1.125rem; }
+  .subtitle18px { font-size: 0.8125rem; }
+  .subtitle38px { font-size: 1.625rem; }
+  .subtitle25px { font-size: 1.125rem; }
+  .subtitle56px { font-size: 2.5rem; }
+  .subtitle28px { font-size: 1.25rem; }
+  .subtitle48px { font-size: 2.375rem; }
+  .subtitle16px { font-size: 0.8125rem; }
+  .subtitle22px { font-size: 1rem; }
+  .subtitle32px { font-size: 1.5rem; }
 }
 @media (max-width:877.71px) {
-  .subtitle-one { font-size: 35px; }
-  .subtitle-30px { font-size: 18px; line-height: 28px; }
-  .subtitle67px { font-size: 40px; }
-  .subtitle38px { font-size: 24px; }
-  .subtitle25px { font-size: 16px; }
-  .subtitle28px { font-size: 16px; }
-  .subtitle48px { font-size: 32px; }
-  .subtitle16px { font-size: 11px; }
-  .subtitle22px {font-size: 13px;}
-  .subtitle32px{font-size: 20px;}
+  .subtitle-one { font-size: 2.1875rem; }
+  .subtitle-30px { font-size: 1.125rem; }
+  .subtitle67px { font-size: 2.5rem; }
+  .subtitle38px { font-size: 1.5rem; }
+  .subtitle25px { font-size: 1rem; }
+  .subtitle28px { font-size: 1rem; }
+  .subtitle48px { font-size: 2rem; }
+  .subtitle16px { font-size: 0.6875rem; }
+  .subtitle22px { font-size: 0.8125rem; }
+  .subtitle32px { font-size: 1.25rem; }
 }
 @media (max-width:768px) {
-  .subtitle67px { font-size: 38px; }
-  .subtitle32px{font-size: 18px;}
+  .subtitle67px { font-size: 2.375rem; }
+  .subtitle32px { font-size: 1.125rem; }
 }
 @media (max-width:614.4px) {
-  .subtitle-one { font-size: 35px; white-space: normal; line-height: 42px; margin-top: 0rem; }
-  .subtitle-50px { font-size: 28px; line-height: 31px; }
-  .subtitle-40px { font-size: 25px; line-height: 29px; }
-  .subtitle-30px { font-size: 20px; line-height: 30px; }
-  .subtitle24px { font-size: 18px; }
-  .subtitle18px { font-size: 13px; }
-  .subtitle56px { font-size: 32px; }
-  .subtitle28px { font-size: 18px; }
+  .subtitle-one { font-size: 2.1875rem; }
+  .subtitle-50px { font-size: 1.75rem; }
+  .subtitle-40px { font-size: 1.5625rem; }
+  .subtitle-30px { font-size: 1.25rem; }
+  .subtitle24px { font-size: 1.125rem; }
+  .subtitle18px { font-size: 0.9125rem; }
+  .subtitle56px { font-size: 2rem; }
+  .subtitle28px { font-size: 1.125rem; }
+  .head-title h1{font-size: 1.425rem;}
 }
 
 /* Font Sizes Style */
@@ -827,6 +918,7 @@ body .plyr--full-ui.plyr--video .plyr__control--overlaid {
   top: -15rem;
   left: -12rem;
 }
+.counter {transition: all 0.3s ease;}
 @media (min-width:1706.67px) {
   .pagination button {
     width: 60px;

@@ -190,6 +190,11 @@ header{
   width: 100%;
   z-index: 99;
 }
+.mainPageHeader .header-container .fx-header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 0 1.4rem;
+    padding-bottom: 1rem;
+}
 .energy-header{
   background: #080B46;
 }
@@ -198,12 +203,10 @@ header{
 .energy-navbar .hamburger div{background: #fff;}
 header .fx-header{width: 100%;}
 header .fx-header-links{
-  gap: 7rem;
+  gap:6rem;
 }
 header .fx-header-links .logo-header{
   cursor: pointer;
-  width: 90px;
-  height: 35px;
 }
 header .fx-header-links .logo-header img{
   width: 100%;
@@ -220,28 +223,27 @@ header .fx-header-links .links-header{
   gap: 36px;
 }
 header .fx-header-links .links-header a{
-  color: #838E9E;
+  color: #EFF6FF;
   font-size: 17px;
   line-height: 20px; 
   text-decoration: none;
   transition:all 0.3s ease;
 } 
-.sub-header .fx-header-links .links-header a{color: #fff;}
+.sub-header .fx-header-links .links-header a{
+  color: #848992;
+}
 .sub-header .fx-header-links .links-header a:hover,
 .sub-header .fx-header-links .links-header a.active{
    font-weight: 500;
-   color: #fff;
-}
-.sub-header .fx-header-links .links-header a.active{
-  font-weight: 600;
+   color: #0B63E5;
 }
 header .fx-header-links .links-header a:hover{
-  color: #0B63E5;
+  color: #fff;
   text-decoration: underline;
   font-weight: 500;
 }
 header .fx-header-links .links-header .active{
-  color: #0B63E5;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
 } 
@@ -368,8 +370,8 @@ header .btn-header .btn-blue{ font-size: 18px;}
   header .fx-header-links .logo-header img{width: 130px;}
   .dropdownStyle .fxDropdownStyle .partTwo .boxImage1 img{height: 260px;}
   .dropdownStyle .fxDropdownStyle .partOne .divText2 h3,
-.dropdownStyle .fxDropdownStyle .partOne .divText2 a{line-height: 140%;}
-.dropdownStyle{padding: 50px 80px;}
+  .dropdownStyle .fxDropdownStyle .partOne .divText2 a{line-height: 140%;}
+  .dropdownStyle{padding: 50px 80px;}
 }
 @media (min-width:1920px) {
   header .fx-header-links .links-header a,

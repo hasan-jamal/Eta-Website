@@ -1,39 +1,48 @@
 footer{
-    background-image: url(../images/footerBackground.png);
-    background-position: center;
-    background-size: cover;
+background:  #141CAF;
 }
 footer .fx-footer{
-    padding-top: 17rem;
+    padding-top: 60px;
     width: 100%;
     border-radius: 40px;
-    gap: 190px;
-    align-items: start;
+    gap: 140px;
+    align-items: center;
     justify-content: start;
 }
 footer .fxFooter-part2{
-    gap: 90px;
-    flex: 1 1 calc(60% - 190px);
-    max-width: calc(60% - 0px);
+    gap: 60px;
+    flex: 1 1 calc(50% - 140px);
+    max-width: calc(50% - 0px);
 }
 footer .fx-footer .footer-part1{
-    flex: 1 1 calc(40% - 190px);
-    max-width: calc(40% - 0px);
+    flex: 1 1 calc(50% - 140px);
+    max-width: calc(50% - 0px);
 }
-footer .fx-footer .footer-part2{
-    flex: 1 1 calc(33.3% - 90px);
-    max-width: calc(33.3% - 0px);
+footer .fx-footer .footer-part1 .footer-logo{
+    margin-bottom: 40px;
 }
-footer .fx-footer .footer-part1 .backWhite{
+footer .fx-footer .footer-part2.w40{
+    flex: 1 1 calc(30% - 60px);
+    max-width: calc(30% - 0px);
+}
+footer .fx-footer .footer-part2.w60{
+    flex: 1 1 calc(70% - 60px);
+    max-width: calc(70% - 0px);
+}
+footer .fx-footer .footer-part2.w60 .fx-footer-links{
+    flex-direction: row;
+}
+footer .fx-footer .backWhite{
     border-radius: 30px;
     background: rgba(255, 255, 255, 0.12);
-    padding: 34px 24px;
+    padding: 1rem;
 }
-footer .fx-footer .footer-part p{
+footer .fx-footer .backWhite p{
     color:#FFF;
     font-size: 14px;
-    line-height: 180%;
-    margin-bottom: 24px;
+    line-height: 140%;
+    margin-bottom: 1rem;
+    width: 80%;
 } 
 footer .fx-footer .footer-part h5{
     color:#FFF;
@@ -42,31 +51,31 @@ footer .fx-footer .footer-part h5{
     text-transform: uppercase;
     margin-bottom: 14px;
 } 
-footer .fx-footer .footer-part1 .form-group{
+footer .fx-footer .backWhite .form-group{
     display: flex;
     align-items: end;
     gap: 12px;
     margin-bottom: 24px;
 }
-footer .fx-footer .footer-part1 .footer-logo{
+footer .fx-footer .backWhite .footer-logo{
     width: 100%;
     margin-bottom: 32px;
 }
-footer .fx-footer .footer-part1 .form-group input{
+footer .fx-footer .backWhite .form-group input{
     padding: 12px;
     width: 80%;
     border-radius: 50px;
-    background: rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.10);
     color:  #FFF;
     font-size: 14px;
     height: 45px;
     opacity: 1;
 }
-footer .fx-footer .footer-part1 .form-group input::placeholder{
+footer .fx-footer .backWhite .form-group input::placeholder{
     opacity: 0.8;
     color:  #FFF;
 }
-footer .fx-footer .footer-part1 .form-group .btn-footer{
+footer .fx-footer .backWhite .form-group .btn-footer{
     padding: 0 24px;
     display: flex;
     align-items: center;
@@ -78,9 +87,9 @@ footer .fx-footer .footer-part1 .form-group .btn-footer{
     color: #141CAF;
     font-size: 14px;
 }
-footer .fx-footer .footer-part1 .fx-images{
+footer .fx-footer .backWhite .fx-images{
     margin-top: 8px;
-    gap: 8px;
+    gap: 12px;
 }
 footer .fx-footer .footer-part .fx-footer-links{
     display: flex;
@@ -100,15 +109,16 @@ footer .fx-footer .footer-part a:hover{
     color: rgba(255, 255, 255,1);
 text-decoration: underline;
 }
-footer .gap-divs-footer{gap: 26px;flex-direction: column;}
 footer .fxAllRights{
     margin-top: 56px;
     padding-bottom:12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255,0.4);
 }
 footer .fxAllRights p{
   margin: auto;
   display: block;
-    font-size: 14px;
+font-size: 14px;
 }
 footer .fxAllRights .fxAllRights-links{gap:24px ;}
 footer .fxAllRights a{
@@ -165,99 +175,55 @@ footer .fxAllRights a{
     footer .fx-footer .footer-part a:hover{font-size: 17px;}
     footer .fx-footer .footer-part h5{font-size: 15px; white-space: pre;}
     footer .fx-footer .footer-part .services-supply{white-space: normal;}
-    footer .fx-footer{gap: 120px;padding-top:12rem;}
-    footer .fx-footer .footer-part1{
-        flex: 1 1 calc(40% - 120px);
-        max-width: calc(40% - 0px);
-    }
+    footer .fx-footer{gap: 100px;}
     footer .fxFooter-part2{
-        gap: 70px;
-        flex: 1 1 calc(60% - 120px);
-        max-width: calc(60% - 0px);
+        flex: 1 1 calc(50% - 100px);
+        max-width: calc(50% - 0px);
     }
-    footer .fx-footer .footer-part2{
-        flex: 1 1 calc(33.3% - 70px);
-        max-width: calc(33.3% - 0px);
+    footer .fx-footer .footer-part1{
+        flex: 1 1 calc(50% - 100px);
+        max-width: calc(50% - 0px);
     }
-    footer .fx-footer .footer-part p{
-        font-size: 12px;
-        line-height: 158%;
-    }
-    footer .fx-footer .footer-part1 .backWhite{padding: 24px 16px;}
+    footer .fx-footer .footer-part p{font-size: 12px;line-height: 158%;}
+    footer .fx-footer .footer-part1 .backWhite{padding: 14px;}
 }
 @media (max-width:1024px) {
-    footer .fx-footer{gap: 80px;padding-top: 11rem;}
-    footer .fx-footer .footer-part1{
-        flex: 1 1 calc(40% - 80px);
-        max-width: calc(40% - 0px);
-    }
+    footer .fx-footer{gap: 80px;}
     footer .fxFooter-part2{
-        gap: 50px;
-        flex: 1 1 calc(60% - 80px);
-        max-width: calc(60% - 0px);
+        flex: 1 1 calc(50% - 80px);
+        max-width: calc(50% - 0px);
     }
-    footer .fx-footer .footer-part2{
-        flex: 1 1 calc(33.3% - 50px);
-        max-width: calc(33.3% - 0px);
+    footer .fx-footer .footer-part1{
+        flex: 1 1 calc(50% - 80px);
+        max-width: calc(50% - 0px);
     }
     footer .fx-footer .footer-part .footer-logo{width: 100%;}
     footer .fx-footer .footer-part1 .form-group{gap: 8px;}
-    footer .fx-footer .footer-part1 .form-group .btn-footer{
-        height: 35px;
-        font-size: 12px;
-        padding: 0 16px;
-    }
+    footer .fx-footer .footer-part1 .form-group .btn-footer{height: 35px;font-size: 12px;padding: 0 16px;}
     footer .fx-footer .footer-part a{font-size: 14px;}
     footer .fx-footer .footer-part a:hover{font-size: 15px;}
     footer .fx-footer .footer-part h5{font-size: 14px;}
     footer .fx-footer .footer-part1 .fx-images img{width: 35px;}
     footer .fx-footer .footer-part1 .backWhite{padding:16px;}
-    footer .fx-footer .footer-part1 .form-group input{
-        height: 35px;
-        font-size: 11px;
-    }
+    footer .fx-footer .footer-part1 .form-group input{height: 35px;font-size: 11px;}
     footer .fx-footer .footer-part p,
     footer .fx-footer .footer-part1 .form-group{margin-bottom: 16px;}
 }
 @media (max-width:877.71px) {
-    footer .fx-footer{gap: 50px;padding-top: 10.5rem;}
-    footer .fx-footer .footer-part1{
-        flex: 1 1 calc(40% - 50px);
-        max-width: calc(40% - 0px);
-    }
+    footer .fx-footer{gap:50px;}
     footer .fxFooter-part2{
-        gap: 32px;
-        flex: 1 1 calc(60% - 50px);
-        max-width: calc(60% - 0px);
-        padding-top: 1.2rem;
-    }
-    footer .fx-footer .footer-part2{
-        flex: 1 1 calc(50% - 32px);
+        flex: 1 1 calc(50% - 50px);
         max-width: calc(50% - 0px);
-        text-align: center;
     }
-    footer .fx-footer .footer-part5{
-        flex: 1 1 calc(100% - 32px);
-        max-width: calc(100% - 0px);
+    footer .fx-footer .footer-part1{
+        flex: 1 1 calc(50% - 50px);
+        max-width: calc(50% - 0px);
     }
-    footer .gap-divs-footer{flex-direction: row;gap:32px ;}
-    footer .gap-divs-footer div{width: 50%}
     footer .fx-footer .footer-part .fx-footer-links{margin: auto;}    
     footer .fx-footer .footer-part a{font-size: 12px;}
     footer .fx-footer .footer-part a:hover{font-size: 13px;}
 }
 @media (max-width:768px) {
-    footer .fx-footer{gap: 30px;padding-top: 10.5rem;}
-    footer .fx-footer .footer-part1{
-        flex: 1 1 calc(40% - 30px);
-        max-width: calc(40% - 0px);
-    }
-    footer .fxFooter-part2{
-        gap: 32px;
-        flex: 1 1 calc(60% - 30px);
-        max-width: calc(60% - 0px);
-        padding-top: 1.2rem;
-    }
 }
 @media (max-width:614.4px) {
     footer{

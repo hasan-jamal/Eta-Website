@@ -1,0 +1,72 @@
+/* About 4 Section  */
+.mapSection{margin: 100px 0;}
+.mapSection .fx-head-title{align-items: end;}
+.mapSection .divTitles{
+    align-items: center;
+}
+.mapSection .divTitles h1{margin-bottom: 1rem;}
+.mapSection .divTitles p{width: 80%;}
+.mapSection .fx-mapSection{margin-top: 45px;gap: 24px;}
+.mapSection .list-locations{
+    gap:15px;
+    width: 37%;
+}
+.mapSection .list-locations .box-location{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #F4F4F4;
+    background: rgba(245, 246, 247, 0.20);
+    text-decoration: none;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+.mapSection .list-locations .box-location.active,
+.mapSection .list-locations .box-location:hover{
+    border: 2px solid  #8DC4E9;
+    background: #EFF6FF;
+}
+.mapSection .list-locations .box-location:hover{
+    transform: scale(0.98);
+}
+.mapSection .list-locations .box-location h2{
+    color: #061C3D;
+    line-height: 140%; 
+}
+.mapSection .list-locations .box-location .fx-pathLocation{gap: 10px;}
+.mapSection .list-locations .box-location .fx-pathLocation p{
+    color: #848992;
+    line-height: 140%;
+}
+.mapSection .responsive-map{
+    overflow: hidden;
+    position:relative;
+    width: 63%;
+}
+.mapSection .responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border-radius: 20px;
+}
+@media (min-width:1920px) {
+    .mapSection .list-locations .box-location{padding:25px;}
+}
+@media (min-width:2048px) {
+}
+@media (max-width:1228.8px) {
+.mapSection .list-locations .box-location{padding: 15px 20px;}
+}
+@media (max-width:1024px) {
+    .mapSection .list-locations .box-location{padding: 1rem;}
+}
+@media (max-width:614.4px) {
+    .mapSection .fx-mapSection{flex-direction: column;margin-top: 24px;}
+    .mapSection .list-locations{width: 100%;}
+    .mapSection .responsive-map{width: 100%;height: 250px;}
+    .mapSection h1{margin-bottom: 16px;}
+    .mapSection .divTitles p{width: 100%;}
+    .mapSection .divTitles{flex-direction: column;align-items: start;gap: 1rem;}
+    .mapSection .fx-head-title{align-items: start;}
+}

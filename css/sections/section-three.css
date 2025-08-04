@@ -3,6 +3,9 @@
 .section-three{
     padding-top: 74px;
 }
+
+.section-three .fx-head-title .head-title h1{margin-bottom: 0;}
+.section-three .fx-head-title .head-title p{width: 100%;}
 .section-three .fx-section-three{gap: 40px;padding: 87px 80px;align-items: normal;}
 .section-three .fx-section-three .card-portfolio{
     flex: 1 1 calc(33.3% - 40px);

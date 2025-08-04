@@ -54,12 +54,14 @@
     font-size: 20px;
     line-height: 30px; 
     margin-bottom: 10px;
+    -webkit-line-clamp: 1; 
 }
  .card-article p{
     color:#727272;
     font-size: 15px;
     line-height: 140%;
     margin-bottom: 1rem;
+        -webkit-line-clamp: 2; 
 }
 .section-seven .fx-head-title{padding: 0;}
 @media (max-width:1396.36px) {
@@ -81,7 +83,6 @@
  .section-seven .head-title{width: 100%;}
  .section-seven .sliderArticles .slide{padding: 0;}
  .section-seven .fx-head-title{gap: 16px;}
- .fx-head-title{gap: 4px;}
  .section-seven .sliderArticles{margin-top:8px;}    
  .card-article .card-article-texts .btnBlue{font-size: 15px;}
 }

@@ -1,0 +1,228 @@
+.topSection{
+    background-image: url(../../images/sectionOneBack.png);
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.topSection:after{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0; 
+    z-index: 0;
+}
+.topSection .topSection-container{
+    position: relative;
+    z-index: 2;
+}
+.topSection .borderSection{
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding-top: 6rem;
+}
+.topSection .divText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
+.topSection .divText h1{
+    margin-bottom: 6px;
+    line-height: 140%;
+}
+.topSection .divText p{
+    width: 70%;
+    line-height: 140%;
+    margin-bottom: 1.5rem;
+}
+.topSection .numbersItems{
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.30);
+}
+.topSection .numbersItems .item{
+    flex: 1 1 calc(25% - 1rem);
+    max-width: calc(25% - 0px);
+    padding: 20px 0;
+}
+.topSection .divText button{
+    border-radius: 1rem;
+}
+@media (min-width:1920px) {
+    .topSection{height: 900px;}
+    .topSection .divText{width: 60%;}
+}
+@media (max-width:1396.36px) {
+    .topSection{height: 120vh;}
+    .topSection .numbersItems .item{padding: 1rem 0;}
+    .topSection .divText img{width: 80px;}
+}
+@media (max-width:1228.8px) {
+    .topSection{height: 125vh;}
+    .topSection .numbersItems .item{padding: 0.8rem 0;}
+    .topSection .divText img{width: 80px;}
+}
+@media (max-width:1024px) {
+    .topSection{height: 130vh;}
+    .topSection .divText img{width: 70px;}
+}
+@media (max-width:877.71px) {
+    .topSection{height: 140vh;}
+    .topSection .divText{width: 85%;}
+    .topSection .divText img{width: 60px;}
+}
+@media (max-width:768px) {}
+@media (max-width:614.4px) {
+    .topSection .divText p{width: 95%;}
+    .topSection{height: 100%;}
+    .topSection .divText{width: 95%;}
+    .topSection .numbersItems .item {
+        padding: 0;
+        padding-bottom: 1rem;
+        border: 1px solid rgba(201, 231, 255, 0.5);
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 0px);
+    }
+    .topSection .numbersItems{gap: 0;margin-top: 3.5rem;}
+}
+@media (max-width:512px) {}
+/* Section Logos */
+.sectionLogos{
+    margin: 2.1rem 0 0 0;
+}
+.sectionLogos .fxSectionLogos .slide{padding: 0 12px;}
+.sectionLogos .fxSectionLogos .divLogo{
+    border-radius: 4px;
+    border: 1px solid rgba(201, 231, 255, 1);
+    box-shadow: 0px 4px 20px 0 rgba(0, 0, 0, 0.04);
+    background: rgba(255, 255, 255, 1);
+    padding:15px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.6s ease-in-out;
+    margin: auto;
+    width: 100%;
+}
+.sectionLogos .fxSectionLogos .divLogo.visible{
+    opacity: 1;
+}
+.sectionLogos .fxSectionLogos .divLogo img{
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    object-fit: contain;
+}
+.sectionLogos .fxSectionLogos .divLogo.show-placeholder {
+    width: 75px;
+    height: 75px;
+    border-radius: 110px;
+    border: 1px solid #CCC  !important;
+    opacity: 1;
+    margin: auto;
+    top: 0;
+}
+.divLogo.show-placeholder img{display: none;}
+@media (max-width:1228.8px) {
+    .sectionLogos .fxSectionLogos .divLogo{padding: 15px;}
+    .sectionLogos .fxSectionLogos .divLogo img{width: 90px; height: 90px;}
+}
+@media (max-width:1024px) {
+    .sectionLogos .fxSectionLogos .divLogo img{width: 70px; height: 70px;}
+    .sectionLogos {margin:100px 0 0 0;}
+}
+@media (max-width:877.71px) {
+    .sectionLogos .fxSectionLogos .divLogo.show-placeholder{height: 60px;width: 60px;}
+}
+@media (max-width:614.4px) {
+    .sectionLogos{margin: 3rem 0 2rem 0;}
+    .sectionLogos .fxSectionLogos .divLogo.show-placeholder{
+        height: 35px;width: 35px;padding: 0 !important;}
+    .sectionLogos .fxSectionLogos .divLogo img{width: 60px; height: 60px;}
+    .sectionLogos .fxSectionLogos .divLogo{padding:4px 4px;width: 100%;}
+    .sectionLogos-container{width: 100%;padding: 0 20px;}
+    .sectionLogos .fxSectionLogos .slide{padding: 0 6px;}
+}
+/* Section Why Us Style  */
+.sectionWhyUs {
+    margin: 7rem 0;
+}
+.sectionWhyUs .fx-sectionWhyUs{
+    gap: 105px;
+    align-items: center;
+}
+.sectionWhyUs .fx-sectionWhyUs .head-title{
+    width: 40%;
+}
+.sectionWhyUs .fx-sectionWhyUs .head-title img{
+    width: 90px;
+    margin-bottom: 0.8rem;
+}
+.sectionWhyUs .fx-sectionWhyUs .head-title h1{
+    width: 100%;
+    line-height: 140%;
+    margin-bottom: 0.8rem;
+    -webkit-line-clamp: 2;
+}
+.sectionWhyUs .fx-sectionWhyUs .head-title p{
+    width: 100%;
+    line-height: 140%;
+    margin-bottom: 2.2rem;
+    -webkit-line-clamp: 4;
+}
+.sectionWhyUs .fx-sectionWhyUs .head-title button{width: max-content;}
+.sectionWhyUs .fx-sectionWhyUs .fxCards{
+    width: 60%;
+    gap: 1.4rem;
+    align-items: normal;
+}
+.sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs{
+    flex: 1 1 calc(50% - 1.4rem);
+    max-width: calc(50% - 20px);
+    border-radius: 16px;
+    padding: 20px;
+    background:  #EFF6FF;
+}
+.sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs img{
+    width: 15%;
+    margin-bottom: 1rem;
+}
+.sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs h3{margin-bottom: 6px;line-height: 140%}
+.sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs p{line-height: 140%;}
+@media (min-width:1706.67px) {}
+@media (min-width:1920px) {}
+@media (min-width:2048px) {}
+@media (min-width:2304px) {}
+@media (min-width:3072px) {}
+@media (max-width:1396.36px) {}
+@media (max-width:1228.8px) {}
+@media (max-width:1024px) {
+    .sectionWhyUs .fx-sectionWhyUs{gap: 40px;}
+    .sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs img{margin-bottom: 0.7rem;width: 20%;}
+    .sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs h3{line-height: 120%;}
+    .sectionWhyUs {margin: 4rem 0 7rem 0;}
+}
+@media (max-width:877.71px) {
+    .sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs h3{line-height: 110%;}
+    .sectionWhyUs .fx-sectionWhyUs{flex-direction: column;}
+    .sectionWhyUs .fx-sectionWhyUs .head-title{width: 100%;}
+    .sectionWhyUs .fx-sectionWhyUs .fxCards{width: 100%;}
+    .sectionWhyUs .fx-sectionWhyUs .head-title h1{margin-bottom: 0.5rem;}
+    .sectionWhyUs .fx-sectionWhyUs .head-title p{margin-bottom: 1.5rem;}
+}
+@media (max-width:768px) {}
+@media (max-width:614.4px) {
+    .sectionWhyUs .fx-sectionWhyUs .fxCards{gap: 1rem;}
+    .sectionWhyUs .fx-sectionWhyUs .fxCards .card-whyUs{
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100% - 0px);
+    }
+    .sectionWhyUs {margin: 4rem 0 8rem 0;}
+}
+@media (max-width:512px) {}
