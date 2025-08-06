@@ -107,6 +107,7 @@
 .libraryMediaS5 .divTitle .partTwo{padding-left: 3rem;padding-right: 0;}
 .href-a img,
 .paginationCards .btnImg img{transform: rotate(180deg);}
+.ourServicesSection .divImages .box{right: auto;left: -4rem;}
 @media (min-width:1706.67px) {
   .gridHeader{left: auto;right: -12rem;}
 }
@@ -145,6 +146,7 @@
     .about2 .about2Vision{margin-left: 0rem;margin-right: 8rem;}
     .servicesSupplyDetails1 .fx-servicesSupplyDetails1 .servicesSupplyDetails1-texts{padding-left: 0px;padding-right: 30px;}
     .sectionWThree .divImages .box{right: 0;left: auto;}
+    .ourServicesSection .divImages .box {left: -1.5rem;right: auto;}
 }
 @media (max-width:877.71px) {
      .energyDetails2 .fx-energyDetails2 .energyDetails2-imgs .box-energyDetails2{right: auto;}
@@ -182,6 +184,7 @@
     .WARSectionThree .boxs-WARSectionThree{right: 0% !important;left: auto;}
     .modalUsers .closeCircleBtn{left: 0;right: auto;}
     .leaderCard .divImgs .linkedinIcon{left: 50%;right: auto;}
+    .ourServicesSection .divImages .box {left: 0;right: auto;}
 }
 @media (max-width:512px) {
        .section-faq .faq-title{padding-left: 4rem;padding-right: 0;}

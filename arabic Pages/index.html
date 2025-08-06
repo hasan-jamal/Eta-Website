@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/homePage.css">
+    <link rel="stylesheet" href="../css/mainPage/style.css">
     <link rel="stylesheet" href="../css/footer.css">
     <!-- Section Style css -->
     <link rel="stylesheet" href="../css/sections/section-three.css">
     <link rel="stylesheet" href="../css/sections/section-two.css">
     <link rel="stylesheet" href="../css/sections/section-four.css">
     <link rel="stylesheet" href="../css/sections/section-five.css">
+    <link rel="stylesheet" href="../css/sections/sectionSeven.css">
+    <link rel="stylesheet" href="../css/sections/sectionMap.css">
+    <link rel="stylesheet" href="../css/sections/ourServicesSection.css">
     <!-- Slick Slider -->
     <link rel="stylesheet" href="../css/slick slider/animate.min.css">
     <link rel="stylesheet" href="../css/slick slider/slick.min.css">
     <link rel="stylesheet" href="../css/slick slider/slickSlider.css">
-    <!-- AOS Animation CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!--Plyr CSS-->
-    <link rel="stylesheet" href="../css/plyr/plyr.css">
     <!---Arabic Style CSS-->
     <link rel="stylesheet" href="../css/arabic lang/ar.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="navbar-mobile">
-
         <div class=" align-items-center  justify-content-between  flex-head">
             <a href="index.html"><img src="../images/logo blue.png" class="logo-image" /></a>
             <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
@@ -182,198 +182,235 @@
         </div>
     </header>
     <main>
-        <!-- <section class="section-one">
-            <div class="section-one-container px-90">
-                <img src="../images/back-sectionOne.png" alt="back section" class="back-sectionOne">
-                <div class="d-flex fx-section-one">
-                    <div class="section-one-texts">
-                        <img src="../images/Logo-section1.svg" alt="Logo-section1" class="logo-section1">
-                        <h1 class="font-bold" id="animated-text"></h1>
-                        <p class="style-font" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                            <b>Eta</b> Your trusted partner in sustainability. We provide innovative
-                            and efficient
-                            solutions for the energy, water, and
-                            infrastructure sectors. With our extensive experience in installing desalination plants
+        <section class="topSection">
+            <div class="topSection-container px-90 h-100 w-100">
+                <div class="borderSection w-100 h-100 d-flex flex-column">
+                    <div class="divText ">
+                        <h1 class="subtitle-50px colorWhite font-semiBold text-center">The innovative approach to
+                            bringing
+                            diverse projects
+                            to life in <img src="../images/logoS1.svg" alt="yellow Logo" data-aos="fade-down"
+                                data-aos-duration="1000"></h1>
+                        <p class="colorWhite text-center subtitle20px style-font">Eta Your trusted partner in
+                            sustainability. We
+                            provide innovative
                             and
-                            solar energy systems, we
-                            guarantee high efficiency and cost reduction. We also offer equipment import services to
-                            meet your specialized needs.
-                        </p>
-                        <button class="btn-blue font-bold btn-hover"
-                            onclick="window.location.href='contactUs.html'">Contact
-                            Us</button>
-                        <h5 class="style-font">We have <span>240+</span> satisfied clients</h5>
-                        <div class="d-flex fx-logos">
-                            <img src="../images/logo1.svg" alt="logo">
-                            <img src="../images/logo2.svg" alt="logo">
-                            <img src="../images/logo3.svg" alt="logo">
-                            <img src="../images/logo4.svg" alt="logo">
-                            <img src="../images/logo5.svg" alt="logo">
-                            <img src="../images/logo6.svg" alt="logo">
-                            <img src="../images/logo7.svg" alt="logo">
+                            efficient solutions for the
+                            energy, water, and
+                            infrastructure sector.</p>
+                        <button class="btn-blue font-medium colorWhite subtitle20px w205">View all
+                            projects</button>
+                    </div>
+                    <div class="numbersItems fx-general-cards  justify-content-between">
+                        <div class="item d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="colorWhite subtitle-50px font-semiBold counter" data-target="17">17+</h2>
+                            <p class="colorWhite subtitle20px font-medium">Awards Rewarded</p>
+                        </div>
+                        <div class="item d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="colorWhite subtitle-50px font-semiBold counter" data-target="23">23+</h2>
+                            <p class="colorWhite subtitle20px font-medium">Desalination plants</p>
+                        </div>
+                        <div class="item d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="colorWhite subtitle-50px font-semiBold counter" data-target="183">183+</h2>
+                            <p class="colorWhite subtitle20px font-medium">Years of Experience</p>
+                        </div>
+                        <div class="item d-flex align-items-center justify-content-center flex-column">
+                            <h2 class="colorWhite subtitle-50px font-semiBold counter" data-target="85">85+</h2>
+                            <p class="colorWhite subtitle20px font-medium">Completed Project</p>
                         </div>
                     </div>
-                    <div class="section-one-video">
-                        <img src="../images/back-sectionOne.png" alt="back section"
-                            class="back-sectionOne back-sectionOne2">
-                        <video controls crossorigin playsinline
-                            poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
-                         Video files
-                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                                type="video/mp4" size="576">
-                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
-                                type="video/mp4" size="720">
-                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
-                                type="video/mp4" size="1080">
-                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4"
-                                type="video/mp4" size="1440">
-
-                       
-                            <track kind="captions" label="English" srclang="en"
-                                src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
-                            <track kind="captions" label="Français" srclang="fr"
-                                src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
-
-                           Fallback for browsers that don't support the <video> element 
-                            <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                                download>Download</a>
-                        </video>
-
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section class="etaSection1">
-            <div class="etaSection1-container">
-                <div class="etaSection1Titles">
-                    <h1 class="text-center font-medium subtitle67px colorBlueDark3">The innovative approach to bringing
-                        diverse projects to
-                        life in <img src="../images/logoS1.svg" alt="yellow Logo" data-aos="fade-down"
-                            data-aos-duration="2000"></h1>
-                    <p class="text-center font-medium subtitle20px colorBlueDark3">Eta Your trusted partner in
-                        sustainability. We provide
-                        innovative
-                        and efficient
-                        solutions
-                        for the
-                        energy, water, and
-                        infrastructure sectors. With our extensive experience in installing desalination plants and
-                        solar
-                        energy systems, we
-                        guarantee high efficiency and cost reduction. We also offer equipment import services to meet
-                        your
-                        specialized needs. </p>
-                    <button class="btn-blue font-bold colorWhite mx-auto">Get to Know Us</button>
-                </div>
-                <div class="etaSection1Video">
-                    <div id="playerEn" data-plyr-provider="youtube" data-plyr-embed-id="Kch8n4tcOZQ"></div>
-                    <!-- <video autoplay controls crossorigin playsinline
-                        poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="playerEn">
-                        Video files
-                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                            type="video/mp4" size="576">
-                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4"
-                            type="video/mp4" size="720">
-                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"
-                            type="video/mp4" size="1080">
-                        <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1440p.mp4"
-                            type="video/mp4" size="1440">
-
-
-                        <track kind="captions" label="English" srclang="en"
-                            src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default>
-                        <track kind="captions" label="Français" srclang="fr"
-                            src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
-
-                        Fallback for browsers that don't support the <video> element
-                            <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4"
-                                download>Download</a>
-                        </video> -->
                 </div>
             </div>
         </section>
-        <section class="section-two">
-            <div class="section-two-container px-90">
-                <div class="d-flex fx-section-two">
-                    <div class="section-two-texts">
-                        <h1 class="font-bold" data-aos="zoom-in">Eta is your unparalleled partner, supporting
-                            you
-                            every step of the way
-                        </h1>
-                        <p class="style-font mb-0">Eta offers innovative and effective solutions for your water,
-                            energy,
-                            and investment needs.
-                            Backed by years of
-                            experience, our team of experts ensures that you receive the highest quality services.
-                            We
-                            are committed to delivering
-                            solutions that meet your specific requirements and exceed your expectations.</p>
+        <section class="sectionLogos">
+            <div class="sectionLogos-container">
+                <div class=" fxSectionLogos">
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
                     </div>
-                    <div class="section-two-cards fx-general-cards">
-                        <img src="../images/DashedLine.svg" alt="Dashed Line" class="dashedLine">
-                        <div class="card-feature fx-general-card-st">
-                            <div class="card-feature-img" data-aos="fade-down" data-aos-easing="linear"
-                                data-aos-duration="500">
-                                <img src="../images/Division-water.svg" alt="Division Water icon">
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo6.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo7.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
+                            <div class="placeholder"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionWhyUs">
+            <div class="sectionWhyUs-container px-80">
+                <div class="d-flex fx-sectionWhyUs">
+                    <div class="head-title d-flex flex-column">
+                        <img src="../images/WhyUsIcon.svg" alt="Why Us Icon" class="titleImage">
+                        <h1 class="font-bold subtitle32px">Why choose Abdessalam Yassine – ETA?</h1>
+                        <p class="style-font subtitle-two subtitle18px">We combine expertise with quality to
+                            provide reliable and sustainable solutions for water desalination.</p>
+                        <button onclick="window.location.href=''" class="btnDarkBlue font-medium subtitle18px h48px">Get
+                            to Know Us</button>
+                    </div>
+                    <div class="fxCards fx-general-cards">
+                        <div class="card-whyUs fx-general-card-st d-flex flex-column">
+                            <img src="../images/sectionWhyUsIcon.svg" alt="card img" class="card-img">
+                            <h3 class="subtitle24px font-semiBold colorBlueDark2 numberLines">Extensive experience in
+                                the field</h3>
+                            <p class="mb-0 subtitle16px colorGrey2 style-font numberLines">We have practical experience
+                                in the design and implementation of desalination plants across various sectors:
+                                residential, commercial, and industrial.</p>
+                        </div>
+                        <div class="card-whyUs fx-general-card-st">
+                            <img src="../images/sectionWhyUsIcon.svg" alt="card img" class="card-img">
+                            <h3 class="subtitle24px font-semiBold colorBlueDark2 numberLines">High quality and global
+                                standards</h3>
+                            <p class="mb-0 subtitle16px colorGrey2 style-font numberLines">We rely on accredited systems
+                                and reliable certifications that ensure the long-term efficiency of the stations.</p>
+                        </div>
+                        <div class="card-whyUs fx-general-card-st">
+                            <img src="../images/sectionWhyUsIcon.svg" alt="card img" class="card-img">
+                            <h3 class="subtitle24px font-semiBold colorBlueDark2 numberLines">Maintenance and continuous
+                                operation</h3>
+                            <p class="mb-0 subtitle16px colorGrey2 style-font numberLines">We provide after-sales
+                                services including regular maintenance, immediate technical support, and the supply of
+                                genuine
+                                spare parts.</p>
+                        </div>
+                        <div class="card-whyUs fx-general-card-st">
+                            <img src="../images/sectionWhyUsIcon.svg" alt="card img" class="card-img">
+                            <h3 class="subtitle24px font-semiBold colorBlueDark2 numberLines">Custom solutions as needed
+                            </h3>
+                            <p class="mb-0 subtitle16px colorGrey2 style-font numberLines">We analyse your needs and
+                                provide solutions that fit your consumption, location, and available budget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ourServicesSection">
+            <div class="ourServicesSection-container px-80">
+                <div class="fx-ourServicesSection d-flex">
+                    <div class="divImages">
+                        <img src="../images/image-sectionWThree.png" alt="eta image" class="img-services">
+                        <div class="box">
+                            <img src="../images/svg-box.svg" alt="svg box">
+                            <h5 class="subtitle24px font-medium colorWhite">ETA Water Services</h5>
+                            <p class="subtitle18px style-font colorWhite">Pure water. Strong systems. Complete
+                                solutions.</p>
+                        </div>
+                    </div>
+                    <div class="divTexts">
+                        <div class="titles">
+                            <img src="../images/ourServciesIcon.svg" alt="our Projects" class="titleImage">
+                            <h1 class="font-bold subtitle32px">Our specialised water services</h1>
+                            <p class="style-font subtitle-two mb-0 subtitle18px">Indulge in the taste of pure, clean
+                                water with Eta. Safeguard your family's health and well-being.</p>
+                        </div>
+                        <div class="fxCards fx-general-cards">
+                            <div class="card-services fx-general-card-st">
+                                <img src="../images/card-img.svg" alt="card img" class="card-img">
+                                <h3 class="subtitle20px font-semiBold colorBlueDark2 numberLines">Water Plants
+                                    Construction
+                                </h3>
+                                <p class="mb-0 subtitle16px colorGrey5 style-font numberLines">Velit nobis rerum alias
+                                    porro optio
+                                    deleniti. Quas
+                                    culpa eius
+                                    qui rerum
+                                    expedita
+                                    veniam eius voluptatem commodi.</p>
                             </div>
-                            <h3 class="font-medium">Division Water</h3>
-                            <div class="d-flex fxDiv">
-                                <p class="style-font public-p">Possimus perspiciatis quod ut nisi. Aut consequatur
-                                    architecto impedit
-                                    et. Fugiat
-                                    dignissimos dolores.</p>
-                                <a href="" class="href-a"><img src="../images/ArrowRightBlue.svg"
-                                        alt="ArrowRightBlue"></a>
+                            <div class="card-services fx-general-card-st">
+                                <img src="../images/card-img.svg" alt="card img" class="card-img">
+                                <h3 class="subtitle20px font-semiBold colorBlueDark2 numberLines">Water Plants
+                                    Construction
+                                </h3>
+                                <p class="mb-0 subtitle16px colorGrey5 style-font numberLines">Velit nobis rerum alias
+                                    porro optio
+                                    deleniti. Quas
+                                    culpa eius
+                                    qui rerum
+                                    expedita
+                                    veniam eius voluptatem commodi.</p>
+                            </div>
+                            <div class="card-services fx-general-card-st">
+                                <img src="../images/card-img.svg" alt="card img" class="card-img">
+                                <h3 class="subtitle20px font-semiBold colorBlueDark2 numberLines">Water Plants
+                                    Construction
+                                </h3>
+                                <p class="mb-0 subtitle16px colorGrey5 style-font numberLines">Velit nobis rerum alias
+                                    porro optio
+                                    deleniti. Quas
+                                    culpa eius
+                                    qui rerum
+                                    expedita
+                                    veniam eius voluptatem commodi.</p>
                             </div>
                         </div>
-                        <div class="card-feature">
-                            <div class="card-feature-img">
-                                <img src="../images/Division-energy.svg" alt="Division Energy icon">
-                            </div>
-                            <h3 class="font-medium">Division Energy</h3>
-                            <div class="d-flex fxDiv">
-                                <p class="style-font public-p">Optio aut consequuntur voluptas tempora sed minus
-                                    consequuntur
-                                    ratione. A est id.</p>
-                                <a href="" class="href-a"><img src="../images/ArrowRightBlue.svg"
-                                        alt="ArrowRightBlue"></a>
-                            </div>
-                        </div>
-                        <div class="card-feature">
-                            <div class="card-feature-img">
-                                <img src="../images/Investment-services.svg" alt="Investment Services icon">
-                            </div>
-                            <h3 class="font-medium">Investment Services</h3>
-                            <div class="d-flex fxDiv">
-                                <p class="style-font public-p">Possimus perspiciatis quod ut nisi. Aut consequatur
-                                    architecto impedit
-                                    et. Fugiat
-                                    dignissimos dolores.</p>
-                                <a href="" class="href-a"><img src="../images/ArrowRightBlue.svg"
-                                        alt="ArrowRightBlue"></a>
-                            </div>
-                        </div>
-
+                        <button onclick="window.location.href=''"
+                            class="btnDarkBlue font-medium subtitle20px btn-hover h48px w171">View More</button>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-three">
-            <img src="../images/Grid-Header.svg" alt="Grid-Header" class="gridHeader">
             <div class="section-three-container px-90">
-                <div class="d-flex justify-content-between  fx-head-title">
+                <div class="d-flex justify-content-between fx-head-title">
                     <div class="head-title">
-                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">Our portfolio</h1>
-                        <p class="style-font subtitle-two mb-0">Cras imperdiet est eget nulla fringilla, sit amet
-                            volutpat sem tristique. Pellentesque quis augue ac mauris posuere
-                            vehicula.</p>
+                        <img src="../images/ourProjects.svg" alt="our Projects" class="titleImage">
+                        <h1 class="font-bold subtitle32px">Projects we are proud of</h1>
+                        <p class="style-font subtitle-two mb-0">Take a look at some of the projects we have executed
+                            with high professionalism.</p>
                     </div>
-                    <button class="btn-outline-blue">
-                        <span class="font-bold">View all portfolio</span>
+                    <button class="btnDarkBlue subtitle20px h48px">
+                        <span class="font-medium">View all portfolio</span>
                         <img src="../images/ArrowRightBlue2.svg" alt="Arrow Right Blue">
                     </button>
                 </div>
-                <div class="d-flex fx-general-cards fx-section-three" data-aos="zoom-in">
+                <div class="d-flex fx-general-cards fx-section-three">
                     <div class="card-portfolio fx-general-card-st">
                         <img src="../images/portfolio1.png" alt="image portfolio" class="img-portfolio divImage"
                             data-gallery="gallery1">
@@ -452,85 +489,15 @@
                 </div>
             </div>
         </section>
-        <section class="section-four">
-            <img src="../images/Grid-Header.svg" alt="Grid-Header" class="gridHeader">
-            <div class="section-four-container px-90">
-                <div class="section-four-texts d-flex">
-                    <div>
-                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">Let’s work together</h1>
-                        <p class="style-font subtitle-two">Cras at pellentesque eros. Nullam vitae sapien et felis
-                            eleifend luctus. Nam ac dui cursus, efficitur ante sed, tempor
-                            sapien. Praesent nec mattis enim. Mauris a laoreet purus.</p>
-                    </div>
-                    <div>
-                        <button class="btn-blue font-bold">Request a quote</button>
-                    </div>
-                </div>
-                <div class="d-flex fx-section-four">
-                    <div class="section-four-cards fx-general-cards">
-                        <div class=" flex-column d-flex  fx-general-card-st">
-                            <div class="d-flex card-work cardWorkBlue" style="background: #D6F7FF; ">
-                                <div class="card-work-texts">
-                                    <img src="../images/Awards-rewarded.svg" alt="Awards Rewarded icon"
-                                        class="img-cardWork">
-                                    <h3 class="font-bold fontSize48px">17+</h3>
-                                    <p class="font-bold font mb-0 numberLines subtitle20px">Awards Rewarded</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" flex-column d-flex  fx-general-card-st">
-                            <div class="d-flex card-work cardWorkYellow" style="background: #FEFAF0; ">
-                                <div class="card-work-texts">
-                                    <img src="../images/Years-of-experience.svg" alt="Awards Rewarded icon"
-                                        class="img-cardWork">
-                                    <h3 class="font-bold fontSize48px">17+</h3>
-                                    <p class="font-bold font mb-0 numberLines subtitle20px">Years of Experience</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" flex-column d-flex  fx-general-card-st">
-                            <div class="d-flex card-work cardWorkYellow" style="background: #FEFAF0; ">
-                                <div class="card-work-texts">
-                                    <img src="../images/Happy-clients.svg" alt="Awards Rewarded icon"
-                                        class="img-cardWork">
-                                    <h3 class="font-bold fontSize48px">17+</h3>
-                                    <p class="font-bold font mb-0 numberLines subtitle20px">Happy Clients</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" flex-column d-flex  fx-general-card-st">
-                            <div class="d-flex card-work cardWorkBlue" style="background: #D6F7FF; ">
-                                <div class="card-work-texts">
-                                    <img src="../images/completed-project.svg" alt="Awards Rewarded icon"
-                                        class="img-cardWork">
-                                    <h3 class="font-bold fontSize48px">17+</h3>
-                                    <p class="font-bold font mb-0 numberLines subtitle20px">COMPLETED PROJECT</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="letsWorkTogather-img">
-                        <img src="../images/letsWorkTogather.png" alt="company image" class="companyImage">
-                        <img src="../images/logoWhite-eta.svg" alt="logo White eta." class="logoWhite-eta">
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="section-five">
             <div class="section-five-container">
                 <div class="d-flex align-items-center justify-content-center fx-head">
-                    <div class="fx-head-texts">
-                        <h1 class="subtitle-one font-bold colorBlue3 text-center" data-aos="zoom-in">Eta's team of
-                            highly skilled
-                            experts</h1>
-                        <p class="style-font subtitle-two text-center m-auto">Eta company is staffed with a diverse team
-                            of
-                            engineers
-                            and experts,
-                            bringing a wealth of experience and knowledge to
-                            every project.
-                        </p>
+                    <div class="head-title d-flex flex-column justify-content-center align-items-center">
+                        <img src="../images/leaderShipTeams.svg" alt="leaderShip Teams icon" class="titleImage">
+                        <h1 class="font-bold subtitle32px text-center">Eta's team of highly skilled experts</h1>
+                        <p class="style-font subtitle-two mb-0 text-center">ETA is the water and infrastructure arm of
+                            Abdessalam Yassine and Sons Holding <br> Company, and it comprises a diverse team
+                            of experts, bringing a wealth of experience and knowledge to every project.</p>
                     </div>
                 </div>
                 <div class="d-flex justify-content-center openModalBtn">
@@ -541,7 +508,7 @@
                                     alt="linkedin Icon"></a>
                         </div>
                         <div class="divText">
-                            <h4 class="font-bold colorBlueDark2 subtitle-30px">Abdul Salam Yaseen</h4>
+                            <h4 class="font-semiBold colorBlueDark2 subtitle-30px">Abdul Salam Yaseen</h4>
                             <span class="style-font subtitle18px colorGrey7 d-block">Founder & Chairman</span>
                             <img src="../images/Quotes.svg" alt="Quotes icon" class="quotesIcon">
                             <p class="style-font colorBlueDark2 mb-0 subtitle21px numberLines">“This guy
@@ -552,8 +519,8 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="colorBlueDark9 subtitle-30px font-bold textSubtitle">Board of Directors</h3>
-                <div class=" fx-section-five fx-general-cards" data-aos="zoom-in-up">
+                <h3 class="colorBlueDark9 subtitle-30px font-semiBold textSubtitle">Board of Directors</h3>
+                <div class=" fx-section-five fx-general-cards">
                     <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
@@ -562,7 +529,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -574,7 +541,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -586,7 +553,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -598,13 +565,13 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
                 </div>
-                <h3 class="colorBlueDark9 subtitle-30px font-bold textSubtitle">Executive Management</h3>
-                <div class=" fx-section-five fx-general-cards" data-aos="zoom-in-up">
+                <h3 class="colorBlueDark9 subtitle-30px font-semiBold textSubtitle">Executive Management</h3>
+                <div class=" fx-section-five fx-general-cards">
                     <div class="card-team fx-general-card-st openModalBtn">
                         <img src="../images/person.jpeg" alt="person image" class="image-person">
                         <div class="d-flex justify-content-center fx-card-links">
@@ -613,7 +580,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -625,7 +592,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -637,7 +604,7 @@
                             <a href=""><img src="../images/X-blue.svg" alt="X"></a>
                             <a href=""><img src="../images/linkedin-blue.svg" alt="linkedin"></a>
                         </div>
-                        <h3 class="font-bold">Eleanor Pena</h3>
+                        <h3 class="font-semiBold">Eleanor Pena</h3>
                         <p class="style-font mb-0">Investment Director</p>
 
                     </div>
@@ -645,13 +612,13 @@
             </div>
         </section>
         <section class="section-six">
-            <img src="../images/Grid-Header.svg" alt="Grid-Header" class="gridHeader">
             <div class="section-six-container px-90">
                 <div class="d-flex justify-content-between align-items-end  fx-head-title">
                     <div class="head-title">
-                        <h1 class="font-bold subtitle-one" data-aos="zoom-in">What client says</h1>
-                        <p class="style-font subtitle-two mb-0">Excepturi facere recusandae asperiores. Est
-                            reprehenderit eum aut quae ad quibusdam velit qui consequatur.</p>
+                        <img src="../images/Customer Opinions.svg" alt="Customer Opinions">
+                        <h1 class="font-bold subtitle32px">Our customers talk about us</h1>
+                        <p class="style-font subtitle-two mb-0">Listen to what our partners say about their experience
+                            with us in implementing desalination projects.</p>
                     </div>
                     <div class="arrow-slider">
                         <div class="arrow-sliderImg arrow-sliderImgLeft"><img src="../images/ArrowLeft.svg"
@@ -794,76 +761,14 @@
                 </div>
             </div>
         </section>
-        <section class="sectionLogos">
-            <div class="sectionLogos-container">
-                <div class=" fxSectionLogos">
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo1.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo6.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo7.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo2.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo3.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo4.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="divLogo"><img src="../images/logo5.svg" alt="logo image">
-                            <div class="placeholder"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-seven">
-            <div class="section-seven-container">
+        <section class="section-seven" id="sectionSeven">
+            <div class="section-seven-container px-80">
                 <div class="d-flex justify-content-between align-items-end  fx-head-title">
                     <div class="head-title">
-                        <div class="d-flex fx-tilte-blue align-items-center">
-                            <img src="../images/blue-icon.svg" alt="circle icon">
-                            <span class="font-bold">Recent Blogs</span>
-                        </div>
-                        <h1 class="font-bold subtitle-one">Articles of great interest</h1>
+                        <img src="../images/recentBlogs.svg" alt="recent Blogs icon" class="titleImage">
+                        <h1 class="font-bold subtitle32px">Articles of great interest</h1>
+                        <p class="style-font subtitle-two mb-0">Learn more about the best practices and modern
+                            techniques in water.</p>
                     </div>
                     <div class="arrow-slider">
                         <div class="arrow-sliderImg arrow-sliderLeft"><img src="../images/arrow-Articles.svg"
@@ -877,7 +782,8 @@
                         <div class="card-article">
                             <img src="../images/article.png" alt="article image" class="article-img">
                             <div class="card-article-texts">
-                                <div class="d-flex align-items-center justify-content-between fx-titles-articles">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
                                     <div class="d-flex align-items-center title-articles">
                                         <img src="../images/calender.svg" alt="calender icon">
                                         <p class="style-font mb-0">October 19, 2024</p>
@@ -887,8 +793,9 @@
                                         <p class="style-font mb-0">By Eta</p>
                                     </div>
                                 </div>
-                                <h3 class="font-bold">Good health starts with proper hydration</h3>
-                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                <h3 class="font-semiBold numberLines">Good health starts with proper hydration</h3>
+                                <p class="style-font numberLines">Lorem Ipsum is simply dummy text the printing and
+                                    typese Lorem
                                     Ipsum
                                 </p>
                                 <a href="" class="d-flex href-a">
@@ -902,7 +809,8 @@
                         <div class="card-article">
                             <img src="../images/article1.png" alt="article image" class="article-img">
                             <div class="card-article-texts">
-                                <div class="d-flex align-items-center justify-content-between fx-titles-articles">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
                                     <div class="d-flex align-items-center title-articles">
                                         <img src="../images/calender.svg" alt="calender icon">
                                         <p class="style-font mb-0">October 18, 2024</p>
@@ -912,9 +820,11 @@
                                         <p class="style-font mb-0">By Eta</p>
                                     </div>
                                 </div>
-                                <h3 class="font-bold">Tracing the path of energy from production to consumption.
+                                <h3 class="font-semiBold numberLines">Tracing the path of energy from production to
+                                    consumption.
                                 </h3>
-                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                <p class="style-font numberLines">Lorem Ipsum is simply dummy text the printing and
+                                    typese Lorem
                                     Ipsum
                                 </p>
                                 <a href="" class="d-flex href-a">
@@ -928,7 +838,8 @@
                         <div class="card-article">
                             <img src="../images/article2.png" alt="article image" class="article-img">
                             <div class="card-article-texts">
-                                <div class="d-flex align-items-center justify-content-between fx-titles-articles">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
                                     <div class="d-flex align-items-center title-articles">
                                         <img src="../images/calender.svg" alt="calender icon">
                                         <p class="style-font mb-0">October 15, 2024</p>
@@ -938,8 +849,9 @@
                                         <p class="style-font mb-0">By Eta</p>
                                     </div>
                                 </div>
-                                <h3 class="font-bold">Real estate is a long-term investment</h3>
-                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                <h3 class="font-semiBold numberLines">Real estate is a long-term investment</h3>
+                                <p class="style-font numberLines">Lorem Ipsum is simply dummy text the printing and
+                                    typese Lorem
                                     Ipsum
                                 </p>
                                 <a href="" class="d-flex href-a">
@@ -953,7 +865,8 @@
                         <div class="card-article">
                             <img src="../images/article.png" alt="article image" class="article-img">
                             <div class="card-article-texts">
-                                <div class="d-flex align-items-center justify-content-between fx-titles-articles">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
                                     <div class="d-flex align-items-center title-articles">
                                         <img src="../images/calender.svg" alt="calender icon">
                                         <p class="style-font mb-0">October 19, 2024</p>
@@ -963,8 +876,9 @@
                                         <p class="style-font mb-0">By Eta</p>
                                     </div>
                                 </div>
-                                <h3 class="font-bold">Good health starts with proper hydration</h3>
-                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                <h3 class="font-semiBold numberLines">Good health starts with proper hydration</h3>
+                                <p class="style-font numberLines">Lorem Ipsum is simply dummy text the printing and
+                                    typese Lorem
                                     Ipsum
                                 </p>
                                 <a href="" class="d-flex href-a">
@@ -978,7 +892,8 @@
                         <div class="card-article">
                             <img src="../images/article2.png" alt="article image" class="article-img">
                             <div class="card-article-texts">
-                                <div class="d-flex align-items-center justify-content-between fx-titles-articles">
+                                <button class="btnBlue subtitle16px style-font colorBlue3">Water</button>
+                                <div class="d-flex align-items-center fx-titles-articles">
                                     <div class="d-flex align-items-center title-articles">
                                         <img src="../images/calender.svg" alt="calender icon">
                                         <p class="style-font mb-0">October 15, 2024</p>
@@ -988,8 +903,9 @@
                                         <p class="style-font mb-0">By Eta</p>
                                     </div>
                                 </div>
-                                <h3 class="font-bold">Real estate is a long-term investment</h3>
-                                <p class="style-font">Lorem Ipsum is simply dummy text the printing and typese Lorem
+                                <h3 class="font-semiBold numberLines">Real estate is a long-term investment</h3>
+                                <p class="style-font numberLines">Lorem Ipsum is simply dummy text the printing and
+                                    typese Lorem
                                     Ipsum
                                 </p>
                                 <a href="" class="d-flex href-a">
@@ -1002,82 +918,125 @@
                 </div>
             </div>
         </section>
+        <section class="mapSection" id="mapSection">
+            <div class="mapSection-container px-90">
+                <div class="d-flex justify-content-between fx-head-title">
+                    <div class="head-title">
+                        <img src="../images/OurPresence.svg" alt="our Projects" class="titleImage">
+                        <h1 class="font-bold subtitle32px">Where to find Eta Company</h1>
+                        <p class="style-font subtitle-two mb-0">We're Closer Than You Think – Here’s Where to Find Us –
+                            We're always nearby to assist you.</p>
+                    </div>
+                    <button onclick="window.location.href=''"
+                        class="btnDarkBlue font-medium subtitle20px btn-hover h48px">Contact Us</button>
+                </div>
+                <div class="d-flex fx-mapSection">
+                    <div class="d-flex flex-column list-locations">
+                        <a href="#mapSection" class="d-flex flex-column gap-2 box-location active">
+                            <h2 class="font-semiBold subtitle18px">Gaza City</h2>
+                            <div class="d-flex fx-pathLocation">
+                                <img src="../images/location-icon.svg" alt="location icon">
+                                <p class="style-font mb-0 subtitle16px">Al-Dahdouh Street, Gaza City, Gaza Strip,
+                                    Palestine,
+                                    00970
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#mapSection" class="d-flex flex-column gap-2 box-location">
+                            <h2 class="font-semiBold subtitle18px">North Governorate</h2>
+                            <div class="d-flex fx-pathLocation">
+                                <img src="../images/location-icon.svg" alt="location icon">
+                                <p class="style-font mb-0">Gaza Strip, Palestine: Sheikh Radwan, First Street</p>
+                            </div>
+                        </a>
+                        <a href="#mapSection" class="d-flex flex-column gap-2 box-location">
+                            <h2 class="font-semiBold subtitle18px">Middle Governorate</h2>
+                            <div class="d-flex fx-pathLocation">
+                                <img src="../images/location-icon.svg" alt="location icon">
+                                <p class="style-font mb-0">Gaza Strip, Palestine: Nuseirat, Power Station Street
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#mapSection" class="d-flex flex-column gap-2 box-location">
+                            <h2 class="font-semiBold subtitle18px">Khan Yunis City</h2>
+                            <div class="d-flex fx-pathLocation">
+                                <img src="../images/location-icon.svg" alt="location icon">
+                                <p class="style-font mb-0">Gaza Strip, Palestine: Khan Yunis City, Jalal Street</p>
+                            </div>
+                        </a>
+                        <a href="#mapSection" class="d-flex flex-column gap-2 box-location">
+                            <h2 class="font-semiBold subtitle18px">Rafah City</h2>
+                            <div class="d-flex fx-pathLocation">
+                                <img src="../images/location-icon.svg" alt="location icon">
+                                <p class="style-font mb-0">Palestine, Gaza Strip, Rafah City, Tel Sultan</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="responsive-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.8902869489943!2d31.26820317501254!3d30.09732831606409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f8af6e891c1%3A0x32ac6c4125a355b7!2z2KfZitiq2Kcg2YTZhNiq2KzYp9ix2Kkg2Ygg2KfZhNmH2YbYr9iz2KkgLSBFdGEgRm9yIFRyYWRpbmcgQW5kIEVuZ2luZWVyaW5n!5e0!3m2!1sen!2s!4v1738844249748!5m2!1sen!2s"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer-container px-80">
             <div class="d-flex fx-footer fx-general-cards">
                 <div class="footer-part footer-part1 fx-general-card-st">
                     <img src="../images/FooterLogo.svg" alt="logo" class="footer-logo">
-                    <div class="backWhite">
-                        <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
-                        <form action="">
-                            <div class="form-group">
-                                <input type="email" placeholder="Enter your email" class="style-font">
-                                <button type="submit" class="btn-footer font-medium btn-hover">Subscribe</button>
+                    <div class="fx-general-cards ">
+                        <div class="footer-part footer-part2 fx-general-card-st w40">
+                            <h5 class="font-semiBold">Explore</h5>
+                            <div class="fx-footer-links">
+                                <a href="" class="style-font">Home</a>
+                                <a href="" class="style-font">Projects</a>
+                                <a href="" class="style-font">Library Media</a>
+                                <a href="" class="style-font">About</a>
+                                <a href="" class="style-font">Contact Us</a>
                             </div>
-                        </form>
-                        <p class="style-font">Do you care about a sustainable future? Eta is dedicated to providing
-                            cutting-edge solutions for
-                            your energy and water
-                            requirements. Join us on social media for the latest updates and insights.
-                        </p>
-                        <div class="d-flex fx-images">
-                            <a href=""><img src="../images/facebook-icon.svg" alt="facebook icon"></a>
-                            <a href=""><img src="../images/x-icon.svg" alt="x icon"></a>
-                            <a href=""><img src="../images/youtube-icon.svg" alt="youtube icon"></a>
-                            <a href=""><img src="../images/instgran-icon.svg" alt="instgran icon"></a>
+                        </div>
+                        <div class="footer-part footer-part2 fx-general-card-st w60">
+                            <h5 class="font-semiBold">Water</h5>
+                            <div class="fx-footer-links">
+                                <div class="">
+                                    <a href="" class="style-font w50">Production Water</a>
+                                    <a href="" class="style-font w50">Distribution Water</a>
+                                    <a href="" class="style-font w50">Infrastructure Water</a>
+                                </div>
+                                <div class="">
+                                    <a href="" class="style-font w50">Swimming Pool Construction</a>
+                                    <a href="" class="style-font w50">Construction Plants Water</a>
+                                    <a href="" class="style-font w50">Treatment Water</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="fx-general-cards fxFooter-part2">
-                    <div class="footer-part footer-part2 fx-general-card-st">
-                        <h5 class="font-bold">Explore More</h5>
-                        <div class="fx-footer-links">
-                            <a href="" class="style-font">Home</a>
-                            <a href="" class="style-font">Library Media</a>
-                            <a href="" class="style-font">Case Studies</a>
-                            <a href="" class="style-font">About</a>
-                            <a href="" class="style-font">Files Download</a>
-                            <a href="" class="style-font">Quality & Certifications</a>
-                            <a href="" class="style-font">blog</a>
+                <div class="backWhite footer-part fxFooter-part2">
+                    <p class="style-font">Join our newsletter to stay up to date on features and releases.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email" class="style-font">
+                            <button type="submit" class="btn-footer font-medium btn-hover">Subscribe</button>
                         </div>
-                    </div>
-                    <div class="footer-part footer-part2 fx-general-card-st">
-                        <h5 class="font-bold">Division Water</h5>
-                        <div class="fx-footer-links">
-                            <a href="" class="style-font">Production Water</a>
-                            <a href="" class="style-font">Distribution Water</a>
-                            <a href="" class="style-font">Construction Plants Water</a>
-                            <a href="" class="style-font">Swimming Pool Construction</a>
-                            <a href="" class="style-font">Infrastructure Water</a>
-                            <a href="" class="style-font">Treatment Water</a>
-                        </div>
-                    </div>
-                    <div class="footer-part footer-part2 footer-part5 fx-general-card-st">
-                        <div class="d-flex gap-divs-footer">
-                            <div>
-                                <h5 class="font-bold pre-whiteSpace">Investment Services</h5>
-                                <div class="fx-footer-links">
-                                    <a href="" class="style-font">Investments Local</a>
-                                    <a href="" class="style-font">Investments Global</a>
-                                    <a href="" class="style-font">Management Asset</a>
-                                </div>
-                            </div>
-                            <div>
-                                <h5 class="font-bold  services-supply">Services Supply & Wholesale</h5>
-                                <div class="fx-footer-links">
-                                    <a href="" class="style-font">Equipment Industrial</a>
-                                    <a href="" class="style-font">Services Logistics</a>
-                                    <a href="" class="style-font">Division Agriculture</a>
-                                </div>
-                            </div>
-                        </div>
+                    </form>
+                    <p class="style-font">Do you care about a sustainable future? Join us on social media for the latest
+                        updates and insights.
+                    </p>
+                    <div class="d-flex fx-images">
+                        <a href="" class="btn-hover"><img src="../images/facebook-icon.png" alt="facebook icon"></a>
+                        <a href="" class="btn-hover"><img src="../images/x-icon.png" alt="x icon"></a>
+                        <a href="" class="btn-hover"><img src="../images/youtube-icon.png" alt="youtube icon"></a>
+                        <a href="" class="btn-hover"><img src="../images/instgram-icon.png" alt="instgran icon"></a>
+                        <a href="" class="btn-hover"><img src="../images/linkedin-icon.png" alt="linkedin icon"></a>
                     </div>
                 </div>
             </div>
             <div class="d-flex justify-content-between fxAllRights">
-                <p class="mb-0 style-font colorWhite text-center">© 2024 Eta . All rights reserved.</p>
-
+                <p class="mb-0 style-font colorWhite text-center">© 2025 Eta. All rights reserved - Fully owned by
+                    Abdessalam Yassine and Sons Holding.</p>
             </div>
         </div>
 
