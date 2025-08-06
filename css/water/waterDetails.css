@@ -366,7 +366,7 @@ main .waterDetailsS3 .boxSteps .numberSteps .stepActive .num{
 /* Section Three Style  */
 main .section-three{
     margin-top: 5rem;
-    margin-bottom: 0;
+    margin-bottom: 9rem;
 }
 @media (min-width:1706.67px) {
     .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divImage{height: 580px;}

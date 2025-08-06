@@ -1,13 +1,9 @@
 /* Section Four */
 .section-four{margin-bottom: 30px;margin-top: 20px;}
-.section-four .fx-section-four{
-    gap: 90px;
-    align-items: center;
-}
-.section-four h1{
-    margin-bottom: 30px;
-}
-.section-four p{width: 100%;}
+.section-four .fx-section-four{gap: 90px;align-items: center;}
+.section-four .section-four-texts{width: 100%;}
+.section-four h1{width: 70%;margin-bottom: 30px;}
+.section-four p{width: 40%;}
 .section-four .btn-blue{
     padding: 0 32px;
     height: 55px;
@@ -113,9 +109,7 @@
 
 
 /* Section Four Style  */
-.section-four .section-four-texts{width: 100%;}
-.section-four h1{width: 70%;}
-.section-four p{width: 40%;}
+
 .section-four .btn-blue{width: max-content;}
 .letsWorkTogather-img{
     position: relative;
