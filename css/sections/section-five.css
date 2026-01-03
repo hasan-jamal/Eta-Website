@@ -6,6 +6,8 @@
     position: relative;
 }
 .section-five .section-five-container{margin: auto;width: 85%;}
+/* Section Five */
+.section-five .fx-head-texts h1{margin: 1rem 0;line-height: 140%;}
 .section-five .fx-head{gap: 24px;align-items: center;}
 .section-five .fx-head .head-title img{
     margin-bottom: 0.8rem;
