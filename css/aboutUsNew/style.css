@@ -306,6 +306,12 @@
 }
 .aboutUsS4 .dot-center {transition: fill 0.3s ease;}
 .aboutUsS4 #main-circle{opacity: 0.5;}
+.backgroundCover{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../images/aboutUsNew/backAboutUs.png);
+}
 @media (min-width:1706.67px) {
     .aboutUsS4 .controls button img{width: 60px;}
     .aboutUsS4 .controls #year{font-size: 148px;}

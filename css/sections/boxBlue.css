@@ -4,7 +4,14 @@
 }
 .boxBlue .fxBoxBlue{
     border-radius: 24px;
-    background: radial-gradient(287.46% 74.63% at 47.82% 50.25%, #35A8F1 0%, #0B63E5 56.43%, #05367E 91.4%);
+background: linear-gradient(
+  to right,
+  #05367E 0%,
+    #0B63E5 20%,
+     #35A8F1 56%,
+  #0B63E5 70%,
+  #05367E 91%
+);
     padding: 40px;
     gap: 40px;
 }
@@ -28,11 +35,11 @@
 }
 .boxBlue .fxBoxBlue form button{
     width: max-content;
-    border-radius: 8px;
+    border-radius: 1rem;
     border: 1px solid rgba(29, 30, 28, 0.00);
     background: #FFF;
     height: 52px;
-    padding: 0px 24px;
+    padding: 0px 3rem;
     transition: all 0.3s ease;
     color: #141CAF;
 }
@@ -79,7 +86,7 @@
     .boxBlue .fxBoxBlue{padding:24px;}
 }
 @media (max-width:877.71px) {
-    .boxBlue .fxBoxBlue form button{height:38px ;}
+    .boxBlue .fxBoxBlue form button{height:38px ;padding:  0 2rem;}
     .boxBlue .fxBoxBlue form input{height: 38px;}
 }
 @media (max-width:768px) {}

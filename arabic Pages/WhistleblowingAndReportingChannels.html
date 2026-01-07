@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
     <!---Arabic Style CSS-->
     <link rel="stylesheet" href="../css/arabic lang/ar.css">
-
+    <link rel="stylesheet" href="../css/sections/contactFormSection.css">
 </head>
 
 <body>
@@ -57,7 +57,7 @@
                 </div>
         </nav>
     </div>
-    <header id="header">
+    <header id="header" class="sub-header">
         <div class="header-container px-90 w-100">
             <div class="d-flex align-items-center justify-content-between fx-header">
                 <div class="d-flex align-items-center  fx-header-links">
@@ -173,6 +173,7 @@
         </section>
         <section class="WARSectionThree">
             <div class="WARSectionThree-container px-90">
+                <img src="../images/WhistleblowingAndReportingChannels/GridIcon.svg" alt="gridIcon" class="gridIcon">
                 <h1 class="subtitle44px colorBlueDark2 font-bold text-center">Integrity Reporting Guide</h1>
                 <div class="boxs-WARSectionThree">
                     <div class="box" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
@@ -186,6 +187,7 @@
                             </li>
                         </ul>
                     </div>
+                    <img src="../images/WhistleblowingAndReportingChannels/lineOne.svg" alt="lineOne" class="lineOne">
                     <div class="box" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                         <img src="../images/weWill.svg" alt="report Icon">
                         <h4 class="colorBlack subtitle20px font-semiBold">We will</h4>
@@ -198,6 +200,7 @@
                                 maximum extent.</li>
                         </ul>
                     </div>
+                    <img src="../images/WhistleblowingAndReportingChannels/lineTwo.svg" alt="lineTwo" class="lineTwo">
                     <div class="box" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                         <img src="../images/YouHelpUs.svg" alt="You Help Us Icon">
                         <h4 class="colorBlack subtitle20px font-semiBold">You help us</h4>
@@ -677,7 +680,7 @@
         cards.forEach((card, index) => {
             const offset = index * 25;
             card.style.position = 'relative';
-            card.style.right = `${offset}%`;
+            card.style.left = `${offset}%`;
         });
     </script>
     <!--FAQs JS-->

@@ -171,7 +171,6 @@
     background:#FFF;
     flex: 1 1 calc(25% - 16px);
     max-width: calc(25% - 16px);
-    cursor: pointer;
 }
 .card-team .image-person{
     height: 229px;
@@ -286,8 +285,8 @@
 @media (max-width:768px) {
     .card-team .image-person{height: 220px;}
     .section-five .card-team{
-        flex: 1 1 calc(50% - 16px);
-        max-width: calc(50% - 16px);
+            flex: 1 1 50%;
+            max-width:47.5%;
     }
 }
 @media (max-width:614.4px) {

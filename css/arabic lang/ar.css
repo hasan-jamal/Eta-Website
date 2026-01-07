@@ -80,6 +80,8 @@
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts .fxImage button,
 .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img,
 .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows img:hover{transform: rotate(180deg);}
+.WARSectionThree .boxs-WARSectionThree{direction: ltr;}
+.WARSectionThree .boxs-WARSectionThree .box {direction: rtl;}
 .about4 .list-locations .box-location .fx-pathLocation img{transform: rotate(0);}
 .section-three .fx-section-three .card-portfolio .card-portfolio-texts h2{margin: 16px 0;}
 .caseStudiesDetails2 .fx-caseStudiesDetails2 .caseStudiesDetails2-imgs img:last-child {
@@ -98,7 +100,7 @@
 .waterDetailsS3 .boxSteps .contentSteps .fx-contentStep .divText .arrows{left: auto;right: 0;}
 .sectionWThree .divImages .box{left: auto;right: -5rem;}
 .sectionWTwo .box-sectionWTwo{direction: ltr;}
-.WARSectionThree .boxs-WARSectionThree{left: auto;right: 8%;}
+.WARSectionThree .boxs-WARSectionThree{left: auto;right: 0%;}
 .WARSectionFour .box h4{margin-bottom: 16px;}
 .WARSectionTwo .divText p{line-height: 140%;}
 .modalUsers .closeCircleBtn{left: 1%;right: auto;}
